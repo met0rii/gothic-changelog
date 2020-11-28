@@ -7,6 +7,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     mods: [],
+    selected: null,
     error: false,
     isLoading: false,
   },
@@ -19,6 +20,9 @@ export default new Vuex.Store({
     },
     setError(state, error) {
       state.error = error
+    },
+    selectSingle(state, id) {
+      state.selected = state.mods.find((el) => el.id === id);
     }
   },
   actions: {

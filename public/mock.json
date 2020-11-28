@@ -5,6 +5,8 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam at fugiat aut quos illum saepe quasi placeat ad impedit dolorem?",
     "changes": [
       {
+        "updateId": "0",
+        "updateDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam at fugiat aut quos illum saepe quasi placeat ad impedit dolorem?",
         "version": "1.20.11.26",
         "date": "2020-11-26",
         "list": [

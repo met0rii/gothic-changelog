@@ -12,7 +12,7 @@
 
       <v-list dense nav>
         <v-list-item
-          :to="`/mod/${item.title}`"
+          :to="`/mod/${item.id}`"
           v-for="item in items"
           :key="item.title"
           link
@@ -42,13 +42,22 @@ export default {
 
   components: {},
 
-  data: () => ({
-    items: [
-      { title: "Mroczne tajemnice" },
-      { title: "Dzieje Khoronis" },
-      { title: "Edycja rozszerzona" },
-    ],
-  }),
+  computed: {
+    items() {
+      return this.$store.state.mods.map((el) => ({
+        title: el.title,
+        id: el.id,
+      }));
+    },
+
+    isLoading() {
+      return this.$store.state.isLoading;
+    },
+  },
+
+  mounted() {
+    this.$store.dispatch("getMods");
+  },
 };
 </script>
 

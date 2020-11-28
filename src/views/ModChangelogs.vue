@@ -2,35 +2,47 @@
   <v-container fluid>
     <v-row>
       <v-col>
-        <h1>Mroczne tajemnice</h1>
-        <span class="recent-version">Latest version: 20-14-1996</span>
+        <h1>{{ selected.title }}</h1>
+        <span class="recent-version">{{ selected.description }}</span>
       </v-col>
     </v-row>
     <v-divider dark></v-divider>
     <v-row class="card-container">
-      <v-col cols="2" v-for="n in 10" v-bind:key="n">
-        <v-card dark class="card" color="grey darken-3" width="350">
-          <v-card-title class="headline">Changelog 20.13.2031</v-card-title>
-          <v-card-subtitle>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-            dicta fugiat maiores aliquam alias exercitationem minus pariatur
-          </v-card-subtitle>
-          <v-card-actions>
-            <v-btn text>Read more</v-btn>
-          </v-card-actions>
-        </v-card>
+      <v-col
+        cols="2"
+        v-for="changes in selected.changes"
+        v-bind:key="changes.version"
+      >
+        <changelog-card
+          :id="changes.updateId"
+          :description="changes.updateDescription"
+          :date="changes.date"
+          :version="changes.version"
+        />
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import ChangelogCard from "../components/ChangelogCard.vue";
 export default {
   name: "ModChangelogs",
 
-  components: {},
+  components: { ChangelogCard },
 
-  data: () => ({}),
+  computed: {
+    mods() {
+      return this.$store.state.mods;
+    },
+    selected() {
+      return this.$store.state.selected;
+    },
+  },
+
+  mounted() {
+    this.$store.commit("selectSingle", this.$route.params.id);
+  },
 };
 </script>
 
