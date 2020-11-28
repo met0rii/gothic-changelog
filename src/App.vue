@@ -11,7 +11,12 @@
       <v-divider></v-divider>
 
       <v-list dense nav>
-        <v-list-item v-for="item in items" :key="item.title" link>
+        <v-list-item
+          :to="`/mod/${item.title}`"
+          v-for="item in items"
+          :key="item.title"
+          link
+        >
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
@@ -23,7 +28,9 @@
       <v-toolbar-title>Wierza Ksardasa</v-toolbar-title>
     </v-app-bar>
 
-    <v-main class="content-container"> </v-main>
+    <v-main class="content-container">
+      <router-view />
+    </v-main>
 
     <v-footer dark app> </v-footer>
   </v-app>
