@@ -26,11 +26,14 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    getMods(context) {
+    getMods(context, id = null) {
       context.commit("setLoading", true);
       axios.get("/mock.json").then((res) => {
         context.commit("setLoading", false);
         context.commit("setMods", res.data);
+        if (id) {
+          context.commit("selectSingle", id);
+        }
       }).catch((e) => {
         context.commit("setLoading", false);
         context.commit("setError", e.message);

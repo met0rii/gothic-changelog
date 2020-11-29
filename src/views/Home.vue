@@ -1,5 +1,5 @@
 <template>
-  <div>{{ count }}</div>
+  <div>Hello</div>
 </template>
 
 <script>
@@ -9,12 +9,6 @@ export default {
   components: {},
 
   data: () => ({}),
-
-  computed: {
-    count() {
-      return this.$store.state.count;
-    },
-  },
 };
 </script>
 

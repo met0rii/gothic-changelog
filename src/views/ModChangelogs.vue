@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid v-if="selected">
     <v-row>
       <v-col>
         <h1>{{ selected.title }}</h1>
@@ -41,7 +41,11 @@ export default {
   },
 
   mounted() {
-    this.$store.commit("selectSingle", this.$route.params.id);
+    if (this.$store.state.mods.length > 0) {
+      this.$store.commit("selectSingle", this.$route.params.id);
+    } else {
+      this.$store.dispatch("getMods", this.$route.params.id);
+    }
   },
 };
 </script>
