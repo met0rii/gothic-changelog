@@ -44,7 +44,7 @@ export default {
 
   computed: {
     items() {
-      return this.$store.state.mods.map((el) => ({
+      return this.$store.state.changelogs.mods.map((el) => ({
         title: el.title,
         id: el.id,
       }));
@@ -56,7 +56,7 @@ export default {
   },
 
   mounted() {
-    this.$store.dispatch("getMods");
+    this.$store.dispatch("changelogs/getCollection");
   },
 };
 </script>

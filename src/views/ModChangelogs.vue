@@ -33,24 +33,24 @@ export default {
 
   computed: {
     mods() {
-      return this.$store.state.mods;
+      return this.$store.state.changelogs.mods;
     },
     selected() {
-      return this.$store.state.selected;
+      return this.$store.state.changelogs.selected;
     },
   },
 
   mounted() {
-    if (this.$store.state.mods.length > 0) {
-      this.$store.commit("selectSingle", this.$route.params.id);
+    if (this.$store.state.changelogs.mods.length > 0) {
+      this.$store.commit("changelogs/selectSingle", this.$route.params.id);
     } else {
-      this.$store.dispatch("getMods", this.$route.params.id);
+      this.$store.dispatch("changelogs/getCollection", this.$route.params.id);
     }
   },
 
   watch: {
     $route() {
-      this.$store.commit("selectSingle", this.$route.params.id);
+      this.$store.commit("changelogs/selectSingle", this.$route.params.id);
     },
   },
 };
