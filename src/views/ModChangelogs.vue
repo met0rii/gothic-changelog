@@ -47,6 +47,12 @@ export default {
       this.$store.dispatch("getMods", this.$route.params.id);
     }
   },
+
+  watch: {
+    $route() {
+      this.$store.commit("selectSingle", this.$route.params.id);
+    },
+  },
 };
 </script>
 
