@@ -16,7 +16,6 @@ export default {
 
 <style scoped>
 .changelog-container {
-  margin-top: 16px;
-  padding: 0 12px 12px 12px;
+  margin: 16px 12px 12px 12px;
 }
 </style>

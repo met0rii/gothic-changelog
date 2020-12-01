@@ -1,5 +1,5 @@
 <template>
-  <v-row class="card-container">
+  <v-row class="card-container d-flex">
     <v-col
       cols="2"
       v-for="changes in selected.changes"

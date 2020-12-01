@@ -64,6 +64,7 @@ export default {
   background-color: #212121;
   color: #fafafa;
   height: 100%;
+  height: 100%;
 }
 
 .recent-version {

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid v-if="selected">
+  <v-container class="changelogs" fluid v-if="selected">
     <v-row>
       <v-col>
         <h1>{{ selected.title }}</h1>
@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style scoped>
+.changelogs {
+  height: 100%;
+}
 .recent-version {
   margin-left: 3px;
 }
