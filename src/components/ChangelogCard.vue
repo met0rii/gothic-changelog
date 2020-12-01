@@ -5,7 +5,7 @@
       {{ description }}
     </v-card-subtitle>
     <v-card-actions>
-      <v-btn text :to="`${modId}/changelog/${id}`">Read more</v-btn>
+      <v-btn v-on:click="onBtnClick" text>Read more</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -20,9 +20,13 @@ export default {
     version: String,
   },
   data: () => ({}),
-  computed: {
-    modId() {
-      return this.$route.params.id;
+  methods: {
+    onBtnClick() {
+      const modId = this.$route.params.id;
+      const changelogId = this.$props.id;
+
+      this.$store.commit("changelogs/selectChangelog", changelogId);
+      this.$router.push({ path: `${modId}/changelog/${changelogId}` });
     },
   },
 };

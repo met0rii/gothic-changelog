@@ -5,7 +5,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    selectedChangelog() {
+      return this.$store.state.selectedChangelog;
+    },
+  },
+};
 </script>
 
 <style scoped>

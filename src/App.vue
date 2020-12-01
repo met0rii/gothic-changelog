@@ -31,8 +31,6 @@
     <v-main class="content-container">
       <router-view />
     </v-main>
-
-    <v-footer dark app> </v-footer>
   </v-app>
 </template>
 

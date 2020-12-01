@@ -1,8 +1,10 @@
-// internal
+// repository
 import RepositoryActions from "../repository/module-components/RepositoryActions";
-import RepositoryState from "../repository/module-components/RepositoryState";
-import RepositoryMutations from "../repository/module-components/RepositoryMutations";
 import RepositoryModule from "../repository/RepositoryModule"
 
+// overwrites
+import ChangelogMutations from "./mutations";
+import ChangelogState from "./state";
 
-export default new RepositoryModule(new RepositoryState("./mock.json"), new RepositoryActions(), new RepositoryMutations());
+
+export default new RepositoryModule(new ChangelogState("./mock.json"), new RepositoryActions(), new ChangelogMutations());
