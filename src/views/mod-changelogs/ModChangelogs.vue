@@ -7,34 +7,15 @@
       </v-col>
     </v-row>
     <v-divider dark></v-divider>
-    <v-row class="card-container">
-      <v-col
-        cols="2"
-        v-for="changes in selected.changes"
-        v-bind:key="changes.version"
-      >
-        <changelog-card
-          :id="changes.updateId"
-          :description="changes.updateDescription"
-          :date="changes.date"
-          :version="changes.version"
-        />
-      </v-col>
-    </v-row>
+    <router-view />
   </v-container>
 </template>
 
 <script>
-import ChangelogCard from "../components/ChangelogCard.vue";
 export default {
   name: "ModChangelogs",
 
-  components: { ChangelogCard },
-
   computed: {
-    mods() {
-      return this.$store.state.changelogs.mods;
-    },
     selected() {
       return this.$store.state.changelogs.selected;
     },
@@ -59,10 +40,6 @@ export default {
 <style scoped>
 .recent-version {
   margin-left: 3px;
-}
-
-.card-container {
-  margin-top: 16px;
 }
 
 .card:not(:first-child) {

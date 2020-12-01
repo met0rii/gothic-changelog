@@ -1,7 +1,12 @@
+// vue core
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import ModChangelogs from "../views/ModChangelogs.vue";
+
+// views
+import Home from '../views/home/Home.vue'
+import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
+import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
+import ChangelogOverview from "../views/mod-changelogs/changelogs-overview/ChangelogOverview.vue";
 
 Vue.use(VueRouter)
 
@@ -14,7 +19,17 @@ const routes = [
   {
     path: '/mod/:id',
     name: 'ModChangelogs',
-    component: ModChangelogs
+    component: ModChangelogs,
+    children: [
+      {
+        path: "/",
+        component: Changelogs,
+      },
+      {
+        path: "changelog/:changelogId",
+        component: ChangelogOverview,
+      }
+    ]
   }
 ]
 

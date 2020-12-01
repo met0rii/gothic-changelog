@@ -5,7 +5,7 @@
       {{ description }}
     </v-card-subtitle>
     <v-card-actions>
-      <v-btn text :to="id">Read more</v-btn>
+      <v-btn text :to="`${modId}/changelog/${id}`">Read more</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -20,6 +20,11 @@ export default {
     version: String,
   },
   data: () => ({}),
+  computed: {
+    modId() {
+      return this.$route.params.id;
+    },
+  },
 };
 </script>
 
