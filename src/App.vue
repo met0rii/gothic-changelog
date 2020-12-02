@@ -1,6 +1,13 @@
 <template>
   <v-app>
-    <v-navigation-drawer clipped color="#212121" dark app>
+    <v-navigation-drawer
+      v-model="drawerVisible"
+      disable-resize-watcher
+      clipped
+      color="#212121"
+      dark
+      app
+    >
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title"> Gothic Mods </v-list-item-title>
@@ -25,6 +32,9 @@
     </v-navigation-drawer>
 
     <v-app-bar clipped-left color="#212121" dark app>
+      <v-app-bar-nav-icon
+        v-on:click="drawerVisible = !drawerVisible"
+      ></v-app-bar-nav-icon>
       <v-toolbar-title>Wierza Ksardasa</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -40,6 +50,11 @@ export default {
   name: "App",
 
   components: {},
+  data: () => {
+    return {
+      drawerVisible: true,
+    };
+  },
 
   computed: {
     items() {
