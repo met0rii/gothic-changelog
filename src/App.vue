@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer permanent color="black" dark app>
+    <v-navigation-drawer permanent color="#212121" dark app>
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title"> Gothic Mods </v-list-item-title>
@@ -61,7 +61,7 @@ export default {
 
 <style scoped>
 .content-container {
-  background-color: #212121;
+  background-color: #0e0c0c;
   color: #fafafa;
   height: 100%;
   height: 100%;

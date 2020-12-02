@@ -6,7 +6,7 @@
         <span class="recent-version">{{ selected.description }}</span>
       </v-col>
     </v-row>
-    <v-divider dark></v-divider>
+    <v-divider color="#424242" dark></v-divider>
     <router-view />
   </v-container>
 </template>
