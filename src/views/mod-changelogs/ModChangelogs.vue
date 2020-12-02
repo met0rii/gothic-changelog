@@ -24,14 +24,26 @@ export default {
   mounted() {
     if (this.$store.state.changelogs.mods.length > 0) {
       this.$store.commit("changelogs/selectSingle", this.$route.params.id);
+      this.selectSingleChangelog();
     } else {
-      this.$store.dispatch("changelogs/getCollection", this.$route.params.id);
+      this.$store
+        .dispatch("changelogs/getCollection", this.$route.params.id)
+        .then(() => this.selectSingleChangelog());
     }
   },
 
   watch: {
     $route() {
       this.$store.commit("changelogs/selectSingle", this.$route.params.id);
+    },
+  },
+
+  methods: {
+    selectSingleChangelog() {
+      this.$store.commit(
+        "changelogs/selectChangelog",
+        this.$route.params.changelogId
+      );
     },
   },
 };
