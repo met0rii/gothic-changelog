@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer permanent color="#212121" dark app>
+    <v-navigation-drawer clipped color="#212121" dark app>
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title"> Gothic Mods </v-list-item-title>
@@ -24,8 +24,9 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar dark app>
+    <v-app-bar clipped-left color="#212121" dark app>
       <v-toolbar-title>Wierza Ksardasa</v-toolbar-title>
+      <v-spacer></v-spacer>
     </v-app-bar>
 
     <v-main class="content-container">
@@ -61,7 +62,7 @@ export default {
 
 <style scoped>
 .content-container {
-  background-color: #0e0c0c;
+  background-color: #141414;
   color: #fafafa;
   height: 100%;
   height: 100%;
