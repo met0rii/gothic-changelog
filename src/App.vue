@@ -3,7 +3,7 @@
     <v-navigation-drawer permanent color="black" dark app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="title"> Modifications </v-list-item-title>
+          <v-list-item-title class="title"> Gothic Mods </v-list-item-title>
           <v-list-item-subtitle> See latest versions </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
