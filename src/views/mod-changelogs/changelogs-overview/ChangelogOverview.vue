@@ -1,14 +1,14 @@
 <template>
   <v-row class="changelog-container">
-    <v-col cols="12"> test </v-col>
+    <v-col cols="12"> {{ changelog.updateDescription }} </v-col>
   </v-row>
 </template>
 
 <script>
 export default {
   computed: {
-    selectedChangelog() {
-      return this.$store.state.selectedChangelog;
+    changelog() {
+      return this.$store.state.changelogs.selectedChangelog;
     },
   },
 };
