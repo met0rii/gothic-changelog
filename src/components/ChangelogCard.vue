@@ -1,5 +1,5 @@
 <template>
-  <v-card dark class="card fill-height" color="grey darken-3" width="350">
+  <v-card dark class="card fill-height" color="grey darken-3" width="400">
     <v-card-title class="headline">Changelog {{ date }}</v-card-title>
     <v-card-subtitle>
       {{ description }}
