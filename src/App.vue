@@ -18,6 +18,11 @@
       <v-divider></v-divider>
 
       <v-list dense nav>
+        <v-list-item to="/" link>
+          <v-list-item-content>
+            <v-list-item-title>Home </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item
           :to="`/mod/${item.id}`"
           v-for="item in items"
