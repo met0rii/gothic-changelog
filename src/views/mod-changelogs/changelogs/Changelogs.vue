@@ -32,6 +32,6 @@ export default {
 
 <style scoped>
 .card-container {
-  margin-top: 16px;
+  margin: 16px 12px 12px 12px;
 }
 </style>
