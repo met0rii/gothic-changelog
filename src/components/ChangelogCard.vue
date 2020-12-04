@@ -42,6 +42,11 @@ export default {
 .card {
   display: flex;
   flex-direction: column;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
 }
 .card-actions {
   margin-top: auto;
