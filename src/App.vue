@@ -45,7 +45,9 @@
     </v-app-bar>
 
     <v-main class="content-container">
-      <router-view />
+      <transition enter-active-class="animated slideInRight">
+        <router-view :key="routePath" />
+      </transition>
     </v-main>
   </v-app>
 </template>
@@ -71,6 +73,10 @@ export default {
 
     isLoading() {
       return this.$store.state.isLoading;
+    },
+
+    routePath() {
+      return this.$route.path.split("/").slice(0, 3).join("/");
     },
   },
 

@@ -7,7 +7,10 @@
       </v-col>
     </v-row>
     <v-divider color="#424242" dark></v-divider>
-    <router-view />
+
+    <transition enter-active-class="animated slideInRight">
+      <router-view />
+    </transition>
   </v-container>
 </template>
 
