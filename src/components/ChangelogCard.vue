@@ -35,9 +35,7 @@ export default {
 <style scoped>
 .headline {
   margin-bottom: 10px;
-}
-.subheadline {
-  margin-left: 2px;
+  font-size: 20px !important;
 }
 .card {
   display: flex;
@@ -50,5 +48,11 @@ export default {
 }
 .card-actions {
   margin-top: auto;
+}
+
+@media only screen and (min-width: 350px) {
+  .headline {
+    font-size: 1.5em !important;
+  }
 }
 </style>

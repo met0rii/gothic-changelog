@@ -56,9 +56,6 @@ export default {
 .changelogs {
   height: 100%;
 }
-.recent-version {
-  margin-left: 3px;
-}
 
 .card:not(:first-child) {
   margin-left: 12px;

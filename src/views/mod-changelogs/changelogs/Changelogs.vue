@@ -1,7 +1,9 @@
 <template>
   <v-row class="card-container d-flex">
     <v-col
-      cols="2"
+      xs="12"
+      sm="6"
+      md="4"
       v-for="changes in selected.changes"
       v-bind:key="changes.version"
     >

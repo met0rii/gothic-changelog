@@ -94,10 +94,6 @@ export default {
   height: 100%;
 }
 
-.recent-version {
-  margin-left: 3px;
-}
-
 .card-container {
   margin-top: 16px;
 }

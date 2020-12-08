@@ -2,7 +2,7 @@
   <v-container class="changelog-container" fluid>
     <v-row class="changelog-row">
       <v-col cols="12">
-        <h2>Changelog {{ changelog.date }}</h2>
+        <h2 class="changelog-headline">Changelog {{ changelog.date }}</h2>
         <span>{{ changelog.updateDescription }}</span>
       </v-col>
       <v-col cols="12">
@@ -29,13 +29,21 @@ export default {
 </script>
 
 <style scoped>
-.changelog-container {
-  height: 100%;
+.changelog-headline {
+  font-size: 20px !important;
+  margin-bottom: 10px;
 }
+
 .changelog-row {
   margin: 16px 12px 12px 12px;
   padding: 6px;
   background-color: #424242;
   border-radius: 4px;
+}
+
+@media only screen and (min-width: 350px) {
+  .changelog-headline {
+    font-size: 1.5em !important;
+  }
 }
 </style>
