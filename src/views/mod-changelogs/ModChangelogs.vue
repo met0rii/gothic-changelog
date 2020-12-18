@@ -2,8 +2,20 @@
   <v-container class="changelogs" fluid v-if="selected">
     <v-row>
       <v-col>
-        <h1>{{ selected.title }}</h1>
-        <span class="recent-version">{{ selected.description }}</span>
+        <div class="mod-header-wrapper mb-2">
+          <h1 class="mod-title">{{ selected.title }}</h1>
+          <v-btn
+            :to="{ name: 'redirect', query: { url: selected.url } }"
+            color="gray"
+            class="ml-5 download-btn"
+            large
+            >Pobierz</v-btn
+          >
+        </div>
+
+        <div>
+          <span class="recent-version">{{ selected.description }}</span>
+        </div>
       </v-col>
     </v-row>
 
@@ -64,5 +76,17 @@ export default {
 
 .card:not(:first-child) {
   margin-left: 12px;
+}
+.mod-title {
+  width: max-content;
+  display: inline-block;
+}
+.mod-header-wrapper {
+  display: flex;
+  align-content: center;
+}
+
+.download-btn:hover {
+  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
 }
 </style>

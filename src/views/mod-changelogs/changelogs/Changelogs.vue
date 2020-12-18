@@ -1,30 +1,8 @@
 <template>
-  <v-container>
+  <div class="changelog-container">
     <v-row class="card-container d-flex">
-      <v-col
-        xs="12"
-        sm="12"
-        md="12"
-        v-for="changes in selected.changes"
-        v-bind:key="changes.version"
-        class="text-center"
-      >
-        <v-btn
-          :to="{ name: 'redirect', query: { url: selected.url } }"
-          color="secondary"
-          x-large
-          >Pobierz</v-btn
-        >
-      </v-col>
-
-      <v-col
-        xs="12"
-        sm="12"
-        md="12"
-        v-for="changes in selected.changes"
-        v-bind:key="changes.version"
-      >
-        <h2 class="mt-3">Zmiany</h2>
+      <v-col xs="12" sm="12" md="12">
+        <h2>Zmiany</h2>
       </v-col>
 
       <v-col
@@ -43,26 +21,16 @@
       </v-col>
     </v-row>
 
-    <v-row class="card-container d-flex">
-      <v-col
-        xs="12"
-        sm="12"
-        md="12"
-        v-for="changes in selected.changes"
-        v-bind:key="changes.version"
-      >
-        <h2 class="mt-3">Galeria</h2>
+    <v-row>
+      <v-col xs="12" sm="12" md="12">
+        <h2>Galeria</h2>
       </v-col>
 
-      <v-col
-        xs="12"
-        v-for="changes in selected.changes"
-        v-bind:key="changes.version"
-      >
+      <v-col xs="12">
         <mod-gallery :data="selected" />
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 <script>
@@ -81,7 +49,7 @@ export default {
 </script>
 
 <style scoped>
-.card-container {
-  margin: 16px 12px 12px 12px;
+.changelog-container {
+  padding-left: 12px;
 }
 </style>
