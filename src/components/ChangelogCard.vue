@@ -4,8 +4,9 @@
     <v-card-subtitle class="subheadline">
       {{ description }}
     </v-card-subtitle>
+
     <v-card-actions class="card-actions">
-      <v-btn v-on:click="onBtnClick" text>Read more</v-btn>
+      <v-btn :to="redirectData">Przeczytaj więcej</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -20,13 +21,15 @@ export default {
     version: String,
   },
   data: () => ({}),
-  methods: {
-    onBtnClick() {
-      const modId = this.$route.params.id;
-      const changelogId = this.$props.id;
-
-      this.$store.commit("changelogs/selectChangelog", changelogId);
-      this.$router.push({ path: `${modId}/changelog/${changelogId}` });
+  computed: {
+    redirectData() {
+      return {
+        name: "ChangelogPreview",
+        params: {
+          id: this.$route.params.id,
+          changelogId: this.$props.id,
+        },
+      };
     },
   },
 };

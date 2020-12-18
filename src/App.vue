@@ -10,8 +10,8 @@
     >
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="title"> Gothic Mods </v-list-item-title>
-          <v-list-item-subtitle> See latest versions </v-list-item-subtitle>
+          <v-list-item-title class="title">Modyfikacje</v-list-item-title>
+          <v-list-item-subtitle> Zobacz najnowsze wersje </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -40,7 +40,7 @@
       <v-app-bar-nav-icon
         v-on:click="drawerVisible = !drawerVisible"
       ></v-app-bar-nav-icon>
-      <v-toolbar-title>Wierza Ksardasa</v-toolbar-title>
+      <v-toolbar-title>Gothic Sefaris</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
 
@@ -70,16 +70,13 @@ export default {
         id: el.id,
       }));
     },
-
-    isLoading() {
-      return this.$store.state.isLoading;
-    },
-
     routePath() {
-      return this.$route.path.split("/").slice(0, 3).join("/");
+      return this.$route.path
+        .split("/")
+        .slice(0, 3)
+        .join("/");
     },
   },
-
   mounted() {
     this.$store.dispatch("changelogs/getCollection");
   },

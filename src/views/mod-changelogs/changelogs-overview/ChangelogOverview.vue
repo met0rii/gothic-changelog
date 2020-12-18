@@ -7,11 +7,22 @@
       </v-col>
       <v-col cols="12">
         <ul>
-          <li
-            v-for="(item, index) in changelog.list"
-            :key="index"
-            v-html="item"
-          ></li>
+          <li v-for="(list, listIndex) in changelog.lists" :key="listIndex">
+            <span
+              v-html="list.title"
+              :class="{
+                'font-weight-bold':
+                  typeof list.list === 'object' && list.list.length > 0,
+              }"
+            />
+            <ul v-if="list.list">
+              <li
+                v-for="(item, itemIndex) in list.list"
+                :key="listIndex + '_' + itemIndex"
+                v-html="item"
+              />
+            </ul>
+          </li>
         </ul>
       </v-col>
     </v-row>

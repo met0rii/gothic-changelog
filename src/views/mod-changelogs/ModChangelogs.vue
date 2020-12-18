@@ -6,18 +6,20 @@
         <span class="recent-version">{{ selected.description }}</span>
       </v-col>
     </v-row>
+
     <v-divider color="#424242" dark></v-divider>
 
     <transition enter-active-class="animated slideInRight">
       <router-view />
     </transition>
+
+    <v-divider color="#424242" dark></v-divider>
   </v-container>
 </template>
 
 <script>
 export default {
   name: "ModChangelogs",
-
   computed: {
     selected() {
       return this.$store.state.changelogs.selected;
@@ -36,8 +38,11 @@ export default {
   },
 
   watch: {
-    $route() {
-      this.$store.commit("changelogs/selectSingle", this.$route.params.id);
+    $route: {
+      immediate: true,
+      handler() {
+        this.selectSingleChangelog();
+      },
     },
   },
 
