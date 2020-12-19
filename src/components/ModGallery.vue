@@ -1,32 +1,16 @@
 <template>
   <v-row>
-    <v-col
-      v-for="(image, index) in data.gallery"
-      :key="index"
-      class="d-flex child-flex"
-      cols="4"
-    >
-      <v-img
-        :src="getImage(image)"
-        :lazy-src="getImage(image)"
-        aspect-ratio="1"
-        class="grey lighten-2"
-      >
-        <template v-slot:placeholder>
-          <v-row class="fill-height ma-0" align="center" justify="center">
-            <v-progress-circular
-              indeterminate
-              color="grey lighten-5"
-            ></v-progress-circular>
-          </v-row>
-        </template>
-      </v-img>
-    </v-col>
+    <template v-for="(image, index) in data.gallery">
+      <gallery-image :url="getImage(image)" :key="index" />
+    </template>
   </v-row>
 </template>
 
 <script>
+import GalleryImage from "./GalleryImage.vue";
+
 export default {
+  components: { GalleryImage },
   props: {
     data: {
       type: Object,
