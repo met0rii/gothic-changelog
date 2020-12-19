@@ -62,6 +62,14 @@ export default {
         "changelogs/selectChangelog",
         this.$route.params.changelogId
       );
+      this.setTitle();
+    },
+    setTitle() {
+      const selected = this.$store.state.changelogs.selected;
+      if (selected) {
+        document.title =
+          "Gothic Sefaris - " + selected.title || "Gothic Sefaris";
+      }
     },
   },
 };
