@@ -1,5 +1,5 @@
 <template>
-  <v-col class="d-flex child-flex gallery-image-container" cols="2">
+  <v-col class="d-flex child-flex gallery-image-container" xs="4" sm="3" lg="2">
     <v-img
       v-on:click="changeFullscreen"
       :src="url"
@@ -123,5 +123,20 @@ export default {
 
 .image-opened {
   overflow: hidden;
+}
+
+@media (min-width: 320px) {
+  .fullscreen-image-container {
+    width: 95%;
+  }
+  .fullscreen-image {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1264px) {
+  .fullscreen-image {
+    height: 80vh;
+  }
 }
 </style>
