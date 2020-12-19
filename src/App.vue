@@ -92,7 +92,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+body {
+  background-color: #141414;
+}
 .content-container {
   background-color: #141414;
   color: #fafafa;
