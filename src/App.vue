@@ -76,11 +76,26 @@ export default {
   },
   mounted() {
     this.$store.dispatch("changelogs/getCollection");
+    document.title = "Gothic Sefaris";
+  },
+
+  watch: {
+    $route: {
+      immediate: true,
+      handler() {
+        if (!this.$route.params.id) {
+          document.title = "Gothic Sefaris";
+        }
+      },
+    },
   },
 };
 </script>
 
-<style scoped>
+<style>
+body {
+  background-color: #141414;
+}
 .content-container {
   background-color: #141414;
   color: #fafafa;

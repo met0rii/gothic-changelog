@@ -9,6 +9,8 @@
           xs="12"
           sm="6"
           md="4"
+          lg="3"
+          xl="2"
           v-for="changes in selected.changes"
           v-bind:key="changes.version"
         >
