@@ -1,12 +1,11 @@
 <template>
-  <v-card dark class="card fill-height" color="grey darken-3" width="400">
+  <v-card dark class="card fill-height" color="grey darken-3">
     <v-card-title class="headline">
       <router-link class="headline-link" :to="redirectData">
         Changelog {{ date }}
       </router-link>
     </v-card-title>
     <v-card-subtitle v-html="description" class="subheadline">
-      {{ description }}
     </v-card-subtitle>
 
     <v-card-actions class="card-actions">
@@ -49,6 +48,14 @@ export default {
   color: white;
   text-decoration: none;
 }
+.subheadline {
+  max-height: 180px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  text-overflow: ellipsis;
+}
 
 .headline-link:hover {
   text-decoration: underline;
@@ -58,6 +65,8 @@ export default {
   display: flex;
   flex-direction: column;
   transition: all 0.4s;
+  width: 100%;
+  height: 100%;
 }
 
 .card:hover {

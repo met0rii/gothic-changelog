@@ -3,7 +3,7 @@
     <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
         <h2 class="changelog-headline">Changelog {{ changelog.date }}</h2>
-        <span>{{ changelog.updateDescription }}</span>
+        <span v-html="changelog.updateDescription"></span>
       </v-col>
       <v-col cols="12">
         <ul>
