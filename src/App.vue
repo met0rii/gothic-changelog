@@ -71,10 +71,7 @@ export default {
       }));
     },
     routePath() {
-      return this.$route.path
-        .split("/")
-        .slice(0, 3)
-        .join("/");
+      return this.$route.path.split("/").slice(0, 3).join("/");
     },
   },
   mounted() {

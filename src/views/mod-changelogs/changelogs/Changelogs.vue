@@ -4,19 +4,18 @@
       <v-col xs="12" sm="12" md="12">
         <h2>Zmiany</h2>
       </v-col>
-
       <v-col
         xs="12"
         sm="6"
         md="4"
-        v-for="changes in selected.changes"
-        v-bind:key="changes.version"
+        v-for="change in selected.changes"
+        v-bind:key="change.version"
       >
         <changelog-card
-          :id="changes.updateId"
-          :description="changes.updateDescription"
-          :date="changes.date"
-          :version="changes.version"
+          :id="change.updateId"
+          :description="change.updateDescription"
+          :date="change.date"
+          :version="change.version"
         />
       </v-col>
     </v-row>
