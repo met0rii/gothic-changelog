@@ -5,7 +5,7 @@
         Changelog {{ date }}
       </router-link>
     </v-card-title>
-    <v-card-subtitle class="subheadline">
+    <v-card-subtitle v-html="description" class="subheadline">
       {{ description }}
     </v-card-subtitle>
 
