@@ -3,7 +3,6 @@
     <v-img
       v-on:click="changeFullscreen"
       :src="url"
-      :lazy-src="url"
       aspect-ratio="1"
       class="grey lighten-2 gallery-image"
     >
@@ -21,7 +20,6 @@
       <div class="fullscreen-image-container">
         <v-img
           :src="url"
-          :lazy-src="url"
           aspect-ratio="1"
           class="grey lighten-2 fullscreen-image"
         />
