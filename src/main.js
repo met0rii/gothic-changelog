@@ -6,7 +6,7 @@ import router from './router'
 import store from "../store/index";
 
 // animations
-import 'vue2-animate/dist/vue2-animate.min.css';
+import './assets/css/vue2-animate.css';
 
 Vue.config.productionTip = false
 
