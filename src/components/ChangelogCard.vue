@@ -1,6 +1,10 @@
 <template>
   <v-card dark class="card fill-height" color="grey darken-3" width="400">
-    <v-card-title class="headline">Changelog {{ date }}</v-card-title>
+    <v-card-title class="headline">
+      <router-link class="headline-link" :to="redirectData">
+        Changelog {{ date }}
+      </router-link>
+    </v-card-title>
     <v-card-subtitle class="subheadline">
       {{ description }}
     </v-card-subtitle>
@@ -40,6 +44,16 @@ export default {
   margin-bottom: 10px;
   font-size: 20px !important;
 }
+
+.headline-link {
+  color: white;
+  text-decoration: none;
+}
+
+.headline-link:hover {
+  text-decoration: underline;
+}
+
 .card {
   display: flex;
   flex-direction: column;
