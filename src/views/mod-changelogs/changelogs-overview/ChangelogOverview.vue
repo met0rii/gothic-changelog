@@ -1,6 +1,6 @@
 <template>
   <v-container class="changelog-container" fluid>
-    <v-row class="changelog-row">
+    <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
         <h2 class="changelog-headline">Changelog {{ changelog.date }}</h2>
         <span>{{ changelog.updateDescription }}</span>
