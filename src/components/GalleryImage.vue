@@ -104,18 +104,19 @@ export default {
   right: 50px;
   top: 30px;
   cursor: pointer;
+  width: 15px;
+  height: 15px;
 }
 
 .cross-first,
 .cross-second {
-  position: absolute;
   background-color: rgba(255, 255, 255, 1);
   width: 30px;
   height: 5px;
   border-radius: 6px;
 }
 .cross-first {
-  transform: rotate(45deg);
+  transform: translateY(5px) rotate(45deg);
 }
 .cross-second {
   transform: rotate(-45deg);

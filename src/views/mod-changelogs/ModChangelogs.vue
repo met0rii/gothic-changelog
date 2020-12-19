@@ -24,8 +24,6 @@
     <transition enter-active-class="animated slideInRight">
       <router-view />
     </transition>
-
-    <v-divider color="#424242" dark></v-divider>
   </v-container>
 </template>
 
