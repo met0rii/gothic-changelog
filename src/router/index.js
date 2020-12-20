@@ -25,7 +25,6 @@ const routes = [
   },
   {
     path: "/mod/:id",
-    name: "ModChangelogs",
     component: ModChangelogs,
     children: [
       {
