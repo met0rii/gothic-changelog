@@ -5,7 +5,8 @@
         Changelog {{ version }}
       </router-link>
     </v-card-title>
-    <v-card-subtitle v-html="description" class="subheadline">
+    <v-card-subtitle class="subheadline">
+      <div class="line-clamp" v-html="description"></div>
     </v-card-subtitle>
 
     <v-card-actions class="card-actions">
@@ -48,13 +49,13 @@ export default {
   color: white;
   text-decoration: none;
 }
-.subheadline {
-  max-height: 180px;
-  overflow: hidden;
+.line-clamp {
+  max-height: 150px;
+  padding: 0px !important;
   display: -webkit-box;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 8;
-  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .headline-link:hover {
