@@ -6,6 +6,28 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "2",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "20.12.2020",
+        "date": "20-12-2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Teraz można wyłączyć zbieranie przedmiotów w pomieszczeniach za pomocą ognika. Zrobić to można bezpośrednio w dialogu z ognikiem.",
+              "Teraz można zmienić skrót klawiszowy odpowiadający za panel Slash & Craft. W gothic.ini zmień lub dodaj linijkę bSNCActivationKey = Z (domyślnie)",
+              "Isgaroth sprzedaje teraz amulet magii.",
+              "Bosper sprzedaje teraz nowy, unikalny łuk.",
+              "Pierścień, który otrzymuje gracz za zadanie <i>Zarzuty Parlana</i> daje teraz dodatkowo 10 many.",
+              "Ochroniarz Wulfgara nie reaguje już gdy gracz weźmie notatkę z jego pokoju podczas zadania <i>Tajemnica kapitana straży</i>.",
+              "Teraz Gallahad daje w nagrodę eliksir ducha zamiast eliksiru umysłu za zadanie <i>Wykwintne jedzenie</i>.",
+              "Naprawiono błąd sprawiający, że w rzadkich przypadkach gracz mógł nie otrzymać amuletu ognika od Vatrasa.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "1",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "19.12.2020",
@@ -221,7 +243,7 @@
             ]
           },
           {
-            "title":"Zmiany w miksturach i jedzeniu:",
+            "title": "Zmiany w miksturach i jedzeniu:",
             "list": [
               "Teraz mikstury są bardziej zorientowane na „późniejszą fazę gry” i będą leczyć obrażenia procentowo (Esencja  30% leczenia, Ekstrakt 50%, Eliksir 70%, Pełnie nadal leczą 100%, ale ",
               "przepis został zmieniony).",
