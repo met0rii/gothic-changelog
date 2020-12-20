@@ -164,5 +164,253 @@
       "img/returning/TEARSTEMPLE.jpg",
       "img/returning/UNDEADZONE.jpg"
     ]
+  },
+  {
+    "id": "lhiver",
+    "title": "L'Hiver",
+    "url": "https://drive.google.com/drive/folders/1E0-g4atytrCqLvTB2-BYX6ksDNgEmDrP",
+    "description": "L'Hiver to modyfikacja znacznie poprawiająca oprawę graficzną Gothica II. Dodaje nowe tekstury, przeciwników, lokacje oraz modyfikuje istniejące, takie jak zniszczony zewnętrzny pierścień Starego Obozu w Górniczej Dolinie, miasto Khorinis, las za farmą Onara czy plaża piratów z Jarkendaru. Modyfikacja znacząco zwiększa poziom trudności oferowany w podstawowej wersji gry. Statystyki potworów zostały zwiększone, zobaczysz także nowe animacje. Niemniej jednak L'Hiver nie zmienia fabuły gry.",
+    "changes": [
+      {
+        "updateId": "1",
+        "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli...",
+        "version": "1.1.5",
+        "date": "16.03.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Minimalne obrażenia zmniejszone z 25 do 15.",
+              "Modlitwy w świątyni Innos działają teraz w następujący sposób:",
+              "-100 darmowych modlitw (5% na otrzymanie + 1HP).",
+              "-60 modlitw za 50 złota (50% na otrzymanie + 1HP).",
+              "-30 modlitw za 100 złota (80% na otrzymanie + 2HP).",
+              "-15 modlitw za 200 złota (losowy bonus,",
+              " nie możesz otrzymać many jeżeli nie jesteś magiem lub nowicjuszem, nie możesz otrzymać siły lub zręczności jeżeli jesteś magiem, + 1 siły, + 1 zręczności, + 2MP, + 5HP).",
+              "Grobowy mech, klucze i inne rzeczy z wersji 1.1.4 są teraz poprawnie umieszczone w świecie.",
+              "Naprawiono błąd, w którym średnia zbroja najemnika wyświetlała koszt 500, ale faktycznie kosztowała 750.",
+              "Zmieniono niektóre zbroje do wytworzenia, teraz możesz tworzyć mocniejsze zbroje na poziomie eksperta zbrojmistrza.",
+              "Wzmocniono bronie dwuręczne według schematu:",
+              "+10 obrażeń dla broni z atakiem <50;",
+              "+20 obrażeń dla broni z atakiem >= 50 ale <100;",
+              "+35 obrażeń dla broni z atakiem >= 100 ale <150;",
+              "+50 obrażeń dla broni z atakiem >= 150;",
+              "Powinno to uczynić broń 2H bardziej użyteczną, bez robienia ją zbyt mocne, pamiętaj, że te zmiany również wzmacniają NPC z tą bronią.",
+              "Naprawiono błąd, w wyniku którego kotły pokazywały opcje gotowania, nawet gdy gracz nie miał składników do przygotowania jedzenia.",
+              "Dodano funkcję usuwania kluczy po ich użyciu.",
+              "Naprawiono mały błąd w książce „Sztuka walki”, przez który nie wyświetlała tekstu.",
+              "Zmieniono efekt graficzny „Świętego Światła” (zarówno runy, jak i zwoju), teraz jest taki sam jak „Światło”.",
+              "Wzmocniono regeneracje zdrowia smoków, będą teraz trudniejsze.",
+              "„Teleport do przełęczy Górniczej Doliny” znajduje się teraz w ciele martwego paladyna w pobliżu wejścia do Górniczej Doliny.",
+              "„Teleport do Starego Zamku w Górniczej Dolinie” jest teraz sprzedawany przez Engora za 500.",
+              "Zmieniono progi nauczania dla atrybutów (siła, zręczność, mana):",
+              "z 300 na 350",
+              "z 200 na 280",
+              "z 160 na 200",
+              "z 120 na 160",
+              "z  90 na 120",
+              "z  60 na  80",
+              "Zaklinanie zostało zmienione. Możesz nauczyć się zaklinania poziomu 2 w 3 rozdziale, a 3 poziomu w 5 rozdziale.",
+              "Po nauczeniu się akrobatyki, odblokujesz także nową animację biegu, która jest nieco szybsza niż oryginalna animacja biegu (ale wolniejsza niż mikstury szybkości), co powinno również ",
+              "pomóc w budowaniu dystansowym w zdobywaniu dystansu do strzelania strzałami.",
+              "Vatras da teraz 100 sztuk złota za każdą „Starą kamienną tabliczkę”, którą mu przyniesiesz, możesz dać mu 1 lub 28, nie wpłynie to na ilość złota, którą otrzymujesz.",
+              "Dodano jeden stół płatnerski (ten używany do tworzenia / ulepszania zbroi) w kuźni obok rynku.",
+              "Dodano 1 Czarnego Trolla (w Górniczej Dolinie), ponieważ do stworzenia zbroi potrzebna jest jeszcze jedna  skóra czarnego trolla.",
+              "Kilka drobnych poprawek w tekście.",
+              "Orkowie nie skaczą tak często we wczesnej fazie gry."
+            ]
+          },
+          {
+            "title":"Zmiany w miksturach i jedzeniu:",
+            "list": [
+              "Teraz mikstury są bardziej zorientowane na „późniejszą fazę gry” i będą leczyć obrażenia procentowo (Esencja  30% leczenia, Ekstrakt 50%, Eliksir 70%, Pełnie nadal leczą 100%, ale ",
+              "przepis został zmieniony).",
+              "Viceversa, jedzenie będzie teraz leczyć stałą wartość życia, będąc bardziej użytecznym we wczesnej fazie gry.",
+              "Mikstury Pełnia Życia i Pełnia Many mają nowe modele 3D.",
+              "Usunięto wzmocnienie mikstury życia i many (mikstury, których mógł się nauczyć tylko czeladnik Constantina, trwale zwiększają leczenie / manę otrzymywaną z mikstur), teraz nie są to ",
+              "mikstury, ale umiejętność, której możesz się nauczyć od Constantina (tylko czeladnik, koszt 10 PN).",
+              "Eliksir życia (stałe maksymalne HP) zmieniono z +25 na +20 maksymalnego HP.",
+              "Czas działania Mikstury Szybkości został podwojony (z 40 do 80 sekund).",
+              "Zmieniono „Eliksir Ochrony”, teraz będzie kosztował więcej przedmiotów (3 grobowe mchy, 15 kości szkieletu), ale da lepsze bonusy (+10 zamiast +5), ma to na celu zrównoważenie zmiany ",
+              "minimalnych obrażeń.",
+              "Constantino uczy teraz „Eliksiru Siły” tylko wtedy, gdy gracz już nauczył się tworzyć „Eliksir Życia” lub „Eliksir Ducha”.",
+              "Sagitta uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”.",
+              "Riordan uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "0",
+        "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji...",
+        "version": "1.1.4",
+        "date": "09.11.2018",
+        "lists": [
+          {
+            "title": "Zmiany ogólne: ",
+            "list": [
+              "Naprawiono dialog Cassi, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej.",
+              "Naprawiono dialog pirata Billa, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej.",
+              "Naprawiono brak możliwości zakupu ciężkiej zbroi od Huno, jeśli gracz wykupił wszystkie zbroje.",
+              "Koszty nauki Górnictwa i Drwalstwa zostały zmienione na 3,3,4 PN.",
+              "Usunięto wymóg braku gildii przy zakupie zbroi od Orlana.",
+              "Usunięto wymóg „rozdział mniejszy niż 4” przy zakupie skórzanej zbroi od Matteo.",
+              "Strzały kosztują teraz 5 złota.",
+              "Bełty kosztują teraz 10 złota.",
+              "Jeśli jesteś magiem teleportujesz do swojego pokoju w klasztorze, jeśli nie, teleportuje się do kręgu.",
+              "Przywrócono PN/lvl do 10 i wymagany exp(na 1 lvl) do 500.",
+              "Mnożnik  „następnego poziomu” powrócił do 500 (z powrotem do pierwotnego l'hiver)",
+              "Zmieniono nazewnictwo Mistrz -> Expert na Expert -> Mistrz.",
+              "Zmieniono dialogi Carla dotyczące umiejętności zbrojmistrza, teraz będzie ich uczył w rozdziale 1 (poziom 1), rozdziale 3 (poziom 2) i rozdziale 5 (poziom 3)."
+            ]
+          },
+          {
+            "title": "Kotły są teraz użyteczne, możesz ich użyć do gotowania następujących przepisów kulinarnych:",
+            "list": [
+              "Zupa rybna",
+              "Gulasz",
+              "Zupa z głowy modliszki",
+              "Potrawka z chrząszcza",
+              "Znajdziesz je ukryte niektórych skrzyniach."
+            ]
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "img/lhiver/1.png",
+      "img/lhiver/2.png",
+      "img/lhiver/3.png",
+      "img/lhiver/4.png",
+      "img/lhiver/5.png",
+      "img/lhiver/6.png",
+      "img/lhiver/7.png",
+      "img/lhiver/8.png",
+      "img/lhiver/9.png",
+      "img/lhiver/10.png",
+      "img/lhiver/11.png",
+      "img/lhiver/12.png",
+      "img/lhiver/13.png",
+      "img/lhiver/14.png",
+      "img/lhiver/15.png",
+      "img/lhiver/16.png",
+      "img/lhiver/17.png",
+      "img/lhiver/18.png",
+      "img/lhiver/19.png",
+      "img/lhiver/20.png",
+      "img/lhiver/21.png",
+      "img/lhiver/22.png",
+      "img/lhiver/23.png",
+      "img/lhiver/24.png"
+    ]
+  },
+  {
+    "id": "ltm",
+    "title": "Lively Towns Mod",
+    "url": "https://drive.google.com/drive/folders/1rPh-tK8xAb124q6NaBdVCHRd7g5wvd5k",
+    "description": "Modyfikacja jest tworzona z zamysłem aby uczynić miasta żywszymi po ich wyzwoleniu tak aby można było do nich wracać. Na ten moment dotyczy to głównie miast: Cape Dun, Ardea, Ben Sala, Lago, oraz Gotha.",
+    "changes": [
+      {
+        "updateId": "2",
+        "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Usunięto lub skrócono oczekiwanie w niektórych zadaniach<br>Dodano nowe zadania do gry.",
+        "version": "0.33",
+        "date": "2.11.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Kilka zadań zostało zmienionych i poprawionych.",
+              "Usunięto lub skrócono oczekiwanie w niektórych zadaniach.",
+              "Dodano nowe zadania do gry.",
+              "Zmieniono model wargów.",
+              "Dodano jedno zadanie i kilka dialogów z moda Easter CSP.",
+              "Dodano kamienie teleportacyjne z moda Konsekwencje (teleportty do Vengardu i wioski druidów).",
+              "Zmieniono kolory tekstur niektórych miast (Cape Dun, Montera).",
+              "Dodano orków do pustego obozu między Vengardem i Faring.",
+              "Dodano nowego mini-bossa.",
+              "Nieznacznie zmieniono model kolczugi.",
+              "Dodano nowy płaszcz, zbroję i odzież.",
+              "W Ben Erai pojawią się nowe postacie po wyzwoleniu.",
+              "Usunięto dodatkowe golemy na drodze do wieży Xardasa(Tylko Konsekwencje).",
+              "Dodano nowe modele twarzy i włosów dla postaci kobiecych.",
+              "Obniżono ceny za transport łodzią.",
+              "Łódź nie płynie już do Silden.",
+              "Dodano nową broń i inne przedmioty do gry.",
+              "Naprawiono jedno osiągnięcie i dodano nowe.",
+              "Inne drobne poprawki."
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "1",
+        "updateDescription": "Kilka zadań zostało ulepszonych i naprawionych<br>Miasta Myrtany otrzymają nowe unikalne tekstury budynków<br>Dodano nowe ukryte obiekty do gry",
+        "version": "0.32",
+        "date": "14.09.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Kilka zadań zostało ulepszonych i naprawionych.",
+              "Miasta Myrtany otrzymają nowe unikalne tekstury budynków.",
+              "Dodano nowe ukryte obiekty do gry.",
+              "Naprawiono oświetlenie kilku obiektów.",
+              "Dodano nową zbroję.",
+              "Naprawiono kolizję muru w Gotcie."
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "0",
+        "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkami<br>Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
+        "version": "0.31",
+        "date": "25.06.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Dodano drzwi do domów we wszystkich osadach Myrtany.",
+              "Królewskie sztandary w zdobytych miastach zostały zastąpione orkami.",
+              "Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną.",
+              "Kilka zadań zostało ulepszonych i naprawionych.",
+              "Teraz każde miasto Myrtany różni się od innych (dodano unikalne tekstury).",
+              "Dodano nowe skarby i ukryte przedmioty do gry.",
+              "W niektórych domach pojawią się nowe obrazy.",
+              "Wiele tekstur zostało zoptymalizowanych.",
+              "Naprawiono oświetlenie w Monterze i innych miejscach.",
+              "Naprawiono kolizje niektórych obiektów.",
+              "Dodano kilka dodatkowych hełmów i innych czapek do gry.",
+              "Dodano stół alchemiczny do chatki niedaleko Faring.",
+              "Usunięto odblaski ze zdjęć.",
+              "Dodano ukrytych przeciwników.",
+              "Naprawiono błędy w tekstach.",
+              "Dodano nową lokalizację (ruiny).",
+              "Dodano kompatybilność z modem Konsekwencje v2.0.2"
+            ]
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "img/ltm/1.png",
+      "img/ltm/2.png",
+      "img/ltm/3.png",
+      "img/ltm/4.png",
+      "img/ltm/5.png",
+      "img/ltm/6.png",
+      "img/ltm/7.png",
+      "img/ltm/8.png",
+      "img/ltm/9.png",
+      "img/ltm/10.png",
+      "img/ltm/11.png",
+      "img/ltm/12.png",
+      "img/ltm/13.png",
+      "img/ltm/14.png",
+      "img/ltm/15.png",
+      "img/ltm/16.png",
+      "img/ltm/17.png",
+      "img/ltm/18.png"
+    ]
   }
 ]
