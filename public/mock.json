@@ -172,10 +172,10 @@
     "description": "L'Hiver to modyfikacja znacznie poprawiająca oprawę graficzną Gothica II. Dodaje nowe tekstury, przeciwników, lokacje oraz modyfikuje istniejące, takie jak zniszczony zewnętrzny pierścień Starego Obozu w Górniczej Dolinie, miasto Khorinis, las za farmą Onara czy plaża piratów z Jarkendaru. Modyfikacja znacząco zwiększa poziom trudności oferowany w podstawowej wersji gry. Statystyki potworów zostały zwiększone, zobaczysz także nowe animacje. Niemniej jednak L'Hiver nie zmienia fabuły gry.",
     "changes": [
       {
-        "updateId": "5",
+        "updateId": "1",
         "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli...",
-        "version": "16.03.2020",
-        "date": "1.1.5",
+        "version": "1.1.5",
+        "date": "16.03.2020",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -241,10 +241,10 @@
         ]
       },
       {
-        "updateId": "4",
+        "updateId": "0",
         "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji...",
-        "version": "16.03.2020",
-        "date": "1.1.4",
+        "version": "1.1.4",
+        "date": "09.11.2018",
         "lists": [
           {
             "title": "Zmiany ogólne: ",
@@ -313,8 +313,8 @@
       {
         "updateId": "2",
         "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Usunięto lub skrócono oczekiwanie w niektórych zadaniach<br>Dodano nowe zadania do gry.",
-        "version": "2.11.2020",
-        "date": "0.33",
+        "version": "0.33",
+        "date": "2.11.2020",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -345,8 +345,8 @@
       {
         "updateId": "1",
         "updateDescription": "Kilka zadań zostało ulepszonych i naprawionych<br>Miasta Myrtany otrzymają nowe unikalne tekstury budynków<br>Dodano nowe ukryte obiekty do gry",
-        "version": "14.09.2020",
-        "date": "0.32",
+        "version": "0.32",
+        "date": "14.09.2020",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -364,8 +364,8 @@
       {
         "updateId": "0",
         "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkami<br>Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
-        "version": "25.06.2020",
-        "date": "0.31",
+        "version": "0.31",
+        "date": "25.06.2020",
         "lists": [
           {
             "title": "Zmiany ogólne:",
