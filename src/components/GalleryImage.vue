@@ -145,4 +145,10 @@ export default {
     height: 80vh;
   }
 }
+
+@media (max-width: 960px) {
+  .gallery-image:hover {
+    box-shadow: none !important;
+  }
+}
 </style>
