@@ -2,7 +2,7 @@
   <v-card dark class="card fill-height" color="grey darken-3">
     <v-card-title class="headline">
       <router-link class="headline-link" :to="redirectData">
-        Changelogt {{ version }}
+        Changelog {{ version }}
       </router-link>
     </v-card-title>
     <v-card-subtitle class="subheadline">
