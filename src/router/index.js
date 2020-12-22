@@ -20,12 +20,11 @@ const routes = [
     path: "/redirect",
     name: "redirect",
     beforeEnter(to) {
-      window.location.replace(to.query.url);
+      window.open(to.query.url, "_blank");
     },
   },
   {
     path: "/mod/:id",
-    name: "ModChangelogs",
     component: ModChangelogs,
     children: [
       {

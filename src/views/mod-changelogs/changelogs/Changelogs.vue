@@ -1,11 +1,15 @@
 <template>
   <div class="changelog-container">
     <v-row class="cards d-flex">
-      <v-col xs="12" sm="12" md="12">
+      <v-col cols="12">
         <h2>Zmiany</h2>
       </v-col>
       <template v-if="selected">
-        <div
+        <v-col
+          xs="12"
+          sm="6"
+          lg="4"
+          xl="2"
           class="card-container"
           v-for="changes in selected.changes"
           v-bind:key="changes.version"
@@ -16,12 +20,12 @@
             :date="changes.date"
             :version="changes.version"
           />
-        </div>
+        </v-col>
       </template>
     </v-row>
 
     <v-row>
-      <v-col xs="12" sm="12" md="12">
+      <v-col cols="12">
         <h2>Galeria</h2>
       </v-col>
 
@@ -49,8 +53,6 @@ export default {
 
 <style scoped>
 .card-container {
-  margin-right: 24px;
-  width: 400px;
   height: 300px;
 }
 .changelog-container {

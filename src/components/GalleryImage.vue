@@ -1,10 +1,5 @@
 <template>
-  <v-col
-    class="d-flex child-flex gallery-image-container"
-    xs="12"
-    sm="6"
-    lg="2"
-  >
+  <v-col class="d-flex child-flex gallery-image-container" xs="6" lg="2">
     <v-img
       v-on:click="changeFullscreen"
       :src="url"
@@ -143,6 +138,12 @@ export default {
 @media (min-width: 1264px) {
   .fullscreen-image {
     height: 80vh;
+  }
+}
+
+@media (max-width: 960px) {
+  .gallery-image:hover {
+    box-shadow: none !important;
   }
 }
 </style>
