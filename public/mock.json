@@ -6,6 +6,30 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "3",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "22.12.2020",
+        "date": "22-12-2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Poprawiono sposób w jaki bandyci piją mikstury uzdrawiające podczas walki.",
+              "Zmniejszono rozrzut podczas strzelania z łuków i kusz.",
+              "Kamienie szlachetne sprzedane u Hanny można odkupić u Matteo poprzez dialog.",
+              "Dodano opcję zablokowania QuickLootu oraz kradzieży kieszonkowej na 2 sekundy po wyjściu z dialogu. Domyślnie opcja jest włączona. W gothic.ini zmień lub dodaj linijkę bQuickLootBlockAfterDialog = 0 (aby wyłączyć)",
+              "Gallahad sprzedaje teraz kilka zwojów <i>Woń trucizny</i>.",
+              "Teraz Constantino daje w nagrodę eliksir wytrzymałości za zadanie <i>Klucz Constantino</i>.",
+              "Spowolnienie czasu jakie uzyskuje strażnik świątynny podczas palenia skrętów jest teraz słabsze ale trwa dłużej.",
+              "Teraz nie trzeba pytać się Lorda Andre o zgodę aby zobaczyć więźniów.",
+              "Teraz NPC-ty nie będą już reagować przez ściany gdy bohater wciśnie przycisk w zadaniu <i>Tajemnica kapitana straży</i>.",
+              "Naprawiono błąd z progami w złocie podczas nauki wytrzymałości.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "2",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "20.12.2020",
@@ -110,7 +134,7 @@
               "Zwiększono ilość zużywanej wytrzymałości podczas biegania.",
               "Usunięto sztabki magicznej rudy z gry, teraz jedna bryłka magicznej rudy jest warta 300 sztuk złota i bardziej odzwierciedla wartość rudy tak jak to było w Nocy Kruka. Zmieniono ilość magicznej rudy w grze, to ile się jej wydobywa i ile potrzeba do zadań i tworzenia przedmiotów.",
               "Zmniejszono również ilość rudy żelaza w grze, jeden stalowy pręt wymaga teraz jedynie 3 bryłki żelaza do stworzenia.",
-              "Umiejętność kopania rudy (żelaza i magicznej) jest teraz uczona tylko raz u Snipesa lub Grimesa, albo u Clovisa (za darmo!) w orkowej kopalni po wykonaniu zadania dla niego. Książka 'Magiczna ruda' nie zapewnia teraz umiejętności wydobywania rudy ale zmniejsza ilość zużywanej wytrzymałości podczas kopania. Podobnie jak z rudą żelaza, umiejętności wydobywania złota uczymy się tylko raz u Finna lub Scattiego.",
+              "Umiejętność kopania rudy (żelaza i magicznej) jest teraz uczona tylko raz u Snipesa lub Grimesa, albo u Clovisa (za darmo!) w orkowej kopalni po wykonaniu zadania dla niego. Książka <i>Magiczna ruda</i> nie zapewnia teraz umiejętności wydobywania rudy ale zmniejsza ilość zużywanej wytrzymałości podczas kopania. Podobnie jak z rudą żelaza, umiejętności wydobywania złota uczymy się tylko raz u Finna lub Scattiego.",
               "Teraz po wbiciu 100% władania w walce wręcz bonus obrażeń od wytrzymałości jest 10% większy.",
               "Broń obuchowa ma teraz szansę na powalenie i ogłuszenie przeciwnika na 1 sekundę. (również gracz może zostać powalony)",
               "Ilość ticków krwawienia zależy teraz od umiejętności władania bronią.",
@@ -126,7 +150,7 @@
               "Orkowa broń, którą można wykuć ma teraz zwiększone statystyki.",
               "Teraz zabicie przeciwnika podczas przemiany, doda 5 sekund do czasu trwania tej przemiany.",
               "Zmniejszono przebicie pancerza broni wymagających siły.",
-              "Gracz nie otrzymuje już mikstur 'Czarna mgła' za pokonanie Luciana.",
+              "Gracz nie otrzymuje już mikstur <i>Czarna mgła</i> za pokonanie Luciana.",
               "Zmniejszono dodatkowe obrażenia zadawane za pomocą pochodni oraz dodano małą szansę na podpalenie.",
               "Teraz podczas skradania się, szansa na udaną kradzież kieszonkową jest 10% większa. Sprawdzenie szansy na kradzież wymaga teraz wyuczonej umiejętności skradania się lub 90 udanych kradzieży.",
               "Podczas gry można znaleźć przepisy na stworzenie nowych broni.",
@@ -281,7 +305,7 @@
               "Bełty kosztują teraz 10 złota.",
               "Jeśli jesteś magiem teleportujesz do swojego pokoju w klasztorze, jeśli nie, teleportuje się do kręgu.",
               "Przywrócono PN/lvl do 10 i wymagany exp(na 1 lvl) do 500.",
-              "Mnożnik  „następnego poziomu” powrócił do 500 (z powrotem do pierwotnego l'hiver)",
+              "Mnożnik „następnego poziomu” powrócił do 500 (z powrotem do pierwotnego L'Hiver)",
               "Zmieniono nazewnictwo Mistrz -> Expert na Expert -> Mistrz.",
               "Zmieniono dialogi Carla dotyczące umiejętności zbrojmistrza, teraz będzie ich uczył w rozdziale 1 (poziom 1), rozdziale 3 (poziom 2) i rozdziale 5 (poziom 3)."
             ]
