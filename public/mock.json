@@ -209,6 +209,23 @@
       "img/returning/SHVALLEY.jpg",
       "img/returning/TEARSTEMPLE.jpg",
       "img/returning/UNDEADZONE.jpg"
+    ],
+    "subPages":[
+      {
+        "id":0,
+        "link":"ab",
+        "title":"Changelog"
+      },
+      {
+        "id":1,
+        "link":"ab-faq",
+        "title":"FAQ"
+      },
+      {
+        "id":1,
+        "link":"ab-faq",
+        "title":"Autorzy"
+      }
     ]
   },
   {
@@ -348,6 +365,18 @@
       "img/lhiver/22.png",
       "img/lhiver/23.png",
       "img/lhiver/24.png"
+    ],
+    "subPages":[
+      {
+        "id":0,
+        "link":"lhiver",
+        "title":"Changelog"
+      },
+      {
+        "id":1,
+        "link":"lhiver-a",
+        "title":"lorem ipsum"
+      }
     ]
   },
   {
@@ -457,6 +486,18 @@
       "img/ltm/16.png",
       "img/ltm/17.png",
       "img/ltm/18.png"
+    ],
+    "subPages":[
+      {
+        "id":0,
+        "link":"ltm",
+        "title":"Changelog"
+      },
+      {
+        "id":1,
+        "link":"placeholder",
+        "title":"Lorem Ipsum"
+      }
     ]
   }
 ]

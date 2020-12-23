@@ -23,7 +23,7 @@
             <v-list-item-title>Home </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
+        <!-- <v-list-item
           :to="`/mod/${item.id}`"
           v-for="item in items"
           :key="item.title"
@@ -32,7 +32,30 @@
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
+        <v-list-group
+              v-for="item in items"
+              :key="item.title"
+              
+              no-action
+            >
+              <template v-slot:activator>
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title>{{ item.title }}</v-list-item-title>
+                  </v-list-item-content>
+                </v-list-item>
+              </template>
+              <v-list-item
+              :to="`/mod/${subPage.link}`"
+                v-for="subPage in item.subPages"
+                :key="subPage.title"
+              >
+                <v-list-item-content>
+                  <v-list-item-title>{{ subPage.title}}</v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </v-list-group>
       </v-list>
     </v-navigation-drawer>
 
@@ -68,6 +91,7 @@ export default {
       return this.$store.state.changelogs.mods.map((el) => ({
         title: el.title,
         id: el.id,
+        subPages:el.subPages,
       }));
     },
     routePath() {
