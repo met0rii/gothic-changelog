@@ -53,7 +53,7 @@ export default {
   max-height: 150px;
   padding: 0px !important;
   display: -webkit-box;
-  -webkit-line-clamp: 7;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
