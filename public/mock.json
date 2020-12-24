@@ -6,6 +6,29 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "4",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "24.12.2020",
+        "date": "24-12-2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Wszystkie magiczne miecze oraz kostury posiadają teraz nową statystykę, która dodatkowo zwiększa obrażenia magiczne.",
+              "Teraz <i>Gazkul</i>, <i>Achiron</i> oraz <i>Mor'Bar</i> poprawnie dają punkty nauki za ich pokonanie.",
+              "Teraz efekt <i>wyczerpanie</i> zwiększa zużycie wytrzymałości o 35%. (wcześniej 50%)",
+              "Vatras uczy teraz many nawet jeśli bohater ma jej ponad 500.",
+              "Wilk <i>Kieł</i> leczy się teraz 1 dzień szybciej.",
+              "Kostur nowicjusza wymaga teraz 60 many. (wcześniej 75)",
+              "Naprawiono błąd przy nauce umiejętności tarczy.",
+              "Naprawiono błąd sprawiający, że wzięcie daru na wytrzymałość było niemożliwe.",
+              "Naprawiono błąd sprawiający, że naciąganie cięciwy łuków i kusz było obliczane niepoprawnie.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "3",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "22.12.2020",
