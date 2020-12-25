@@ -4,9 +4,9 @@
       <v-col>
         <div align="center">        
         <v-img
-        max-height="300px"
-  max-width="60%"
-  :src="selected.titleUrl"
+        max-height="200px"
+        max-width="60%"
+        :src="selected.titleUrl"
 ></v-img>
 
         </div>

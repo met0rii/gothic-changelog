@@ -4,7 +4,7 @@
     "title": "Alternative Balance",
     "titleUrl":"https://imgur.com/hv5Arkm.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
-    "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
+    "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
         "updateId": "3",
@@ -211,23 +211,21 @@
       "img/returning/TEARSTEMPLE.jpg",
       "img/returning/UNDEADZONE.jpg"
     ],
-    "subPages":[
+    "authors": [
       {
-        "id":0,
-        "link":"ab",
-        "title":"Changelog"
+        "name":"Sebastian"
       },
       {
-        "id":1,
-        "link":"ab-faq",
-        "title":"FAQ"
+        "name":"Franisz"
       },
       {
-        "id":1,
-        "link":"ab-faq",
-        "title":"Autorzy"
+        "name":"Zipperiusz"
+      },
+      {
+        "name":"..."
       }
     ]
+    
   },
   {
     "id": "lhiver",
@@ -368,16 +366,18 @@
       "img/lhiver/23.png",
       "img/lhiver/24.png"
     ],
-    "subPages":[
+    "authors":[
       {
-        "id":0,
-        "link":"lhiver",
-        "title":"Changelog"
+        "name":"Sebastian"
       },
       {
-        "id":1,
-        "link":"lhiver-a",
-        "title":"lorem ipsum"
+        "name":"Franisz"
+      },
+      {
+        "name":"Kredensik"
+      },
+      {
+        "name":"Zipperiusz"
       }
     ]
   },
@@ -490,16 +490,18 @@
       "img/ltm/17.png",
       "img/ltm/18.png"
     ],
-    "subPages":[
+    "authors":[
       {
-        "id":0,
-        "link":"ltm",
-        "title":"Changelog"
+        "name":"Zipperiusz"
       },
       {
-        "id":1,
-        "link":"placeholder",
-        "title":"Lorem Ipsum"
+        "name":"Dawinio"
+      },
+      {
+        "name":"Kredensik"
+      },
+      {
+        "name":"RoQus"
       }
     ]
   }

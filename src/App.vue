@@ -35,8 +35,7 @@
         </v-list-item> -->
         <v-list-group
               v-for="item in items"
-              :key="item.title"
-              
+              :key="item.title"              
               no-action
             >
               <template v-slot:activator>
@@ -47,12 +46,12 @@
                 </v-list-item>
               </template>
               <v-list-item
-              :to="`/mod/${subPage.link}`"
-                v-for="subPage in item.subPages"
-                :key="subPage.title"
+              :to="`/mod/${item.id}/${page.url}`"
+                v-for="page in subNavigation"
+                :key="page.title"
               >
                 <v-list-item-content>
-                  <v-list-item-title>{{ subPage.title}}</v-list-item-title>
+                  <v-list-item-title>{{ page.title}}</v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
             </v-list-group>
@@ -83,15 +82,29 @@ export default {
   data: () => {
     return {
       drawerVisible: true,
+      subNavigation:[
+        {
+          title: "Changelog",
+          url:"changelog"     
+        },
+        {
+          title: "Przegląd",
+          url:"overview"
+        },
+        {
+          title: "Autorzy",
+          url:"authors"
+        }
+      ]
     };
+    
   },
 
   computed: {
     items() {
       return this.$store.state.changelogs.mods.map((el) => ({
         title: el.title,
-        id: el.id,
-        subPages:el.subPages,
+        id: el.id
       }));
     },
     routePath() {
