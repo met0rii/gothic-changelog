@@ -1,8 +1,11 @@
 <template>
   <div class="changelog-container">
-    <v-row class="cards d-flex">
-      <v-col cols="12">
-        <h2>Zmiany</h2>
+    <v-row class="cards d-flex" >
+      
+      <v-col class="section-title" cols="12">
+
+        <h2 >Zmiany</h2>
+
       </v-col>
       <template v-if="selected">
         <v-col
@@ -25,7 +28,7 @@
     </v-row>
 
     <v-row>
-      <v-col cols="12">
+      <v-col class="section-title" cols="12">
         <h2>Galeria</h2>
       </v-col>
 
@@ -52,6 +55,12 @@ export default {
 </script>
 
 <style scoped>
+.section-title {
+  margin-top:5px;
+  text-align: center;
+background: rgb(20,20,20);
+background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(40,40,40,1) 50%, rgba(20,20,20,1) 100%);
+}
 .card-container {
   height: 300px;
 }

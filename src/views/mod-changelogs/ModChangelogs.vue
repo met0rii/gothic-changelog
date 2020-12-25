@@ -2,24 +2,36 @@
   <v-container class="changelogs" fluid v-if="selected">
     <v-row>
       <v-col>
-        <div class="mod-header-wrapper mb-2">
-          <h1 class="mod-title">{{ selected.title }}</h1>
+        <div align="center">        
+        <v-img
+        max-height="300px"
+  max-width="60%"
+  :src="selected.titleUrl"
+></v-img>
+
+        </div>
+        <div>
           <v-btn
             :to="{ name: 'redirect', query: { url: selected.url } }"
-            color="gray"
-            class="ml-5 download-btn"
+            color="grey lighten-1"
+            class="download-btn mt-5 mb-5"
+            block
             large
-            >Pobierz</v-btn
+            >Pobierz<v-icon
+        right
+        dark
+      >
+        mdi-cloud-download
+      </v-icon></v-btn
           >
         </div>
-
         <div>
           <span class="recent-version">{{ selected.description }}</span>
         </div>
       </v-col>
     </v-row>
 
-    <v-divider color="#424242" dark></v-divider>
+
 
     <transition enter-active-class="animated slideInRight">
       <router-view />
