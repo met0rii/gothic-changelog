@@ -10,12 +10,11 @@
 ></v-img>
 
         </div>
-        <div>
+        <div align="center">
           <v-btn
             :to="{ name: 'redirect', query: { url: selected.url } }"
             color="grey lighten-1"
             class="download-btn mt-5 mb-5"
-            block
             large
             >Pobierz<v-icon
         right
