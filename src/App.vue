@@ -33,28 +33,24 @@
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item> -->
-        <v-list-group
-              v-for="item in items"
-              :key="item.title"              
-              no-action
-            >
-              <template v-slot:activator>
-                <v-list-item>
-                  <v-list-item-content>
-                    <v-list-item-title>{{ item.title }}</v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-              </template>
-              <v-list-item
-              :to="`/mod/${item.id}/${page.url}`"
-                v-for="page in subNavigation"
-                :key="page.title"
-              >
-                <v-list-item-content>
-                  <v-list-item-title>{{ page.title}}</v-list-item-title>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list-group>
+        <v-list-group v-for="item in items" :key="item.title" no-action>
+          <template v-slot:activator>
+            <v-list-item>
+              <v-list-item-content>
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </template>
+          <v-list-item
+            :to="`/mod/${item.id}/${page.url}`"
+            v-for="page in subNavigation"
+            :key="page.title"
+          >
+            <v-list-item-content>
+              <v-list-item-title>{{ page.title }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list-group>
       </v-list>
     </v-navigation-drawer>
 
@@ -82,29 +78,28 @@ export default {
   data: () => {
     return {
       drawerVisible: true,
-      subNavigation:[
+      subNavigation: [
         {
           title: "Changelog",
-          url:"changelog"     
+          url: "changelog",
         },
         {
           title: "Przegląd",
-          url:"overview"
+          url: "overview",
         },
         {
           title: "Autorzy",
-          url:"authors"
-        }
-      ]
+          url: "authors",
+        },
+      ],
     };
-    
   },
 
   computed: {
     items() {
       return this.$store.state.changelogs.mods.map((el) => ({
         title: el.title,
-        id: el.id
+        id: el.id,
       }));
     },
     routePath() {
@@ -138,13 +133,5 @@ body {
   color: #fafafa;
   height: 100%;
   height: 100%;
-}
-
-.card-container {
-  margin-top: 16px;
-}
-
-.card:not(:first-child) {
-  margin-left: 12px;
 }
 </style>

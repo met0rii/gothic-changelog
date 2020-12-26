@@ -24,10 +24,7 @@
 
     <v-row>
       <section-title title="Galeria" />
-
-      <v-col xs="12">
-        <mod-gallery :data="selected" />
-      </v-col>
+      <mod-gallery :data="selected" />
     </v-row>
   </div>
 </template>
