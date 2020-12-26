@@ -1,12 +1,7 @@
 <template>
   <div class="changelog-container">
-    <v-row class="cards d-flex" >
-      
-      <v-col class="section-title" cols="12">
-
-        <h2 >Zmiany</h2>
-
-      </v-col>
+    <v-row class="cards d-flex">
+      <section-title title="Zmiany" />
       <template v-if="selected">
         <v-col
           xs="12"
@@ -28,9 +23,7 @@
     </v-row>
 
     <v-row>
-      <v-col class="section-title" cols="12">
-        <h2>Galeria</h2>
-      </v-col>
+      <section-title title="Galeria" />
 
       <v-col xs="12">
         <mod-gallery :data="selected" />
@@ -43,9 +36,10 @@
 // components
 import ChangelogCard from "../../../../components/ChangelogCard";
 import ModGallery from "../../../../components/ModGallery";
+import SectionTitle from "../../../../components/SectionTitle.vue";
 
 export default {
-  components: { ChangelogCard, ModGallery },
+  components: { ChangelogCard, ModGallery, SectionTitle },
   computed: {
     selected() {
       return this.$store.state.changelogs.selected;
@@ -55,12 +49,6 @@ export default {
 </script>
 
 <style scoped>
-.section-title {
-  margin-top:5px;
-  text-align: center;
-background: rgb(20,20,20);
-background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(40,40,40,1) 50%, rgba(20,20,20,1) 100%);
-}
 .card-container {
   height: 300px;
 }
