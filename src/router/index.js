@@ -5,6 +5,8 @@ import VueRouter from "vue-router";
 // views
 import Home from "../views/home/Home.vue";
 import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
+
+// subviews
 import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
 import ChangelogsCards from "../views/mod-changelogs/changelogs/changelogs-cards/ChangelogsCards.vue";
 import ChangelogOverview from "../views/mod-changelogs/changelogs-overview/ChangelogOverview.vue";
