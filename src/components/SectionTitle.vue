@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .section-title {
-  margin-top: 5px;
+  margin-top: 16px;
   text-align: center;
   background: rgb(20, 20, 20);
   background: linear-gradient(
