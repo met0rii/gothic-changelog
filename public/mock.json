@@ -6,6 +6,28 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "5",
+        "updateDescription": "Bandyci nie będą już pić mikstur leczniczych podczas walki. Zebrane ważne przedmioty będą teraz wyświetlać się na czerwono. Poza tym jak zawsze mniejsze zmiany i poprawki błędów.",
+        "version": "26.12.2020",
+        "date": "26-12-2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Usunięto mechanikę picia mikstur leczniczych przez bandytów.",
+              "Teraz ważne przedmioty zbierane przez ognika i QuickLoot są wyświetlane na czerwono. Kolor można zmienić w gothic.ini linijkami iColorQuickLootUniqR/G/B.",
+              "Nowa statystyka bonusowych obrażeń magicznych kosturów i mieczy magicznych teraz jest poprawnie wyświetlana w opisie przedmiotu.",
+              "Boss <i>Daron</i> został wzmocniony. Zabicie go przyznaje teraz też 2 punkty nauki.",
+              "Znacząco zredukowano ilość pustych butelek u handlarzy.",
+              "Pancerz, który można kupić od Alrika może zostać użyty zamiast ubrania obywatela w zadaniu <i>Droga do górnego miasta</i>.",
+              "Wypłata strażnika miejskiego oraz najemnika kumuluje się teraz do maksymalnie 7 dni.",
+              "Poprawiono opcje nauki u Edgora.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "4",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "24.12.2020",
