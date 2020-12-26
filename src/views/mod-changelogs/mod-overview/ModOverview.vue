@@ -3,14 +3,12 @@
     <v-row>
       <v-col xs="12">
         <p class="text-center headline">
-          Modyfikacja {{selected.title}} dodaje
+          Modyfikacja {{ selected.title }} dodaje
         </p>
       </v-col>
     </v-row>
-	<v-row>
-      <v-col xs="12">
-        
-      </v-col>
+    <v-row>
+      <v-col xs="12"> </v-col>
     </v-row>
   </v-container>
 </template>
@@ -27,10 +25,10 @@ export default {
   },
 
   computed: {
-    selected(){
-		return this.$store.state.changelogs.selected;
-	},
-	
+    selected() {
+      return this.$store.state.changelogs.selected;
+    },
+
     routePath() {
       return this.$route.path.split("/").slice(0, 3).join("/");
     },

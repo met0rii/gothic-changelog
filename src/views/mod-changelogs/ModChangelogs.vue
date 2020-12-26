@@ -2,13 +2,12 @@
   <v-container class="changelogs" fluid v-if="selected">
     <v-row>
       <v-col>
-        <div align="center">        
-        <v-img
-        max-height="200px"
-        max-width="60%"
-        :src="selected.titleUrl"
-></v-img>
-
+        <div align="center">
+          <v-img
+            max-height="200px"
+            max-width="60%"
+            :src="selected.titleUrl"
+          ></v-img>
         </div>
         <div align="center">
           <v-btn
@@ -16,12 +15,7 @@
             color="grey lighten-1"
             class="download-btn mt-5 mb-5"
             large
-            >Pobierz<v-icon
-        right
-        dark
-      >
-        mdi-cloud-download
-      </v-icon></v-btn
+            >Pobierz<v-icon right dark> mdi-cloud-download </v-icon></v-btn
           >
         </div>
         <div>
@@ -29,8 +23,6 @@
         </div>
       </v-col>
     </v-row>
-
-
 
     <transition enter-active-class="animated slideInRight">
       <router-view />
