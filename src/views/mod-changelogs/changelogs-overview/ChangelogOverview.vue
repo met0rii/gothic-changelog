@@ -2,7 +2,7 @@
   <v-container class="changelog-container" fluid>
     <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
-        <h2 class="changelog-headline">Changelog {{ changelog.date }}</h2>
+        <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
         <span v-html="changelog.updateDescription"></span>
       </v-col>
       <v-col cols="12">

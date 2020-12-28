@@ -2,7 +2,7 @@
   <v-card dark class="card fill-height" color="grey darken-3">
     <v-card-title class="headline">
       <router-link class="headline-link" :to="redirectData">
-        Changelog {{ version }}
+        {{ version }}
       </router-link>
     </v-card-title>
     <v-card-subtitle class="subheadline">
@@ -47,7 +47,7 @@ export default {
 
 .headline-link {
   color: white;
-  text-decoration: none;
+  text-decoration: none;  
 }
 .line-clamp {
   max-height: 150px;

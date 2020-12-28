@@ -23,16 +23,6 @@
             <v-list-item-title>Home </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <!-- <v-list-item
-          :to="`/mod/${item.id}`"
-          v-for="item in items"
-          :key="item.title"
-          link
-        >
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item> -->
         <v-list-group v-for="item in items" :key="item.title" no-action>
           <template v-slot:activator>
             <v-list-item>
@@ -86,6 +76,10 @@ export default {
         {
           title: "Przegląd",
           url: "overview",
+        },
+        {
+          title: "Galeria",
+          url: "gallery",
         },
         {
           title: "Autorzy",

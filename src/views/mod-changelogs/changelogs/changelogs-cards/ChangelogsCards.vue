@@ -23,8 +23,18 @@
     </v-row>
 
     <v-row>
+      <section-title title="Opis" />
+      <mod-overview :data="selected" />
+    </v-row>
+
+    <v-row>
       <section-title title="Galeria" />
       <mod-gallery :data="selected" />
+    </v-row>
+
+    <v-row>
+      <section-title title="Autorzy" />
+      <mod-authors :data="selected" />
     </v-row>
   </div>
 </template>
@@ -34,9 +44,17 @@
 import ChangelogCard from "../../../../components/ChangelogCard";
 import ModGallery from "../../../../components/ModGallery";
 import SectionTitle from "../../../../components/SectionTitle.vue";
+import ModAuthors from "../../../../components/ModAuthors.vue";
+import ModOverview from "../../../../components/ModOverview.vue";
 
 export default {
-  components: { ChangelogCard, ModGallery, SectionTitle },
+  components: {
+    ChangelogCard,
+    ModGallery,
+    SectionTitle,
+    ModAuthors,
+    ModOverview,
+  },
   computed: {
     selected() {
       return this.$store.state.changelogs.selected;

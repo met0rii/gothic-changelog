@@ -10,8 +10,6 @@ import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
 import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
 import ChangelogsCards from "../views/mod-changelogs/changelogs/changelogs-cards/ChangelogsCards.vue";
 import ChangelogOverview from "../views/mod-changelogs/changelogs-overview/ChangelogOverview.vue";
-import ModAuthors from "../views/mod-changelogs/mod-authors/ModAuthors.vue";
-import ModOverview from "../views/mod-changelogs/mod-overview/ModOverview.vue";
 
 Vue.use(VueRouter);
 
@@ -51,17 +49,7 @@ const routes = [
             component: ChangelogOverview,
           }
         ]
-      },
-      {
-        path: "authors",
-        name: "ModAuthors",
-        component: ModAuthors,
-      },
-      {
-        path: "overview",
-        name: "ModOverview",
-        component: ModOverview,
-      },
+      }
     ],
   },
 ];
