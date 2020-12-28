@@ -6,6 +6,35 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "6",
+        "updateDescription": "Przywrócono możliwość zbierania roślin w lokacji za pomocą ognika, dodano nowy amulet oraz poprawiono wiele błędów.",
+        "version": "28.12.2020",
+        "date": "28-12-2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Dodano <i>Amulet Rączki</i> do jego skrzyni w kanałach gildii złodzieji.",
+              "Ognik może ponownie zbierać rośliny w lokacji. Zbiera on teraz 30 roślin na dzień i wymaga 1 bryłki magicznej rudy za każdym razem.",
+              "Raynar skupuje teraz nowe bronie.",
+              "Dodano kamienną tabliczkę szermierza do kupienia u Lutero.",
+              "Teraz u Alfreda sprzedaż rogów cieniostworów oraz smoczych zębaczy są osobnymi opcjami.",
+              "Zmieniono lekko mechanikę <i>Rigeliona</i>.",
+              "Szansa na udaną kradzież kieszonkową jest teraz wyświetlana poprawnie.",
+              "<i>Tarinaks</i> nie uczy już bohatera za darmo.",
+              "Teraz <i>Fangarh</i> oraz <i>Ponury żniwiarz</i> poprawnie dają punkty nauki za ich pokonanie.",
+              "Naprawiono błąd sprawiający, że nieumarli nie reagowali na bohatera. Z tego powodu też niektóre bossy były nie do pokonania.",
+              "Naprawiono opisy przy nauce kręgów magii. Teraz nauka kręgów wymaga też złota.",
+              "Naprawiono błąd w zadaniu <i>Szybki sposób na zarobek</i>",
+              "<i>Buster</i> daje teraz 25% mniej złota za oddane mu rogi cieniostworów.",
+              "Zostanie nekromantą wymaga teraz 80 many. (wcześniej 90)",
+              "<i>Tag-Nor</i> nie uczy już gracza strzelania z kuszy.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "5",
         "updateDescription": "Bandyci nie będą już pić mikstur leczniczych podczas walki. Zebrane ważne przedmioty będą teraz wyświetlać się na czerwono. Poza tym jak zawsze mniejsze zmiany i poprawki błędów.",
         "version": "26.12.2020",
