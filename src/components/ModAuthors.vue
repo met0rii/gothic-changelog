@@ -1,8 +1,8 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col xs="12">
-        <v-list dark class="dupa col-md-5">
+      <v-col xs="12" md="9" lg="6" class="mx-auto">
+        <v-list dark>
           <v-list-item v-for="author in data.authors" :key="author.name">
             <v-list-item-content>
               <v-list-item-title v-text="author.name"></v-list-item-title>
@@ -53,7 +53,4 @@ export default {
 };
 </script>
 <style scoped>
-.v-list {
-  margin: auto;
-}
 </style>

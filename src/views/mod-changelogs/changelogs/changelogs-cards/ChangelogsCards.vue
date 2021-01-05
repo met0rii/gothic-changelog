@@ -23,18 +23,24 @@
     </v-row>
 
     <v-row>
-      <section-title title="Opis" />
-      <mod-overview :data="selected" />
+      <v-col xs="12">
+        <section-title title="Przegląd" />
+        <mod-overview :data="selected" />
+      </v-col>
     </v-row>
 
     <v-row>
-      <section-title title="Galeria" />
-      <mod-gallery :data="selected" />
+      <v-col xs="12">
+        <section-title title="Galeria" />
+        <mod-gallery :data="selected" />
+      </v-col>
     </v-row>
 
     <v-row>
-      <section-title title="Autorzy" />
-      <mod-authors :data="selected" />
+      <v-col xs="12">
+        <section-title title="Autorzy" />
+        <mod-authors :data="selected" />
+      </v-col>
     </v-row>
   </div>
 </template>

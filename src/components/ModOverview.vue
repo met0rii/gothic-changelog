@@ -1,19 +1,26 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col xs="12">
-        <p class="text-center headline">Modyfikacja {{ data.title }} dodaje</p>
+      <v-col xs="12" md="9" lg="6" class="mx-auto">
+        <v-card dark>
+          <ul>
+            <li v-for="(item, index) in data.overview.lists" :key="index">
+              {{ item.content }}
+              <ul v-if="item.subList">
+                <li v-for="(subItem, i) in item.subList" :key="i">
+                  {{ subItem.content }}
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </v-card>
       </v-col>
-    </v-row>
-    <v-row>
-      <v-col xs="12"> </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: "ModOverview",
   props: {
     data: { type: Object, required: true },
   },
@@ -28,7 +35,6 @@ export default {
     this.$store.dispatch("changelogs/getCollection");
     document.title = "Gothic Sefaris";
   },
-
   watch: {
     $route: {
       immediate: true,
@@ -41,3 +47,15 @@ export default {
   },
 };
 </script>
+<style scoped>
+ul li {
+  padding: 5px;
+  margin: 5px 5px 0 5px;
+  list-style: square;
+}
+ul li ul li {
+  padding: 5px;
+  margin: 5px 5px 0 5px;
+  list-style: disc;
+}
+</style>
