@@ -6,6 +6,34 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, który w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "8",
+        "updateDescription": "Wprowadzono zmiany w runach magii wody. Dodano nowe ikony broni w ekwipunku oraz usunięto możliwość wejścia do obozu bandytów w Jarkendarze mając stary pancerz cienia.",
+        "version": "07.01.2021",
+        "date": "07-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Stary pancerz cienia nie zapewni już przynależności do bandytów w Jarkendarze. Teraz bohater musi otrzymać pancerz bandyty od piratów.",
+              "Zwiększono obrażenia większości run magii wody. Obrażenia dodatkowe po zamrożeniu są większe w runach niższych kręgów a mniejsze w runach wyższych kręgów. Część run maga wody skaluje się teraz z inteligencją w 65%. (wcześniej 50%)",
+              "Runy strażnika świątynnego i paladyna otrzymują teraz bonus do obrażeń magicznych. (od kosturów, mieczy i amuletu)",
+              "Osłabiono runy lecznicze paladyna.",
+              "Zmniejszono liczbę magicznej rudy wymaganej do ponownej próby walki na orkowej arenie.",
+              "Część tekstu na ekranie jest teraz animowana. W gothic.ini zmień lub dodaj linijkę bAnimateMessages = 0 (aby wyłączyć)",
+              "Ikony rodzajów broni w ekwipunku zostały zmienione i obejmują teraz wszystkie przedmioty z zakładki broń. Ikony zostały zrobione poprzez stronę <a href=\"https://game-icons.net/\" target=\"_blank\">https://game-icons.net/</a> przez użytkownika Franisz.",
+              "Runa <i>Ognisty wybuch</i> ma teraz obszar działania taki sam jak <i>Mała burza ognista</i>.",
+              "NPC-ty bez tarcz nie będą już używać animacji walki tarczą.",
+              "Zabicie <i>Królowej pełzaczy</i> nie zapewnia już szafiru. Dodano za to jeden szafir do kupienia u <i>Lutero</i> w pierwszym rozdziale.",
+              "Zabicie aligatora zapewnia teraz 2 skóry gada. (wcześniej 1)",
+              "Teraz alfred skupuje osobno skóry trolli i resztę skór.",
+              "Teraz do własnego obozu trzeba przynieść zarządcy 5 bochenków chleba zamiast 10, chleb ten pojawi się do kupienia u <i>Baltrama</i>.",
+              "Naprawiono błąd sprawiający, że założenie stalowego pancerza było niemożliwe.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "7",
         "updateDescription": "Ilość statystyk, jakie można uzyskać na <i>Nowym Balansie</i> okazała się znacząco za duża. Zmniejszono dla tego ilość zdobywanych punktów nauki z bossów i zadań przez całą grę. Zmniejszono też ilość zdobywanych punktów życia. Wprowadzono też zmiany dotyczące składników do ciast.",
         "version": "01.01.2021",
@@ -34,7 +62,7 @@
               "Usunięto wymóg siły do używania szpad.",
               "Paladyni na Etlu posiadają teraz Kusze.",
               "Statystyki przyzwanego wilka skalują się teraz z inteligencją. Zwiększono też skalowanie się statystyk przyzwanego warga. (wilki od Gallahada 1 i 2 poziomu)",
-              "Poprawiono funkcję resetu dialogu. (ALF + F1)",
+              "Poprawiono funkcję resetu dialogu. (ALT + F1)",
               "Zadanie <i>Trening bojowy dla Babo</i> może zostać ukończone nawet jeśli gracz został już magiem ognia.",
               "Naprawiono błąd sprawiający, że gra nie zaliczała czasem zabicia topielca w zadaniu <i>Jajo topielca</i>.",
               "Naprawiono błąd sprawiający, że gra czasem crashowała przez ognika.",
