@@ -3,20 +3,7 @@
     <v-row>
       <v-col>
         <div align="center">
-          <v-img
-            max-width="60%"
-            :src="selected.titleUrl"
-            :lazy-src="selected.titleUrl"
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
+          <img :src="selected.titleUrl" width="60%" />
         </div>
         <div align="center">
           <v-btn
