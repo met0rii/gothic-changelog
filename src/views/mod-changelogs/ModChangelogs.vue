@@ -6,7 +6,17 @@
           <v-img
             max-width="60%"
             :src="selected.titleUrl"
-          ></v-img>
+            :lazy-src="selected.titleUrl"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
         </div>
         <div align="center">
           <v-btn
@@ -23,7 +33,7 @@
       </v-col>
     </v-row>
 
-    <transition enter-active-class="animated slideInRight">
+    <transition enter-active-class="animated fadeIn">
       <router-view />
     </transition>
   </v-container>

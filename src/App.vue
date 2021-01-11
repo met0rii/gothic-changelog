@@ -53,7 +53,7 @@
     </v-app-bar>
 
     <v-main class="content-container">
-      <transition enter-active-class="animated slideInRight">
+      <transition enter-active-class="animated fadeIn">
         <router-view :key="routePath" />
       </transition>
     </v-main>
