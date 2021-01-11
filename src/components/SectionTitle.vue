@@ -1,6 +1,9 @@
 <template>
   <v-col class="section-title" cols="12">
-    <h2>{{ title }}</h2>
+    <div class="title-container">
+      <h2 class="title">{{ title }}</h2>
+      <div class="section-border"></div>
+    </div>
   </v-col>
 </template>
 
@@ -14,14 +17,24 @@ export default {
 
 <style scoped>
 .section-title {
-  margin: 24px 0 10px 0;
-  text-align: center;
-  background: rgb(20, 20, 20);
-  background: linear-gradient(
-    90deg,
-    rgba(20, 20, 20, 1) 0%,
-    rgba(40, 40, 40, 1) 50%,
-    rgba(20, 20, 20, 1) 100%
-  );
+  margin: 32px 0 30px 0;
+  padding: 0px;
+}
+.title {
+  font-size: 32px !important;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+.title-container {
+  width: max-content;
+}
+
+.section-border {
+  height: 15px;
+  width: calc(100% + 12px);
+  background-color: orange;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 </style>

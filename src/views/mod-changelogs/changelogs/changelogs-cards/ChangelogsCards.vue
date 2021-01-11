@@ -8,7 +8,7 @@
           sm="6"
           lg="4"
           xl="2"
-          class="card-container"
+          class="card-container pl-4 pr-4"
           v-for="changes in selected.changes"
           v-bind:key="changes.version"
         >
@@ -23,22 +23,22 @@
     </v-row>
 
     <v-row>
-      <v-col xs="12">
-        <section-title title="Przegląd" />
+      <section-title title="Przegląd" />
+      <v-col xs="12" class="pl-4 pr-4">
         <mod-overview :data="selected" />
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col xs="12">
-        <section-title title="Galeria" />
+      <section-title title="Galeria" />
+      <v-col xs="12" class="pl-4 pr-4">
         <mod-gallery :data="selected" />
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col xs="12">
-        <section-title title="Autorzy" />
+      <section-title title="Autorzy" />
+      <v-col xs="12" class="pl-4 pr-4">
         <mod-authors :data="selected" />
       </v-col>
     </v-row>
@@ -72,8 +72,5 @@ export default {
 <style scoped>
 .card-container {
   height: 300px;
-}
-.changelog-container {
-  padding-left: 12px;
 }
 </style>

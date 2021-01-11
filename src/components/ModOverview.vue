@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col xs="12" md="9" lg="6" class="mx-auto">
+      <v-col cols="12">
         <v-card dark>
           <ul>
             <li v-for="(item, index) in data.overview.lists" :key="index">
@@ -50,7 +50,7 @@ export default {
 <style scoped>
 ul li {
   padding: 5px;
-  margin: 5px 5px 0 5px;
+  margin: 5px 0 5px;
   list-style: square;
 }
 ul li ul li {
