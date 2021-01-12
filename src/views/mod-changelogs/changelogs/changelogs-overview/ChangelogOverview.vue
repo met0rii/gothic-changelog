@@ -1,5 +1,5 @@
 <template>
-  <v-container class="changelog-container" fluid>
+  <v-container class="ml-4 mr-4 changelog-container" fluid>
     <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
         <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
@@ -46,7 +46,6 @@ export default {
 }
 
 .changelog-row {
-  margin: 16px 12px 12px 12px;
   padding: 6px;
   background-color: #424242;
   border-radius: 4px;

@@ -1,22 +1,14 @@
 <template>
-  <v-container fluid>
-    <v-row>
-      <v-col cols="12">
-        <v-card dark>
-          <ul>
-            <li v-for="(item, index) in data.overview.lists" :key="index">
-              {{ item.content }}
-              <ul v-if="item.subList">
-                <li v-for="(subItem, i) in item.subList" :key="i">
-                  {{ subItem.content }}
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-container>
+  <ul>
+    <li v-for="(item, index) in data.overview.lists" :key="index">
+      {{ item.content }}
+      <ul v-if="item.subList">
+        <li v-for="(subItem, i) in item.subList" :key="i">
+          {{ subItem.content }}
+        </li>
+      </ul>
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -49,13 +41,9 @@ export default {
 </script>
 <style scoped>
 ul li {
-  padding: 5px;
-  margin: 5px 0 5px;
   list-style: square;
 }
 ul li ul li {
-  padding: 5px;
-  margin: 5px 5px 0 5px;
   list-style: disc;
 }
 </style>
