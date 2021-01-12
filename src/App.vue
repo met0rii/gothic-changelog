@@ -128,4 +128,10 @@ body {
   height: 100%;
   height: 100%;
 }
+
+/*CSS VARIABLES*/
+:root {
+  /*BOX SHADOW*/
+  --neon-light: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+}
 </style>

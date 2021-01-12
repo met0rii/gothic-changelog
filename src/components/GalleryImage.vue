@@ -71,7 +71,7 @@ export default {
 }
 
 .gallery-image:hover {
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+  box-shadow: var(--neon-light);
 }
 
 .mask,
@@ -92,7 +92,7 @@ export default {
 
 .fullscreen-image-container {
   z-index: 200;
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+  box-shadow: var(--neon-light);
 }
 
 .fullscreen-image {

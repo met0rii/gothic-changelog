@@ -92,6 +92,6 @@ export default {
 }
 
 .download-btn:hover {
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+  box-shadow: var(--neon-light);
 }
 </style>

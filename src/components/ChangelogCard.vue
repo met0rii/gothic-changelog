@@ -47,7 +47,7 @@ export default {
 
 .headline-link {
   color: white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 .line-clamp {
   max-height: 150px;
@@ -71,7 +71,7 @@ export default {
 }
 
 .card:hover {
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+  box-shadow: var(--neon-light);
 }
 .card-actions {
   margin-top: auto;
