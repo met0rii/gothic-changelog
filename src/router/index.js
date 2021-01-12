@@ -29,11 +29,9 @@ const routes = [
   {
     path: "/mod/:id/:section",
     component: ModChangelogs,
-    name: "ModChangelogs",
     children: [
       {
         path: "/",
-        name: "Changelogs",
         component: Changelogs,
         children: [
           {

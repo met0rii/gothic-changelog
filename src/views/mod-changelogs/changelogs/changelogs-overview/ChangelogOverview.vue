@@ -2,7 +2,10 @@
   <v-container class="ml-4 mr-4 changelog-container" fluid>
     <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
-        <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
+        <div class="changelog-headline-container">
+          <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
+          <back-button class="ml-6" text="Wróć" />
+        </div>
         <span v-html="changelog.updateDescription"></span>
       </v-col>
       <v-col cols="12">
@@ -30,7 +33,10 @@
 </template>
 
 <script>
+import BackButton from "../../../../components/BackButton.vue";
+
 export default {
+  components: { BackButton },
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;
@@ -40,8 +46,10 @@ export default {
 </script>
 
 <style scoped>
+.changelog-headline-container {
+  display: flex;
+}
 .changelog-headline {
-  font-size: 20px !important;
   margin-bottom: 10px;
 }
 

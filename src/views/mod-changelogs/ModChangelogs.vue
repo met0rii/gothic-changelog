@@ -11,8 +11,10 @@
             color="grey lighten-1"
             class="download-btn mt-5 mb-5"
             large
-            >Pobierz<v-icon right dark> mdi-cloud-download </v-icon></v-btn
           >
+            <v-icon left dark> mdi-cloud-download </v-icon>
+            Pobierz
+          </v-btn>
         </div>
         <div>
           <span class="recent-version">{{ selected.description }}</span>

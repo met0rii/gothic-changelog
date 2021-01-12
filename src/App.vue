@@ -129,6 +129,10 @@ body {
   height: 100%;
 }
 
+.neon-btn:hover {
+  box-shadow: var(--neon-light);
+}
+
 /*CSS VARIABLES*/
 :root {
   /*BOX SHADOW*/
