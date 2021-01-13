@@ -144,5 +144,9 @@ body {
   --white-secondary: rgba(255, 255, 255, 0.7);
   --black-mask: #000;
   --orange-secondary: #ffb74d;
+
+  /*TYPOGRAPHY*/
+  --h1: 32px;
+  --h2: 26px;
 }
 </style>
