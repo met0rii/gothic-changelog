@@ -1,5 +1,10 @@
 <template>
-  <v-btn color="grey lighten-1" @click="$router.go(-1)" class="back-button">
+  <v-btn
+    color="deep-purple lighten-3"
+    light
+    @click="$router.go(-1)"
+    class="back-button"
+  >
     <v-icon left dark> mdi-arrow-left </v-icon>
     {{ text }}
   </v-btn>

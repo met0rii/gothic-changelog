@@ -137,5 +137,11 @@ body {
 :root {
   /*BOX SHADOW*/
   --neon-light: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+
+  /*COLOURS*/
+  --black-primary: #313030;
+  --white-primary: #ffff;
+  --black-mask: #000;
+  --orange-secondary: #ffb74d;
 }
 </style>

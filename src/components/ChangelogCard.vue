@@ -1,5 +1,5 @@
 <template>
-  <v-card dark class="card fill-height" color="grey darken-3">
+  <v-card dark class="card fill-height">
     <v-card-title class="headline">
       <router-link class="headline-link" :to="redirectData">
         {{ version }}
@@ -10,7 +10,11 @@
     </v-card-subtitle>
 
     <v-card-actions class="card-actions">
-      <v-btn :to="redirectData">Przeczytaj więcej</v-btn>
+      <v-spacer />
+      <v-btn :to="redirectData" color="deep-purple lighten-3" light>
+        Czytaj dalej
+        <v-icon right> mdi-arrow-right </v-icon>
+      </v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -46,7 +50,7 @@ export default {
 }
 
 .headline-link {
-  color: white;
+  color: var(--white-primary);
   text-decoration: none;
 }
 .line-clamp {
@@ -68,6 +72,7 @@ export default {
   transition: all 0.4s;
   width: 100%;
   height: 100%;
+  background-color: var(--black-primary);
 }
 
 .card:hover {

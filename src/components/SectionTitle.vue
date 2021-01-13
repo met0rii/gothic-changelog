@@ -31,7 +31,7 @@ export default {
 .section-border {
   height: 15px;
   width: calc(100% + 16px);
-  background-color: orange;
+  background-color: var(--orange-secondary);
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }

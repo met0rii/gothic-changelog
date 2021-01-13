@@ -8,7 +8,8 @@
         <div align="center">
           <v-btn
             :to="{ name: 'redirect', query: { url: selected.url } }"
-            color="grey lighten-1"
+            color="deep-purple lighten-3"
+            light
             class="download-btn mt-5 mb-5"
             large
           >

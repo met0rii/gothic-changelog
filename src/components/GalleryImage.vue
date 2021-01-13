@@ -85,7 +85,7 @@ export default {
 .mask {
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: var(--black-mask);
   opacity: 0.6;
   z-index: 100;
 }
@@ -110,7 +110,7 @@ export default {
 
 .cross-first,
 .cross-second {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--white-primary);
   width: 30px;
   height: 5px;
   border-radius: 6px;

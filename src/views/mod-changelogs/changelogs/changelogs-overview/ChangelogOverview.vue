@@ -55,7 +55,7 @@ export default {
 
 .changelog-row {
   padding: 6px;
-  background-color: #424242;
+  background-color: var(--black-primary);
   border-radius: 4px;
 }
 
