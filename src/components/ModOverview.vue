@@ -1,5 +1,10 @@
 <template>
-  <v-treeview class="white--text" open-on-click :items="data.overview.lists">
+  <v-treeview
+    item-children="list"
+    item-text="content"
+    dark
+    :items="data.overview.lists"
+  >
   </v-treeview>
   <!-- <ul>
     <li v-for="(item, index) in data.overview.lists" :key="index">

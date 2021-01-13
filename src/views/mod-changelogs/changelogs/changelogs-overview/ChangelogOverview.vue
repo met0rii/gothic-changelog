@@ -21,28 +21,16 @@
         >
           <h3 v-html="list.title" />
 
-          <!-- STARA LISTA -->
-          <!-- <ul v-if="list.list">
-            <li
-              v-for="(item, itemIndex) in list.list"
-              :key="listIndex + '_' + itemIndex"
-            >
-              {{ item.name }}
-              <ul v-if="item.list">
-                <li v-for="(item, listIndex) in item.list" :key="listIndex">
-                  {{ item.name }}
-                  <ul v-if="item.list">
-                    <li v-for="(item, listIndex) in item.list" :key="listIndex">
-                      {{ item.name }}
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul> -->
-
           <template>
-            <v-treeview class="white--text" open-on-click :items="list.list">
+            <v-treeview
+              item-children="list"
+              item-text="content"
+              dark
+              :items="list.list"
+            >
+              <template v-slot:prepend="{ item }">
+                <v-icon v-if="item"> mdi-pan-right </v-icon>
+              </template>
             </v-treeview>
           </template>
         </div>
