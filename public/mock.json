@@ -15,21 +15,51 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Stary pancerz cienia nie zapewni już przynależności do bandytów w Jarkendarze. Teraz bohater musi otrzymać pancerz bandyty od piratów.",
-              "Zwiększono obrażenia większości run magii wody. Obrażenia dodatkowe po zamrożeniu są większe w runach niższych kręgów a mniejsze w runach wyższych kręgów. Część run maga wody skaluje się teraz z inteligencją w 65%. (wcześniej 50%)",
-              "Runy strażnika świątynnego i paladyna otrzymują teraz bonus do obrażeń magicznych. (od kosturów, mieczy i amuletu)",
-              "Osłabiono runy lecznicze paladyna.",
-              "Zmniejszono liczbę magicznej rudy wymaganej do ponownej próby walki na orkowej arenie.",
-              "Część tekstu na ekranie jest teraz animowana. W gothic.ini zmień lub dodaj linijkę bAnimateMessages = 0 (aby wyłączyć)",
-              "Ikony rodzajów broni w ekwipunku zostały zmienione i obejmują teraz wszystkie przedmioty z zakładki broń. Ikony zostały zrobione poprzez stronę <a href=\"https://game-icons.net/\" target=\"_blank\">https://game-icons.net/</a> przez użytkownika Franisz.",
-              "Runa <i>Ognisty wybuch</i> ma teraz obszar działania taki sam jak <i>Mała burza ognista</i>.",
-              "NPC-ty bez tarcz nie będą już używać animacji walki tarczą.",
-              "Zabicie <i>Królowej pełzaczy</i> nie zapewnia już szafiru. Dodano za to jeden szafir do kupienia u <i>Lutero</i> w pierwszym rozdziale.",
-              "Zabicie aligatora zapewnia teraz 2 skóry gada. (wcześniej 1)",
-              "Teraz alfred skupuje osobno skóry trolli i resztę skór.",
-              "Teraz do własnego obozu trzeba przynieść zarządcy 5 bochenków chleba zamiast 10, chleb ten pojawi się do kupienia u <i>Baltrama</i>.",
-              "Naprawiono błąd sprawiający, że założenie stalowego pancerza było niemożliwe.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Stary pancerz cienia nie zapewni już przynależności do bandytów w Jarkendarze. Teraz bohater musi otrzymać pancerz bandyty od piratów."
+              },
+              {
+                "name": "Zwiększono obrażenia większości run magii wody. Obrażenia dodatkowe po zamrożeniu są większe w runach niższych kręgów a mniejsze w runach wyższych kręgów. Część run maga wody skaluje się teraz z inteligencją w 65%. (wcześniej 50%)"
+              },
+              {
+                "name": "Runy strażnika świątynnego i paladyna otrzymują teraz bonus do obrażeń magicznych. (od kosturów, mieczy i amuletu)"
+              },
+              {
+                "name": "Osłabiono runy lecznicze paladyna."
+              },
+              {
+                "name": "Zmniejszono liczbę magicznej rudy wymaganej do ponownej próby walki na orkowej arenie."
+              },
+              {
+                "name": "Część tekstu na ekranie jest teraz animowana. W gothic.ini zmień lub dodaj linijkę bAnimateMessages = 0 (aby wyłączyć)"
+              },
+              {
+                "name": "Ikony rodzajów broni w ekwipunku zostały zmienione i obejmują teraz wszystkie przedmioty z zakładki broń. Ikony zostały zrobione poprzez stronę <a href=\"https://game-icons.net/\" target=\"_blank\">https://game-icons.net/</a> przez użytkownika Franisz."
+              },
+              {
+                "name": "Runa <i>Ognisty wybuch</i> ma teraz obszar działania taki sam jak <i>Mała burza ognista</i>."
+              },
+              {
+                "name": "NPC-ty bez tarcz nie będą już używać animacji walki tarczą."
+              },
+              {
+                "name": "Zabicie <i>Królowej pełzaczy</i> nie zapewnia już szafiru. Dodano za to jeden szafir do kupienia u <i>Lutero</i> w pierwszym rozdziale."
+              },
+              {
+                "name": "Zabicie aligatora zapewnia teraz 2 skóry gada. (wcześniej 1)"
+              },
+              {
+                "name": "Teraz alfred skupuje osobno skóry trolli i resztę skór."
+              },
+              {
+                "name": "Teraz do własnego obozu trzeba przynieść zarządcy 5 bochenków chleba zamiast 10, chleb ten pojawi się do kupienia u <i>Baltrama</i>."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że założenie stalowego pancerza było niemożliwe."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -43,32 +73,84 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Teraz grając na trybie Slash & Craft statystyki początkowe (siła/zręczność do 60, mana do 50, władanie bronią do 10) wymagają dużo mniej punktów obrażeń.",
-              "Część potworów ze starego poziomu Nightmare+ została usunięta. Są to głównie potwory, które broniły wcześniej rzadkich roślin i tabliczek a teraz są one w innych miejscach.",
-              "Zredukowano ilość punktów życia z różnych bonusów. Zredukowano ilość eliksirów życia za zadania.",
-              "Zredukowano ilość punktów nauki za bossy i zadania.",
-              "Zredukowano ilość doświadczenia oraz złota za kradzież kieszonkową.",
-              "Składniki do ciast zostały przeniesione do początkowych dwóch rozdziałów, aby gracz mógł zrobić je wcześniej. Łączna ilość składników jest teraz mniejsza.",
-              "Teraz NPC-ty nie będą posiadać w ekwipunku składników potrzebnych do tworzenia ciast, kompotów i innych bonusów. Będą za to mieć małe ilości złota oraz inne nowe przedmioty.",
-              "Usunięto zwiększajacą się ilość życia jaką gracz mógł się uzyskać po wydaniu sporej ilości punktów nauki w życie. Teraz zawsze gracz otrzyma 10 punktów życia za 1 punkt nauki.",
-              "Usunięto możliwość zdobycia i używania Krayta na postaci magicznej.",
-              "Teraz bohater otrzyma 70 punktów życia za dar od bogów. (wcześniej 50)",
-              "Runa przemiany w krwiopijcę kosztuje teraz 5 punktów nauki. (wcześniej 8)",
-              "Eliksiry ducha i życia kosztują teraz po 10 punktów nauki. (wcześniej 15)",
-              "Zmniejszono z powrotem koszty many run 1 kręgu.",
-              "Zwiększono lekko obrażenia run początkowych guru oraz nekromanty.",
-              "Znacząco zmniejszono ilość obrony magicznej i przed ogniem przeklętych magów w skarbach piratów.",
-              "Ciasto grzybowe daje teraz 2 punkty many.",
-              "Zwój przemiany w wilka wymaga teraz 10 many. (wcześniej 15)",
-              "Usunięto wymóg siły do używania szpad.",
-              "Paladyni na Etlu posiadają teraz Kusze.",
-              "Statystyki przyzwanego wilka skalują się teraz z inteligencją. Zwiększono też skalowanie się statystyk przyzwanego warga. (wilki od Gallahada 1 i 2 poziomu)",
-              "Poprawiono funkcję resetu dialogu. (ALT + F1)",
-              "Zadanie <i>Trening bojowy dla Babo</i> może zostać ukończone nawet jeśli gracz został już magiem ognia.",
-              "Naprawiono błąd sprawiający, że gra nie zaliczała czasem zabicia topielca w zadaniu <i>Jajo topielca</i>.",
-              "Naprawiono błąd sprawiający, że gra czasem crashowała przez ognika.",
-              "Naprawiono błąd sprawiający, że ognik pokazywał niewłaściwą liczbę tabliczek w lokacji.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Teraz grając na trybie Slash & Craft statystyki początkowe (siła/zręczność do 60, mana do 50, władanie bronią do 10) wymagają dużo mniej punktów obrażeń."
+              },
+              {
+                "name": "Część potworów ze starego poziomu Nightmare+ została usunięta. Są to głównie potwory, które broniły wcześniej rzadkich roślin i tabliczek a teraz są one w innych miejscach."
+              },
+              {
+                "name": "Zredukowano ilość punktów życia z różnych bonusów. Zredukowano ilość eliksirów życia za zadania."
+              },
+              {
+                "name": "Zredukowano ilość punktów nauki za bossy i zadania."
+              },
+              {
+                "name": "Zredukowano ilość doświadczenia oraz złota za kradzież kieszonkową."
+              },
+              {
+                "name": "Składniki do ciast zostały przeniesione do początkowych dwóch rozdziałów, aby gracz mógł zrobić je wcześniej. Łączna ilość składników jest teraz mniejsza."
+              },
+              {
+                "name": "Teraz NPC-ty nie będą posiadać w ekwipunku składników potrzebnych do tworzenia ciast, kompotów i innych bonusów. Będą za to mieć małe ilości złota oraz inne nowe przedmioty."
+              },
+              {
+                "name": "Usunięto zwiększajacą się ilość życia jaką gracz mógł się uzyskać po wydaniu sporej ilości punktów nauki w życie. Teraz zawsze gracz otrzyma 10 punktów życia za 1 punkt nauki."
+              },
+              {
+                "name": "Usunięto możliwość zdobycia i używania Krayta na postaci magicznej."
+              },
+              {
+                "name": "Teraz bohater otrzyma 70 punktów życia za dar od bogów. (wcześniej 50)"
+              },
+              {
+                "name": "Runa przemiany w krwiopijcę kosztuje teraz 5 punktów nauki. (wcześniej 8)"
+              },
+              {
+                "name": "Eliksiry ducha i życia kosztują teraz po 10 punktów nauki. (wcześniej 15)"
+              },
+              {
+                "name": "Zmniejszono z powrotem koszty many run 1 kręgu."
+              },
+              {
+                "name": "Zwiększono lekko obrażenia run początkowych guru oraz nekromanty."
+              },
+              {
+                "name": "Znacząco zmniejszono ilość obrony magicznej i przed ogniem przeklętych magów w skarbach piratów."
+              },
+              {
+                "name": "Ciasto grzybowe daje teraz 2 punkty many."
+              },
+              {
+                "name": "Zwój przemiany w wilka wymaga teraz 10 many. (wcześniej 15)"
+              },
+              {
+                "name": "Usunięto wymóg siły do używania szpad."
+              },
+              {
+                "name": "Paladyni na Etlu posiadają teraz Kusze."
+              },
+              {
+                "name": "Statystyki przyzwanego wilka skalują się teraz z inteligencją. Zwiększono też skalowanie się statystyk przyzwanego warga. (wilki od Gallahada 1 i 2 poziomu)"
+              },
+              {
+                "name": "Poprawiono funkcję resetu dialogu. (ALT + F1)"
+              },
+              {
+                "name": "Zadanie <i>Trening bojowy dla Babo</i> może zostać ukończone nawet jeśli gracz został już magiem ognia."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że gra nie zaliczała czasem zabicia topielca w zadaniu <i>Jajo topielca</i>."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że gra czasem crashowała przez ognika."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że ognik pokazywał niewłaściwą liczbę tabliczek w lokacji."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -82,22 +164,54 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Dodano <i>Amulet Rączki</i> do jego skrzyni w kanałach gildii złodzieji.",
-              "Ognik może ponownie zbierać rośliny w lokacji. Zbiera on teraz 30 roślin na dzień i wymaga 1 bryłki magicznej rudy za każdym razem.",
-              "Raynar skupuje teraz nowe bronie.",
-              "Dodano kamienną tabliczkę szermierza do kupienia u Lutero.",
-              "Teraz u Alfreda sprzedaż rogów cieniostworów oraz smoczych zębaczy są osobnymi opcjami.",
-              "Zmieniono lekko mechanikę <i>Rigeliona</i>.",
-              "Szansa na udaną kradzież kieszonkową jest teraz wyświetlana poprawnie.",
-              "<i>Tarinaks</i> nie uczy już bohatera za darmo.",
-              "Teraz <i>Fangarh</i> oraz <i>Ponury żniwiarz</i> poprawnie dają punkty nauki za ich pokonanie.",
-              "Naprawiono błąd sprawiający, że nieumarli nie reagowali na bohatera. Z tego powodu też niektóre bossy były nie do pokonania.",
-              "Naprawiono opisy przy nauce kręgów magii. Teraz nauka kręgów wymaga też złota.",
-              "Naprawiono błąd w zadaniu <i>Szybki sposób na zarobek</i>",
-              "<i>Buster</i> daje teraz 25% mniej złota za oddane mu rogi cieniostworów.",
-              "Zostanie nekromantą wymaga teraz 80 many. (wcześniej 90)",
-              "<i>Tag-Nor</i> nie uczy już gracza strzelania z kuszy.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Dodano <i>Amulet Rączki</i> do jego skrzyni w kanałach gildii złodzieji."
+              },
+              {
+                "name": "Ognik może ponownie zbierać rośliny w lokacji. Zbiera on teraz 30 roślin na dzień i wymaga 1 bryłki magicznej rudy za każdym razem."
+              },
+              {
+                "name": "Raynar skupuje teraz nowe bronie."
+              },
+              {
+                "name": "Dodano kamienną tabliczkę szermierza do kupienia u Lutero."
+              },
+              {
+                "name": "Teraz u Alfreda sprzedaż rogów cieniostworów oraz smoczych zębaczy są osobnymi opcjami."
+              },
+              {
+                "name": "Zmieniono lekko mechanikę <i>Rigeliona</i>."
+              },
+              {
+                "name": "Szansa na udaną kradzież kieszonkową jest teraz wyświetlana poprawnie."
+              },
+              {
+                "name": "<i>Tarinaks</i> nie uczy już bohatera za darmo."
+              },
+              {
+                "name": "Teraz <i>Fangarh</i> oraz <i>Ponury żniwiarz</i> poprawnie dają punkty nauki za ich pokonanie."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że nieumarli nie reagowali na bohatera. Z tego powodu też niektóre bossy były nie do pokonania."
+              },
+              {
+                "name": "Naprawiono opisy przy nauce kręgów magii. Teraz nauka kręgów wymaga też złota."
+              },
+              {
+                "name": "Naprawiono błąd w zadaniu <i>Szybki sposób na zarobek</i>"
+              },
+              {
+                "name": "<i>Buster</i> daje teraz 25% mniej złota za oddane mu rogi cieniostworów."
+              },
+              {
+                "name": "Zostanie nekromantą wymaga teraz 80 many. (wcześniej 90)"
+              },
+              {
+                "name": "<i>Tag-Nor</i> nie uczy już gracza strzelania z kuszy."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -111,15 +225,33 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Usunięto mechanikę picia mikstur leczniczych przez bandytów.",
-              "Teraz ważne przedmioty zbierane przez ognika i QuickLoot są wyświetlane na czerwono. Kolor można zmienić w gothic.ini linijkami iColorQuickLootUniqR/G/B.",
-              "Nowa statystyka bonusowych obrażeń magicznych kosturów i mieczy magicznych teraz jest poprawnie wyświetlana w opisie przedmiotu.",
-              "Boss <i>Daron</i> został wzmocniony. Zabicie go przyznaje teraz też 2 punkty nauki.",
-              "Znacząco zredukowano ilość pustych butelek u handlarzy.",
-              "Pancerz, który można kupić od Alrika może zostać użyty zamiast ubrania obywatela w zadaniu <i>Droga do górnego miasta</i>.",
-              "Wypłata strażnika miejskiego oraz najemnika kumuluje się teraz do maksymalnie 7 dni.",
-              "Poprawiono opcje nauki u Edgora.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Usunięto mechanikę picia mikstur leczniczych przez bandytów."
+              },
+              {
+                "name": "Teraz ważne przedmioty zbierane przez ognika i QuickLoot są wyświetlane na czerwono. Kolor można zmienić w gothic.ini linijkami iColorQuickLootUniqR/G/B."
+              },
+              {
+                "name": "Nowa statystyka bonusowych obrażeń magicznych kosturów i mieczy magicznych teraz jest poprawnie wyświetlana w opisie przedmiotu."
+              },
+              {
+                "name": "Boss <i>Daron</i> został wzmocniony. Zabicie go przyznaje teraz też 2 punkty nauki."
+              },
+              {
+                "name": "Znacząco zredukowano ilość pustych butelek u handlarzy."
+              },
+              {
+                "name": "Pancerz, który można kupić od Alrika może zostać użyty zamiast ubrania obywatela w zadaniu <i>Droga do górnego miasta</i>."
+              },
+              {
+                "name": "Wypłata strażnika miejskiego oraz najemnika kumuluje się teraz do maksymalnie 7 dni."
+              },
+              {
+                "name": "Poprawiono opcje nauki u Edgora."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -133,16 +265,36 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Wszystkie magiczne miecze oraz kostury posiadają teraz nową statystykę, która dodatkowo zwiększa obrażenia magiczne.",
-              "Teraz <i>Gazkul</i>, <i>Achiron</i> oraz <i>Mor'Bar</i> poprawnie dają punkty nauki za ich pokonanie.",
-              "Teraz efekt <i>wyczerpanie</i> zwiększa zużycie wytrzymałości o 35%. (wcześniej 50%)",
-              "Vatras uczy teraz many nawet jeśli bohater ma jej ponad 500.",
-              "Wilk <i>Kieł</i> leczy się teraz 1 dzień szybciej.",
-              "Kostur nowicjusza wymaga teraz 60 many. (wcześniej 75)",
-              "Naprawiono błąd przy nauce umiejętności tarczy.",
-              "Naprawiono błąd sprawiający, że wzięcie daru na wytrzymałość było niemożliwe.",
-              "Naprawiono błąd sprawiający, że naciąganie cięciwy łuków i kusz było obliczane niepoprawnie.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Wszystkie magiczne miecze oraz kostury posiadają teraz nową statystykę, która dodatkowo zwiększa obrażenia magiczne."
+              },
+              {
+                "name": "Teraz <i>Gazkul</i>, <i>Achiron</i> oraz <i>Mor'Bar</i> poprawnie dają punkty nauki za ich pokonanie."
+              },
+              {
+                "name": "Teraz efekt <i>wyczerpanie</i> zwiększa zużycie wytrzymałości o 35%. (wcześniej 50%)"
+              },
+              {
+                "name": "Vatras uczy teraz many nawet jeśli bohater ma jej ponad 500."
+              },
+              {
+                "name": "Wilk <i>Kieł</i> leczy się teraz 1 dzień szybciej."
+              },
+              {
+                "name": "Kostur nowicjusza wymaga teraz 60 many. (wcześniej 75)"
+              },
+              {
+                "name": "Naprawiono błąd przy nauce umiejętności tarczy."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że wzięcie daru na wytrzymałość było niemożliwe."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że naciąganie cięciwy łuków i kusz było obliczane niepoprawnie."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -156,17 +308,39 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Poprawiono sposób w jaki bandyci piją mikstury uzdrawiające podczas walki.",
-              "Zmniejszono rozrzut podczas strzelania z łuków i kusz.",
-              "Kamienie szlachetne sprzedane u Hanny można odkupić u Matteo poprzez dialog.",
-              "Dodano opcję zablokowania QuickLootu oraz kradzieży kieszonkowej na 2 sekundy po wyjściu z dialogu. Domyślnie opcja jest włączona. W gothic.ini zmień lub dodaj linijkę bQuickLootBlockAfterDialog = 0 (aby wyłączyć)",
-              "Gallahad sprzedaje teraz kilka zwojów <i>Woń trucizny</i>.",
-              "Teraz Constantino daje w nagrodę eliksir wytrzymałości za zadanie <i>Klucz Constantino</i>.",
-              "Spowolnienie czasu jakie uzyskuje strażnik świątynny podczas palenia skrętów jest teraz słabsze ale trwa dłużej.",
-              "Teraz nie trzeba pytać się Lorda Andre o zgodę aby zobaczyć więźniów.",
-              "Teraz NPC-ty nie będą już reagować przez ściany gdy bohater wciśnie przycisk w zadaniu <i>Tajemnica kapitana straży</i>.",
-              "Naprawiono błąd z progami w złocie podczas nauki wytrzymałości.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Poprawiono sposób w jaki bandyci piją mikstury uzdrawiające podczas walki."
+              },
+              {
+                "name": "Zmniejszono rozrzut podczas strzelania z łuków i kusz."
+              },
+              {
+                "name": "Kamienie szlachetne sprzedane u Hanny można odkupić u Matteo poprzez dialog."
+              },
+              {
+                "name": "Dodano opcję zablokowania QuickLootu oraz kradzieży kieszonkowej na 2 sekundy po wyjściu z dialogu. Domyślnie opcja jest włączona. W gothic.ini zmień lub dodaj linijkę bQuickLootBlockAfterDialog = 0 (aby wyłączyć)"
+              },
+              {
+                "name": "Gallahad sprzedaje teraz kilka zwojów <i>Woń trucizny</i>."
+              },
+              {
+                "name": "Teraz Constantino daje w nagrodę eliksir wytrzymałości za zadanie <i>Klucz Constantino</i>."
+              },
+              {
+                "name": "Spowolnienie czasu jakie uzyskuje strażnik świątynny podczas palenia skrętów jest teraz słabsze ale trwa dłużej."
+              },
+              {
+                "name": "Teraz nie trzeba pytać się Lorda Andre o zgodę aby zobaczyć więźniów."
+              },
+              {
+                "name": "Teraz NPC-ty nie będą już reagować przez ściany gdy bohater wciśnie przycisk w zadaniu <i>Tajemnica kapitana straży</i>."
+              },
+              {
+                "name": "Naprawiono błąd z progami w złocie podczas nauki wytrzymałości."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -180,15 +354,33 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Teraz można wyłączyć zbieranie przedmiotów w pomieszczeniach za pomocą ognika. Zrobić to można bezpośrednio w dialogu z ognikiem.",
-              "Teraz można zmienić skrót klawiszowy odpowiadający za panel Slash & Craft. W gothic.ini zmień lub dodaj linijkę bSNCActivationKey = Z (domyślnie)",
-              "Isgaroth sprzedaje teraz amulet magii.",
-              "Bosper sprzedaje teraz nowy, unikalny łuk.",
-              "Pierścień, który otrzymuje gracz za zadanie <i>Zarzuty Parlana</i> daje teraz dodatkowo 10 many.",
-              "Ochroniarz Wulfgara nie reaguje już gdy gracz weźmie notatkę z jego pokoju podczas zadania <i>Tajemnica kapitana straży</i>.",
-              "Teraz Gallahad daje w nagrodę eliksir ducha zamiast eliksiru umysłu za zadanie <i>Wykwintne jedzenie</i>.",
-              "Naprawiono błąd sprawiający, że w rzadkich przypadkach gracz mógł nie otrzymać amuletu ognika od Vatrasa.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Teraz można wyłączyć zbieranie przedmiotów w pomieszczeniach za pomocą ognika. Zrobić to można bezpośrednio w dialogu z ognikiem."
+              },
+              {
+                "name": "Teraz można zmienić skrót klawiszowy odpowiadający za panel Slash & Craft. W gothic.ini zmień lub dodaj linijkę bSNCActivationKey = Z (domyślnie)"
+              },
+              {
+                "name": "Isgaroth sprzedaje teraz amulet magii."
+              },
+              {
+                "name": "Bosper sprzedaje teraz nowy, unikalny łuk."
+              },
+              {
+                "name": "Pierścień, który otrzymuje gracz za zadanie <i>Zarzuty Parlana</i> daje teraz dodatkowo 10 many."
+              },
+              {
+                "name": "Ochroniarz Wulfgara nie reaguje już gdy gracz weźmie notatkę z jego pokoju podczas zadania <i>Tajemnica kapitana straży</i>."
+              },
+              {
+                "name": "Teraz Gallahad daje w nagrodę eliksir ducha zamiast eliksiru umysłu za zadanie <i>Wykwintne jedzenie</i>."
+              },
+              {
+                "name": "Naprawiono błąd sprawiający, że w rzadkich przypadkach gracz mógł nie otrzymać amuletu ognika od Vatrasa."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -202,10 +394,18 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Naprawiono dialog z Gallahadem.",
-              "Naprawiono błąd przy startowaniu gry na poziomie Gothic.",
-              "Zmieniono zadanie na dołączenie do gildii zabójców gdy gracz jest już strażnikiem miejskim - Wyrok dla Wambo. Teraz bohater musi udać się na wyznaczone miejsce jeszcze tej samej nocy.",
-              "I inne mniejsze poprawki..."
+              {
+                "name": "Naprawiono dialog z Gallahadem."
+              },
+              {
+                "name": "Naprawiono błąd przy startowaniu gry na poziomie Gothic."
+              },
+              {
+                "name": "Zmieniono zadanie na dołączenie do gildii zabójców gdy gracz jest już strażnikiem miejskim - Wyrok dla Wambo. Teraz bohater musi udać się na wyznaczone miejsce jeszcze tej samej nocy."
+              },
+              {
+                "name": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]
@@ -219,97 +419,269 @@
           {
             "title": "Zmiany dotyczące poziomu Nightmare:",
             "list": [
-              "Część z utrudnień, jakie wprowadzał poziom Nightmare+ zostało przeniesione na poziom Nightmare. Poziom ten bardziej przypomina teraz wcześniejszy Nightmare+ niż zwykły Nightmare.",
-              "Teraz zawsze pojawiają się nowi przeciwnicy na mapie utrudniający rozgrywkę.",
-              "Nauka atrybutów oraz umiejętności kosztuje więcej złota.",
-              "Teraz za wszystkich pokonanych przeciwników otrzymujemy 100% doświadczenia. (wcześniej 50%)",
-              "Do 10 poziomu gracz otrzymuje 10 punktów nauki za poziom, na poziomach 10-15 otrzymuje 8 punktów a później 5.",
-              "Teraz gracz otrzymuje bonus do statystyk za każde zjedzone ciasto, a nie co drugie jak to było wcześniej.",
-              "Krayt oraz Hubaxis otrzymują jedynie 60% zdobywanego przez nas doświadczenia.",
-              "Głód/Pragnienie/Zmęczenie są teraz opcjonalne. Można wyłączyć przy starcie gry."
+              {
+                "name": "Część z utrudnień, jakie wprowadzał poziom Nightmare+ zostało przeniesione na poziom Nightmare. Poziom ten bardziej przypomina teraz wcześniejszy Nightmare+ niż zwykły Nightmare."
+              },
+              {
+                "name": "Teraz zawsze pojawiają się nowi przeciwnicy na mapie utrudniający rozgrywkę."
+              },
+              {
+                "name": "Nauka atrybutów oraz umiejętności kosztuje więcej złota."
+              },
+              {
+                "name": "Teraz za wszystkich pokonanych przeciwników otrzymujemy 100% doświadczenia. (wcześniej 50%)"
+              },
+              {
+                "name": "Do 10 poziomu gracz otrzymuje 10 punktów nauki za poziom, na poziomach 10-15 otrzymuje 8 punktów a później 5."
+              },
+              {
+                "name": "Teraz gracz otrzymuje bonus do statystyk za każde zjedzone ciasto, a nie co drugie jak to było wcześniej."
+              },
+              {
+                "name": "Krayt oraz Hubaxis otrzymują jedynie 60% zdobywanego przez nas doświadczenia."
+              },
+              {
+                "name": "Głód/Pragnienie/Zmęczenie są teraz opcjonalne. Można wyłączyć przy starcie gry."
+              }
             ]
           },
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Usunięto tryb noDeath.",
-              "Usunięto poziom Nightmare+.",
-              "Usunięto losowanie roślin i mikstur w lokacjach.",
-              "Usunięto umiejętność ognika pokazującą lokalizację rzadkich roślin i tabliczek. Usunięto również funkcję zbierania zwykłych roślin każdego dnia.",
-              "Usunięto progi punktowe przy nauce atrybutów. (siła, zręczność, życie, mana)",
-              "Usunięto eliksir ochrony przed magią. Zamiast tego zupa z mięs kopacza daje teraz + 2 ochrony przed magią.",
-              "Usunięto biżuterię Lorda Drakila.",
-              "Odświeżono tryb Slash & Craft. Teraz gracz zdobywa punkty obrażeń ogólnie - niezależnie czym walczy. Po zdobyciu odpowiedniej ilości punktów może odebrać dowolną statystykę. (jest nowy panel S&C)",
-              "Zwiększono ilość wymaganych punktów nauki przy nauce władania bronią.",
-              "Nauka punktów życia jest tym bardziej efektywna im więcej gracz wyda punktów nauki w życie.",
-              "Zmieniono koszt złota przy nauce atrybutów i umiejętności. Koszt w złocie skaluje się wraz z wydanymi punktami nauki w daną statystykę.",
-              "Wiele umiejętności wymaga teraz inne ilości punktów nauki.",
-              "Za każdego bossa i unikalnego potwora gracz otrzyma teraz więcej punktów nauki. Ilość otrzymywanych punktów nauki teraz bardziej odzwierciedla siłę przeciwnika, za smoka otrzymamy nawet 10 punktów. Gracz otrzymuje teraz też punkty nauki za niektóre zadania.",
-              "Rzadkie rośliny i mikstury znajdują się teraz w nowych miejscach, niektóre lokacje mają teraz mniej a niektóre więcej rzadkich roślin i mikstur niż wcześniej. Kamienne tabliczki oraz płytki teleportacyjne również są teraz inaczej rozprowadzone po lokacjach.",
-              "Przy dołączeniu do gildii gracz nie otrzymuje już żadnych bonusów. (jak np. odporność na ogień czy 10 many)",
-              "Zmniejszono statystyki, jakie otrzymuje gracz za odbieranie darów.",
-              "Zrebalansowano wiele bonusów pod nową rozgrywkę.",
-              "Zredukowano ilość rzadkich mikstur i roślin jake można było kupić u handlarzy lub zdobyć w zadaniach.",
-              "Znacząco zredukowano ilość zwykłych mikstur many oraz mikstur leczniczych, jakie można było znaleźć w skrzyniach, dostać za zadania lub kupić u handlarzy.",
-              "Zmniejszono obrażenia, jakie zadają zaklęcia początkowych kręgów o 10-30 punktów. Runy 1 kręgu kosztują teraz 15 many.",
-              "Zmniejszono ilość doświadczenia oraz złota otrzymywanego za pokonanie bossów oraz za wykonywanie zadań.",
-              "Zmieniono mechanikę kilku bossów.",
-              "Zmieniono rozmieszczenie większości przedmiotów na mapie.",
-              "Zmieniono wartość i statystyki wielu przedmiotów.",
-              "Znacząco zmieniono okolicę plaży Skipa.",
-              "Dodano dwie nowe jaskinie w Khorinis.",
-              "Dodano nowy obszar w Jarkendarze - Zapomniany Kanion.",
-              "Starożytna biżuteria z Jarkendaru (zestaw Kapłanów, Uzdrowicieli oraz Wojowników) znajduje się teraz w innych miejscach a bonus przy założeniu całego zestawu został znacząco wzmocniony.",
-              "Teraz umiejętność tworzenia biżuterii jest podzielona na 3 poziomy - stalowa, złota oraz magiczna biżuteria. Umiejętności tworzenia amuletów nie trzeba się teraz uczyć.",
-              "Dodano 3 nowe stalowe amulety do stworzenia. Wymagana jest umiejętność tworzenia stalowej biżuterii tak samo jak to jest w przypadku pierścieni.",
-              "W Khorinis zmieniono rozmieszczenie potworów.",
-              "Poprawiono zachowania, niektórych przeciwników. Bandyci są teraz mądrzejsi gdy korzystają z broni dystansowej.",
-              "Nieumarli są teraz agresywni w stosunku do wszystkich żywych stworzeń. (poza wszystkim kamienno-podobnym)",
-              "Obrażenia zadawane widmom ze srebrnych broni zależy teraz głównie od statystyki postaci. Srebrne broni zadają teraz też trochę więcej obrażeń zwykłym nieumarłym.",
-              "Biblioteczki, które można przeszukać, zawierają teraz nowe, losowe przedmioty.",
-              "Bohater nie może teraz bezkarnie kraść. (dotyczy wszystkich gildii)",
-              "Orkowie na swoim drakkarze obok obozu Netbeka będą atakować gracza nawet jeśli posiada on Ulu-Mulu. Jeśli gracz posiada orkowy pancerz to nie będą go atakować do momentu zniszczenia mechanizmu drakkaru.",
-              "Zmniejszono ilość zwykłych przeciwników w Koszmarze Kruka, aby skupić się głównie na walkach z bossami.",
-              "Zmieniono lekko zadanie Nekromanta w Khorinis.",
-              "Teraz można wykonać zadanie Gallahada oddając mu jedynie 3 listy polecające. List Lutero, Salandira oraz Gerbranta lub Fernando. Sposób ten zapewni jednak mniej doświadczenia. Teraz moża też odebrać jako nagrodę za to zadanie 2 eliksiry wytrzymałości.",
-              "Umiejętność regeneracji życia dodatkowo zwiększa otrzymywane leczenia ze wszystkich źródeł o 10%.",
-              "Zwiększono ilość zużywanej wytrzymałości podczas biegania.",
-              "Usunięto sztabki magicznej rudy z gry, teraz jedna bryłka magicznej rudy jest warta 300 sztuk złota i bardziej odzwierciedla wartość rudy tak jak to było w Nocy Kruka. Zmieniono ilość magicznej rudy w grze, to ile się jej wydobywa i ile potrzeba do zadań i tworzenia przedmiotów.",
-              "Zmniejszono również ilość rudy żelaza w grze, jeden stalowy pręt wymaga teraz jedynie 3 bryłki żelaza do stworzenia.",
-              "Umiejętność kopania rudy (żelaza i magicznej) jest teraz uczona tylko raz u Snipesa lub Grimesa, albo u Clovisa (za darmo!) w orkowej kopalni po wykonaniu zadania dla niego. Książka <i>Magiczna ruda</i> nie zapewnia teraz umiejętności wydobywania rudy ale zmniejsza ilość zużywanej wytrzymałości podczas kopania. Podobnie jak z rudą żelaza, umiejętności wydobywania złota uczymy się tylko raz u Finna lub Scattiego.",
-              "Teraz po wbiciu 100% władania w walce wręcz bonus obrażeń od wytrzymałości jest 10% większy.",
-              "Broń obuchowa ma teraz szansę na powalenie i ogłuszenie przeciwnika na 1 sekundę. (również gracz może zostać powalony)",
-              "Ilość ticków krwawienia zależy teraz od umiejętności władania bronią.",
-              "Zmieniono w jaki sposób zmieniała się animacja walki wręcz. Teraz animacje zmieniają się rzadziej i są bardziej adekwatne.",
-              "Teraz miksturę druida (od Fregyala) można wypić (i zacząć uczyć się trucizn) do końca 2 rozdziału.",
-              "Skalowanie obrażeń przy naciąganiu cięciwy kuszy / łuku zależy teraz od umiejętności władania kuszą / łukiem.",
-              "Teraz kusze / łuki przeszywają cel i zadają obrażenia następnym celom. Kusze mają to wbudowane a dla łuków wymagana jest umiejętność od Raffa - przeszywający strzał. Szansa na przeszycie przeciwnika na wylot zależy od umiejętności władania łukiem / kuszą.",
-              "Aura paladyna Święty płomień jest teraz dostępna dla wszystkich gildii pod postacią zwojów. Można je znaleźć na różnych etapach gry, lecz ich ilość jest bardzo ograniczona.",
-              "Analogicznie, każda gildia ma teraz dostęp do specjalnych skrętów z efektami, jakie posiada guru / strażnik świątynny.",
-              "Przywołanie Hubaxisa kosztuje teraz 75 many. (wcześniej 50 / 100 w zależności od poziomu)",
-              "Hubaxis oraz Krayt wymagają teraz 40% więcej doświadczenia na każdy poziom.",
-              "Krayt jest teraz dostępny również dla gildii magicznych.",
-              "Orkowa broń, którą można wykuć ma teraz zwiększone statystyki.",
-              "Teraz zabicie przeciwnika podczas przemiany, doda 5 sekund do czasu trwania tej przemiany.",
-              "Zmniejszono przebicie pancerza broni wymagających siły.",
-              "Gracz nie otrzymuje już mikstur <i>Czarna mgła</i> za pokonanie Luciana.",
-              "Zmniejszono dodatkowe obrażenia zadawane za pomocą pochodni oraz dodano małą szansę na podpalenie.",
-              "Teraz podczas skradania się, szansa na udaną kradzież kieszonkową jest 10% większa. Sprawdzenie szansy na kradzież wymaga teraz wyuczonej umiejętności skradania się lub 90 udanych kradzieży.",
-              "Podczas gry można znaleźć przepisy na stworzenie nowych broni.",
-              "Teraz Pancerz magnata oraz stalowy pancerz (z własnego obozu) można przekuć.",
-              "Teraz można nauczyć się tworzenia Eliksiru życia i ducha bez znajomości wcześniejszych mikstur.",
-              "Przepisy na pełnie nie są teraz sprzedawane przez handlarzy i można je zdobyć tylko przy pokonaniu bossów.",
-              "Magowie nie otrzymują już kostura przy wejściu w 4 krąg magii.",
-              "Dodano Kostur Nowicjusza do kupienia od Gallahada.",
-              "Reinar skupuje teraz dużo więcej unikalnych broni, bronie sprzedane u niego można też ponownie odkupić.",
-              "Skóry oddane Bosperowi można od niego ponownie odkupić.",
-              "Serca golemów oddane Constantino można od niego ponownie odkupić.",
-              "Na poziomie Gothic można wybrać teraz opcję dodającą nowych przeciwników w lokacjach. (bandyci i inne stworzenia z poziomu nightmare)",
-              "QuickLoot można teraz wyłączyć. W gothic.ini zmień lub dodaj linijkę bQuickLootEnabled = 0 (aby wyłączyć)",
-              "Przepisano system wchodzenia w interakcje w obiektami (np. kowadło / stół alchemiczny). Teraz przedmioty potrzebne do korzystania z tych obiektów nie będą znikać.",
-              "Naprawiono błąd z resetowaniem animacji pod koniec efektów działających na graczu. Przedmioty zużywalne nie będą teraz zostawać w ręce bohatera.",
-              "Naprawiono zadanie Posiadłości budowniczych.",
-              "I WIELE WIĘCEJ..."
+              {
+                "name": "Usunięto tryb noDeath."
+              },
+              {
+                "name": "Usunięto poziom Nightmare+."
+              },
+              {
+                "name": "Usunięto losowanie roślin i mikstur w lokacjach."
+              },
+              {
+                "name": "Usunięto umiejętność ognika pokazującą lokalizację rzadkich roślin i tabliczek. Usunięto również funkcję zbierania zwykłych roślin każdego dnia."
+              },
+              {
+                "name": "Usunięto progi punktowe przy nauce atrybutów. (siła, zręczność, życie, mana)"
+              },
+              {
+                "name": "Usunięto eliksir ochrony przed magią. Zamiast tego zupa z mięs kopacza daje teraz + 2 ochrony przed magią."
+              },
+              {
+                "name": "Usunięto biżuterię Lorda Drakila."
+              },
+              {
+                "name": "Odświeżono tryb Slash & Craft. Teraz gracz zdobywa punkty obrażeń ogólnie - niezależnie czym walczy. Po zdobyciu odpowiedniej ilości punktów może odebrać dowolną statystykę. (jest nowy panel S&C)"
+              },
+              {
+                "name": "Zwiększono ilość wymaganych punktów nauki przy nauce władania bronią."
+              },
+              {
+                "name": "Nauka punktów życia jest tym bardziej efektywna im więcej gracz wyda punktów nauki w życie."
+              },
+              {
+                "name": "Zmieniono koszt złota przy nauce atrybutów i umiejętności. Koszt w złocie skaluje się wraz z wydanymi punktami nauki w daną statystykę."
+              },
+              {
+                "name": "Wiele umiejętności wymaga teraz inne ilości punktów nauki."
+              },
+              {
+                "name": "Za każdego bossa i unikalnego potwora gracz otrzyma teraz więcej punktów nauki. Ilość otrzymywanych punktów nauki teraz bardziej odzwierciedla siłę przeciwnika, za smoka otrzymamy nawet 10 punktów. Gracz otrzymuje teraz też punkty nauki za niektóre zadania."
+              },
+              {
+                "name": "Rzadkie rośliny i mikstury znajdują się teraz w nowych miejscach, niektóre lokacje mają teraz mniej a niektóre więcej rzadkich roślin i mikstur niż wcześniej. Kamienne tabliczki oraz płytki teleportacyjne również są teraz inaczej rozprowadzone po lokacjach."
+              },
+              {
+                "name": "Przy dołączeniu do gildii gracz nie otrzymuje już żadnych bonusów. (jak np. odporność na ogień czy 10 many)"
+              },
+              {
+                "name": "Zmniejszono statystyki, jakie otrzymuje gracz za odbieranie darów."
+              },
+              {
+                "name": "Zrebalansowano wiele bonusów pod nową rozgrywkę."
+              },
+              {
+                "name": "Zredukowano ilość rzadkich mikstur i roślin jake można było kupić u handlarzy lub zdobyć w zadaniach."
+              },
+              {
+                "name": "Znacząco zredukowano ilość zwykłych mikstur many oraz mikstur leczniczych, jakie można było znaleźć w skrzyniach, dostać za zadania lub kupić u handlarzy."
+              },
+              {
+                "name": "Zmniejszono obrażenia, jakie zadają zaklęcia początkowych kręgów o 10-30 punktów. Runy 1 kręgu kosztują teraz 15 many."
+              },
+              {
+                "name": "Zmniejszono ilość doświadczenia oraz złota otrzymywanego za pokonanie bossów oraz za wykonywanie zadań."
+              },
+              {
+                "name": "Zmieniono mechanikę kilku bossów."
+              },
+              {
+                "name": "Zmieniono rozmieszczenie większości przedmiotów na mapie."
+              },
+              {
+                "name": "Zmieniono wartość i statystyki wielu przedmiotów."
+              },
+              {
+                "name": "Znacząco zmieniono okolicę plaży Skipa."
+              },
+              {
+                "name": "Dodano dwie nowe jaskinie w Khorinis."
+              },
+              {
+                "name": "Dodano nowy obszar w Jarkendarze - Zapomniany Kanion."
+              },
+              {
+                "name": "Starożytna biżuteria z Jarkendaru (zestaw Kapłanów, Uzdrowicieli oraz Wojowników) znajduje się teraz w innych miejscach a bonus przy założeniu całego zestawu został znacząco wzmocniony."
+              },
+              {
+                "name": "Teraz umiejętność tworzenia biżuterii jest podzielona na 3 poziomy - stalowa, złota oraz magiczna biżuteria. Umiejętności tworzenia amuletów nie trzeba się teraz uczyć."
+              },
+              {
+                "name": "Dodano 3 nowe stalowe amulety do stworzenia. Wymagana jest umiejętność tworzenia stalowej biżuterii tak samo jak to jest w przypadku pierścieni."
+              },
+              {
+                "name": "W Khorinis zmieniono rozmieszczenie potworów."
+              },
+              {
+                "name": "Poprawiono zachowania, niektórych przeciwników. Bandyci są teraz mądrzejsi gdy korzystają z broni dystansowej."
+              },
+              {
+                "name": "Nieumarli są teraz agresywni w stosunku do wszystkich żywych stworzeń. (poza wszystkim kamienno-podobnym)"
+              },
+              {
+                "name": "Obrażenia zadawane widmom ze srebrnych broni zależy teraz głównie od statystyki postaci. Srebrne broni zadają teraz też trochę więcej obrażeń zwykłym nieumarłym."
+              },
+              {
+                "name": "Biblioteczki, które można przeszukać, zawierają teraz nowe, losowe przedmioty."
+              },
+              {
+                "name": "Bohater nie może teraz bezkarnie kraść. (dotyczy wszystkich gildii)"
+              },
+              {
+                "name": "Orkowie na swoim drakkarze obok obozu Netbeka będą atakować gracza nawet jeśli posiada on Ulu-Mulu. Jeśli gracz posiada orkowy pancerz to nie będą go atakować do momentu zniszczenia mechanizmu drakkaru."
+              },
+              {
+                "name": "Zmniejszono ilość zwykłych przeciwników w Koszmarze Kruka, aby skupić się głównie na walkach z bossami."
+              },
+              {
+                "name": "Zmieniono lekko zadanie Nekromanta w Khorinis."
+              },
+              {
+                "name": "Teraz można wykonać zadanie Gallahada oddając mu jedynie 3 listy polecające. List Lutero, Salandira oraz Gerbranta lub Fernando. Sposób ten zapewni jednak mniej doświadczenia. Teraz moża też odebrać jako nagrodę za to zadanie 2 eliksiry wytrzymałości."
+              },
+              {
+                "name": "Umiejętność regeneracji życia dodatkowo zwiększa otrzymywane leczenia ze wszystkich źródeł o 10%."
+              },
+              {
+                "name": "Zwiększono ilość zużywanej wytrzymałości podczas biegania."
+              },
+              {
+                "name": "Usunięto sztabki magicznej rudy z gry, teraz jedna bryłka magicznej rudy jest warta 300 sztuk złota i bardziej odzwierciedla wartość rudy tak jak to było w Nocy Kruka. Zmieniono ilość magicznej rudy w grze, to ile się jej wydobywa i ile potrzeba do zadań i tworzenia przedmiotów."
+              },
+              {
+                "name": "Zmniejszono również ilość rudy żelaza w grze, jeden stalowy pręt wymaga teraz jedynie 3 bryłki żelaza do stworzenia."
+              },
+              {
+                "name": "Umiejętność kopania rudy (żelaza i magicznej) jest teraz uczona tylko raz u Snipesa lub Grimesa, albo u Clovisa (za darmo!) w orkowej kopalni po wykonaniu zadania dla niego. Książka <i>Magiczna ruda</i> nie zapewnia teraz umiejętności wydobywania rudy ale zmniejsza ilość zużywanej wytrzymałości podczas kopania. Podobnie jak z rudą żelaza, umiejętności wydobywania złota uczymy się tylko raz u Finna lub Scattiego."
+              },
+              {
+                "name": "Teraz po wbiciu 100% władania w walce wręcz bonus obrażeń od wytrzymałości jest 10% większy."
+              },
+              {
+                "name": "Broń obuchowa ma teraz szansę na powalenie i ogłuszenie przeciwnika na 1 sekundę. (również gracz może zostać powalony)"
+              },
+              {
+                "name": "Ilość ticków krwawienia zależy teraz od umiejętności władania bronią."
+              },
+              {
+                "name": "Zmieniono w jaki sposób zmieniała się animacja walki wręcz. Teraz animacje zmieniają się rzadziej i są bardziej adekwatne."
+              },
+              {
+                "name": "Teraz miksturę druida (od Fregyala) można wypić (i zacząć uczyć się trucizn) do końca 2 rozdziału."
+              },
+              {
+                "name": "Skalowanie obrażeń przy naciąganiu cięciwy kuszy / łuku zależy teraz od umiejętności władania kuszą / łukiem."
+              },
+              {
+                "name": "Teraz kusze / łuki przeszywają cel i zadają obrażenia następnym celom. Kusze mają to wbudowane a dla łuków wymagana jest umiejętność od Raffa - przeszywający strzał. Szansa na przeszycie przeciwnika na wylot zależy od umiejętności władania łukiem / kuszą."
+              },
+              {
+                "name": "Aura paladyna Święty płomień jest teraz dostępna dla wszystkich gildii pod postacią zwojów. Można je znaleźć na różnych etapach gry, lecz ich ilość jest bardzo ograniczona."
+              },
+              {
+                "name": "Analogicznie, każda gildia ma teraz dostęp do specjalnych skrętów z efektami, jakie posiada guru / strażnik świątynny."
+              },
+              {
+                "name": "Przywołanie Hubaxisa kosztuje teraz 75 many. (wcześniej 50 / 100 w zależności od poziomu)"
+              },
+              {
+                "name": "Hubaxis oraz Krayt wymagają teraz 40% więcej doświadczenia na każdy poziom."
+              },
+              {
+                "name": "Krayt jest teraz dostępny również dla gildii magicznych."
+              },
+              {
+                "name": "Orkowa broń, którą można wykuć ma teraz zwiększone statystyki."
+              },
+              {
+                "name": "Teraz zabicie przeciwnika podczas przemiany, doda 5 sekund do czasu trwania tej przemiany."
+              },
+              {
+                "name": "Zmniejszono przebicie pancerza broni wymagających siły."
+              },
+              {
+                "name": "Gracz nie otrzymuje już mikstur <i>Czarna mgła</i> za pokonanie Luciana."
+              },
+              {
+                "name": "Zmniejszono dodatkowe obrażenia zadawane za pomocą pochodni oraz dodano małą szansę na podpalenie."
+              },
+              {
+                "name": "Teraz podczas skradania się, szansa na udaną kradzież kieszonkową jest 10% większa. Sprawdzenie szansy na kradzież wymaga teraz wyuczonej umiejętności skradania się lub 90 udanych kradzieży."
+              },
+              {
+                "name": "Podczas gry można znaleźć przepisy na stworzenie nowych broni."
+              },
+              {
+                "name": "Teraz Pancerz magnata oraz stalowy pancerz (z własnego obozu) można przekuć."
+              },
+              {
+                "name": "Teraz można nauczyć się tworzenia Eliksiru życia i ducha bez znajomości wcześniejszych mikstur."
+              },
+              {
+                "name": "Przepisy na pełnie nie są teraz sprzedawane przez handlarzy i można je zdobyć tylko przy pokonaniu bossów."
+              },
+              {
+                "name": "Magowie nie otrzymują już kostura przy wejściu w 4 krąg magii."
+              },
+              {
+                "name": "Dodano Kostur Nowicjusza do kupienia od Gallahada."
+              },
+              {
+                "name": "Reinar skupuje teraz dużo więcej unikalnych broni, bronie sprzedane u niego można też ponownie odkupić."
+              },
+              {
+                "name": "Skóry oddane Bosperowi można od niego ponownie odkupić."
+              },
+              {
+                "name": "Serca golemów oddane Constantino można od niego ponownie odkupić."
+              },
+              {
+                "name": "Na poziomie Gothic można wybrać teraz opcję dodającą nowych przeciwników w lokacjach. (bandyci i inne stworzenia z poziomu nightmare)"
+              },
+              {
+                "name": "QuickLoot można teraz wyłączyć. W gothic.ini zmień lub dodaj linijkę bQuickLootEnabled = 0 (aby wyłączyć)"
+              },
+              {
+                "name": "Przepisano system wchodzenia w interakcje w obiektami (np. kowadło / stół alchemiczny). Teraz przedmioty potrzebne do korzystania z tych obiektów nie będą znikać."
+              },
+              {
+                "name": "Naprawiono błąd z resetowaniem animacji pod koniec efektów działających na graczu. Przedmioty zużywalne nie będą teraz zostawać w ręce bohatera."
+              },
+              {
+                "name": "Naprawiono zadanie Posiadłości budowniczych."
+              },
+              {
+                "name": "I WIELE WIĘCEJ..."
+              }
             ]
           }
         ]
@@ -318,44 +690,44 @@
     "overview": {
       "lists": [
         {
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
         },
         {
-          "content": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
-          "subList": [
+          "name": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "children": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "name": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "name": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "name": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
         },
         {
-          "content": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "name": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-          "content": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
+          "name": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
         },
         {
-          "content": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
-          "subList": [
+          "name": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
+          "children": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "name": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "name": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "name": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
         },
         {
-          "content": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
+          "name": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
         }
       ]
     },
@@ -531,62 +903,172 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Minimalne obrażenia zmniejszone z 25 do 15.",
-              "Modlitwy w świątyni Innos działają teraz w następujący sposób:",
-              "-100 darmowych modlitw (5% na otrzymanie + 1HP).",
-              "-60 modlitw za 50 złota (50% na otrzymanie + 1HP).",
-              "-30 modlitw za 100 złota (80% na otrzymanie + 2HP).",
-              "-15 modlitw za 200 złota (losowy bonus,",
-              " nie możesz otrzymać many jeżeli nie jesteś magiem lub nowicjuszem, nie możesz otrzymać siły lub zręczności jeżeli jesteś magiem, + 1 siły, + 1 zręczności, + 2MP, + 5HP).",
-              "Grobowy mech, klucze i inne rzeczy z wersji 1.1.4 są teraz poprawnie umieszczone w świecie.",
-              "Naprawiono błąd, w którym średnia zbroja najemnika wyświetlała koszt 500, ale faktycznie kosztowała 750.",
-              "Zmieniono niektóre zbroje do wytworzenia, teraz możesz tworzyć mocniejsze zbroje na poziomie eksperta zbrojmistrza.",
-              "Wzmocniono bronie dwuręczne według schematu:",
-              "+10 obrażeń dla broni z atakiem <50;",
-              "+20 obrażeń dla broni z atakiem >= 50 ale <100;",
-              "+35 obrażeń dla broni z atakiem >= 100 ale <150;",
-              "+50 obrażeń dla broni z atakiem >= 150;",
-              "Powinno to uczynić broń 2H bardziej użyteczną, bez robienia ją zbyt mocne, pamiętaj, że te zmiany również wzmacniają NPC z tą bronią.",
-              "Naprawiono błąd, w wyniku którego kotły pokazywały opcje gotowania, nawet gdy gracz nie miał składników do przygotowania jedzenia.",
-              "Dodano funkcję usuwania kluczy po ich użyciu.",
-              "Naprawiono mały błąd w książce „Sztuka walki”, przez który nie wyświetlała tekstu.",
-              "Zmieniono efekt graficzny „Świętego Światła” (zarówno runy, jak i zwoju), teraz jest taki sam jak „Światło”.",
-              "Wzmocniono regeneracje zdrowia smoków, będą teraz trudniejsze.",
-              "„Teleport do przełęczy Górniczej Doliny” znajduje się teraz w ciele martwego paladyna w pobliżu wejścia do Górniczej Doliny.",
-              "„Teleport do Starego Zamku w Górniczej Dolinie” jest teraz sprzedawany przez Engora za 500.",
-              "Zmieniono progi nauczania dla atrybutów (siła, zręczność, mana):",
-              "z 300 na 350",
-              "z 200 na 280",
-              "z 160 na 200",
-              "z 120 na 160",
-              "z  90 na 120",
-              "z  60 na  80",
-              "Zaklinanie zostało zmienione. Możesz nauczyć się zaklinania poziomu 2 w 3 rozdziale, a 3 poziomu w 5 rozdziale.",
-              "Po nauczeniu się akrobatyki, odblokujesz także nową animację biegu, która jest nieco szybsza niż oryginalna animacja biegu (ale wolniejsza niż mikstury szybkości), co powinno również ",
-              "pomóc w budowaniu dystansowym w zdobywaniu dystansu do strzelania strzałami.",
-              "Vatras da teraz 100 sztuk złota za każdą „Starą kamienną tabliczkę”, którą mu przyniesiesz, możesz dać mu 1 lub 28, nie wpłynie to na ilość złota, którą otrzymujesz.",
-              "Dodano jeden stół płatnerski (ten używany do tworzenia / ulepszania zbroi) w kuźni obok rynku.",
-              "Dodano 1 Czarnego Trolla (w Górniczej Dolinie), ponieważ do stworzenia zbroi potrzebna jest jeszcze jedna  skóra czarnego trolla.",
-              "Kilka drobnych poprawek w tekście.",
-              "Orkowie nie skaczą tak często we wczesnej fazie gry."
+              {
+                "name": "Minimalne obrażenia zmniejszone z 25 do 15."
+              },
+              {
+                "name": "Modlitwy w świątyni Innos działają teraz w następujący sposób:",
+                "children": [
+                  {
+                    "name": "-100 darmowych modlitw (5% na otrzymanie + 1HP)"
+                  },
+                  {
+                    "name": "-60 modlitw za 50 złota (50% na otrzymanie + 1HP)"
+                  },
+                  {
+                    "name": "-30 modlitw za 100 złota (80% na otrzymanie + 2HP)"
+                  },
+                  {
+                    "name": "-15 modlitw za 200 złota (losowy bonus)",
+                    "children": [
+                      {
+                        "name": "lorem"
+                      },
+                      {
+                        "name": "ipsum"
+                      },
+                      {
+                        "name": "cavalorn"
+                      },
+                      {
+                        "name": "diego"
+                      }
+                    ]
+                  },
+                  {
+                    "name": " nie możesz otrzymać many jeżeli nie jesteś magiem lub nowicjuszem, nie możesz otrzymać siły lub zręczności jeżeli jesteś magiem, + 1 siły, + 1 zręczności, + 2MP, + 5HP)"
+                  }
+                ]
+              },
+              {
+                "name": "Grobowy mech, klucze i inne rzeczy z wersji 1.1.4 są teraz poprawnie umieszczone w świecie."
+              },
+              {
+                "name": "Naprawiono błąd, w którym średnia zbroja najemnika wyświetlała koszt 500, ale faktycznie kosztowała 750."
+              },
+              {
+                "name": "Zmieniono niektóre zbroje do wytworzenia, teraz możesz tworzyć mocniejsze zbroje na poziomie eksperta zbrojmistrza."
+              },
+              {
+                "name": "Wzmocniono bronie dwuręczne według schematu:",
+                "children": [
+                  {
+                    "name": "+10 obrażeń dla broni z atakiem <50"
+                  },
+                  {
+                    "name": "+20 obrażeń dla broni z atakiem >= 50 ale <100"
+                  },
+                  {
+                    "name": "+35 obrażeń dla broni z atakiem >= 100 ale <150"
+                  },
+                  {
+                    "name": "+50 obrażeń dla broni z atakiem >= 150"
+                  }
+                ]
+              },
+              {
+                "name": "Powinno to uczynić broń 2H bardziej użyteczną, bez robienia ich zbyt mocnymi, pamiętaj, że te zmiany również wzmacniają NPC z tą bronią."
+              },
+              {
+                "name": "Naprawiono błąd, w wyniku którego kotły pokazywały opcje gotowania, nawet gdy gracz nie miał składników do przygotowania jedzenia."
+              },
+              {
+                "name": "Dodano funkcję usuwania kluczy po ich użyciu."
+              },
+              {
+                "name": "Naprawiono mały błąd w książce „Sztuka walki”, przez który nie wyświetlała tekstu."
+              },
+              {
+                "name": "Zmieniono efekt graficzny „Świętego Światła” (zarówno runy, jak i zwoju), teraz jest taki sam jak „Światło”."
+              },
+              {
+                "name": "Wzmocniono regeneracje zdrowia smoków, będą teraz trudniejsze."
+              },
+              {
+                "name": "„Teleport do przełęczy Górniczej Doliny” znajduje się teraz w ciele martwego paladyna w pobliżu wejścia do Górniczej Doliny."
+              },
+              {
+                "name": "„Teleport do Starego Zamku w Górniczej Dolinie” jest teraz sprzedawany przez Engora za 500."
+              },
+              {
+                "name": "Zmieniono progi nauczania dla atrybutów (siła, zręczność, mana):",
+                "children": [
+                  {
+                    "name": "z 300 na 350,"
+                  },
+                  {
+                    "name": "z 200 na 280"
+                  },
+                  {
+                    "name": "z 160 na 200"
+                  },
+                  {
+                    "name": "z 120 na 160"
+                  },
+                  {
+                    "name": "z  90 na 120"
+                  },
+                  {
+                    "name": "z  60 na  80"
+                  }
+                ]
+              },
+              {
+                "name": "Zaklinanie zostało zmienione. Możesz nauczyć się zaklinania poziomu 2 w 3 rozdziale, a 3 poziomu w 5 rozdziale."
+              },
+              {
+                "name": "Po nauczeniu się akrobatyki, odblokujesz także nową animację biegu, która jest nieco szybsza niż oryginalna animacja biegu (ale wolniejsza niż mikstury szybkości), co powinno również pomóc w budowaniu dystansowym w zdobywaniu dystansu do strzelania strzałami."
+              },
+              {
+                "name": "Vatras da teraz 100 sztuk złota za każdą „Starą kamienną tabliczkę”, którą mu przyniesiesz, możesz dać mu 1 lub 28, nie wpłynie to na ilość złota, którą otrzymujesz."
+              },
+              {
+                "name": "Dodano jeden stół płatnerski (ten używany do tworzenia / ulepszania zbroi) w kuźni obok rynku."
+              },
+              {
+                "name": "Dodano 1 Czarnego Trolla (w Górniczej Dolinie), ponieważ do stworzenia zbroi potrzebna jest jeszcze jedna  skóra czarnego trolla."
+              },
+              {
+                "name": "Kilka drobnych poprawek w tekście."
+              },
+              {
+                "name": "Orkowie nie skaczą tak często we wczesnej fazie gry."
+              }
             ]
           },
           {
             "title": "Zmiany w miksturach i jedzeniu:",
             "list": [
-              "Teraz mikstury są bardziej zorientowane na „późniejszą fazę gry” i będą leczyć obrażenia procentowo (Esencja  30% leczenia, Ekstrakt 50%, Eliksir 70%, Pełnie nadal leczą 100%, ale ",
-              "przepis został zmieniony).",
-              "Viceversa, jedzenie będzie teraz leczyć stałą wartość życia, będąc bardziej użytecznym we wczesnej fazie gry.",
-              "Mikstury Pełnia Życia i Pełnia Many mają nowe modele 3D.",
-              "Usunięto wzmocnienie mikstury życia i many (mikstury, których mógł się nauczyć tylko czeladnik Constantina, trwale zwiększają leczenie / manę otrzymywaną z mikstur), teraz nie są to ",
-              "mikstury, ale umiejętność, której możesz się nauczyć od Constantina (tylko czeladnik, koszt 10 PN).",
-              "Eliksir życia (stałe maksymalne HP) zmieniono z +25 na +20 maksymalnego HP.",
-              "Czas działania Mikstury Szybkości został podwojony (z 40 do 80 sekund).",
-              "Zmieniono „Eliksir Ochrony”, teraz będzie kosztował więcej przedmiotów (3 grobowe mchy, 15 kości szkieletu), ale da lepsze bonusy (+10 zamiast +5), ma to na celu zrównoważenie zmiany ",
-              "minimalnych obrażeń.",
-              "Constantino uczy teraz „Eliksiru Siły” tylko wtedy, gdy gracz już nauczył się tworzyć „Eliksir Życia” lub „Eliksir Ducha”.",
-              "Sagitta uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”.",
-              "Riordan uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
+              {
+                "name": "Teraz mikstury są bardziej zorientowane na „późniejszą fazę gry” i będą leczyć obrażenia procentowo (Esencja  30% leczenia, Ekstrakt 50%, Eliksir 70%, Pełnie nadal leczą 100%, ale przepis został zmieniony)."
+              },
+              {
+                "name": "Viceversa, jedzenie będzie teraz leczyć stałą wartość życia, będąc bardziej użytecznym we wczesnej fazie gry."
+              },
+              {
+                "name": "Mikstury Pełnia Życia i Pełnia Many mają nowe modele 3D."
+              },
+              {
+                "name": "Usunięto wzmocnienie mikstury życia i many (mikstury, których mógł się nauczyć tylko czeladnik Constantina, trwale zwiększają leczenie / manę otrzymywaną z mikstur), teraz nie są to mikstury, ale umiejętność, której możesz się nauczyć od Constantina (tylko czeladnik, koszt 10 PN)."
+              },
+              {
+                "name": "Eliksir życia (stałe maksymalne HP) zmieniono z +25 na +20 maksymalnego HP."
+              },
+              {
+                "name": "Czas działania Mikstury Szybkości został podwojony (z 40 do 80 sekund)."
+              },
+              {
+                "name": "Zmieniono „Eliksir Ochrony”, teraz będzie kosztował więcej przedmiotów (3 grobowe mchy, 15 kości szkieletu), ale da lepsze bonusy (+10 zamiast +5), ma to na celu zrównoważenie zmiany minimalnych obrażeń."
+              },
+              {
+                "name": "Constantino uczy teraz „Eliksiru Siły” tylko wtedy, gdy gracz już nauczył się tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
+              },
+              {
+                "name": "Sagitta uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
+              },
+              {
+                "name": "Riordan uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
+              }
             ]
           }
         ]
@@ -600,29 +1082,65 @@
           {
             "title": "Zmiany ogólne: ",
             "list": [
-              "Naprawiono dialog Cassi, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej.",
-              "Naprawiono dialog pirata Billa, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej.",
-              "Naprawiono brak możliwości zakupu ciężkiej zbroi od Huno, jeśli gracz wykupił wszystkie zbroje.",
-              "Koszty nauki Górnictwa i Drwalstwa zostały zmienione na 3,3,4 PN.",
-              "Usunięto wymóg braku gildii przy zakupie zbroi od Orlana.",
-              "Usunięto wymóg „rozdział mniejszy niż 4” przy zakupie skórzanej zbroi od Matteo.",
-              "Strzały kosztują teraz 5 złota.",
-              "Bełty kosztują teraz 10 złota.",
-              "Jeśli jesteś magiem teleportujesz do swojego pokoju w klasztorze, jeśli nie, teleportuje się do kręgu.",
-              "Przywrócono PN/lvl do 10 i wymagany exp(na 1 lvl) do 500.",
-              "Mnożnik „następnego poziomu” powrócił do 500 (z powrotem do pierwotnego L'Hiver)",
-              "Zmieniono nazewnictwo Mistrz -> Expert na Expert -> Mistrz.",
-              "Zmieniono dialogi Carla dotyczące umiejętności zbrojmistrza, teraz będzie ich uczył w rozdziale 1 (poziom 1), rozdziale 3 (poziom 2) i rozdziale 5 (poziom 3)."
+              {
+                "name": "Naprawiono dialog Cassi, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej."
+              },
+              {
+                "name": "Naprawiono dialog pirata Billa, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej."
+              },
+              {
+                "name": "Naprawiono brak możliwości zakupu ciężkiej zbroi od Huno, jeśli gracz wykupił wszystkie zbroje."
+              },
+              {
+                "name": "Koszty nauki Górnictwa i Drwalstwa zostały zmienione na 3,3,4 PN."
+              },
+              {
+                "name": "Usunięto wymóg braku gildii przy zakupie zbroi od Orlana."
+              },
+              {
+                "name": "Usunięto wymóg „rozdział mniejszy niż 4” przy zakupie skórzanej zbroi od Matteo."
+              },
+              {
+                "name": "Strzały kosztują teraz 5 złota."
+              },
+              {
+                "name": "Bełty kosztują teraz 10 złota."
+              },
+              {
+                "name": "Jeśli jesteś magiem teleportujesz do swojego pokoju w klasztorze, jeśli nie, teleportuje się do kręgu."
+              },
+              {
+                "name": "Przywrócono PN/lvl do 10 i wymagany exp(na 1 lvl) do 500."
+              },
+              {
+                "name": "Mnożnik „następnego poziomu” powrócił do 500 (z powrotem do pierwotnego L'Hiver)"
+              },
+              {
+                "name": "Zmieniono nazewnictwo Mistrz -> Expert na Expert -> Mistrz."
+              },
+              {
+                "name": "Zmieniono dialogi Carla dotyczące umiejętności zbrojmistrza, teraz będzie ich uczył w rozdziale 1 (poziom 1), rozdziale 3 (poziom 2) i rozdziale 5 (poziom 3)."
+              }
             ]
           },
           {
             "title": "Kotły są teraz użyteczne, możesz ich użyć do gotowania następujących przepisów kulinarnych:",
             "list": [
-              "Zupa rybna",
-              "Gulasz",
-              "Zupa z głowy modliszki",
-              "Potrawka z chrząszcza",
-              "Znajdziesz je ukryte niektórych skrzyniach."
+              {
+                "name": "Zupa rybna"
+              },
+              {
+                "name": "Gulasz"
+              },
+              {
+                "name": "Zupa z głowy modliszki"
+              },
+              {
+                "name": "Potrawka z chrząszcza"
+              },
+              {
+                "name": "Znajdziesz je ukryte niektórych skrzyniach."
+              }
             ]
           }
         ]
@@ -631,44 +1149,44 @@
     "overview": {
       "lists": [
         {
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
         },
         {
-          "content": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
-          "subList": [
+          "name": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "children": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "name": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "name": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "name": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
         },
         {
-          "content": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "name": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-          "content": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
+          "name": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
         },
         {
-          "content": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
-          "subList": [
+          "name": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
+          "children": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "name": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "name": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "name": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
         },
         {
-          "content": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
+          "name": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
         }
       ]
     },
@@ -733,25 +1251,63 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Kilka zadań zostało zmienionych i poprawionych.",
-              "Usunięto lub skrócono oczekiwanie w niektórych zadaniach.",
-              "Dodano nowe zadania do gry.",
-              "Zmieniono model wargów.",
-              "Dodano jedno zadanie i kilka dialogów z moda Easter CSP.",
-              "Dodano kamienie teleportacyjne z moda Konsekwencje (teleportty do Vengardu i wioski druidów).",
-              "Zmieniono kolory tekstur niektórych miast (Cape Dun, Montera).",
-              "Dodano orków do pustego obozu między Vengardem i Faring.",
-              "Dodano nowego mini-bossa.",
-              "Nieznacznie zmieniono model kolczugi.",
-              "Dodano nowy płaszcz, zbroję i odzież.",
-              "W Ben Erai pojawią się nowe postacie po wyzwoleniu.",
-              "Usunięto dodatkowe golemy na drodze do wieży Xardasa(Tylko Konsekwencje).",
-              "Dodano nowe modele twarzy i włosów dla postaci kobiecych.",
-              "Obniżono ceny za transport łodzią.",
-              "Łódź nie płynie już do Silden.",
-              "Dodano nową broń i inne przedmioty do gry.",
-              "Naprawiono jedno osiągnięcie i dodano nowe.",
-              "Inne drobne poprawki."
+              {
+                "name": "Kilka zadań zostało zmienionych i poprawionych."
+              },
+              {
+                "name": "Usunięto lub skrócono oczekiwanie w niektórych zadaniach."
+              },
+              {
+                "name": "Dodano nowe zadania do gry."
+              },
+              {
+                "name": "Zmieniono model wargów."
+              },
+              {
+                "name": "Dodano jedno zadanie i kilka dialogów z moda Easter CSP."
+              },
+              {
+                "name": "Dodano kamienie teleportacyjne z moda Konsekwencje (teleportty do Vengardu i wioski druidów)."
+              },
+              {
+                "name": "Zmieniono kolory tekstur niektórych miast (Cape Dun, Montera)."
+              },
+              {
+                "name": "Dodano orków do pustego obozu między Vengardem i Faring."
+              },
+              {
+                "name": "Dodano nowego mini-bossa."
+              },
+              {
+                "name": "Nieznacznie zmieniono model kolczugi."
+              },
+              {
+                "name": "Dodano nowy płaszcz, zbroję i odzież."
+              },
+              {
+                "name": "W Ben Erai pojawią się nowe postacie po wyzwoleniu."
+              },
+              {
+                "name": "Usunięto dodatkowe golemy na drodze do wieży Xardasa(Tylko Konsekwencje)."
+              },
+              {
+                "name": "Dodano nowe modele twarzy i włosów dla postaci kobiecych."
+              },
+              {
+                "name": "Obniżono ceny za transport łodzią."
+              },
+              {
+                "name": "Łódź nie płynie już do Silden."
+              },
+              {
+                "name": "Dodano nową broń i inne przedmioty do gry."
+              },
+              {
+                "name": "Naprawiono jedno osiągnięcie i dodano nowe."
+              },
+              {
+                "name": "Inne drobne poprawki."
+              }
             ]
           }
         ]
@@ -765,42 +1321,88 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Kilka zadań zostało ulepszonych i naprawionych.",
-              "Miasta Myrtany otrzymają nowe unikalne tekstury budynków.",
-              "Dodano nowe ukryte obiekty do gry.",
-              "Naprawiono oświetlenie kilku obiektów.",
-              "Dodano nową zbroję.",
-              "Naprawiono kolizję muru w Gotcie."
+              {
+                "name": "Kilka zadań zostało ulepszonych i naprawionych."
+              },
+              {
+                "name": "Miasta Myrtany otrzymają nowe unikalne tekstury budynków."
+              },
+              {
+                "name": "Dodano nowe ukryte obiekty do gry."
+              },
+              {
+                "name": "Naprawiono oświetlenie kilku obiektów."
+              },
+              {
+                "name": "Dodano nową zbroję."
+              },
+              {
+                "name": "Naprawiono kolizję muru w Gotcie."
+              }
             ]
           }
         ]
       },
       {
         "updateId": "0",
-        "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkami<br>Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
+        "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi<br>Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
         "version": "0.31",
         "date": "25.06.2020",
         "lists": [
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Dodano drzwi do domów we wszystkich osadach Myrtany.",
-              "Królewskie sztandary w zdobytych miastach zostały zastąpione orkami.",
-              "Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną.",
-              "Kilka zadań zostało ulepszonych i naprawionych.",
-              "Teraz każde miasto Myrtany różni się od innych (dodano unikalne tekstury).",
-              "Dodano nowe skarby i ukryte przedmioty do gry.",
-              "W niektórych domach pojawią się nowe obrazy.",
-              "Wiele tekstur zostało zoptymalizowanych.",
-              "Naprawiono oświetlenie w Monterze i innych miejscach.",
-              "Naprawiono kolizje niektórych obiektów.",
-              "Dodano kilka dodatkowych hełmów i innych czapek do gry.",
-              "Dodano stół alchemiczny do chatki niedaleko Faring.",
-              "Usunięto odblaski ze zdjęć.",
-              "Dodano ukrytych przeciwników.",
-              "Naprawiono błędy w tekstach.",
-              "Dodano nową lokalizację (ruiny).",
-              "Dodano kompatybilność z modem Konsekwencje v2.0.2"
+              {
+                "name": "Dodano drzwi do domów we wszystkich osadach Myrtany."
+              },
+              {
+                "name": "Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi."
+              },
+              {
+                "name": "Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną."
+              },
+              {
+                "name": "Kilka zadań zostało ulepszonych i naprawionych."
+              },
+              {
+                "name": "Teraz każde miasto Myrtany różni się od innych (dodano unikalne tekstury)."
+              },
+              {
+                "name": "Dodano nowe skarby i ukryte przedmioty do gry."
+              },
+              {
+                "name": "W niektórych domach pojawią się nowe obrazy."
+              },
+              {
+                "name": "Wiele tekstur zostało zoptymalizowanych."
+              },
+              {
+                "name": "Naprawiono oświetlenie w Monterze i innych miejscach."
+              },
+              {
+                "name": "Naprawiono kolizje niektórych obiektów."
+              },
+              {
+                "name": "Dodano kilka dodatkowych hełmów i innych czapek do gry."
+              },
+              {
+                "name": "Dodano stół alchemiczny do chatki niedaleko Faring."
+              },
+              {
+                "name": "Usunięto odblaski ze zdjęć."
+              },
+              {
+                "name": "Dodano ukrytych przeciwników."
+              },
+              {
+                "name": "Naprawiono błędy w tekstach."
+              },
+              {
+                "name": "Dodano nową lokalizację (ruiny)."
+              },
+              {
+                "name": "Dodano kompatybilność z modem Konsekwencje v2.0.2"
+              }
             ]
           }
         ]
@@ -809,44 +1411,44 @@
     "overview": {
       "lists": [
         {
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
         },
         {
-          "content": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
-          "subList": [
+          "name": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "name": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "name": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "name": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
         },
         {
-          "content": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "name": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-          "content": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
+          "name": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
         },
         {
-          "content": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
-          "subList": [
+          "name": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
+          "children": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "name": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "name": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "name": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
         },
         {
-          "content": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
+          "name": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
         }
       ]
     },

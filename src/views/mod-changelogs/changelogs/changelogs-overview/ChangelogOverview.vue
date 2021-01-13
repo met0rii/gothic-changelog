@@ -20,13 +20,31 @@
           :key="listIndex"
         >
           <h3 v-html="list.title" />
-          <ul v-if="list.list">
+
+          <!-- STARA LISTA -->
+          <!-- <ul v-if="list.list">
             <li
               v-for="(item, itemIndex) in list.list"
               :key="listIndex + '_' + itemIndex"
-              v-html="item"
-            />
-          </ul>
+            >
+              {{ item.name }}
+              <ul v-if="item.list">
+                <li v-for="(item, listIndex) in item.list" :key="listIndex">
+                  {{ item.name }}
+                  <ul v-if="item.list">
+                    <li v-for="(item, listIndex) in item.list" :key="listIndex">
+                      {{ item.name }}
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul> -->
+
+          <template>
+            <v-treeview class="white--text" open-on-click :items="list.list">
+            </v-treeview>
+          </template>
         </div>
       </v-col>
     </v-row>
@@ -38,6 +56,8 @@ import BackButton from "../../../../components/BackButton.vue";
 
 export default {
   components: { BackButton },
+  name: "node-list",
+  props: ["nodes"],
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;

@@ -1,14 +1,16 @@
 <template>
-  <ul>
+  <v-treeview class="white--text" open-on-click :items="data.overview.lists">
+  </v-treeview>
+  <!-- <ul>
     <li v-for="(item, index) in data.overview.lists" :key="index">
-      {{ item.content }}
-      <ul v-if="item.subList">
-        <li v-for="(subItem, i) in item.subList" :key="i">
-          {{ subItem.content }}
+      {{ item.name }}
+      <ul v-if="item.list">
+        <li v-for="(item, itemIndex) in item.list" :key="itemIndex">
+          {{ item.name }}
         </li>
       </ul>
     </li>
-  </ul>
+  </ul> -->
 </template>
 
 <script>
