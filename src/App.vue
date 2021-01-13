@@ -141,6 +141,7 @@ body {
   /*COLOURS*/
   --black-primary: #313030;
   --white-primary: #ffff;
+  --white-secondary: rgba(255, 255, 255, 0.7);
   --black-mask: #000;
   --orange-secondary: #ffb74d;
 }

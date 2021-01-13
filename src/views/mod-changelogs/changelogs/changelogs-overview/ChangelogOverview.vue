@@ -58,7 +58,7 @@ export default {
 }
 
 .changelog-subline {
-  color: #bdbdbd;
+  color: var(--white-secondary);
 }
 
 .changelog-row {
