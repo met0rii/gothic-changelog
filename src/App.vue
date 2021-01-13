@@ -119,20 +119,6 @@ export default {
 </script>
 
 <style>
-body {
-  background-color: #141414;
-}
-.content-container {
-  background-color: #141414;
-  color: #fafafa;
-  height: 100%;
-  height: 100%;
-}
-
-.neon-btn:hover {
-  box-shadow: var(--neon-light);
-}
-
 /*CSS VARIABLES*/
 :root {
   /*BOX SHADOW*/
@@ -148,5 +134,20 @@ body {
   /*TYPOGRAPHY*/
   --h1: 32px;
   --h2: 26px;
+}
+
+body {
+  background-color: #141414;
+}
+
+.content-container {
+  background-color: #141414;
+  color: #fafafa;
+  height: 100%;
+  height: 100%;
+}
+
+.neon-btn:hover {
+  box-shadow: var(--neon-light);
 }
 </style>
