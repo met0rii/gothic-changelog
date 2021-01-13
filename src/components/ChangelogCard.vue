@@ -11,7 +11,7 @@
 
     <v-card-actions class="card-actions">
       <v-spacer />
-      <v-btn :to="redirectData" color="deep-purple lighten-3" light>
+      <v-btn small :to="redirectData" color="deep-purple lighten-3" light>
         Czytaj dalej
         <v-icon right> mdi-arrow-right </v-icon>
       </v-btn>

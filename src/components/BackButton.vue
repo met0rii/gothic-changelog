@@ -2,6 +2,7 @@
   <v-btn
     color="deep-purple lighten-3"
     light
+    small
     @click="$router.go(-1)"
     class="back-button"
   >

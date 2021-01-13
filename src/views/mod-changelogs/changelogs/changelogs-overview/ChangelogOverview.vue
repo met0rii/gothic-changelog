@@ -2,31 +2,32 @@
   <v-container class="ml-4 mr-4 changelog-container" fluid>
     <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
-        <div class="changelog-headline-container">
+        <div class="back-button-container mb-2">
+          <back-button text="Powrót" />
+        </div>
+        <div class="changelog-headline-container mb-6">
           <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
-          <back-button class="ml-6" text="Wróć" />
+          <span class="changelog-subline">
+            Data wydania: {{ changelog.date }}
+          </span>
         </div>
         <span v-html="changelog.updateDescription"></span>
       </v-col>
       <v-col cols="12">
-        <ul>
-          <li v-for="(list, listIndex) in changelog.lists" :key="listIndex">
-            <span
-              v-html="list.title"
-              :class="{
-                'font-weight-bold':
-                  typeof list.list === 'object' && list.list.length > 0,
-              }"
+        <div
+          :class="{ 'mb-8': multipleListItems && listIndex !== lastIndex - 1 }"
+          v-for="(list, listIndex) in changelog.lists"
+          :key="listIndex"
+        >
+          <h3 v-html="list.title" />
+          <ul v-if="list.list">
+            <li
+              v-for="(item, itemIndex) in list.list"
+              :key="listIndex + '_' + itemIndex"
+              v-html="item"
             />
-            <ul v-if="list.list">
-              <li
-                v-for="(item, itemIndex) in list.list"
-                :key="listIndex + '_' + itemIndex"
-                v-html="item"
-              />
-            </ul>
-          </li>
-        </ul>
+          </ul>
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -41,16 +42,23 @@ export default {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;
     },
+    lastIndex() {
+      return this.$store.state.changelogs.selectedChangelog.lists.length - 1;
+    },
+    multipleListItems() {
+      return this.$store.state.changelogs.selectedChangelog.lists.length > 1;
+    },
   },
 };
 </script>
 
 <style scoped>
-.changelog-headline-container {
-  display: flex;
-}
 .changelog-headline {
   margin-bottom: 10px;
+}
+
+.changelog-subline {
+  color: #bdbdbd;
 }
 
 .changelog-row {
@@ -58,10 +66,23 @@ export default {
   background-color: var(--black-primary);
   border-radius: 4px;
 }
+.changelog-headline {
+  padding: 0;
+  margin: 0;
+}
+.back-button-container {
+  text-align: right;
+}
 
 @media only screen and (min-width: 350px) {
   .changelog-headline {
-    font-size: 1.5em !important;
+    font-size: 1.8em !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .back-button-container {
+    text-align: left;
   }
 }
 </style>
