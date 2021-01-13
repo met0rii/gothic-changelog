@@ -7,6 +7,73 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "8",
+        "updateDescription": "Wprowadzono zmiany w runach magii wody. Dodano nowe ikony broni w ekwipunku oraz usunięto możliwość wejścia do obozu bandytów w Jarkendarze mając stary pancerz cienia.",
+        "version": "07.01.2021",
+        "date": "07-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Stary pancerz cienia nie zapewni już przynależności do bandytów w Jarkendarze. Teraz bohater musi otrzymać pancerz bandyty od piratów.",
+              "Zwiększono obrażenia większości run magii wody. Obrażenia dodatkowe po zamrożeniu są większe w runach niższych kręgów a mniejsze w runach wyższych kręgów. Część run maga wody skaluje się teraz z inteligencją w 65%. (wcześniej 50%)",
+              "Runy strażnika świątynnego i paladyna otrzymują teraz bonus do obrażeń magicznych. (od kosturów, mieczy i amuletu)",
+              "Osłabiono runy lecznicze paladyna.",
+              "Zmniejszono liczbę magicznej rudy wymaganej do ponownej próby walki na orkowej arenie.",
+              "Część tekstu na ekranie jest teraz animowana. W gothic.ini zmień lub dodaj linijkę bAnimateMessages = 0 (aby wyłączyć)",
+              "Ikony rodzajów broni w ekwipunku zostały zmienione i obejmują teraz wszystkie przedmioty z zakładki broń. Ikony zostały zrobione poprzez stronę <a href=\"https://game-icons.net/\" target=\"_blank\">https://game-icons.net/</a> przez użytkownika Franisz.",
+              "Runa <i>Ognisty wybuch</i> ma teraz obszar działania taki sam jak <i>Mała burza ognista</i>.",
+              "NPC-ty bez tarcz nie będą już używać animacji walki tarczą.",
+              "Zabicie <i>Królowej pełzaczy</i> nie zapewnia już szafiru. Dodano za to jeden szafir do kupienia u <i>Lutero</i> w pierwszym rozdziale.",
+              "Zabicie aligatora zapewnia teraz 2 skóry gada. (wcześniej 1)",
+              "Teraz alfred skupuje osobno skóry trolli i resztę skór.",
+              "Teraz do własnego obozu trzeba przynieść zarządcy 5 bochenków chleba zamiast 10, chleb ten pojawi się do kupienia u <i>Baltrama</i>.",
+              "Naprawiono błąd sprawiający, że założenie stalowego pancerza było niemożliwe.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "7",
+        "updateDescription": "Ilość statystyk, jakie można uzyskać na <i>Nowym Balansie</i> okazała się znacząco za duża. Zmniejszono dla tego ilość zdobywanych punktów nauki z bossów i zadań przez całą grę. Zmniejszono też ilość zdobywanych punktów życia. Wprowadzono też zmiany dotyczące składników do ciast.",
+        "version": "01.01.2021",
+        "date": "01-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Teraz grając na trybie Slash & Craft statystyki początkowe (siła/zręczność do 60, mana do 50, władanie bronią do 10) wymagają dużo mniej punktów obrażeń.",
+              "Część potworów ze starego poziomu Nightmare+ została usunięta. Są to głównie potwory, które broniły wcześniej rzadkich roślin i tabliczek a teraz są one w innych miejscach.",
+              "Zredukowano ilość punktów życia z różnych bonusów. Zredukowano ilość eliksirów życia za zadania.",
+              "Zredukowano ilość punktów nauki za bossy i zadania.",
+              "Zredukowano ilość doświadczenia oraz złota za kradzież kieszonkową.",
+              "Składniki do ciast zostały przeniesione do początkowych dwóch rozdziałów, aby gracz mógł zrobić je wcześniej. Łączna ilość składników jest teraz mniejsza.",
+              "Teraz NPC-ty nie będą posiadać w ekwipunku składników potrzebnych do tworzenia ciast, kompotów i innych bonusów. Będą za to mieć małe ilości złota oraz inne nowe przedmioty.",
+              "Usunięto zwiększajacą się ilość życia jaką gracz mógł się uzyskać po wydaniu sporej ilości punktów nauki w życie. Teraz zawsze gracz otrzyma 10 punktów życia za 1 punkt nauki.",
+              "Usunięto możliwość zdobycia i używania Krayta na postaci magicznej.",
+              "Teraz bohater otrzyma 70 punktów życia za dar od bogów. (wcześniej 50)",
+              "Runa przemiany w krwiopijcę kosztuje teraz 5 punktów nauki. (wcześniej 8)",
+              "Eliksiry ducha i życia kosztują teraz po 10 punktów nauki. (wcześniej 15)",
+              "Zmniejszono z powrotem koszty many run 1 kręgu.",
+              "Zwiększono lekko obrażenia run początkowych guru oraz nekromanty.",
+              "Znacząco zmniejszono ilość obrony magicznej i przed ogniem przeklętych magów w skarbach piratów.",
+              "Ciasto grzybowe daje teraz 2 punkty many.",
+              "Zwój przemiany w wilka wymaga teraz 10 many. (wcześniej 15)",
+              "Usunięto wymóg siły do używania szpad.",
+              "Paladyni na Etlu posiadają teraz Kusze.",
+              "Statystyki przyzwanego wilka skalują się teraz z inteligencją. Zwiększono też skalowanie się statystyk przyzwanego warga. (wilki od Gallahada 1 i 2 poziomu)",
+              "Poprawiono funkcję resetu dialogu. (ALT + F1)",
+              "Zadanie <i>Trening bojowy dla Babo</i> może zostać ukończone nawet jeśli gracz został już magiem ognia.",
+              "Naprawiono błąd sprawiający, że gra nie zaliczała czasem zabicia topielca w zadaniu <i>Jajo topielca</i>.",
+              "Naprawiono błąd sprawiający, że gra czasem crashowała przez ognika.",
+              "Naprawiono błąd sprawiający, że ognik pokazywał niewłaściwą liczbę tabliczek w lokacji.",
+              "I inne mniejsze poprawki..."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "6",
         "updateDescription": "Przywrócono możliwość zbierania roślin w lokacji za pomocą ognika, dodano nowy amulet oraz poprawiono wiele błędów.",
         "version": "28.12.2020",
