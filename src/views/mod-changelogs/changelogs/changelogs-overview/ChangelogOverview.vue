@@ -15,7 +15,7 @@
       </v-col>
       <v-col cols="12">
         <div
-          :class="{ 'mb-8': multipleListItems && listIndex !== lastIndex - 1 }"
+          :class="{ 'mb-8': multipleListItems && listIndex !== lastIndex }"
           v-for="(list, listIndex) in changelog.lists"
           :key="listIndex"
         >
