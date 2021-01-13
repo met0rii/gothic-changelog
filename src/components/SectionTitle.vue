@@ -21,7 +21,7 @@ export default {
   padding: 0px;
 }
 .title {
-  font-size: 32px !important;
+  font-size: var(--h1) !important;
 }
 
 .title-container {
