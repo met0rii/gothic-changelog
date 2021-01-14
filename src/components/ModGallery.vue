@@ -28,16 +28,20 @@
           <v-container fill-height fluid>
             <v-row align="center" justify="center">
               <v-col align="left" @click="selectPrevImage">
-                <v-btn x-large icon color="white" :disabled="!canPrevImage"
+                <v-btn
+                  fab
+                  small
+                  color="orange lighten-3"
+                  :disabled="!canPrevImage"
                   ><v-icon>mdi-arrow-left-bold</v-icon></v-btn
                 >
               </v-col>
 
               <v-col align="right">
                 <v-btn
-                  x-large
-                  icon
-                  color="white"
+                  fab
+                  small
+                  color="orange lighten-3"
                   :disabled="!canNextImage"
                   @click="selectNextImage"
                   ><v-icon>mdi-arrow-right-bold</v-icon></v-btn
