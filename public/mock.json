@@ -16,63 +16,48 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 0,
                 "content": "Stary pancerz cienia nie zapewni już przynależności do bandytów w Jarkendarze. Teraz bohater musi otrzymać pancerz bandyty od piratów."
               },
               {
-                "id": 1,
                 "content": "Zwiększono obrażenia większości run magii wody. Obrażenia dodatkowe po zamrożeniu są większe w runach niższych kręgów a mniejsze w runach wyższych kręgów. Część run maga wody skaluje się teraz z inteligencją w 65%. (wcześniej 50%)"
               },
               {
-                "id": 2,
                 "content": "Runy strażnika świątynnego i paladyna otrzymują teraz bonus do obrażeń magicznych. (od kosturów, mieczy i amuletu)"
               },
               {
-                "id": 3,
                 "content": "Osłabiono runy lecznicze paladyna."
               },
               {
-                "id": 4,
                 "content": "Zmniejszono liczbę magicznej rudy wymaganej do ponownej próby walki na orkowej arenie."
               },
               {
-                "id": 5,
                 "content": "Część tekstu na ekranie jest teraz animowana. W gothic.ini zmień lub dodaj linijkę bAnimateMessages = 0 (aby wyłączyć)"
               },
               {
-                "id": 6,
                 "content": "Ikony rodzajów broni w ekwipunku zostały zmienione i obejmują teraz wszystkie przedmioty z zakładki broń. Ikony zostały zrobione poprzez stronę <a href=\"https://game-icons.net/\" target=\"_blank\">https://game-icons.net/</a> przez użytkownika Franisz."
               },
               {
-                "id": 7,
                 "content": "Runa <i>Ognisty wybuch</i> ma teraz obszar działania taki sam jak <i>Mała burza ognista</i>."
               },
               {
-                "id": 8,
                 "content": "NPC-ty bez tarcz nie będą już używać animacji walki tarczą."
               },
               {
-                "id": 9,
                 "content": "Zabicie <i>Królowej pełzaczy</i> nie zapewnia już szafiru. Dodano za to jeden szafir do kupienia u <i>Lutero</i> w pierwszym rozdziale."
               },
               {
-                "id": 10,
                 "content": "Zabicie aligatora zapewnia teraz 2 skóry gada. (wcześniej 1)"
               },
               {
-                "id": 11,
                 "content": "Teraz alfred skupuje osobno skóry trolli i resztę skór."
               },
               {
-                "id": 12,
                 "content": "Teraz do własnego obozu trzeba przynieść zarządcy 5 bochenków chleba zamiast 10, chleb ten pojawi się do kupienia u <i>Baltrama</i>."
               },
               {
-                "id": 13,
                 "content": "Naprawiono błąd sprawiający, że założenie stalowego pancerza było niemożliwe."
               },
               {
-                "id": 14,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -89,107 +74,81 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 15,
                 "content": "Teraz grając na trybie Slash & Craft statystyki początkowe (siła/zręczność do 60, mana do 50, władanie bronią do 10) wymagają dużo mniej punktów obrażeń."
               },
               {
-                "id": 16,
                 "content": "Część potworów ze starego poziomu Nightmare+ została usunięta. Są to głównie potwory, które broniły wcześniej rzadkich roślin i tabliczek a teraz są one w innych miejscach."
               },
               {
-                "id": 17,
                 "content": "Zredukowano ilość punktów życia z różnych bonusów. Zredukowano ilość eliksirów życia za zadania."
               },
               {
-                "id": 18,
                 "content": "Zredukowano ilość punktów nauki za bossy i zadania."
               },
               {
-                "id": 19,
                 "content": "Zredukowano ilość doświadczenia oraz złota za kradzież kieszonkową."
               },
               {
-                "id": 20,
                 "content": "Składniki do ciast zostały przeniesione do początkowych dwóch rozdziałów, aby gracz mógł zrobić je wcześniej. Łączna ilość składników jest teraz mniejsza."
               },
               {
-                "id": 21,
                 "content": "Teraz NPC-ty nie będą posiadać w ekwipunku składników potrzebnych do tworzenia ciast, kompotów i innych bonusów. Będą za to mieć małe ilości złota oraz inne nowe przedmioty."
               },
               {
-                "id": 22,
                 "content": "Usunięto zwiększajacą się ilość życia jaką gracz mógł się uzyskać po wydaniu sporej ilości punktów nauki w życie. Teraz zawsze gracz otrzyma 10 punktów życia za 1 punkt nauki."
               },
               {
-                "id": 23,
                 "content": "Usunięto możliwość zdobycia i używania Krayta na postaci magicznej."
               },
               {
-                "id": 24,
                 "content": "Teraz bohater otrzyma 70 punktów życia za dar od bogów. (wcześniej 50)"
               },
               {
-                "id": 25,
                 "content": "Runa przemiany w krwiopijcę kosztuje teraz 5 punktów nauki. (wcześniej 8)"
               },
               {
-                "id": 26,
                 "content": "Eliksiry ducha i życia kosztują teraz po 10 punktów nauki. (wcześniej 15)"
               },
               {
-                "id": 27,
                 "content": "Zmniejszono z powrotem koszty many run 1 kręgu."
               },
               {
-                "id": 28,
                 "content": "Zwiększono lekko obrażenia run początkowych guru oraz nekromanty."
               },
               {
-                "id": 29,
                 "content": "Znacząco zmniejszono ilość obrony magicznej i przed ogniem przeklętych magów w skarbach piratów."
               },
               {
-                "id": 30,
                 "content": "Ciasto grzybowe daje teraz 2 punkty many."
               },
               {
-                "id": 31,
                 "content": "Zwój przemiany w wilka wymaga teraz 10 many. (wcześniej 15)"
               },
               {
-                "id": 32,
                 "content": "Usunięto wymóg siły do używania szpad."
               },
               {
-                "id": 33,
                 "content": "Paladyni na Etlu posiadają teraz Kusze."
               },
               {
-                "id": 34,
                 "content": "Statystyki przyzwanego wilka skalują się teraz z inteligencją. Zwiększono też skalowanie się statystyk przyzwanego warga. (wilki od Gallahada 1 i 2 poziomu)"
               },
               {
-                "id": 35,
                 "content": "Poprawiono funkcję resetu dialogu. (ALT + F1)"
               },
               {
-                "id": 36,
                 "content": "Zadanie <i>Trening bojowy dla Babo</i> może zostać ukończone nawet jeśli gracz został już magiem ognia."
               },
               {
-                "id": 37,
                 "content": "Naprawiono błąd sprawiający, że gra nie zaliczała czasem zabicia topielca w zadaniu <i>Jajo topielca</i>."
               },
               {
-                "id": 38,
                 "content": "Naprawiono błąd sprawiający, że gra czasem crashowała przez ognika."
               },
               {
-                "id": 39,
                 "content": "Naprawiono błąd sprawiający, że ognik pokazywał niewłaściwą liczbę tabliczek w lokacji."
               },
               {
-                "id": 40,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -206,67 +165,51 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 41,
                 "content": "Dodano <i>Amulet Rączki</i> do jego skrzyni w kanałach gildii złodzieji."
               },
               {
-                "id": 42,
                 "content": "Ognik może ponownie zbierać rośliny w lokacji. Zbiera on teraz 30 roślin na dzień i wymaga 1 bryłki magicznej rudy za każdym razem."
               },
               {
-                "id": 43,
                 "content": "Raynar skupuje teraz nowe bronie."
               },
               {
-                "id": 44,
                 "content": "Dodano kamienną tabliczkę szermierza do kupienia u Lutero."
               },
               {
-                "id": 45,
                 "content": "Teraz u Alfreda sprzedaż rogów cieniostworów oraz smoczych zębaczy są osobnymi opcjami."
               },
               {
-                "id": 46,
                 "content": "Zmieniono lekko mechanikę <i>Rigeliona</i>."
               },
               {
-                "id": 47,
                 "content": "Szansa na udaną kradzież kieszonkową jest teraz wyświetlana poprawnie."
               },
               {
-                "id": 48,
                 "content": "<i>Tarinaks</i> nie uczy już bohatera za darmo."
               },
               {
-                "id": 49,
                 "content": "Teraz <i>Fangarh</i> oraz <i>Ponury żniwiarz</i> poprawnie dają punkty nauki za ich pokonanie."
               },
               {
-                "id": 50,
                 "content": "Naprawiono błąd sprawiający, że nieumarli nie reagowali na bohatera. Z tego powodu też niektóre bossy były nie do pokonania."
               },
               {
-                "id": 51,
                 "content": "Naprawiono opisy przy nauce kręgów magii. Teraz nauka kręgów wymaga też złota."
               },
               {
-                "id": 52,
                 "content": "Naprawiono błąd w zadaniu <i>Szybki sposób na zarobek</i>"
               },
               {
-                "id": 53,
                 "content": "<i>Buster</i> daje teraz 25% mniej złota za oddane mu rogi cieniostworów."
               },
               {
-                "id": 54,
                 "content": "Zostanie nekromantą wymaga teraz 80 many. (wcześniej 90)"
               },
               {
-                "id": 55,
                 "content": "<i>Tag-Nor</i> nie uczy już gracza strzelania z kuszy."
               },
               {
-                "id": 56,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -283,39 +226,30 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 57,
                 "content": "Usunięto mechanikę picia mikstur leczniczych przez bandytów."
               },
               {
-                "id": 58,
                 "content": "Teraz ważne przedmioty zbierane przez ognika i QuickLoot są wyświetlane na czerwono. Kolor można zmienić w gothic.ini linijkami iColorQuickLootUniqR/G/B."
               },
               {
-                "id": 59,
                 "content": "Nowa statystyka bonusowych obrażeń magicznych kosturów i mieczy magicznych teraz jest poprawnie wyświetlana w opisie przedmiotu."
               },
               {
-                "id": 60,
                 "content": "Boss <i>Daron</i> został wzmocniony. Zabicie go przyznaje teraz też 2 punkty nauki."
               },
               {
-                "id": 61,
                 "content": "Znacząco zredukowano ilość pustych butelek u handlarzy."
               },
               {
-                "id": 62,
                 "content": "Pancerz, który można kupić od Alrika może zostać użyty zamiast ubrania obywatela w zadaniu <i>Droga do górnego miasta</i>."
               },
               {
-                "id": 63,
                 "content": "Wypłata strażnika miejskiego oraz najemnika kumuluje się teraz do maksymalnie 7 dni."
               },
               {
-                "id": 64,
                 "content": "Poprawiono opcje nauki u Edgora."
               },
               {
-                "id": 65,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -332,43 +266,33 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 66,
                 "content": "Wszystkie magiczne miecze oraz kostury posiadają teraz nową statystykę, która dodatkowo zwiększa obrażenia magiczne."
               },
               {
-                "id": 67,
                 "content": "Teraz <i>Gazkul</i>, <i>Achiron</i> oraz <i>Mor'Bar</i> poprawnie dają punkty nauki za ich pokonanie."
               },
               {
-                "id": 68,
                 "content": "Teraz efekt <i>wyczerpanie</i> zwiększa zużycie wytrzymałości o 35%. (wcześniej 50%)"
               },
               {
-                "id": 69,
                 "content": "Vatras uczy teraz many nawet jeśli bohater ma jej ponad 500."
               },
               {
-                "id": 70,
                 "content": "Wilk <i>Kieł</i> leczy się teraz 1 dzień szybciej."
               },
               {
-                "id": 71,
                 "content": "Kostur nowicjusza wymaga teraz 60 many. (wcześniej 75)"
               },
               {
-                "id": 72,
                 "content": "Naprawiono błąd przy nauce umiejętności tarczy."
               },
               {
-                "id": 73,
                 "content": "Naprawiono błąd sprawiający, że wzięcie daru na wytrzymałość było niemożliwe."
               },
               {
-                "id": 74,
                 "content": "Naprawiono błąd sprawiający, że naciąganie cięciwy łuków i kusz było obliczane niepoprawnie."
               },
               {
-                "id": 75,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -385,47 +309,36 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 76,
                 "content": "Poprawiono sposób w jaki bandyci piją mikstury uzdrawiające podczas walki."
               },
               {
-                "id": 77,
                 "content": "Zmniejszono rozrzut podczas strzelania z łuków i kusz."
               },
               {
-                "id": 78,
                 "content": "Kamienie szlachetne sprzedane u Hanny można odkupić u Matteo poprzez dialog."
               },
               {
-                "id": 79,
                 "content": "Dodano opcję zablokowania QuickLootu oraz kradzieży kieszonkowej na 2 sekundy po wyjściu z dialogu. Domyślnie opcja jest włączona. W gothic.ini zmień lub dodaj linijkę bQuickLootBlockAfterDialog = 0 (aby wyłączyć)"
               },
               {
-                "id": 80,
                 "content": "Gallahad sprzedaje teraz kilka zwojów <i>Woń trucizny</i>."
               },
               {
-                "id": 81,
                 "content": "Teraz Constantino daje w nagrodę eliksir wytrzymałości za zadanie <i>Klucz Constantino</i>."
               },
               {
-                "id": 82,
                 "content": "Spowolnienie czasu jakie uzyskuje strażnik świątynny podczas palenia skrętów jest teraz słabsze ale trwa dłużej."
               },
               {
-                "id": 83,
                 "content": "Teraz nie trzeba pytać się Lorda Andre o zgodę aby zobaczyć więźniów."
               },
               {
-                "id": 84,
                 "content": "Teraz NPC-ty nie będą już reagować przez ściany gdy bohater wciśnie przycisk w zadaniu <i>Tajemnica kapitana straży</i>."
               },
               {
-                "id": 85,
                 "content": "Naprawiono błąd z progami w złocie podczas nauki wytrzymałości."
               },
               {
-                "id": 86,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -442,39 +355,30 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 87,
                 "content": "Teraz można wyłączyć zbieranie przedmiotów w pomieszczeniach za pomocą ognika. Zrobić to można bezpośrednio w dialogu z ognikiem."
               },
               {
-                "id": 88,
                 "content": "Teraz można zmienić skrót klawiszowy odpowiadający za panel Slash & Craft. W gothic.ini zmień lub dodaj linijkę bSNCActivationKey = Z (domyślnie)"
               },
               {
-                "id": 89,
                 "content": "Isgaroth sprzedaje teraz amulet magii."
               },
               {
-                "id": 90,
                 "content": "Bosper sprzedaje teraz nowy, unikalny łuk."
               },
               {
-                "id": 91,
                 "content": "Pierścień, który otrzymuje gracz za zadanie <i>Zarzuty Parlana</i> daje teraz dodatkowo 10 many."
               },
               {
-                "id": 92,
                 "content": "Ochroniarz Wulfgara nie reaguje już gdy gracz weźmie notatkę z jego pokoju podczas zadania <i>Tajemnica kapitana straży</i>."
               },
               {
-                "id": 93,
                 "content": "Teraz Gallahad daje w nagrodę eliksir ducha zamiast eliksiru umysłu za zadanie <i>Wykwintne jedzenie</i>."
               },
               {
-                "id": 94,
                 "content": "Naprawiono błąd sprawiający, że w rzadkich przypadkach gracz mógł nie otrzymać amuletu ognika od Vatrasa."
               },
               {
-                "id": 95,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -491,19 +395,15 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 96,
                 "content": "Naprawiono dialog z Gallahadem."
               },
               {
-                "id": 97,
                 "content": "Naprawiono błąd przy startowaniu gry na poziomie Gothic."
               },
               {
-                "id": 98,
                 "content": "Zmieniono zadanie na dołączenie do gildii zabójców gdy gracz jest już strażnikiem miejskim - Wyrok dla Wambo. Teraz bohater musi udać się na wyznaczone miejsce jeszcze tej samej nocy."
               },
               {
-                "id": 99,
                 "content": "I inne mniejsze poprawki..."
               }
             ]
@@ -520,35 +420,27 @@
             "title": "Zmiany dotyczące poziomu Nightmare:",
             "list": [
               {
-                "id": 100,
                 "content": "Część z utrudnień, jakie wprowadzał poziom Nightmare+ zostało przeniesione na poziom Nightmare. Poziom ten bardziej przypomina teraz wcześniejszy Nightmare+ niż zwykły Nightmare."
               },
               {
-                "id": 101,
                 "content": "Teraz zawsze pojawiają się nowi przeciwnicy na mapie utrudniający rozgrywkę."
               },
               {
-                "id": 102,
                 "content": "Nauka atrybutów oraz umiejętności kosztuje więcej złota."
               },
               {
-                "id": 103,
                 "content": "Teraz za wszystkich pokonanych przeciwników otrzymujemy 100% doświadczenia. (wcześniej 50%)"
               },
               {
-                "id": 104,
                 "content": "Do 10 poziomu gracz otrzymuje 10 punktów nauki za poziom, na poziomach 10-15 otrzymuje 8 punktów a później 5."
               },
               {
-                "id": 105,
                 "content": "Teraz gracz otrzymuje bonus do statystyk za każde zjedzone ciasto, a nie co drugie jak to było wcześniej."
               },
               {
-                "id": 106,
                 "content": "Krayt oraz Hubaxis otrzymują jedynie 60% zdobywanego przez nas doświadczenia."
               },
               {
-                "id": 107,
                 "content": "Głód/Pragnienie/Zmęczenie są teraz opcjonalne. Można wyłączyć przy starcie gry."
               }
             ]
@@ -557,315 +449,237 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 108,
                 "content": "Usunięto tryb noDeath."
               },
               {
-                "id": 109,
                 "content": "Usunięto poziom Nightmare+."
               },
               {
-                "id": 110,
                 "content": "Usunięto losowanie roślin i mikstur w lokacjach."
               },
               {
-                "id": 111,
                 "content": "Usunięto umiejętność ognika pokazującą lokalizację rzadkich roślin i tabliczek. Usunięto również funkcję zbierania zwykłych roślin każdego dnia."
               },
               {
-                "id": 112,
                 "content": "Usunięto progi punktowe przy nauce atrybutów. (siła, zręczność, życie, mana)"
               },
               {
-                "id": 113,
                 "content": "Usunięto eliksir ochrony przed magią. Zamiast tego zupa z mięs kopacza daje teraz + 2 ochrony przed magią."
               },
               {
-                "id": 114,
                 "content": "Usunięto biżuterię Lorda Drakila."
               },
               {
-                "id": 115,
                 "content": "Odświeżono tryb Slash & Craft. Teraz gracz zdobywa punkty obrażeń ogólnie - niezależnie czym walczy. Po zdobyciu odpowiedniej ilości punktów może odebrać dowolną statystykę. (jest nowy panel S&C)"
               },
               {
-                "id": 116,
                 "content": "Zwiększono ilość wymaganych punktów nauki przy nauce władania bronią."
               },
               {
-                "id": 117,
                 "content": "Nauka punktów życia jest tym bardziej efektywna im więcej gracz wyda punktów nauki w życie."
               },
               {
-                "id": 118,
                 "content": "Zmieniono koszt złota przy nauce atrybutów i umiejętności. Koszt w złocie skaluje się wraz z wydanymi punktami nauki w daną statystykę."
               },
               {
-                "id": 119,
                 "content": "Wiele umiejętności wymaga teraz inne ilości punktów nauki."
               },
               {
-                "id": 120,
                 "content": "Za każdego bossa i unikalnego potwora gracz otrzyma teraz więcej punktów nauki. Ilość otrzymywanych punktów nauki teraz bardziej odzwierciedla siłę przeciwnika, za smoka otrzymamy nawet 10 punktów. Gracz otrzymuje teraz też punkty nauki za niektóre zadania."
               },
               {
-                "id": 121,
                 "content": "Rzadkie rośliny i mikstury znajdują się teraz w nowych miejscach, niektóre lokacje mają teraz mniej a niektóre więcej rzadkich roślin i mikstur niż wcześniej. Kamienne tabliczki oraz płytki teleportacyjne również są teraz inaczej rozprowadzone po lokacjach."
               },
               {
-                "id": 122,
                 "content": "Przy dołączeniu do gildii gracz nie otrzymuje już żadnych bonusów. (jak np. odporność na ogień czy 10 many)"
               },
               {
-                "id": 123,
                 "content": "Zmniejszono statystyki, jakie otrzymuje gracz za odbieranie darów."
               },
               {
-                "id": 124,
                 "content": "Zrebalansowano wiele bonusów pod nową rozgrywkę."
               },
               {
-                "id": 125,
                 "content": "Zredukowano ilość rzadkich mikstur i roślin jake można było kupić u handlarzy lub zdobyć w zadaniach."
               },
               {
-                "id": 126,
                 "content": "Znacząco zredukowano ilość zwykłych mikstur many oraz mikstur leczniczych, jakie można było znaleźć w skrzyniach, dostać za zadania lub kupić u handlarzy."
               },
               {
-                "id": 127,
                 "content": "Zmniejszono obrażenia, jakie zadają zaklęcia początkowych kręgów o 10-30 punktów. Runy 1 kręgu kosztują teraz 15 many."
               },
               {
-                "id": 128,
                 "content": "Zmniejszono ilość doświadczenia oraz złota otrzymywanego za pokonanie bossów oraz za wykonywanie zadań."
               },
               {
-                "id": 129,
                 "content": "Zmieniono mechanikę kilku bossów."
               },
               {
-                "id": 130,
                 "content": "Zmieniono rozmieszczenie większości przedmiotów na mapie."
               },
               {
-                "id": 131,
                 "content": "Zmieniono wartość i statystyki wielu przedmiotów."
               },
               {
-                "id": 132,
                 "content": "Znacząco zmieniono okolicę plaży Skipa."
               },
               {
-                "id": 133,
                 "content": "Dodano dwie nowe jaskinie w Khorinis."
               },
               {
-                "id": 134,
                 "content": "Dodano nowy obszar w Jarkendarze - Zapomniany Kanion."
               },
               {
-                "id": 135,
                 "content": "Starożytna biżuteria z Jarkendaru (zestaw Kapłanów, Uzdrowicieli oraz Wojowników) znajduje się teraz w innych miejscach a bonus przy założeniu całego zestawu został znacząco wzmocniony."
               },
               {
-                "id": 136,
                 "content": "Teraz umiejętność tworzenia biżuterii jest podzielona na 3 poziomy - stalowa, złota oraz magiczna biżuteria. Umiejętności tworzenia amuletów nie trzeba się teraz uczyć."
               },
               {
-                "id": 137,
                 "content": "Dodano 3 nowe stalowe amulety do stworzenia. Wymagana jest umiejętność tworzenia stalowej biżuterii tak samo jak to jest w przypadku pierścieni."
               },
               {
-                "id": 138,
                 "content": "W Khorinis zmieniono rozmieszczenie potworów."
               },
               {
-                "id": 139,
                 "content": "Poprawiono zachowania, niektórych przeciwników. Bandyci są teraz mądrzejsi gdy korzystają z broni dystansowej."
               },
               {
-                "id": 140,
                 "content": "Nieumarli są teraz agresywni w stosunku do wszystkich żywych stworzeń. (poza wszystkim kamienno-podobnym)"
               },
               {
-                "id": 141,
                 "content": "Obrażenia zadawane widmom ze srebrnych broni zależy teraz głównie od statystyki postaci. Srebrne broni zadają teraz też trochę więcej obrażeń zwykłym nieumarłym."
               },
               {
-                "id": 142,
                 "content": "Biblioteczki, które można przeszukać, zawierają teraz nowe, losowe przedmioty."
               },
               {
-                "id": 143,
                 "content": "Bohater nie może teraz bezkarnie kraść. (dotyczy wszystkich gildii)"
               },
               {
-                "id": 144,
                 "content": "Orkowie na swoim drakkarze obok obozu Netbeka będą atakować gracza nawet jeśli posiada on Ulu-Mulu. Jeśli gracz posiada orkowy pancerz to nie będą go atakować do momentu zniszczenia mechanizmu drakkaru."
               },
               {
-                "id": 145,
                 "content": "Zmniejszono ilość zwykłych przeciwników w Koszmarze Kruka, aby skupić się głównie na walkach z bossami."
               },
               {
-                "id": 146,
                 "content": "Zmieniono lekko zadanie Nekromanta w Khorinis."
               },
               {
-                "id": 147,
                 "content": "Teraz można wykonać zadanie Gallahada oddając mu jedynie 3 listy polecające. List Lutero, Salandira oraz Gerbranta lub Fernando. Sposób ten zapewni jednak mniej doświadczenia. Teraz moża też odebrać jako nagrodę za to zadanie 2 eliksiry wytrzymałości."
               },
               {
-                "id": 148,
                 "content": "Umiejętność regeneracji życia dodatkowo zwiększa otrzymywane leczenia ze wszystkich źródeł o 10%."
               },
               {
-                "id": 149,
                 "content": "Zwiększono ilość zużywanej wytrzymałości podczas biegania."
               },
               {
-                "id": 150,
                 "content": "Usunięto sztabki magicznej rudy z gry, teraz jedna bryłka magicznej rudy jest warta 300 sztuk złota i bardziej odzwierciedla wartość rudy tak jak to było w Nocy Kruka. Zmieniono ilość magicznej rudy w grze, to ile się jej wydobywa i ile potrzeba do zadań i tworzenia przedmiotów."
               },
               {
-                "id": 151,
                 "content": "Zmniejszono również ilość rudy żelaza w grze, jeden stalowy pręt wymaga teraz jedynie 3 bryłki żelaza do stworzenia."
               },
               {
-                "id": 152,
                 "content": "Umiejętność kopania rudy (żelaza i magicznej) jest teraz uczona tylko raz u Snipesa lub Grimesa, albo u Clovisa (za darmo!) w orkowej kopalni po wykonaniu zadania dla niego. Książka <i>Magiczna ruda</i> nie zapewnia teraz umiejętności wydobywania rudy ale zmniejsza ilość zużywanej wytrzymałości podczas kopania. Podobnie jak z rudą żelaza, umiejętności wydobywania złota uczymy się tylko raz u Finna lub Scattiego."
               },
               {
-                "id": 153,
                 "content": "Teraz po wbiciu 100% władania w walce wręcz bonus obrażeń od wytrzymałości jest 10% większy."
               },
               {
-                "id": 154,
                 "content": "Broń obuchowa ma teraz szansę na powalenie i ogłuszenie przeciwnika na 1 sekundę. (również gracz może zostać powalony)"
               },
               {
-                "id": 155,
                 "content": "Ilość ticków krwawienia zależy teraz od umiejętności władania bronią."
               },
               {
-                "id": 156,
                 "content": "Zmieniono w jaki sposób zmieniała się animacja walki wręcz. Teraz animacje zmieniają się rzadziej i są bardziej adekwatne."
               },
               {
-                "id": 157,
                 "content": "Teraz miksturę druida (od Fregyala) można wypić (i zacząć uczyć się trucizn) do końca 2 rozdziału."
               },
               {
-                "id": 158,
                 "content": "Skalowanie obrażeń przy naciąganiu cięciwy kuszy / łuku zależy teraz od umiejętności władania kuszą / łukiem."
               },
               {
-                "id": 159,
                 "content": "Teraz kusze / łuki przeszywają cel i zadają obrażenia następnym celom. Kusze mają to wbudowane a dla łuków wymagana jest umiejętność od Raffa - przeszywający strzał. Szansa na przeszycie przeciwnika na wylot zależy od umiejętności władania łukiem / kuszą."
               },
               {
-                "id": 160,
                 "content": "Aura paladyna Święty płomień jest teraz dostępna dla wszystkich gildii pod postacią zwojów. Można je znaleźć na różnych etapach gry, lecz ich ilość jest bardzo ograniczona."
               },
               {
-                "id": 161,
                 "content": "Analogicznie, każda gildia ma teraz dostęp do specjalnych skrętów z efektami, jakie posiada guru / strażnik świątynny."
               },
               {
-                "id": 162,
                 "content": "Przywołanie Hubaxisa kosztuje teraz 75 many. (wcześniej 50 / 100 w zależności od poziomu)"
               },
               {
-                "id": 163,
                 "content": "Hubaxis oraz Krayt wymagają teraz 40% więcej doświadczenia na każdy poziom."
               },
               {
-                "id": 164,
                 "content": "Krayt jest teraz dostępny również dla gildii magicznych."
               },
               {
-                "id": 165,
                 "content": "Orkowa broń, którą można wykuć ma teraz zwiększone statystyki."
               },
               {
-                "id": 166,
                 "content": "Teraz zabicie przeciwnika podczas przemiany, doda 5 sekund do czasu trwania tej przemiany."
               },
               {
-                "id": 167,
                 "content": "Zmniejszono przebicie pancerza broni wymagających siły."
               },
               {
-                "id": 168,
                 "content": "Gracz nie otrzymuje już mikstur <i>Czarna mgła</i> za pokonanie Luciana."
               },
               {
-                "id": 169,
                 "content": "Zmniejszono dodatkowe obrażenia zadawane za pomocą pochodni oraz dodano małą szansę na podpalenie."
               },
               {
-                "id": 170,
                 "content": "Teraz podczas skradania się, szansa na udaną kradzież kieszonkową jest 10% większa. Sprawdzenie szansy na kradzież wymaga teraz wyuczonej umiejętności skradania się lub 90 udanych kradzieży."
               },
               {
-                "id": 171,
                 "content": "Podczas gry można znaleźć przepisy na stworzenie nowych broni."
               },
               {
-                "id": 172,
                 "content": "Teraz Pancerz magnata oraz stalowy pancerz (z własnego obozu) można przekuć."
               },
               {
-                "id": 173,
                 "content": "Teraz można nauczyć się tworzenia Eliksiru życia i ducha bez znajomości wcześniejszych mikstur."
               },
               {
-                "id": 174,
                 "content": "Przepisy na pełnie nie są teraz sprzedawane przez handlarzy i można je zdobyć tylko przy pokonaniu bossów."
               },
               {
-                "id": 175,
                 "content": "Magowie nie otrzymują już kostura przy wejściu w 4 krąg magii."
               },
               {
-                "id": 176,
                 "content": "Dodano Kostur Nowicjusza do kupienia od Gallahada."
               },
               {
-                "id": 177,
                 "content": "Reinar skupuje teraz dużo więcej unikalnych broni, bronie sprzedane u niego można też ponownie odkupić."
               },
               {
-                "id": 178,
                 "content": "Skóry oddane Bosperowi można od niego ponownie odkupić."
               },
               {
-                "id": 179,
                 "content": "Serca golemów oddane Constantino można od niego ponownie odkupić."
               },
               {
-                "id": 180,
                 "content": "Na poziomie Gothic można wybrać teraz opcję dodającą nowych przeciwników w lokacjach. (bandyci i inne stworzenia z poziomu nightmare)"
               },
               {
-                "id": 181,
                 "content": "QuickLoot można teraz wyłączyć. W gothic.ini zmień lub dodaj linijkę bQuickLootEnabled = 0 (aby wyłączyć)"
               },
               {
-                "id": 182,
                 "content": "Przepisano system wchodzenia w interakcje w obiektami (np. kowadło / stół alchemiczny). Teraz przedmioty potrzebne do korzystania z tych obiektów nie będą znikać."
               },
               {
-                "id": 183,
                 "content": "Naprawiono błąd z resetowaniem animacji pod koniec efektów działających na graczu. Przedmioty zużywalne nie będą teraz zostawać w ręce bohatera."
               },
               {
-                "id": 184,
                 "content": "Naprawiono zadanie Posiadłości budowniczych."
               },
               {
-                "id": 185,
                 "content": "I WIELE WIĘCEJ..."
               }
             ]
@@ -1090,377 +904,287 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 186,
                 "content": "Więcej kupców będzie sprzedawać składniki zup i chochle używane do gotowania w kociołkach."
               },
               {
-                "id": 187,
                 "content": "Usunięto animację biegania po odblokowywaniu akrobatyki."
               },
               {
-                "id": 188,
                 "content": "Regeneracja zdrowia i many (ta, którą otrzymujesz za 160 siły lub 160 many) regeneruje teraz około 1% twojej maksymalnej puli zdrowia (lub many). Na przykład, jeśli masz 500 PŻ, teraz będziesz leczyć 4 PŻ na sekundę zamiast 1 PŻ na sekundę"
               },
               {
-                "id": 189,
                 "content": "Zwierzęta będą teraz dawać surowe mięso, nawet jeśli nie masz umiejętności „Garbarstwo”, ale będzie to losowe (50% szansy), a dla zwierząt z więcej niż 1 surowym mięsem (na zasadzie, jeśli masz szczęście zamiast 3 surowego mięsa dostaniesz maksymalnie 2, zamiast 2 surowego mięsa, dostaniesz maksymalnie 1)."
               },
               {
-                "id": 190,
                 "content": "Z niektórych zwierząt będzie można zdobyć tłuszcz."
               },
               {
-                "id": 191,
                 "content": "Każdy pancerz został zbalansowany, aby uczynić go bardziej użytecznym i wartościowym, zmiana ta obejmuje wartości ochrony, ale także kilka bonusów, takich jak dodatkowa siła, zręczność, umiejętności władania łukiem i tak dalej."
               },
               {
-                "id": 192,
                 "content": "Tworzenie zbroi zostało całkowicie przerobione, teraz będzie mieć tylko 2 poziomy (Nowicjusz [10 PN] i Ekpert [20 PN]  odpowiednio w Rozdziale 2 i 4). Będziesz mógł stworzyć 2 różne zestawy (zbroja najemnika myrtany pod siłę, pancerz łowcy pod zręczność), a każdy z nich ma 2 poziomy (średni i ciężki), oba mają przydatne bonusy i wysokie statystyki. Ale to nie koniec, kolejna istotna część ulepszania zbroi to 5 rozdział. Będziesz mógł ulepszyć swoją gildyjną zbroję (zbroja paladyna, zbroja ciężkiego łowcy smoków)."
               },
               {
-                "id": 193,
                 "content": "System kucia został całkowicie przerobiony, teraz są 2 główne umiejętności (Kucie broni ze stali 10PN / Kucie broni z magicznej rudy 20PN). W oparciu o swoją umiejętność kucia będziesz w stanie wytwarzać określone miecze. Możesz dowiedzieć się, jak wytworzyć te miecze, prosząc nauczycieli kowala, aby cię nauczyli (za niewielką ilość PN i złota) lub znaleźć odpowiednie schematy. Tarcze pozostają mniej więcej takie same. Podczas nauki poziomów kucia, nauczyciel wręczy Ci książkę z ważnymi informacjami na temat kucia (przeczytaj ją!). Poziomy umiejętności będą dostępne w rozdziałach 1 i 3, ale mają inne ograniczenia (na przykład Bennet uczy magicznych ostrzy rudy tylko najemników)."
               },
               {
-                "id": 194,
                 "content": "Dodano nową szatę, aby dorównywała innym gildyjnym zbrojom. Ten będzie dostępny poprzez zaklinanie."
               },
               {
-                "id": 195,
                 "content": "Czarna ruda będzie teraz materiałem rzemieślniczym."
               },
               {
-                "id": 196,
                 "content": "Dodano nowy przedmiot „Błogosławiona ruda”, która ma taką samą funkcję jak czarna ryda, można ją uzyskać prosząc Innosa o pobłogosławienie czarnej rudy."
               },
               {
-                "id": 197,
                 "content": "Dodano 2 nowe zbroje, które można kupić u Bospera i Harada, gdy zostaniesz ich czeladnikiem."
               },
               {
-                "id": 198,
                 "content": "Zwiększono ilość smoczej krwi otrzymywanej po zabiciu smoka z 2 do 3."
               },
               {
-                "id": 199,
                 "content": "Golemy będą teraz bardziej agresywne i trudniejsze do zabicia."
               },
               {
-                "id": 200,
                 "content": "Mała aktualizacja menu."
               },
               {
-                "id": 201,
                 "content": "Zaktualizowana czcionka. (Pamiętaj, aby edytować „Scale = X” w Systempack.ini, aby dostosować ją do swojego ekranu, wartość „1” zwiększa, a wartość „0” zmniejsza)."
               },
               {
-                "id": 202,
                 "content": "Dodano możliwość masowego warzenia mikstur, będziesz mógł uwarzyć (x5) dowolnej mikstury. Nie ma (x10) ani (xAll), ponieważ jest bardzo mało prawdopodobne, aby ktoś uwarzył więcej niż 30 mikstur tego samego typu za jednym razem."
               },
               {
-                "id": 203,
                 "content": "Bartok był za słaby, dostał 300 PŻ więcej."
               },
               {
-                "id": 204,
                 "content": "Kiedy pojawi się nowy wpis w dzienniku, jego nazwa jest wyświetlana na ekranie, dzięki czemu można łatwo znaleźć/dowiedzieć się, czego dotyczy."
               },
               {
-                "id": 205,
                 "content": "Zmieniono gnijące zwłoki. Nie dają już stałego +25 expa, teraz ilość będzie się zwiększać. Na przykład dostaniesz +10 expa za pierwszy, +11 za drugi i tak dalej."
               },
               {
-                "id": 206,
                 "content": "Nowe tekstury dla przepisów żywności i schematów broni."
               },
               {
-                "id": 207,
                 "content": "Zmieniono sposób wyświetlania statystyk broni."
               },
               {
-                "id": 208,
                 "content": "Każda broń w grze została w jakiś sposób zmieniona, teraz powinny być bardziej zrównoważone. Będziesz musiał dokonywać wyboru między broniami w zależności od stylu gry."
               },
               {
-                "id": 209,
                 "content": "Dodano 9 kolejnych szczawii królewskich, które można kupić u niektórych handlarzy (rozdział 3, 4, 5 i 6)."
               },
               {
-                "id": 210,
                 "content": "Orki i inne potwory nie stracą aggro w pobliżu taranu, który pozwala graczowi wejść do zamku w Górniczej Dolinie."
               },
               {
-                "id": 211,
                 "content": "Zmniejszono doświadczenie otrzymywane za pokonanie obywateli."
               },
               {
-                "id": 212,
                 "content": "Zmieniono obrażenia/premie niektórych łuków."
               },
               {
-                "id": 213,
                 "content": "Koszt strzały zmniejszony do 3, a bełtu do 6."
               },
               {
-                "id": 214,
                 "content": "Zmniejszono doświadczenie z kradzieży kieszonkowej."
               },
               {
-                "id": 215,
                 "content": "Zaktualizowano wiele tekstur i modeli."
               },
               {
-                "id": 216,
                 "content": "Naprawiono zwoje przemiany kosztujące 5 zamiast 10."
               },
               {
-                "id": 217,
                 "content": "Zmniejszono premię do many z zupy z głów polnych pełzaczy z 2 do 1 punktu."
               },
               {
-                "id": 218,
                 "content": "Statystyki tarcz zostały nieco zmienione."
               },
               {
-                "id": 219,
                 "content": "Zachowanie tarcz podczas blokowania czarów zostało całkowicie zmienione, teraz możesz całkowicie zablokować tylko słabsze zaklęcia, otrzymać połowę obrażeń przeciwko zaklęciom średniego poziomu i pełne obrażenia przeciwko silniejszym zaklęciom."
               },
               {
-                "id": 220,
                 "content": "Ilość złota, które otrzymujesz od Harada, sprzedając mu miecze jako czeladnik, została zmniejszona."
               },
               {
-                "id": 221,
                 "content": "Ilość złota, które otrzymujesz od Bospera, sprzedając mu skóry jako czeladnik, została zmniejszona."
               },
               {
-                "id": 222,
                 "content": "Nagroda Vatrasa za odnalezienie zaginionych ludzi została zmieniona z [+3 many] na [+5 PN]."
               },
               {
-                "id": 223,
                 "content": "Regeneracja zdrowia jest teraz umiejętością, której możesz się nauczyć od Wulfgara (Milicja i Paladyni) i Torlofa (Najemnicy i Łowcy Smoków) w Rozdziale 2. Kosztuje 15 PN i regeneruje 0,5% maksymalnego PŻ na sekundę."
               },
               {
-                "id": 224,
                 "content": "Regeneracja many jest teraz umiejętnością, której możesz się nauczyć od Parlana (dla Magów) w 2 rozdziale. Kosztuje 13 PN i regeneruje 1% maksymalnej many na sekundę."
               },
               {
-                "id": 225,
                 "content": "Akrobatyka to teraz umiejętność, której możesz się nauczyć od Jespera, jeśli dołączysz do gildii złodziei i wykonasz zadanie Krwawe Kielichy. Kosztuje 8 PN."
               },
               {
-                "id": 226,
                 "content": "Nowe premie do broni:",
                 "list": [
                   {
-                    "id": 227,
                     "content": "Dwuręczne topory i bronie obuchowe mogą powalić humanoidalnych przeciwników (ale orkowie i jaszczuroludzie są zbyt silni, aby ich powalić, więc zostaną ogłuszeni)"
                   },
                   {
-                    "id": 228,
                     "content": "Broń z magicznej rudy zadaje dodatkowe obrażenia magiczne przy trafieniu"
                   },
                   {
-                    "id": 229,
                     "content": "Błogosławiona broń zadaje dodatkowe obrażenia nieumarłym"
                   },
                   {
-                    "id": 230,
                     "content": "Zabójca Orków zadaje dodatkowe obrażenia orkom"
                   },
                   {
-                    "id": 231,
                     "content": "Zabójca Demonów zadaje dodatkowe obrażenia demonom"
                   },
                   {
-                    "id": 232,
                     "content": "Zabójca Smoków zadaje dodatkowe obrażenia smokom"
                   }
                 ]
               },
               {
-                "id": 233,
                 "content": "Nowe schematy broni można znaleźć/kupić:",
                 "list": [
                   {
-                    "id": 234,
                     "content": "Flamberg (2H)"
                   },
                   {
-                    "id": 235,
                     "content": "Magiczny miecz półtoraręczny (1H)"
                   },
                   {
-                    "id": 236,
                     "content": "Zabójca Demonów (2H),"
                   },
                   {
-                    "id": 237,
                     "content": "Orkowy miecz magiczny (1H i 2H)"
                   },
                   {
-                    "id": 238,
                     "content": "Siewca Śmierci (1H i 2H)"
                   }
                 ]
               },
               {
-                "id": 239,
                 "content": "Wiele potworów i wrogów zostało przerobionych:",
                 "list": [
                   {
-                    "id": 240,
                     "content": "Kamienne golemy są wytrzymalsze i zadają większe obrażenia. Nie możesz też zatrzymać ich animacji ataku (300 PD za pokonanie)"
                   },
                   {
-                    "id": 241,
                     "content": "Ogniste golemy zmieniono podobnie jak kamienne (400 PD za pokonanie)"
                   },
                   {
-                    "id": 242,
                     "content": "Lodowe golemy, to samo co powyżej, ale zaklęcie, które rzucają w trybie „dalekiego zasięgu”, zostało zmienione na „Lodową Lancę” zamiast „Bryły Lodu"
                   },
                   {
-                    "id": 243,
                     "content": "Zombie są trochę silniejsze i dają mniej doświadczenia (100 PD za pokonanie)"
                   },
                   {
-                    "id": 244,
                     "content": "Orkowie zostali trochę wzmocnieni, najważniejszym wzmocnieniem, jakie otrzymali, jest to, że teraz będą „wzywać” innych orków w pobliżu, gdy zostaniesz przez nich zauważony. Powinno temu zapobiec wczesnemu wybijaniu ich wokół zamku w Górniczej Dolinie"
                   },
                   {
-                    "id": 245,
                     "content": "AI demonów zostało nieco zmienione, są bardziej agresywne"
                   },
                   {
-                    "id": 246,
                     "content": "Ulepszone AI zębaczy i smoczych zębaczy"
                   },
                   {
-                    "id": 247,
                     "content": "Ogólnie rzecz biorąc, Jharkendar nie zapewni tak dużo doświadczenia za łatwych wrogów, takich jak polny pełzacz, bagienne szczury i inne"
                   },
                   {
-                    "id": 248,
                     "content": "Prawie każdy inny wróg otrzymał drobne poprawki, takie jak mniejsze doświadczenie, więcej zdrowia, więcej obrony i tym podobne"
                   }
                 ]
               },
               {
-                "id": 249,
                 "content": "Nowe warianty wrogów:",
                 "list": [
                   {
-                    "id": 250,
                     "content": "Jaszczuroczłek"
                   },
                   {
-                    "id": 251,
                     "content": "Jaszczuroczłek wojownik"
                   },
                   {
-                    "id": 252,
                     "content": "Jaszczuroczłek szaman"
                   }
                 ]
               },
               {
-                "id": 253,
                 "content": "Walki z bossami zostały całkowicie przerobione i ulepszone:",
                 "list": [
                   {
-                    "id": 254,
                     "content": "Ognisty Smok"
                   },
                   {
-                    "id": 255,
                     "content": "Bagienny Smok"
                   },
                   {
-                    "id": 256,
                     "content": "Kamienny Smok"
                   },
                   {
-                    "id": 257,
                     "content": "Lodowy Smok"
                   },
                   {
-                    "id": 258,
                     "content": "Smok Ożywieniec"
                   },
                   {
-                    "id": 259,
                     "content": "Kruk"
                   }
                 ]
               },
               {
-                "id": 260,
                 "content": "W grze pojawiają się nowe rodzaje strzał, a ich schematy można znaleźć/kupić na całym świecie:",
                 "list": [
                   {
-                    "id": 261,
                     "content": "Ogniste strzały (zadają obrażenia od ognia, do znalezienia w jaskini w pobliżu spalonych chat, niedaleko tawerny)"
                   },
                   {
-                    "id": 262,
                     "content": "Magiczne strzały (zadają magiczne obrażenia, do znalezienia w Jarkendarze, gdzie wcześniej znajdował się magiczny łuk)"
                   },
                   {
-                    "id": 263,
                     "content": "Ogłuszające strzały (zadają obrażenia obuchowe, do kupienia od Engora w Górniczej Dolinie)"
                   },
                   {
-                    "id": 264,
                     "content": "Ostre strzały (zadają obrażenia cięte, do znalezienia w ciele Trokara, niedaleko południowej bramy miasta)"
                   }
                 ]
               },
               {
-                "id": 265,
                 "content": "Przerobiono modlitwy w Kapliczkach Innosa, teraz możesz składać ofiarę tylko raz dziennie, tak jak było w podstawce (aby ograniczyć ogromne skoki mocy) obecnie wygląda to w następujący sposób:",
                 "list": [
                   {
-                    "id": 266,
                     "content": "Możesz modlić się przekazując 500 sztuk złota, co da ci +1 do siły lub +1 do zręczności (możesz wybrać, w sumie maksymalnie 15 takich modlitw)"
                   },
                   {
-                    "id": 267,
                     "content": "Możesz modlić się przekazując 300 sztuk złota, co da ci +5 do PŻ lub +1 do many (możesz wybrać, w sumie maksymalnie 30 takich modlitw)"
                   },
                   {
-                    "id": 268,
                     "content": "Możesz modlić się przekazując 100 sztuk złota, co da ci 70% szansy na uzyskanie +2 PŻ (łącznie maksymalnie 50 takich modlitw)"
                   },
                   {
-                    "id": 269,
                     "content": "Możesz modlić się nie przekazując złota, co da ci 25% szansy na całkowite wyleczenie (zarówno PŻ jak i many)"
                   }
                 ]
               },
               {
-                "id": 270,
                 "content": "Można znaleźć lub nauczyć się nowych przepisów na mikstury:",
                 "list": [
                   {
-                    "id": 271,
                     "content": "Eliksir ochrony przed magią"
                   },
                   {
-                    "id": 272,
                     "content": "Eliksir ochrony przed ogniem"
                   },
                   {
-                    "id": 273,
                     "content": "Esencja serafisu"
                   },
                   {
-                    "id": 274,
                     "content": "Mikstura szybkości"
                   },
                   {
-                    "id": 275,
                     "content": "Duża mikstura szybkości"
                   }
                 ]
@@ -1471,63 +1195,48 @@
             "title": "Błędy:",
             "list": [
               {
-                "id": 276,
                 "content": "Naprawiono drobne błędy w nowych umiejętnościach Constantino i Alchemii."
               },
               {
-                "id": 277,
                 "content": "Naprawiono błędy tekstowe w dzienniku gracza."
               },
               {
-                "id": 278,
                 "content": "Naprawiono błąd w opisie bulionu Berry."
               },
               {
-                "id": 279,
                 "content": "Naprawiono błąd polegający na tym, że po ugotowaniu całego surowego mięsa tekst gotowania nie znikał poprawnie."
               },
               {
-                "id": 280,
                 "content": "Naprawiono błąd tekstowy z zupą z głów pełzaczy"
               },
               {
-                "id": 281,
                 "content": "Naprawiono błąd, w wyniku którego zębate ziele nie działało zgodnie z przeznaczeniem."
               },
               {
-                "id": 282,
                 "content": "Naprawiono mały błąd tekstowy z opisem jedzenia."
               },
               {
-                "id": 283,
                 "content": "Naprawiono kilka błędów w zachowaniu AI orków elit i szamanów, będą teraz rzucali zaklęcia nawet na bliskim dystansie."
               },
               {
-                "id": 284,
                 "content": "Naprawiono błąd który nie wyświetlał dialogu z Gornem, aby iść razem do Górskiej Fortecy."
               },
               {
-                "id": 285,
                 "content": "Naprawiono błąd związany z pierścieniami/amuletami, które mogły zapewniać nieskończoną ilość many poprzez wielokrotne zakładanie i zdejmowanie ich."
               },
               {
-                "id": 286,
                 "content": "Naprawiono błąd, w którym Sergio nie eskortował cię do wejścia do Górniczej Doliny."
               },
               {
-                "id": 287,
                 "content": "Naprawiono błędy związane z alchemią i składnikami."
               },
               {
-                "id": 288,
                 "content": "Naprawiono kilka mniejszych błędów tekstowych."
               },
               {
-                "id": 289,
                 "content": "Naprawiono kilka błędów powodowanych przez D3D11, jeśli był zainstalowany."
               },
               {
-                "id": 290,
                 "content": "Naprawiono wiele drobnych błędów."
               }
             ]
@@ -1544,175 +1253,134 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 291,
                 "content": "Minimalne obrażenia zmniejszone z 25 do 15."
               },
               {
-                "id": 292,
                 "content": "Modlitwy w świątyni Innos działają teraz w następujący sposób:",
                 "list": [
                   {
-                    "id": 293,
                     "content": "-100 darmowych modlitw (5% na otrzymanie + 1HP)"
                   },
                   {
-                    "id": 294,
                     "content": "-60 modlitw za 50 złota (50% na otrzymanie + 1HP)"
                   },
                   {
-                    "id": 295,
                     "content": "-30 modlitw za 100 złota (80% na otrzymanie + 2HP)"
                   },
                   {
-                    "id": 296,
                     "content": "-15 modlitw za 200 złota (losowy bonus)",
                     "list": [
                       {
-                        "id": 297,
                         "content": "lorem"
                       },
                       {
-                        "id": 298,
                         "content": "ipsum"
                       },
                       {
-                        "id": 299,
                         "content": "lorem"
                       },
                       {
-                        "id": 300,
                         "content": "lorem"
                       }
                     ]
                   },
                   {
-                    "id": 301,
                     "content": " nie możesz otrzymać many jeżeli nie jesteś magiem lub nowicjuszem, nie możesz otrzymać siły lub zręczności jeżeli jesteś magiem, + 1 siły, + 1 zręczności, + 2MP, + 5HP)"
                   }
                 ]
               },
               {
-                "id": 302,
                 "content": "Grobowy mech, klucze i inne rzeczy z wersji 1.1.4 są teraz poprawnie umieszczone w świecie."
               },
               {
-                "id": 303,
                 "content": "Naprawiono błąd, w którym średnia zbroja najemnika wyświetlała koszt 500, ale faktycznie kosztowała 750."
               },
               {
-                "id": 304,
                 "content": "Zmieniono niektóre zbroje do wytworzenia, teraz możesz tworzyć mocniejsze zbroje na poziomie eksperta zbrojmistrza."
               },
               {
-                "id": 305,
                 "content": "Wzmocniono bronie dwuręczne według schematu:",
                 "list": [
                   {
-                    "id": 306,
                     "content": "+10 obrażeń dla broni z atakiem <50"
                   },
                   {
-                    "id": 307,
                     "content": "+20 obrażeń dla broni z atakiem >= 50 ale <100"
                   },
                   {
-                    "id": 308,
                     "content": "+35 obrażeń dla broni z atakiem >= 100 ale <150"
                   },
                   {
-                    "id": 309,
                     "content": "+50 obrażeń dla broni z atakiem >= 150"
                   }
                 ]
               },
               {
-                "id": 310,
                 "content": "Powinno to uczynić broń 2H bardziej użyteczną, bez robienia ich zbyt mocnymi, pamiętaj, że te zmiany również wzmacniają NPC z tą bronią."
               },
               {
-                "id": 311,
                 "content": "Naprawiono błąd, w wyniku którego kotły pokazywały opcje gotowania, nawet gdy gracz nie miał składników do przygotowania jedzenia."
               },
               {
-                "id": 312,
                 "content": "Dodano funkcję usuwania kluczy po ich użyciu."
               },
               {
-                "id": 313,
                 "content": "Naprawiono mały błąd w książce „Sztuka walki”, przez który nie wyświetlała tekstu."
               },
               {
-                "id": 314,
                 "content": "Zmieniono efekt graficzny „Świętego Światła” (zarówno runy, jak i zwoju), teraz jest taki sam jak „Światło”."
               },
               {
-                "id": 315,
                 "content": "Wzmocniono regeneracje zdrowia smoków, będą teraz trudniejsze."
               },
               {
-                "id": 316,
                 "content": "„Teleport do przełęczy Górniczej Doliny” znajduje się teraz w ciele martwego paladyna w pobliżu wejścia do Górniczej Doliny."
               },
               {
-                "id": 317,
                 "content": "„Teleport do Starego Zamku w Górniczej Dolinie” jest teraz sprzedawany przez Engora za 500."
               },
               {
-                "id": 318,
                 "content": "Zmieniono progi nauczania dla atrybutów (siła, zręczność, mana):",
                 "list": [
                   {
-                    "id": 319,
                     "content": "z 300 na 350,"
                   },
                   {
-                    "id": 320,
                     "content": "z 200 na 280"
                   },
                   {
-                    "id": 321,
                     "content": "z 160 na 200"
                   },
                   {
-                    "id": 322,
                     "content": "z 120 na 160"
                   },
                   {
-                    "id": 323,
                     "content": "z  90 na 120"
                   },
                   {
-                    "id": 324,
                     "content": "z  60 na  80"
                   }
                 ]
               },
               {
-                "id": 325,
                 "content": "Zaklinanie zostało zmienione. Możesz nauczyć się zaklinania poziomu 2 w 3 rozdziale, a 3 poziomu w 5 rozdziale."
               },
               {
-                "id": 326,
                 "content": "Po nauczeniu się akrobatyki, odblokujesz także nową animację biegu, która jest nieco szybsza niż oryginalna animacja biegu (ale wolniejsza niż mikstury szybkości), co powinno również pomóc w budowaniu dystansowym w zdobywaniu dystansu do strzelania strzałami."
               },
               {
-                "id": 327,
                 "content": "Vatras da teraz 100 sztuk złota za każdą „Starą kamienną tabliczkę”, którą mu przyniesiesz, możesz dać mu 1 lub 28, nie wpłynie to na ilość złota, którą otrzymujesz."
               },
               {
-                "id": 328,
                 "content": "Dodano jeden stół płatnerski (ten używany do tworzenia / ulepszania zbroi) w kuźni obok rynku."
               },
               {
-                "id": 329,
                 "content": "Dodano 1 Czarnego Trolla (w Górniczej Dolinie), ponieważ do stworzenia zbroi potrzebna jest jeszcze jedna  skóra czarnego trolla."
               },
               {
-                "id": 330,
                 "content": "Kilka drobnych poprawek w tekście."
               },
               {
-                "id": 331,
                 "content": "Orkowie nie skaczą tak często we wczesnej fazie gry."
               }
             ]
@@ -1721,43 +1389,33 @@
             "title": "Zmiany w miksturach i jedzeniu:",
             "list": [
               {
-                "id": 332,
                 "content": "Teraz mikstury są bardziej zorientowane na „późniejszą fazę gry” i będą leczyć obrażenia procentowo (Esencja  30% leczenia, Ekstrakt 50%, Eliksir 70%, Pełnie nadal leczą 100%, ale przepis został zmieniony)."
               },
               {
-                "id": 333,
                 "content": "Viceversa, jedzenie będzie teraz leczyć stałą wartość życia, będąc bardziej użytecznym we wczesnej fazie gry."
               },
               {
-                "id": 334,
                 "content": "Mikstury Pełnia Życia i Pełnia Many mają nowe modele 3D."
               },
               {
-                "id": 335,
                 "content": "Usunięto wzmocnienie mikstury życia i many (mikstury, których mógł się nauczyć tylko czeladnik Constantina, trwale zwiększają leczenie / manę otrzymywaną z mikstur), teraz nie są to mikstury, ale umiejętność, której możesz się nauczyć od Constantina (tylko czeladnik, koszt 10 PN)."
               },
               {
-                "id": 336,
                 "content": "Eliksir życia (stałe maksymalne HP) zmieniono z +25 na +20 maksymalnego HP."
               },
               {
-                "id": 337,
                 "content": "Czas działania Mikstury Szybkości został podwojony (z 40 do 80 sekund)."
               },
               {
-                "id": 338,
                 "content": "Zmieniono „Eliksir Ochrony”, teraz będzie kosztował więcej przedmiotów (3 grobowe mchy, 15 kości szkieletu), ale da lepsze bonusy (+10 zamiast +5), ma to na celu zrównoważenie zmiany minimalnych obrażeń."
               },
               {
-                "id": 339,
                 "content": "Constantino uczy teraz „Eliksiru Siły” tylko wtedy, gdy gracz już nauczył się tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
               },
               {
-                "id": 340,
                 "content": "Sagitta uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
               },
               {
-                "id": 341,
                 "content": "Riordan uczy teraz „Eliksiru Zręczności” tylko wtedy, gdy gracz nauczył się już tworzyć „Eliksir Życia” lub „Eliksir Ducha”."
               }
             ]
@@ -1774,55 +1432,42 @@
             "title": "Zmiany ogólne: ",
             "list": [
               {
-                "id": 342,
                 "content": "Naprawiono dialog Cassi, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej."
               },
               {
-                "id": 343,
                 "content": "Naprawiono dialog pirata Billa, aby pokazywał koszt 5 PN dla kradzieży kieszonkowej."
               },
               {
-                "id": 344,
                 "content": "Naprawiono brak możliwości zakupu ciężkiej zbroi od Huno, jeśli gracz wykupił wszystkie zbroje."
               },
               {
-                "id": 345,
                 "content": "Koszty nauki Górnictwa i Drwalstwa zostały zmienione na 3,3,4 PN."
               },
               {
-                "id": 346,
                 "content": "Usunięto wymóg braku gildii przy zakupie zbroi od Orlana."
               },
               {
-                "id": 347,
                 "content": "Usunięto wymóg „rozdział mniejszy niż 4” przy zakupie skórzanej zbroi od Matteo."
               },
               {
-                "id": 348,
                 "content": "Strzały kosztują teraz 5 złota."
               },
               {
-                "id": 349,
                 "content": "Bełty kosztują teraz 10 złota."
               },
               {
-                "id": 350,
                 "content": "Jeśli jesteś magiem teleportujesz do swojego pokoju w klasztorze, jeśli nie, teleportuje się do kręgu."
               },
               {
-                "id": 351,
                 "content": "Przywrócono PN/lvl do 10 i wymagany exp(na 1 lvl) do 500."
               },
               {
-                "id": 352,
                 "content": "Mnożnik „następnego poziomu” powrócił do 500 (z powrotem do pierwotnego L'Hiver)"
               },
               {
-                "id": 353,
                 "content": "Zmieniono nazewnictwo Mistrz -> Expert na Expert -> Mistrz."
               },
               {
-                "id": 354,
                 "content": "Zmieniono dialogi Carla dotyczące umiejętności zbrojmistrza, teraz będzie ich uczył w rozdziale 1 (poziom 1), rozdziale 3 (poziom 2) i rozdziale 5 (poziom 3)."
               }
             ]
@@ -1831,23 +1476,18 @@
             "title": "Kotły są teraz użyteczne, możesz ich użyć do gotowania następujących przepisów kulinarnych:",
             "list": [
               {
-                "id": 355,
                 "content": "Zupa rybna"
               },
               {
-                "id": 356,
                 "content": "Gulasz"
               },
               {
-                "id": 357,
                 "content": "Zupa z głowy modliszki"
               },
               {
-                "id": 358,
                 "content": "Potrawka z chrząszcza"
               },
               {
-                "id": 359,
                 "content": "Znajdziesz je ukryte niektórych skrzyniach."
               }
             ]
@@ -1961,79 +1601,60 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 360,
                 "content": "Kilka zadań zostało zmienionych i poprawionych."
               },
               {
-                "id": 361,
                 "content": "Usunięto lub skrócono oczekiwanie w niektórych zadaniach."
               },
               {
-                "id": 362,
                 "content": "Dodano nowe zadania do gry."
               },
               {
-                "id": 363,
                 "content": "Zmieniono model wargów."
               },
               {
-                "id": 364,
                 "content": "Dodano jedno zadanie i kilka dialogów z moda Easter CSP."
               },
               {
-                "id": 365,
                 "content": "Dodano kamienie teleportacyjne z moda Konsekwencje (teleportty do Vengardu i wioski druidów)."
               },
               {
-                "id": 366,
                 "content": "Zmieniono kolory tekstur niektórych miast (Cape Dun, Montera)."
               },
               {
-                "id": 367,
                 "content": "Dodano orków do pustego obozu między Vengardem i Faring."
               },
               {
-                "id": 368,
                 "content": "Dodano nowego mini-bossa."
               },
               {
-                "id": 369,
                 "content": "Nieznacznie zmieniono model kolczugi."
               },
               {
-                "id": 370,
                 "content": "Dodano nowy płaszcz, zbroję i odzież."
               },
               {
-                "id": 371,
                 "content": "W Ben Erai pojawią się nowe postacie po wyzwoleniu."
               },
               {
-                "id": 372,
                 "content": "Usunięto dodatkowe golemy na drodze do wieży Xardasa(Tylko Konsekwencje)."
               },
               {
-                "id": 373,
                 "content": "Dodano nowe modele twarzy i włosów dla postaci kobiecych."
               },
               {
-                "id": 374,
                 "content": "Obniżono ceny za transport łodzią."
               },
               {
-                "id": 375,
                 "content": "Łódź nie płynie już do Silden."
               },
               {
-                "id": 376,
                 "content": "Dodano nową broń i inne przedmioty do gry."
               },
               {
-                "id": 377,
                 "content": "Naprawiono jedno osiągnięcie i dodano nowe."
               },
               {
-                "id": 378,
                 "content": "Inne drobne poprawki."
               }
             ]
@@ -2050,27 +1671,21 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 379,
                 "content": "Kilka zadań zostało ulepszonych i naprawionych."
               },
               {
-                "id": 380,
                 "content": "Miasta Myrtany otrzymają nowe unikalne tekstury budynków."
               },
               {
-                "id": 381,
                 "content": "Dodano nowe ukryte obiekty do gry."
               },
               {
-                "id": 382,
                 "content": "Naprawiono oświetlenie kilku obiektów."
               },
               {
-                "id": 383,
                 "content": "Dodano nową zbroję."
               },
               {
-                "id": 384,
                 "content": "Naprawiono kolizję muru w Gotcie."
               }
             ]
@@ -2087,71 +1702,54 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "id": 385,
                 "content": "Dodano drzwi do domów we wszystkich osadach Myrtany."
               },
               {
-                "id": 386,
                 "content": "Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi."
               },
               {
-                "id": 387,
                 "content": "Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną."
               },
               {
-                "id": 388,
                 "content": "Kilka zadań zostało ulepszonych i naprawionych."
               },
               {
-                "id": 389,
                 "content": "Teraz każde miasto Myrtany różni się od innych (dodano unikalne tekstury)."
               },
               {
-                "id": 390,
                 "content": "Dodano nowe skarby i ukryte przedmioty do gry."
               },
               {
-                "id": 391,
                 "content": "W niektórych domach pojawią się nowe obrazy."
               },
               {
-                "id": 392,
                 "content": "Wiele tekstur zostało zoptymalizowanych."
               },
               {
-                "id": 393,
                 "content": "Naprawiono oświetlenie w Monterze i innych miejscach."
               },
               {
-                "id": 394,
                 "content": "Naprawiono kolizje niektórych obiektów."
               },
               {
-                "id": 395,
                 "content": "Dodano kilka dodatkowych hełmów i innych czapek do gry."
               },
               {
-                "id": 396,
                 "content": "Dodano stół alchemiczny do chatki niedaleko Faring."
               },
               {
-                "id": 397,
                 "content": "Usunięto odblaski ze zdjęć."
               },
               {
-                "id": 398,
                 "content": "Dodano ukrytych przeciwników."
               },
               {
-                "id": 399,
                 "content": "Naprawiono błędy w tekstach."
               },
               {
-                "id": 400,
                 "content": "Dodano nową lokalizację (ruiny)."
               },
               {
-                "id": 401,
                 "content": "Dodano kompatybilność z modem Konsekwencje v2.0.2"
               }
             ]
