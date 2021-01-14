@@ -2,7 +2,7 @@
   <v-container class="ml-4 mr-4 changelog-container" fluid>
     <v-row v-if="changelog" class="changelog-row">
       <v-col cols="12">
-        <div class="back-button-container mb-2">
+        <div class="back-button-container mb-2 mr-2">
           <back-button text="Powrót" />
         </div>
         <div class="changelog-headline-container mb-6">
