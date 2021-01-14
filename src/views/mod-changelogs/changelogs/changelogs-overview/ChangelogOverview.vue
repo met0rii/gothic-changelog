@@ -26,6 +26,7 @@
               item-children="list"
               item-text="content"
               dark
+              open-all
               :items="list.list"
             >
               <template v-slot:prepend="{ item }">
