@@ -44,8 +44,6 @@ import BackButton from "../../../../components/BackButton.vue";
 
 export default {
   components: { BackButton },
-  name: "node-list",
-  props: ["nodes"],
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;

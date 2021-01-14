@@ -895,6 +895,355 @@
     "description": "L'Hiver to modyfikacja znacznie poprawiająca oprawę graficzną Gothica II. Dodaje nowe tekstury, przeciwników, lokacje oraz modyfikuje istniejące, takie jak zniszczony zewnętrzny pierścień Starego Obozu w Górniczej Dolinie, miasto Khorinis, las za farmą Onara czy plaża piratów z Jarkendaru. Modyfikacja znacząco zwiększa poziom trudności oferowany w podstawowej wersji gry. Statystyki potworów zostały zwiększone, zobaczysz także nowe animacje. Niemniej jednak L'Hiver nie zmienia fabuły gry.",
     "changes": [
       {
+        "updateId": "2",
+        "updateDescription": "Balans rozgrywki, poprawione AI przeciwników, zmiany w umiejętnościach, broniach, pancerzach i innych przedmiotach.",
+        "version": "1.1.6",
+        "date": "11.02.2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Więcej kupców będzie sprzedawać składniki zup i chochle używane do gotowania w kociołkach."
+              },
+              {
+                "content": "Usunięto animację biegania po odblokowywaniu akrobatyki."
+              },
+              {
+                "content": "Regeneracja zdrowia i many (ta, którą otrzymujesz za 160 siły lub 160 many) regeneruje teraz około 1% twojej maksymalnej puli zdrowia (lub many). Na przykład, jeśli masz 500 PŻ, teraz będziesz leczyć 4 PŻ na sekundę zamiast 1 PŻ na sekundę"
+              },
+              {
+                "content": "Zwierzęta będą teraz dawać surowe mięso, nawet jeśli nie masz umiejętności „Garbarstwo”, ale będzie to losowe (50% szansy), a dla zwierząt z więcej niż 1 surowym mięsem (na zasadzie, jeśli masz szczęście zamiast 3 surowego mięsa dostaniesz maksymalnie 2, zamiast 2 surowego mięsa, dostaniesz maksymalnie 1)."
+              },
+              {
+                "content": "Z niektórych zwierząt będzie można zdobyć tłuszcz."
+              },
+              {
+                "content": "Każdy pancerz został zbalansowany, aby uczynić go bardziej użytecznym i wartościowym, zmiana ta obejmuje wartości ochrony, ale także kilka bonusów, takich jak dodatkowa siła, zręczność, umiejętności władania łukiem i tak dalej."
+              },
+              {
+                "content": "Tworzenie zbroi zostało całkowicie przerobione, teraz będzie mieć tylko 2 poziomy (Nowicjusz [10 PN] i Ekpert [20 PN]  odpowiednio w Rozdziale 2 i 4). Będziesz mógł stworzyć 2 różne zestawy (zbroja najemnika myrtany pod siłę, pancerz łowcy pod zręczność), a każdy z nich ma 2 poziomy (średni i ciężki), oba mają przydatne bonusy i wysokie statystyki. Ale to nie koniec, kolejna istotna część ulepszania zbroi to 5 rozdział. Będziesz mógł ulepszyć swoją gildyjną zbroję (zbroja paladyna, zbroja ciężkiego łowcy smoków)."
+              },
+              {
+                "content": "System kucia został całkowicie przerobiony, teraz są 2 główne umiejętności (Kucie broni ze stali 10PN / Kucie broni z magicznej rudy 20PN). W oparciu o swoją umiejętność kucia będziesz w stanie wytwarzać określone miecze. Możesz dowiedzieć się, jak wytworzyć te miecze, prosząc nauczycieli kowala, aby cię nauczyli (za niewielką ilość PN i złota) lub znaleźć odpowiednie schematy. Tarcze pozostają mniej więcej takie same. Podczas nauki poziomów kucia, nauczyciel wręczy Ci książkę z ważnymi informacjami na temat kucia (przeczytaj ją!). Poziomy umiejętności będą dostępne w rozdziałach 1 i 3, ale mają inne ograniczenia (na przykład Bennet uczy magicznych ostrzy rudy tylko najemników)."
+              },
+              {
+                "content": "Dodano nową szatę, aby dorównywała innym gildyjnym zbrojom. Ten będzie dostępny poprzez zaklinanie."
+              },
+              {
+                "content": "Czarna ruda będzie teraz materiałem rzemieślniczym."
+              },
+              {
+                "content": "Dodano nowy przedmiot „Błogosławiona ruda”, która ma taką samą funkcję jak czarna ryda, można ją uzyskać prosząc Innosa o pobłogosławienie czarnej rudy."
+              },
+              {
+                "content": "Dodano 2 nowe zbroje, które można kupić u Bospera i Harada, gdy zostaniesz ich czeladnikiem."
+              },
+              {
+                "content": "Zwiększono ilość smoczej krwi otrzymywanej po zabiciu smoka z 2 do 3."
+              },
+              {
+                "content": "Golemy będą teraz bardziej agresywne i trudniejsze do zabicia."
+              },
+              {
+                "content": "Mała aktualizacja menu."
+              },
+              {
+                "content": "Zaktualizowana czcionka. (Pamiętaj, aby edytować „Scale = X” w Systempack.ini, aby dostosować ją do swojego ekranu, wartość „1” zwiększa, a wartość „0” zmniejsza)."
+              },
+              {
+                "content": "Dodano możliwość masowego warzenia mikstur, będziesz mógł uwarzyć (x5) dowolnej mikstury. Nie ma (x10) ani (xAll), ponieważ jest bardzo mało prawdopodobne, aby ktoś uwarzył więcej niż 30 mikstur tego samego typu za jednym razem."
+              },
+              {
+                "content": "Bartok był za słaby, dostał 300 PŻ więcej."
+              },
+              {
+                "content": "Kiedy pojawi się nowy wpis w dzienniku, jego nazwa jest wyświetlana na ekranie, dzięki czemu można łatwo znaleźć/dowiedzieć się, czego dotyczy."
+              },
+              {
+                "content": "Zmieniono gnijące zwłoki. Nie dają już stałego +25 expa, teraz ilość będzie się zwiększać. Na przykład dostaniesz +10 expa za pierwszy, +11 za drugi i tak dalej."
+              },
+              {
+                "content": "Nowe tekstury dla przepisów żywności i schematów broni."
+              },
+              {
+                "content": "Zmieniono sposób wyświetlania statystyk broni."
+              },
+              {
+                "content": "Każda broń w grze została w jakiś sposób zmieniona, teraz powinny być bardziej zrównoważone. Będziesz musiał dokonywać wyboru między broniami w zależności od stylu gry."
+              },
+              {
+                "content": "Dodano 9 kolejnych szczawii królewskich, które można kupić u niektórych handlarzy (rozdział 3, 4, 5 i 6)."
+              },
+              {
+                "content": "Orki i inne potwory nie stracą aggro w pobliżu taranu, który pozwala graczowi wejść do zamku w Górniczej Dolinie."
+              },
+              {
+                "content": "Zmniejszono doświadczenie otrzymywane za pokonanie obywateli."
+              },
+              {
+                "content": "Zmieniono obrażenia/premie niektórych łuków."
+              },
+              {
+                "content": "Koszt strzały zmniejszony do 3, a bełtu do 6."
+              },
+              {
+                "content": "Zmniejszono doświadczenie z kradzieży kieszonkowej."
+              },
+              {
+                "content": "Zaktualizowano wiele tekstur i modeli."
+              },
+              {
+                "content": "Naprawiono zwoje przemiany kosztujące 5 zamiast 10."
+              },
+              {
+                "content": "Zmniejszono premię do many z zupy z głów polnych pełzaczy z 2 do 1 punktu."
+              },
+              {
+                "content": "Statystyki tarcz zostały nieco zmienione."
+              },
+              {
+                "content": "Zachowanie tarcz podczas blokowania czarów zostało całkowicie zmienione, teraz możesz całkowicie zablokować tylko słabsze zaklęcia, otrzymać połowę obrażeń przeciwko zaklęciom średniego poziomu i pełne obrażenia przeciwko silniejszym zaklęciom."
+              },
+              {
+                "content": "Ilość złota, które otrzymujesz od Harada, sprzedając mu miecze jako czeladnik, została zmniejszona."
+              },
+              {
+                "content": "Ilość złota, które otrzymujesz od Bospera, sprzedając mu skóry jako czeladnik, została zmniejszona."
+              },
+              {
+                "content": "Nagroda Vatrasa za odnalezienie zaginionych ludzi została zmieniona z [+3 many] na [+5 PN]."
+              },
+              {
+                "content": "Regeneracja zdrowia jest teraz umiejętością, której możesz się nauczyć od Wulfgara (Milicja i Paladyni) i Torlofa (Najemnicy i Łowcy Smoków) w Rozdziale 2. Kosztuje 15 PN i regeneruje 0,5% maksymalnego PŻ na sekundę."
+              },
+              {
+                "content": "Regeneracja many jest teraz umiejętnością, której możesz się nauczyć od Parlana (dla Magów) w 2 rozdziale. Kosztuje 13 PN i regeneruje 1% maksymalnej many na sekundę."
+              },
+              {
+                "content": "Akrobatyka to teraz umiejętność, której możesz się nauczyć od Jespera, jeśli dołączysz do gildii złodziei i wykonasz zadanie Krwawe Kielichy. Kosztuje 8 PN."
+              },
+              {
+                "content": "Nowe premie do broni:",
+                "list": [
+                  {
+                    "content": "Dwuręczne topory i bronie obuchowe mogą powalić humanoidalnych przeciwników (ale orkowie i jaszczuroludzie są zbyt silni, aby ich powalić, więc zostaną ogłuszeni)"
+                  },
+                  {
+                    "content": "Broń z magicznej rudy zadaje dodatkowe obrażenia magiczne przy trafieniu"
+                  },
+                  {
+                    "content": "Błogosławiona broń zadaje dodatkowe obrażenia nieumarłym"
+                  },
+                  {
+                    "content": "Zabójca Orków zadaje dodatkowe obrażenia orkom"
+                  },
+                  {
+                    "content": "Zabójca Demonów zadaje dodatkowe obrażenia demonom"
+                  },
+                  {
+                    "content": "Zabójca Smoków zadaje dodatkowe obrażenia smokom"
+                  }
+                ]
+              },
+              {
+                "content": "Nowe schematy broni można znaleźć/kupić:",
+                "list": [
+                  {
+                    "content": "Flamberg (2H)"
+                  },
+                  {
+                    "content": "Magiczny miecz półtoraręczny (1H)"
+                  },
+                  {
+                    "content": "Zabójca Demonów (2H),"
+                  },
+                  {
+                    "content": "Orkowy miecz magiczny (1H i 2H)"
+                  },
+                  {
+                    "content": "Siewca Śmierci (1H i 2H)"
+                  }
+                ]
+              },
+              {
+                "content": "Wiele potworów i wrogów zostało przerobionych:",
+                "list": [
+                  {
+                    "content": "Kamienne golemy są wytrzymalsze i zadają większe obrażenia. Nie możesz też zatrzymać ich animacji ataku (300 PD za pokonanie)"
+                  },
+                  {
+                    "content": "Ogniste golemy zmieniono podobnie jak kamienne (400 PD za pokonanie)"
+                  },
+                  {
+                    "content": "Lodowe golemy, to samo co powyżej, ale zaklęcie, które rzucają w trybie „dalekiego zasięgu”, zostało zmienione na „Lodową Lancę” zamiast „Bryły Lodu"
+                  },
+                  {
+                    "content": "Zombie są trochę silniejsze i dają mniej doświadczenia (100 PD za pokonanie)"
+                  },
+                  {
+                    "content": "Orkowie zostali trochę wzmocnieni, najważniejszym wzmocnieniem, jakie otrzymali, jest to, że teraz będą „wzywać” innych orków w pobliżu, gdy zostaniesz przez nich zauważony. Powinno temu zapobiec wczesnemu wybijaniu ich wokół zamku w Górniczej Dolinie"
+                  },
+                  {
+                    "content": "AI demonów zostało nieco zmienione, są bardziej agresywne"
+                  },
+                  {
+                    "content": "Ulepszone AI zębaczy i smoczych zębaczy"
+                  },
+                  {
+                    "content": "Ogólnie rzecz biorąc, Jharkendar nie zapewni tak dużo doświadczenia za łatwych wrogów, takich jak polny pełzacz, bagienne szczury i inne"
+                  },
+                  {
+                    "content": "Prawie każdy inny wróg otrzymał drobne poprawki, takie jak mniejsze doświadczenie, więcej zdrowia, więcej obrony i tym podobne"
+                  }
+                ]
+              },
+              {
+                "content": "Nowe warianty wrogów:",
+                "list": [
+                  {
+                    "content": "Jaszczuroczłek fighter"
+                  },
+                  {
+                    "content": "Jaszczuroczłek warrior"
+                  },
+                  {
+                    "content": "Jaszczuroczłek shaman"
+                  }
+                ]
+              },
+              {
+                "content": "Walki z bossami zostały całkowicie przerobione i ulepszone:",
+                "list": [
+                  {
+                    "content": "Ognisty Smok"
+                  },
+                  {
+                    "content": "Bagienny Smok"
+                  },
+                  {
+                    "content": "Kamienny Smok"
+                  },
+                  {
+                    "content": "Lodowy Smok"
+                  },
+                  {
+                    "content": "Smok Ożywieniec"
+                  },
+                  {
+                    "content": "Kruk"
+                  }
+                ]
+              },
+              {
+                "content": "W grze pojawiają się nowe rodzaje strzał, a ich schematy można znaleźć/kupić na całym świecie:",
+                "list": [
+                  {
+                    "content": "Ogniste strzały (zadają obrażenia od ognia, do znalezienia w jaskini w pobliżu spalonych chat, niedaleko tawerny)"
+                  },
+                  {
+                    "content": "Magiczne strzały (zadają magiczne obrażenia, do znalezienia w Jarkendarze, gdzie wcześniej znajdował się magiczny łuk)"
+                  },
+                  {
+                    "content": "Ogłuszające strzały (zadają obrażenia obuchowe, do kupienia od Engora w Górniczej Dolinie)"
+                  },
+                  {
+                    "content": "Ostre strzały (zadają obrażenia cięte, do znalezienia w ciele Trokara, niedaleko południowej bramy miasta)"
+                  }
+                ]
+              },
+              {
+                "content": "Przerobiono modlitwy w Kapliczkach Innosa, teraz możesz składać ofiarę tylko raz dziennie, tak jak było w podstawce (aby ograniczyć ogromne skoki mocy) obecnie wygląda to w następujący sposób:",
+                "list": [
+                  {
+                    "content": "Możesz modlić się przekazując 500 sztuk złota, co da ci +1 do siły lub +1 do zręczności (możesz wybrać, w sumie maksymalnie 15 takich modlitw)"
+                  },
+                  {
+                    "content": "Możesz modlić się przekazując 300 sztuk złota, co da ci +5 do PŻ lub +1 do many (możesz wybrać, w sumie maksymalnie 30 takich modlitw)"
+                  },
+                  {
+                    "content": "Możesz modlić się przekazując 100 sztuk złota, co da ci 70% szansy na uzyskanie +2 PŻ (łącznie maksymalnie 50 takich modlitw)"
+                  },
+                  {
+                    "content": "Możesz modlić się nie przekazując złota, co da ci 25% szansy na całkowite wyleczenie (zarówno PŻ jak i many)"
+                  }
+                ]
+              },
+              {
+                "content": "Można znaleźć lub nauczyć się nowych przepisów na mikstury:",
+                "list": [
+                  {
+                    "content": "Eliksir Starożytnych (permanentna odporność na magię)"
+                  },
+                  {
+                    "content": "Eliksir Ognia (trwała odporność na ogień)"
+                  },
+                  {
+                    "content": "Essence of blue elder (+25% PŻ + 20 many)"
+                  },
+                  {
+                    "content": "Tonic of Speed (stara Mikstura Szybkości, trochę przerobiona)"
+                  },
+                  {
+                    "content": "Large tonic of speed (stronger potion of speed)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Błędy:",
+            "list": [
+              {
+                "content": "Naprawiono drobne błędy w nowych umiejętnościach Constantino i Alchemii."
+              },
+              {
+                "content": "Naprawiono błędy tekstowe w dzienniku gracza."
+              },
+              {
+                "content": "Naprawiono błąd w opisie bulionu Berry."
+              },
+              {
+                "content": "Naprawiono błąd polegający na tym, że po ugotowaniu całego surowego mięsa tekst gotowania nie znikał poprawnie."
+              },
+              {
+                "content": "Naprawiono błąd tekstowy z zupą z głów pełzaczy"
+              },
+              {
+                "content": "Naprawiono błąd, w wyniku którego zębate ziele nie działało zgodnie z przeznaczeniem."
+              },
+              {
+                "content": "Naprawiono mały błąd tekstowy z opisem jedzenia."
+              },
+              {
+                "content": "Naprawiono kilka błędów w zachowaniu AI orków elit i szamanów, będą teraz rzucali zaklęcia nawet na bliskim dystansie."
+              },
+              {
+                "content": "Naprawiono błąd który nie wyświetlał dialogu z Gornem, aby iść razem do Górskiej Fortecy."
+              },
+              {
+                "content": "Naprawiono błąd związany z pierścieniami/amuletami, które mogły zapewniać nieskończoną ilość many poprzez wielokrotne zakładanie i zdejmowanie ich."
+              },
+              {
+                "content": "Naprawiono błąd, w którym Sergio nie eskortował cię do wejścia do Górniczej Doliny."
+              },
+              {
+                "content": "Naprawiono błędy związane z alchemią i składnikami."
+              },
+              {
+                "content": "Naprawiono kilka mniejszych błędów tekstowych."
+              },
+              {
+                "content": "Naprawiono kilka błędów powodowanych przez D3D11, jeśli był zainstalowany."
+              },
+              {
+                "content": "Naprawiono wiele drobnych błędów."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "1",
         "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli...",
         "version": "1.1.5",
