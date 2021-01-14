@@ -1353,15 +1353,15 @@
                 "list": [
                   {
                     "id": 250,
-                    "content": "Jaszczuroczłek fighter"
+                    "content": "Jaszczuroczłek"
                   },
                   {
                     "id": 251,
-                    "content": "Jaszczuroczłek warrior"
+                    "content": "Jaszczuroczłek wojownik"
                   },
                   {
                     "id": 252,
-                    "content": "Jaszczuroczłek shaman"
+                    "content": "Jaszczuroczłek szaman"
                   }
                 ]
               },
@@ -1445,23 +1445,23 @@
                 "list": [
                   {
                     "id": 271,
-                    "content": "Eliksir Starożytnych (permanentna odporność na magię)"
+                    "content": "Eliksir ochrony przed magią"
                   },
                   {
                     "id": 272,
-                    "content": "Eliksir Ognia (trwała odporność na ogień)"
+                    "content": "Eliksir ochrony przed ogniem"
                   },
                   {
                     "id": 273,
-                    "content": "Essence of blue elder (+25% PŻ + 20 many)"
+                    "content": "Esencja serafisu"
                   },
                   {
                     "id": 274,
-                    "content": "Tonic of Speed (stara Mikstura Szybkości, trochę przerobiona)"
+                    "content": "Mikstura szybkości"
                   },
                   {
                     "id": 275,
-                    "content": "Large tonic of speed (stronger potion of speed)"
+                    "content": "Duża mikstura szybkości"
                   }
                 ]
               }
