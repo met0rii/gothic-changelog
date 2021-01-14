@@ -1,6 +1,6 @@
 <template>
   <v-btn
-    color="deep-purple lighten-3"
+    color="orange lighten-3"
     light
     small
     @click="$router.go(-1)"
