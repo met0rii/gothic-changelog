@@ -15,22 +15,54 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              "Dodano nowy schemat na miecz dwuręczny do znalezienia w jednej ze skrzyni bandytów.",
-              "Zmieniono trochę spawn potworów w nowej części Jarkendaru.",
-              "Zawartość losowych regałów z książkami jest teraz ustalana przy starcie gry.",
-              "Wilk <i>Kieł</i> jest teraz dużo wytrzymalszy. Jeśli polegnie od w walce będzie on jedynie nieprzytomny. Można teraz zabierać go bezpiecznie na polowania.",
-              "Teraz po oddaniu Goraxowi winogron pojawią się u niego do kupienia 3 mikstury Amun-Su. (wcześniej 5 eliksirów ducha)",
-              "<i>Amulet siły</i> oraz <i>Amulet zręczności</i> dają teraz 5 siły / zręczności zamiast 3. (należy zdjąć przed wgraniem aktualizacji!)",
-              "Zwiększono lekko bonus do prędkości postaci od zręczności o 10%.",
-              "Bełt kosztuje teraz 5 monet. (wcześniej 10)",
-              "Naprawiono kilka błędów związanych z przebijaniem przeciwników podczas używania łuku / kuszy.",
-              "Naprawiono błąd sprawiający, że bohater otrzymywał obrażenia kilka razy podczas upadku. Mikstura ochrony przed atakiem teraz zawsze ochroni gracza przed otrzymaniem obrażeń od upadku. Akrobatyka redukuje też obrażenia od upadku o połowę.",
-              "Naprawiono błąd sprawiający, że potwory po pokonaniu innych potworów rzucały się na gracza gdy jest on podczas przemiany.",
-              "Naprawiono bład sprawiający, że kamera ruszała się po użyciu przemiany.",
-              "Naprawiono błąd sprawiający, że ilość złota potrzebna do nauki kręgów magii nie była wyświetlana poprawnie w niektórych przypadkach.",
-              "Naprawiono błąd sprawiający, że <i>Amul Sah</i> oraz <i>Amul Rough</i> mogli stać się nieśmiertelni.",
-              "Naprawiono błąd sprawiający, że po ucieknięciu z walki z <i>Im-Arahem</i> stawał się on nieśmiertelny.",
-              "I inne mniejsze poprawki..."
+              {
+                "content": "Dodano nowy schemat na miecz dwuręczny do znalezienia w jednej ze skrzyni bandytów."
+              },
+              {
+                "content": "Zmieniono trochę spawn potworów w nowej części Jarkendaru."
+              },
+              {
+                "content": "Zawartość losowych regałów z książkami jest teraz ustalana przy starcie gry."
+              },
+              {
+                "content": "Wilk <i>Kieł</i> jest teraz dużo wytrzymalszy. Jeśli polegnie od w walce będzie on jedynie nieprzytomny. Można teraz zabierać go bezpiecznie napolowania."
+              },
+              {
+                "content": "Teraz po oddaniu Goraxowi winogron pojawią się u niego do kupienia 3 mikstury Amun-Su. (wcześniej 5 eliksirów ducha)"
+              },
+              {
+                "content": "<i>Amulet siły</i> oraz <i>Amulet zręczności</i> dają teraz 5 siły / zręczności zamiast 3. (należy zdjąć przed wgraniem aktualizacji!)"
+              },
+              {
+                "content": "Zwiększono lekko bonus do prędkości postaci od zręczności o 10%."
+              },
+              {
+                "content": "Bełt kosztuje teraz 5 monet. (wcześniej 10)"
+              },
+              {
+                "content": "Naprawiono kilka błędów związanych z przebijaniem przeciwników podczas używania łuku / kuszy."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że bohater otrzymywał obrażenia kilka razy podczas upadku. Mikstura ochrony przed atakiem teraz zawsze ochroni graczaprzed otrzymaniem obrażeń od upadku. Akrobatyka redukuje też obrażenia od upadku o połowę."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że potwory po pokonaniu innych potworów rzucały się na gracza gdy jest on podczas przemiany."
+              },
+              {
+                "content": "Naprawiono bład sprawiający, że kamera ruszała się po użyciu przemiany."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ilość złota potrzebna do nauki kręgów magii nie była wyświetlana poprawnie w niektórych przypadkach."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że <i>Amul Sah</i> oraz <i>Amul Rough</i> mogli stać się nieśmiertelni."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po ucieknięciu z walki z <i>Im-Arahem</i> stawał się on nieśmiertelny."
+              },
+              {
+                "content": "I inne mniejsze poprawki..."
+              }
             ]
           }
         ]

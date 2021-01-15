@@ -27,7 +27,7 @@ const routes = [
     },
   },
   {
-    path: "/mod/:id/:section",
+    path: "/mod/:id/",
     component: ModChangelogs,
     children: [
       {
@@ -40,7 +40,7 @@ const routes = [
             component: ChangelogCards,
           },
           {
-            path: ":changelogId",
+            path: "changelog/:changelogId",
             name: "ChangelogPreview",
             component: ChangelogOverview,
           }
