@@ -8,7 +8,6 @@ import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
 
 // subviews
 import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
-import ChangelogCards from "../views/mod-changelogs/changelogs/changelogs-cards/ChangelogsCards.vue";
 import ChangelogOverview from "../views/mod-changelogs/changelogs/changelogs-overview/ChangelogOverview.vue";
 
 Vue.use(VueRouter);
@@ -33,19 +32,12 @@ const routes = [
       {
         path: "/",
         component: Changelogs,
-        children: [
-          {
-            path: "/",
-            name: "ChangelogList",
-            component: ChangelogCards,
-          },
-          {
-            path: "changelog/:changelogId",
-            name: "ChangelogPreview",
-            component: ChangelogOverview,
-          }
-        ]
       },
+      {
+        path: "changelog/:changelogId",
+        name: "ChangelogPreview",
+        component: ChangelogOverview,
+      }
     ],
   },
 ];

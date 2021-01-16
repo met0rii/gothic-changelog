@@ -1,20 +1,20 @@
 <template>
-  <v-container class="ml-4 mr-4 changelog-container" fluid>
-    <v-row v-if="changelog" class="changelog-row">
-      <v-col cols="12">
-        <div class="back-button-container mb-2 mr-2">
+  <v-row>
+    <section-title title="Lista zmian" />
+    <v-col xs="12" class="pl-4 pr-4">
+      <div class="changelog-row pa-4">
+        <div class="back-button-container mb-2">
           <back-button text="Powrót" />
         </div>
-        <div class="changelog-headline-container mb-6">
+        <div class="changelog-headline-container mb-4">
           <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
           <span class="changelog-subline">
             Data wydania: {{ changelog.date }}
           </span>
         </div>
         <span v-html="changelog.updateDescription"></span>
-      </v-col>
-      <v-col cols="12">
         <div
+          class="mt-6"
           :class="{ 'mb-8': multipleListItems && listIndex !== lastIndex }"
           v-for="(list, listIndex) in changelog.lists"
           :key="listIndex"
@@ -35,16 +35,17 @@
             </v-treeview>
           </template>
         </div>
-      </v-col>
-    </v-row>
-  </v-container>
+      </div>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
 import BackButton from "../../../../components/BackButton.vue";
+import SectionTitle from "../../../../components/SectionTitle.vue";
 
 export default {
-  components: { BackButton },
+  components: { BackButton, SectionTitle },
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;
@@ -60,6 +61,10 @@ export default {
 </script>
 
 <style scoped>
+.changelog-row {
+  background-color: var(--black-primary);
+  border-radius: 4px;
+}
 .changelog-headline {
   margin-bottom: 10px;
 }
@@ -68,11 +73,6 @@ export default {
   color: var(--white-secondary);
 }
 
-.changelog-row {
-  padding: 6px;
-  background-color: var(--black-primary);
-  border-radius: 4px;
-}
 .changelog-headline {
   padding: 0;
   margin: 0;

@@ -1,10 +1,10 @@
 <template>
-  <div class="changelog-container">
+  <div>
     <v-row>
       <section-title title="Zmiany" />
-      <transition enter-active-class="animated fadeIn">
-        <router-view />
-      </transition>
+      <v-col xs="12" class="pl-4 pr-4">
+        <changelogs-cards />
+      </v-col>
     </v-row>
 
     <v-row>
@@ -36,6 +36,7 @@ import ModGallery from "../../../components/ModGallery";
 import SectionTitle from "../../../components/SectionTitle.vue";
 import ModAuthors from "../../../components/ModAuthors.vue";
 import ModOverview from "../../../components/ModOverview.vue";
+import ChangelogsCards from "./changelogs-cards/ChangelogsCards.vue";
 
 export default {
   components: {
@@ -43,6 +44,7 @@ export default {
     SectionTitle,
     ModAuthors,
     ModOverview,
+    ChangelogsCards,
   },
   computed: {
     selected() {

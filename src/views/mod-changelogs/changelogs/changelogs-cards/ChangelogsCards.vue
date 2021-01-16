@@ -1,5 +1,5 @@
 <template>
-  <v-row class="ml-4 mr-4 cards d-flex">
+  <v-row class="cards d-flex">
     <template v-if="selected">
       <v-col
         xs="12"
