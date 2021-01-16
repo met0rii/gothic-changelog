@@ -1,7 +1,7 @@
 <template>
   <v-col class="section-title" cols="12">
     <div class="title-container">
-      <h2 class="title ml-6 pb-3">{{ title }}</h2>
+      <h2 class="ml-6 pb-3">{{ title }}</h2>
       <div class="section-border"></div>
     </div>
   </v-col>
@@ -19,9 +19,6 @@ export default {
 .section-title {
   margin: 32px 0 30px 0;
   padding: 0px;
-}
-.title {
-  font-size: var(--h1) !important;
 }
 
 .title-container {

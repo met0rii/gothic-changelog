@@ -102,12 +102,26 @@ export default {
   --black-primary: #313030;
   --white-primary: #ffff;
   --white-secondary: rgba(255, 255, 255, 0.7);
+  --divider-color: #686868;
   --black-mask: #000;
   --orange-secondary: #ffb74d;
 
   /*TYPOGRAPHY*/
-  --h1: 32px;
-  --h2: 26px;
+  --h1: 40px;
+  --h2: 36px;
+  --h3: 26px;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
 }
 
 body {
@@ -123,5 +137,9 @@ body {
 
 .neon-btn:hover {
   box-shadow: var(--neon-light);
+}
+
+.v-divider {
+  border-color: var(--divider-color) !important;
 }
 </style>

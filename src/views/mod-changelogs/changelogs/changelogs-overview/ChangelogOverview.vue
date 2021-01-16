@@ -7,15 +7,16 @@
           <back-button text="Powrót" />
         </div>
         <div class="changelog-headline-container mb-4">
-          <h2 class="changelog-headline">Changelog {{ changelog.version }}</h2>
+          <h2>Changelog {{ changelog.version }}</h2>
           <span class="changelog-subline">
             Data wydania: {{ changelog.date }}
           </span>
         </div>
         <span v-html="changelog.updateDescription"></span>
+        <v-divider class="mt-2" />
         <div
           class="mt-6"
-          :class="{ 'mb-8': multipleListItems && listIndex !== lastIndex }"
+          :class="{ 'mb-4': multipleListItems && listIndex !== lastIndex }"
           v-for="(list, listIndex) in changelog.lists"
           :key="listIndex"
         >
@@ -82,9 +83,6 @@ export default {
 }
 
 @media only screen and (min-width: 350px) {
-  .changelog-headline {
-    font-size: var(--h2) !important;
-  }
 }
 
 @media only screen and (min-width: 601px) {
