@@ -1,9 +1,9 @@
 <template>
   <v-col class="gallery-image-container" xs="12" sm="6" lg="2">
     <v-img
-      v-on:click="changeFullscreen"
-      :src="url"
-      :lazy-src="url"
+      v-on:click="imageClick"
+      :src="assetUrl"
+      :lazy-src="assetUrl"
       aspect-ratio="1"
       class="grey lighten-2 gallery-image"
     >
@@ -16,21 +16,6 @@
         </v-row>
       </template>
     </v-img>
-    <template v-if="fullscreen">
-      <div class="mask" v-on:click="changeFullscreen"></div>
-      <div class="fullscreen-image-container">
-        <v-img
-          :src="url"
-          :lazy-src="url"
-          aspect-ratio="1"
-          class="grey lighten-2 fullscreen-image"
-        />
-        <div class="cross" v-on:click="changeFullscreen">
-          <div class="cross-first"></div>
-          <div class="cross-second"></div>
-        </div>
-      </div>
-    </template>
   </v-col>
 </template>
 
@@ -41,25 +26,15 @@ export default {
       type: String,
       required: true,
     },
-  },
-  data() {
-    return {
-      fullscreen: false,
-    };
-  },
-
-  methods: {
-    changeFullscreen() {
-      this.fullscreen = !this.fullscreen;
-      if (this.fullscreen) {
-        document.documentElement.classList.add("image-opened");
-      } else {
-        document.documentElement.classList.remove("image-opened");
-      }
+    assetUrl: {
+      type: String,
+      required: true,
     },
   },
-  beforeDestroy() {
-    document.documentElement.classList.remove("image-opened");
+  methods: {
+    imageClick() {
+      this.$emit("click", this.url);
+    },
   },
 };
 </script>
@@ -72,78 +47,5 @@ export default {
 
 .gallery-image:hover {
   box-shadow: var(--neon-light);
-}
-
-.mask,
-.fullscreen-image-container {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.mask {
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--black-mask);
-  opacity: 0.6;
-  z-index: 100;
-}
-
-.fullscreen-image-container {
-  z-index: 200;
-  box-shadow: var(--neon-light);
-}
-
-.fullscreen-image {
-  height: 90vh;
-}
-
-.cross {
-  position: absolute;
-  right: 50px;
-  top: 30px;
-  cursor: pointer;
-  width: 15px;
-  height: 15px;
-}
-
-.cross-first,
-.cross-second {
-  background-color: var(--white-primary);
-  width: 30px;
-  height: 5px;
-  border-radius: 6px;
-}
-.cross-first {
-  transform: translateY(5px) rotate(45deg);
-}
-.cross-second {
-  transform: rotate(-45deg);
-}
-
-.image-opened {
-  overflow: hidden;
-}
-
-@media (min-width: 320px) {
-  .fullscreen-image-container {
-    width: 95%;
-  }
-  .fullscreen-image {
-    height: 50vh;
-  }
-}
-
-@media (min-width: 1264px) {
-  .fullscreen-image {
-    height: 80vh;
-  }
-}
-
-@media (max-width: 960px) {
-  .gallery-image:hover {
-    box-shadow: none !important;
-  }
 }
 </style>
