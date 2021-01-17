@@ -24,25 +24,10 @@ export default {
     data: { type: Object, required: true },
   },
   components: {},
-  data: () => {
-    return {
-      drawerVisible: true,
-    };
-  },
 
   mounted() {
     this.$store.dispatch("changelogs/getCollection");
     document.title = "Gothic Sefaris";
-  },
-  watch: {
-    $route: {
-      immediate: true,
-      handler() {
-        if (!this.$route.params.id) {
-          document.title = "Gothic Sefaris";
-        }
-      },
-    },
   },
 };
 </script>

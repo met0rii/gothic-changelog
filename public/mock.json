@@ -829,124 +829,118 @@
       "img/returning/TEARSTEMPLE.jpg",
       "img/returning/UNDEADZONE.jpg"
     ],
-    "authors": [
-      {
-        "name": "Likier",
-        "role": "Autor",
-        "contacts": [
-          {
-            "platform": "forum",
-            "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
-          },
-          {
-            "platform": "discord",
-            "url": "https://google.com"
-          }
-        ]
-      },
-      {
-        "name": "LHaart",
-        "role": "Autor",
-        "contacts": [
-          {
-            "platform": "forum",
-            "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
-          },
-          {
-            "platform": "discord",
-            "url": "https://google.com"
-          }
-        ]
-      },
-      {
-        "name": "Franisz",
-        "role": "Mieszał skrypty"
-      },
-      {
-        "name": "Sebastian",
-        "role": "Chuj go wie"
-      },
-      {
-        "name": "Zipperiusz",
-        "role": "Królik"
-      },
-      {
-        "name": "Kredensik",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Bukovsky",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Solace",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "RoQus",
-        "role": "znaczy co?"
-      },
-      {
-        "name": "Kanappa",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Szagons",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Iselor",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Arek",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "NightKnight",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Velmrok",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Dawinio",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Templar",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Kurdupel",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Washion",
-        "role": "Wazon"
-      },
-      {
-        "name": "Szun",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Nugget",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Nasior",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Shadow",
-        "role": "Tłumacz"
-      },
-      {
-        "name": "Qłaczek",
-        "role": "Tłumacz"
-      }
-    ]
+    "authors": {
+      "creators": [
+        {
+          "name": "Likier",
+          "role": "Autor",
+          "contacts": [
+            {
+              "platform": "forum",
+              "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
+            },
+            {
+              "platform": "discord",
+              "url": "https://google.com"
+            }
+          ]
+        },
+        {
+          "name": "LHaart",
+          "role": "Autor",
+          "contacts": [
+            {
+              "platform": "forum",
+              "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
+            },
+            {
+              "platform": "discord",
+              "url": "https://google.com"
+            }
+          ]
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Franisz",
+          "role": "Mieszał skrypty"
+        }
+      ],
+      "translators": [
+        {
+          "name": "Kredensik",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Bukovsky",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Solace",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Kanappa",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Szagons",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Iselor",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Arek",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "NightKnight",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Velmrok",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Dawinio",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Templar",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Kurdupel",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Washion",
+          "role": "Wazon"
+        },
+        {
+          "name": "Szun",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Nugget",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Nasior",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Shadow",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Qłaczek",
+          "role": "Tłumacz"
+        }
+      ]
+    }
   },
   {
     "id": "lhiver",
@@ -1626,24 +1620,11 @@
       "img/lhiver/23.png",
       "img/lhiver/24.png"
     ],
-    "authors": [
-      {
-        "name": "Sebastian",
-        "role": "Chuj go wie"
-      },
-      {
-        "name": "Franisz",
-        "role": "Chuj go wie"
-      },
-      {
-        "name": "Kredensik",
-        "role": "Tłumaczenie"
-      },
-      {
-        "name": "Zipperiusz",
-        "role": "Chuj go wie"
-      }
-    ]
+    "authors": {
+      "creators": [],
+      "contributors": [],
+      "translators": []
+    }
   },
   {
     "id": "ltm",
@@ -1882,23 +1863,10 @@
       "img/ltm/17.png",
       "img/ltm/18.png"
     ],
-    "authors": [
-      {
-        "name": "Zipperiusz",
-        "role": "Tłumaczenie"
-      },
-      {
-        "name": "Dawinio",
-        "role": "Tłumaczenie"
-      },
-      {
-        "name": "Kredensik",
-        "role": "Tłumaczenie"
-      },
-      {
-        "name": "Roqus",
-        "role": "Chuj go wie"
-      }
-    ]
+    "authors": {
+      "creators": [],
+      "contributors": [],
+      "translators": []
+    }
   }
 ]

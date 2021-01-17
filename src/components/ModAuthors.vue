@@ -1,56 +1,63 @@
 <template>
-  <v-container fluid>
-    <v-row>
-      <v-col xs="12" md="9" lg="6" class="mx-auto">
-        <v-list dark>
-          <v-list-item v-for="author in data.authors" :key="author.name">
-            <v-list-item-content>
-              <v-list-item-title v-text="author.name"></v-list-item-title>
-              <v-list-item-subtitle v-text="author.role"></v-list-item-subtitle>
-              <v-btn
-                :href="contact.url"
-                v-for="contact in author.contacts"
-                :key="contact.platform"
-                primary
-              >
-                {{ contact.platform }}
-              </v-btn>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-row class="pl-4 pr-4">
+    <v-col class="mod-authors">
+      <v-tabs v-model="tab" dark>
+        <v-tabs-slider color="orange lighten-3"></v-tabs-slider>
+
+        <v-tab> Autorzy </v-tab>
+        <v-tab> Kontrybutorzy </v-tab>
+        <v-tab> Tłumacze </v-tab>
+      </v-tabs>
+      <v-tabs-items class="tab-items" dark v-model="tab">
+        <v-tab-item class="pa-4">
+          <div class="tab-item">
+            <author-list :authors="data.authors.creators" />
+          </div>
+        </v-tab-item>
+        <v-tab-item class="pa-4">
+          <div class="tab-item">
+            <author-list :authors="data.authors.contributors" />
+          </div>
+        </v-tab-item>
+        <v-tab-item class="pa-4">
+          <div class="tab-item">
+            <author-list :authors="data.authors.translators" />
+          </div>
+        </v-tab-item>
+      </v-tabs-items>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
+import AuthorList from "./AuthorList.vue";
 export default {
   name: "ModAuthors",
   props: {
     data: { type: Object, required: true },
   },
-  components: {},
   data: () => {
     return {
-      drawerVisible: true,
+      tab: "Autorzy",
     };
   },
-
-  mounted() {
-    document.title = "Gothic Sefaris";
-  },
-
-  watch: {
-    $route: {
-      immediate: true,
-      handler() {
-        if (!this.$route.params.id) {
-          document.title = "Gothic Sefaris";
-        }
-      },
-    },
-  },
+  components: { AuthorList },
 };
 </script>
-<style scoped>
+<style>
+.mod-authors {
+  background-color: var(--black-primary);
+  border-radius: 4px;
+  padding: 0;
+}
+.v-tabs-bar {
+  background-color: var(--black-primary) !important;
+}
+.theme--dark.v-tabs-items {
+  background-color: var(--black-primary);
+}
+
+.tab-items {
+  width: 100%;
+}
 </style>
