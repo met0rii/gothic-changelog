@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ltm",
+    "title": "Lively Towns Mod",
+    "titleUrl": "https://imgur.com/MujebJr.png",
+    "url": "https://drive.google.com/drive/folders/1rPh-tK8xAb124q6NaBdVCHRd7g5wvd5k",
+    "description": "Modyfikacja jest tworzona z zamysłem aby uczynić miasta żywszymi po ich wyzwoleniu tak aby można było do nich wracać. Na ten moment dotyczy to głównie miast: Cape Dun, Ardea, Ben Sala, Lago, oraz Gotha.",
+    "changes": [
+      {
+        "updateId": "2",
+        "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Usunięto lub skrócono oczekiwanie w niektórych zadaniach<br>Dodano nowe zadania do gry.",
+        "version": "0.33",
+        "date": "2.11.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Kilka zadań zostało zmienionych i poprawionych."
+              },
+              {
+                "content": "Usunięto lub skrócono oczekiwanie w niektórych zadaniach."
+              },
+              {
+                "content": "Dodano nowe zadania do gry."
+              },
+              {
+                "content": "Zmieniono model wargów."
+              },
+              {
+                "content": "Dodano jedno zadanie i kilka dialogów z moda Easter CSP."
+              },
+              {
+                "content": "Dodano kamienie teleportacyjne z moda Konsekwencje (teleportty do Vengardu i wioski druidów)."
+              },
+              {
+                "content": "Zmieniono kolory tekstur niektórych miast (Cape Dun, Montera)."
+              },
+              {
+                "content": "Dodano orków do pustego obozu między Vengardem i Faring."
+              },
+              {
+                "content": "Dodano nowego mini-bossa."
+              },
+              {
+                "content": "Nieznacznie zmieniono model kolczugi."
+              },
+              {
+                "content": "Dodano nowy płaszcz, zbroję i odzież."
+              },
+              {
+                "content": "W Ben Erai pojawią się nowe postacie po wyzwoleniu."
+              },
+              {
+                "content": "Usunięto dodatkowe golemy na drodze do wieży Xardasa(Tylko Konsekwencje)."
+              },
+              {
+                "content": "Dodano nowe modele twarzy i włosów dla postaci kobiecych."
+              },
+              {
+                "content": "Obniżono ceny za transport łodzią."
+              },
+              {
+                "content": "Łódź nie płynie już do Silden."
+              },
+              {
+                "content": "Dodano nową broń i inne przedmioty do gry."
+              },
+              {
+                "content": "Naprawiono jedno osiągnięcie i dodano nowe."
+              },
+              {
+                "content": "Inne drobne poprawki."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "1",
+        "updateDescription": "Kilka zadań zostało ulepszonych i naprawionych<br>Miasta Myrtany otrzymają nowe unikalne tekstury budynków<br>Dodano nowe ukryte obiekty do gry",
+        "version": "0.32",
+        "date": "14.09.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Kilka zadań zostało ulepszonych i naprawionych."
+              },
+              {
+                "content": "Miasta Myrtany otrzymają nowe unikalne tekstury budynków."
+              },
+              {
+                "content": "Dodano nowe ukryte obiekty do gry."
+              },
+              {
+                "content": "Naprawiono oświetlenie kilku obiektów."
+              },
+              {
+                "content": "Dodano nową zbroję."
+              },
+              {
+                "content": "Naprawiono kolizję muru w Gotcie."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "0",
+        "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi<br>Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
+        "version": "0.31",
+        "date": "25.06.2020",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Dodano drzwi do domów we wszystkich osadach Myrtany."
+              },
+              {
+                "content": "Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi."
+              },
+              {
+                "content": "Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną."
+              },
+              {
+                "content": "Kilka zadań zostało ulepszonych i naprawionych."
+              },
+              {
+                "content": "Teraz każde miasto Myrtany różni się od innych (dodano unikalne tekstury)."
+              },
+              {
+                "content": "Dodano nowe skarby i ukryte przedmioty do gry."
+              },
+              {
+                "content": "W niektórych domach pojawią się nowe obrazy."
+              },
+              {
+                "content": "Wiele tekstur zostało zoptymalizowanych."
+              },
+              {
+                "content": "Naprawiono oświetlenie w Monterze i innych miejscach."
+              },
+              {
+                "content": "Naprawiono kolizje niektórych obiektów."
+              },
+              {
+                "content": "Dodano kilka dodatkowych hełmów i innych czapek do gry."
+              },
+              {
+                "content": "Dodano stół alchemiczny do chatki niedaleko Faring."
+              },
+              {
+                "content": "Usunięto odblaski ze zdjęć."
+              },
+              {
+                "content": "Dodano ukrytych przeciwników."
+              },
+              {
+                "content": "Naprawiono błędy w tekstach."
+              },
+              {
+                "content": "Dodano nową lokalizację (ruiny)."
+              },
+              {
+                "content": "Dodano kompatybilność z modem Konsekwencje v2.0.2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "overview": {
+      "lists": [
+        {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
+        },
+        {
+          "content": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "list": [
+            {
+              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+            },
+            {
+              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+            },
+            {
+              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+            }
+          ]
+        },
+        {
+          "content": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+          "content": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
+        },
+        {
+          "content": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
+          "list": [
+            {
+              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+            },
+            {
+              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+            },
+            {
+              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+            }
+          ]
+        },
+        {
+          "content": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
+        }
+      ]
+    },
+    "gallery": [
+      "img/ltm/1.png",
+      "img/ltm/2.png",
+      "img/ltm/3.png",
+      "img/ltm/4.png",
+      "img/ltm/5.png",
+      "img/ltm/6.png",
+      "img/ltm/7.png",
+      "img/ltm/8.png",
+      "img/ltm/9.png",
+      "img/ltm/10.png",
+      "img/ltm/11.png",
+      "img/ltm/12.png",
+      "img/ltm/13.png",
+      "img/ltm/14.png",
+      "img/ltm/15.png",
+      "img/ltm/16.png",
+      "img/ltm/17.png",
+      "img/ltm/18.png"
+    ],
+    "authors": {
+      "creators": [],
+      "contributors": [],
+      "translators": []
+    }
+  }
+]
