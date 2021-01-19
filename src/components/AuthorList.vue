@@ -17,7 +17,7 @@
         <v-btn
           v-for="(contact, index) in author.contacts"
           :key="index"
-          :to="contact.url"
+          v-on:click="() => onContactButtonClick(contact.url)"
           small
           light
           class="mr-3"
@@ -36,6 +36,11 @@ export default {
     authors: { type: Array, required: true },
   },
   components: {},
+  methods: {
+    onContactButtonClick(url) {
+      window.open(url, "_blank");
+    },
+  },
 };
 </script>
 
