@@ -1,21 +1,13 @@
 <template>
-  <v-treeview
-    item-children="list"
-    item-text="content"
-    dark
-    :items="data.overview.lists"
-  >
-  </v-treeview>
-  <!-- <ul>
-    <li v-for="(item, index) in data.overview.lists" :key="index">
-      {{ item.name }}
-      <ul v-if="item.list">
-        <li v-for="(item, itemIndex) in item.list" :key="itemIndex">
-          {{ item.name }}
-        </li>
-      </ul>
-    </li>
-  </ul> -->
+  <div class="overview pt-4 pb-4 pr-4 pl-2">
+    <v-treeview
+      item-children="list"
+      item-text="content"
+      dark
+      :items="data.overview.lists"
+    >
+    </v-treeview>
+  </div>
 </template>
 
 <script>
@@ -24,18 +16,12 @@ export default {
     data: { type: Object, required: true },
   },
   components: {},
-
-  mounted() {
-    this.$store.dispatch("changelogs/getCollection");
-    document.title = "Gothic Sefaris";
-  },
 };
 </script>
 <style scoped>
-ul li {
-  list-style: square;
-}
-ul li ul li {
-  list-style: disc;
+.overview {
+  background-color: var(--black-primary);
+  border-radius: 4px;
+  color: var(--white-primary);
 }
 </style>
