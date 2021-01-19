@@ -74,4 +74,10 @@ export default {
     column-width: 33%;
   }
 }
+@media only screen and (min-width: 1600px) {
+  .author-list-wrapper {
+    column-count: 4;
+    column-width: 25%;
+  }
+}
 </style>
