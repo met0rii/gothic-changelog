@@ -45,11 +45,6 @@ export default {
 </script>
 
 <style>
-.author-list-wrapper {
-  column-count: 3;
-  column-width: 33%;
-}
-
 .author-list-item {
   break-inside: avoid-column; /* Prevent element from breaking */
   page-break-inside: avoid; /* Prevent element from breaking in Firefox */
@@ -57,5 +52,26 @@ export default {
 
 .author-list-subheader {
   color: var(--white-secondary);
+}
+
+@media only screen and (min-width: 320px) {
+  .author-list-wrapper {
+    column-count: 1;
+    column-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .author-list-wrapper {
+    column-count: 2;
+    column-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .author-list-wrapper {
+    column-count: 3;
+    column-width: 33%;
+  }
 }
 </style>
