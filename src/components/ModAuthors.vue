@@ -6,7 +6,6 @@
 
         <v-tab> Autorzy </v-tab>
         <v-tab> Kontrybutorzy </v-tab>
-        <v-tab> Tłumacze </v-tab>
       </v-tabs>
       <v-tabs-items class="tab-items" dark v-model="tab">
         <v-tab-item class="pa-4">
@@ -17,11 +16,6 @@
         <v-tab-item class="pa-4">
           <div class="tab-item">
             <author-list :authors="data.authors.contributors" />
-          </div>
-        </v-tab-item>
-        <v-tab-item class="pa-4">
-          <div class="tab-item">
-            <author-list :authors="data.authors.translators" />
           </div>
         </v-tab-item>
       </v-tabs-items>
@@ -46,10 +40,19 @@ export default {
 </script>
 <style>
 .mod-authors {
-  background-color: var(--black-primary);
-  border-radius: 4px;
   padding: 0;
 }
+
+.mod-authors .tab-items {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.mod-authors .v-tabs .v-tabs-bar {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
 .v-tabs-bar {
   background-color: var(--black-primary) !important;
 }

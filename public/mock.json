@@ -836,11 +836,11 @@
           "role": "Autor",
           "contacts": [
             {
-              "platform": "forum",
+              "platform": "Forum",
               "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
             },
             {
-              "platform": "discord",
+              "platform": "Discord",
               "url": "https://google.com"
             }
           ]
@@ -850,11 +850,11 @@
           "role": "Autor",
           "contacts": [
             {
-              "platform": "forum",
+              "platform": "Forum",
               "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
             },
             {
-              "platform": "discord",
+              "platform": "Discord",
               "url": "https://google.com"
             }
           ]
@@ -864,9 +864,7 @@
         {
           "name": "Franisz",
           "role": "Mieszał skrypty"
-        }
-      ],
-      "translators": [
+        },
         {
           "name": "Kredensik",
           "role": "Tłumacz"
