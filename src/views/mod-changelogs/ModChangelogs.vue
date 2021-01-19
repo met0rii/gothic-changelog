@@ -39,7 +39,7 @@ export default {
   },
 
   mounted() {
-    if (this.$store.state.changelogs.mods.length > 0) {
+    if (this.$store.state.changelogs.collection.length > 0) {
       this.$store.commit("changelogs/selectSingle", this.$route.params.id);
       this.selectSingleChangelog();
     } else {

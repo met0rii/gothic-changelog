@@ -65,7 +65,7 @@ export default {
 
   computed: {
     items() {
-      return this.$store.state.changelogs.mods.map((el) => ({
+      return this.$store.state.changelogs.collection.map((el) => ({
         title: el.title,
         id: el.id,
       }));

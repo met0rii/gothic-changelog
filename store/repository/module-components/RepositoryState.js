@@ -1,6 +1,6 @@
 export default class RepositoryState {
   constructor(url) {
-    this.mods = [];
+    this.collection = [];
     this.selected = null;
     this.error = false;
     this.isLoading = false;

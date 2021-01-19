@@ -1,6 +1,6 @@
 export default class RepositoryMutations {
   setCollection = (state, payload) => {
-    state.mods = payload;
+    state.collection = payload;
   }
   setLoading = (state, isLoading) => {
     state.isLoading = isLoading;
@@ -9,6 +9,6 @@ export default class RepositoryMutations {
     state.error = error
   }
   selectSingle = (state, id) => {
-    state.selected = state.mods.find((el) => el.id === id);
+    state.selected = state.collection.find((el) => el.id === id);
   }
 }
