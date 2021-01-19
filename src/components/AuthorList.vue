@@ -1,7 +1,7 @@
 <template>
   <div class="author-list-wrapper">
     <div
-      class="author-list-item mb-6"
+      class="author-list-item pb-3"
       v-for="author in authors"
       :key="author.name"
     >
@@ -20,7 +20,7 @@
           v-on:click="() => onContactButtonClick(contact.url)"
           small
           light
-          class="mr-3"
+          class="mr-3 neon-btn"
           color="orange lighten-3"
           >{{ contact.platform }}</v-btn
         >
