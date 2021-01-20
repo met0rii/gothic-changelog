@@ -1,0 +1,33 @@
+{
+  "g1": {
+    "name": "Gothic 1",
+    "data": [
+      {
+        "id": "id",
+        "title": "title"
+      }
+    ]
+  },
+  "g2": {
+    "name": "Gothic 2 NK",
+    "data": [
+      {
+        "id": "ab",
+        "title": "Alternative Balance"
+      },
+      {
+        "id": "lhiver",
+        "title": "L'Hiver"
+      }
+    ]
+  },
+  "g3": {
+    "name": "Gothic 3",
+    "data": [
+      {
+        "id": "ltm",
+        "title": "Lively Towns Mod"
+      }
+    ]
+  }
+}

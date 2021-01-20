@@ -26,11 +26,13 @@ const routes = [
     },
   },
   {
-    path: "/mod/:id/",
+    path: "/mod/:gameId/:id/",
     component: ModChangelogs,
     children: [
       {
         path: "/",
+        name: "Changelogs",
+
         component: Changelogs,
       },
       {

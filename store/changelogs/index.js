@@ -7,4 +7,4 @@ import ChangelogMutations from "./mutations";
 import ChangelogState from "./state";
 
 
-export default new RepositoryModule(new ChangelogState("./mock.json"), new RepositoryActions(), new ChangelogMutations());
+export default new RepositoryModule(new ChangelogState(""), new RepositoryActions(), new ChangelogMutations());

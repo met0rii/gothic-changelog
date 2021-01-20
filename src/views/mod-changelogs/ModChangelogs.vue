@@ -39,14 +39,12 @@ export default {
   },
 
   mounted() {
-    if (this.$store.state.changelogs.collection.length > 0) {
-      this.$store.commit("changelogs/selectSingle", this.$route.params.id);
-      this.selectSingleChangelog();
-    } else {
-      this.$store
-        .dispatch("changelogs/getCollection", this.$route.params.id)
-        .then(() => this.selectSingleChangelog());
-    }
+    this.$store
+      .dispatch("changelogs/getCollection", {
+        itemId: this.$route.params.id,
+        paramId: this.$route.params.gameId,
+      })
+      .then(() => this.selectSingleChangelog());
   },
 
   watch: {
