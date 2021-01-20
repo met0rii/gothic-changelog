@@ -1,8 +1,8 @@
 <template>
-  <v-row class="cards d-flex">
+  <v-row>
     <template v-if="selected">
       <v-col
-        xs="12"
+        cols="12"
         sm="6"
         lg="4"
         xl="2"
