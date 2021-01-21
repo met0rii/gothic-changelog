@@ -4,7 +4,16 @@
     <v-col cols="12" class="pl-4 pr-4" v-if="changelog">
       <div class="changelog-row pa-4">
         <div class="back-button-container mb-2">
-          <back-button text="Powrót" />
+          <v-btn
+            color="orange lighten-3"
+            light
+            small
+            :to="redirectData"
+            class="back-button"
+          >
+            <v-icon left dark> mdi-arrow-left </v-icon>
+            Powrót
+          </v-btn>
         </div>
 
         <div class="changelog-headline-container mb-4">
@@ -37,15 +46,23 @@
 </template>
 
 <script>
-import BackButton from "../../../../components/BackButton.vue";
 import RecursiveList from "../../../../components/RecursiveList.vue";
 import SectionTitle from "../../../../components/SectionTitle.vue";
 
 export default {
-  components: { BackButton, SectionTitle, RecursiveList },
+  components: { SectionTitle, RecursiveList },
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;
+    },
+    redirectData() {
+      return {
+        name: "Changelogs",
+        params: {
+          game: this.$route.params.game,
+          id: this.$route.params.id,
+        },
+      };
     },
   },
 };
