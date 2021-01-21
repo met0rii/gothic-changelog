@@ -6,14 +6,30 @@
         <div class="back-button-container mb-2">
           <back-button text="Powrót" />
         </div>
+
         <div class="changelog-headline-container mb-4">
           <h2>Changelog {{ changelog.version }}</h2>
           <span class="changelog-subline">
             Data wydania: {{ changelog.date }}
           </span>
         </div>
+
         <span v-html="changelog.updateDescription"></span>
-        <v-divider class="mt-2" />
+
+        <v-divider class="mt-4" />
+
+        <div
+          class="mt-4"
+          v-if="changelog.alerts && changelog.alerts.length > 0"
+        >
+          <v-alert
+            v-for="(alert, index) in changelog.alerts"
+            :color="alert.color + ' lighten-2'"
+            :key="index"
+            ><span v-html="alert.text"
+          /></v-alert>
+        </div>
+
         <recursive-list class="mt-6" :data="changelog.lists" />
       </div>
     </v-col>
