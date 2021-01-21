@@ -34,6 +34,7 @@ export default {
       return {
         name: "ChangelogPreview",
         params: {
+          game: this.$route.params.game,
           id: this.$route.params.id,
           changelogId: this.$props.id,
         },
