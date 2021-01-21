@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <section-title title="Lista zmian" />
-    <v-col xs="12" class="pl-4 pr-4">
+    <v-col xs="12" class="pl-4 pr-4" v-if="changelog">
       <div class="changelog-row pa-4">
         <div class="back-button-container mb-2">
           <back-button text="Powrót" />
