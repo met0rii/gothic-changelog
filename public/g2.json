@@ -918,10 +918,6 @@
             {
               "platform": "Forum",
               "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
-            },
-            {
-              "platform": "Discord",
-              "url": "https://google.com"
             }
           ]
         },
@@ -932,10 +928,6 @@
             {
               "platform": "Forum",
               "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
-            },
-            {
-              "platform": "Discord",
-              "url": "https://google.com"
             }
           ]
         }
@@ -1669,35 +1661,78 @@
       ]
     },
     "gallery": [
-      "img/lhiver/1.png",
-      "img/lhiver/2.png",
-      "img/lhiver/3.png",
-      "img/lhiver/4.png",
-      "img/lhiver/5.png",
-      "img/lhiver/6.png",
-      "img/lhiver/7.png",
-      "img/lhiver/8.png",
-      "img/lhiver/9.png",
-      "img/lhiver/10.png",
-      "img/lhiver/11.png",
-      "img/lhiver/12.png",
-      "img/lhiver/13.png",
-      "img/lhiver/14.png",
-      "img/lhiver/15.png",
-      "img/lhiver/16.png",
-      "img/lhiver/17.png",
-      "img/lhiver/18.png",
-      "img/lhiver/19.png",
-      "img/lhiver/20.png",
-      "img/lhiver/21.png",
-      "img/lhiver/22.png",
-      "img/lhiver/23.png",
-      "img/lhiver/24.png"
+      "img/lhiver/1.jpg",
+      "img/lhiver/2.jpg",
+      "img/lhiver/3.jpg",
+      "img/lhiver/4.jpg",
+      "img/lhiver/5.jpg",
+      "img/lhiver/6.jpg",
+      "img/lhiver/7.jpg",
+      "img/lhiver/8.jpg",
+      "img/lhiver/9.jpg",
+      "img/lhiver/10.jpg",
+      "img/lhiver/11.jpg",
+      "img/lhiver/12.jpg",
+      "img/lhiver/13.jpg",
+      "img/lhiver/14.jpg",
+      "img/lhiver/15.jpg",
+      "img/lhiver/16.jpg",
+      "img/lhiver/17.jpg",
+      "img/lhiver/18.jpg",
+      "img/lhiver/19.jpg",
+      "img/lhiver/20.jpg",
+      "img/lhiver/21.jpg",
+      "img/lhiver/22.jpg",
+      "img/lhiver/23.jpg",
+      "img/lhiver/24.jpg"
     ],
     "authors": {
-      "creators": [],
-      "contributors": [],
-      "translators": []
+      "creators": [
+        {
+          "name": "Masty",
+          "role": "Autor",
+          "contacts": [
+            {
+              "platform": "Forum",
+              "url": "https://forum.worldofplayers.de/forum/threads/1524640-Release-Gothic-2-L-Hiver-1-1-English-Edition-2"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/K8UveNNTHk"
+            }
+          ]
+        },
+        {
+          "name": "unknown111",
+          "role": "Autor"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Franisz",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Sebastian",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Zipperiusz",
+          "role": "Tłumacz, Tester"
+        },
+        {
+          "name": "Kredensik",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Hexen",
+          "role": "Tester"
+        },
+        {
+          "name": "Washion",
+          "role": "Tester"
+        }
+      ]
     }
   }
 ]
