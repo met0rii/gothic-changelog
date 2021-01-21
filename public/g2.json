@@ -1030,8 +1030,14 @@
       {
         "updateId": "2",
         "updateDescription": "Balans rozgrywki, poprawione AI przeciwników, zmiany w umiejętnościach, broniach, pancerzach i innych przedmiotach.",
-        "version": "1.1.6",
+        "version": "1.6",
         "date": "11.02.2021",
+        "alerts": [
+          {
+            "color": "red",
+            "text": "<b>UWAGA!</b> Wersja 1.6 nie jest jeszcze dostępna, planowana data premiery to 11.02.2021!"
+          }
+        ],
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1379,7 +1385,7 @@
       {
         "updateId": "1",
         "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli...",
-        "version": "1.1.5",
+        "version": "1.5",
         "date": "16.03.2020",
         "lists": [
           {
@@ -1423,7 +1429,7 @@
                 ]
               },
               {
-                "content": "Grobowy mech, klucze i inne rzeczy z wersji 1.1.4 są teraz poprawnie umieszczone w świecie."
+                "content": "Grobowy mech, klucze i inne rzeczy z wersji 1.4 są teraz poprawnie umieszczone w świecie."
               },
               {
                 "content": "Naprawiono błąd, w którym średnia zbroja najemnika wyświetlała koszt 500, ale faktycznie kosztowała 750."
@@ -1558,7 +1564,7 @@
       {
         "updateId": "0",
         "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji...",
-        "version": "1.1.4",
+        "version": "1.4",
         "date": "09.11.2018",
         "lists": [
           {
