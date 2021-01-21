@@ -175,30 +175,55 @@
     "overview": {
       "lists": [
         {
-          "title": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "title": "Modyfikacja dodaje:",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Ponad 50 nowych zadań oraz osiągnięcia,"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Każde miasto Myrtany różni się od drugiego (dodano unikalne tekstury),"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
-            }
-          ]
-        },
-        {
-          "title": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
-          "list": [
-            {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Niektóre zadania można wykonać na różne sposoby,"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "W zależności od rozwiniętych umiejętności bohatera, dostępne będą nowe linie dialogowe (tylko w zadaniach z LTM'a),"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Niektóre zadania stają się dostępne po spełnieniu określonych warunków,"
+            },
+            {
+              "content": "Każda postać w Cape Dun, Gocie, Lago, Ben Sali i Ardei jest wyjątkowa, ma własną zbroję lub ubranie. Wszyscy mieszkańcy mają swoją codzienną rutynę,"
+            },
+            {
+              "content": "Po wyzwoleniu Cape Dun arena będzie dostępna ponownie,"
+            },
+            {
+              "content": "Nowe przedmioty, receptury, bronie, tarcze, zbroje, hełmy i zakopane skarby,"
+            },
+            {
+              "content": "Nowe skrytki i sekrety,"
+            },
+            {
+              "content": "Nowe potwory, zwierzęta i wrogowie,"
+            },
+            {
+              "content": "Artefakty z Al Shedim można sprzedać Aldo, Fezulowi i Ilyi,"
+            },
+            {
+              "content": "Unikalnie nazwane postacie. Pojawiają się także nowi kupcy w Nordmarze, Ardei, Ben Sali, Lago, Gocie, Reddock i Cape Dun,"
+            },
+            {
+              "content": "Niektóre postacie będą się przemieszczać z miejsca na miejsce. Na przykład handlarze lub buntownicy mogą chodzić między miastami,"
+            },
+            {
+              "content": "Po wyzwoleniu Cape Dun wybrzeże zostanie ponownie zamieszkany przez zwierzęta, bandytów i potwory,"
+            },
+            {
+              "content": "Możliwość zdobycia ogrowego młota (musisz wykonać określone zadanie),"
+            },
+            {
+              "content": "Możliwość naprawy tarczy i miecza króla z pomocą kowala Kliffa w Reddock (musisz najpierw uwolnić go od orków)."
             }
           ]
         }
