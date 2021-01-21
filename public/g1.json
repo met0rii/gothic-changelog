@@ -26,10 +26,7 @@
     "overview": {
       "lists": [
         {
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis metus nec massa venenatis aliquam. Cras vel velit vel risus mattis dapibus quis eu lacus. Vivamus euismod felis eu tincidunt tincidunt. Donec enim leo, elementum a odio ac, auctor tincidunt augue. Quisque iaculis erat quis purus consequat tempor. Duis eget lacinia sapien, non volutpat orci. Phasellus nec congue tellus, vitae aliquam lectus."
-        },
-        {
-          "content": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "title": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
           "list": [
             {
               "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
@@ -43,13 +40,7 @@
           ]
         },
         {
-          "content": "Praesent mollis magna eget est blandit, et bibendum lacus tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "content": "Phasellus fermentum velit id nunc posuere, ut rutrum urna fringilla. Fusce porta dui id lobortis feugiat. Sed quis pharetra justo. Praesent nibh sem, lobortis eget condimentum sit amet, rutrum a diam."
-        },
-        {
-          "content": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
+          "title": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
           "list": [
             {
               "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
@@ -61,9 +52,6 @@
               "content": "Morbi rutrum massa a leo pellentesque rutrum."
             }
           ]
-        },
-        {
-          "content": "Aliquam lacinia volutpat sem, non consequat nulla imperdiet ut. Ut sodales ornare elit non volutpat. Quisque eu ligula lacinia, ultricies quam nec, faucibus eros. Proin id massa in neque sagittis feugiat et vel velit. Maecenas ultrices magna id lectus venenatis, ac dapibus justo finibus. In hac habitasse platea dictumst. Vestibulum justo quam, mollis non leo volutpat, pellentesque pharetra ligula. Nam tempor et orci a convallis. Aliquam erat volutpat."
         }
       ]
     },
