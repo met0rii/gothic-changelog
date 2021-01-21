@@ -5,7 +5,7 @@
     }"
   >
     <li v-for="(el, index) in node" :key="index" class="node-tree">
-      <span class="label">{{ el.content }}</span>
+      <span v-html="el.content"></span>
       <ul v-if="el.list && el.list.length">
         <node-tree
           :style="{ marginLeft: calculatedMarginLeft }"
