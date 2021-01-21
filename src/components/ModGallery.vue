@@ -3,7 +3,7 @@
     <template v-for="(image, index) in data.gallery">
       <gallery-image
         :url="image"
-        :asset-url="getImage(image)"
+        :asset-url="image"
         :key="index"
         :index="index"
         :images-count="data.gallery.length"
@@ -15,8 +15,8 @@
       <div class="mask" v-on:click="changeFullscreen(false)"></div>
       <div class="fullscreen-image-container">
         <v-img
-          :src="getImage(selectedImage)"
-          :lazy-src="getImage(selectedImage)"
+          :src="selectedImage"
+          :lazy-src="selectedImage"
           aspect-ratio="1"
           class="grey lighten-2 fullscreen-image"
         />
@@ -135,9 +135,6 @@ export default {
         this.selectedImage = undefined;
         document.documentElement.classList.remove("image-opened");
       }
-    },
-    getImage(image) {
-      return require("@/assets/" + image);
     },
   },
   computed: {
