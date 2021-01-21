@@ -2,26 +2,28 @@
   <v-container class="changelogs" fluid v-if="selected">
     <v-row>
       <v-col>
-        <div class="mod-header-wrapper mb-2">
-          <h1 class="mod-title">{{ selected.title }}</h1>
+        <div align="center">
+          <img :src="selected.titleUrl" width="60%" />
+        </div>
+        <div align="center">
           <v-btn
             :to="{ name: 'redirect', query: { url: selected.url } }"
-            color="gray"
-            class="ml-5 download-btn"
+            color="orange lighten-3"
+            light
+            class="download-btn mt-5 mb-5"
             large
-            >Pobierz</v-btn
           >
+            <v-icon left dark> mdi-cloud-download </v-icon>
+            Pobierz
+          </v-btn>
         </div>
-
         <div>
           <span class="recent-version">{{ selected.description }}</span>
         </div>
       </v-col>
     </v-row>
 
-    <v-divider color="#424242" dark></v-divider>
-
-    <transition enter-active-class="animated slideInRight">
+    <transition enter-active-class="animated fadeIn">
       <router-view />
     </transition>
   </v-container>
@@ -37,14 +39,12 @@ export default {
   },
 
   mounted() {
-    if (this.$store.state.changelogs.mods.length > 0) {
-      this.$store.commit("changelogs/selectSingle", this.$route.params.id);
-      this.selectSingleChangelog();
-    } else {
-      this.$store
-        .dispatch("changelogs/getCollection", this.$route.params.id)
-        .then(() => this.selectSingleChangelog());
-    }
+    this.$store
+      .dispatch("changelogs/getCollection", {
+        itemId: this.$route.params.id,
+        paramId: this.$route.params.gameId,
+      })
+      .then(() => this.selectSingleChangelog());
   },
 
   watch: {
@@ -93,6 +93,6 @@ export default {
 }
 
 .download-btn:hover {
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+  box-shadow: var(--neon-light);
 }
 </style>

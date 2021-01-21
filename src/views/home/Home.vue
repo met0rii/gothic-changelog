@@ -1,10 +1,8 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col xs="12">
-        <p class="text-center headline">
-          Strona główna w budowie
-        </p>
+      <v-col cols="12">
+        <p class="text-center headline">Strona główna w budowie</p>
       </v-col>
     </v-row>
   </v-container>

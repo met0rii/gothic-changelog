@@ -23,16 +23,28 @@
             <v-list-item-title>Home </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
-          :to="`/mod/${item.id}`"
-          v-for="item in items"
-          :key="item.title"
-          link
-        >
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
+        <v-list-group v-for="(value, key) in sidebarItem" :key="key">
+          <template v-slot:activator>
+            <v-list-item-content>
+              <v-list-item-title v-text="value.name"></v-list-item-title>
+            </v-list-item-content>
+          </template>
+
+          <v-list-item
+            class="sidebar-child-item"
+            v-for="child in value.data"
+            :key="child.title"
+            link
+            :to="{
+              name: 'Changelogs',
+              params: { gameId: key, id: child.id },
+            }"
+          >
+            <v-list-item-content>
+              <v-list-item-title v-text="child.title"></v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list-group>
       </v-list>
     </v-navigation-drawer>
 
@@ -45,7 +57,7 @@
     </v-app-bar>
 
     <v-main class="content-container">
-      <transition enter-active-class="animated slideInRight">
+      <transition enter-active-class="animated fadeIn">
         <router-view :key="routePath" />
       </transition>
     </v-main>
@@ -64,18 +76,15 @@ export default {
   },
 
   computed: {
-    items() {
-      return this.$store.state.changelogs.mods.map((el) => ({
-        title: el.title,
-        id: el.id,
-      }));
+    sidebarItem() {
+      return this.$store.state.sidebar.collection;
     },
     routePath() {
-      return this.$route.path.split("/").slice(0, 3).join("/");
+      return this.$route.path.split("/").slice(0, 4).join("/");
     },
   },
   mounted() {
-    this.$store.dispatch("changelogs/getCollection");
+    this.$store.dispatch("sidebar/getCollection");
     document.title = "Gothic Sefaris";
   },
 
@@ -93,9 +102,46 @@ export default {
 </script>
 
 <style>
+/*CSS VARIABLES*/
+:root {
+  /*BOX SHADOW*/
+  --neon-light: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+
+  /*COLOURS*/
+  --black-primary: #313030;
+  --white-primary: #ffff;
+  --white-secondary: rgba(255, 255, 255, 0.7);
+  --divider-color: #686868;
+  --black-mask: #000;
+  --orange-secondary: #ffb74d;
+
+  /*TYPOGRAPHY*/
+  --h1: 40px;
+  --h2: 36px;
+  --h3: 26px;
+  --h4: 22px;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
 body {
   background-color: #141414;
 }
+
 .content-container {
   background-color: #141414;
   color: #fafafa;
@@ -103,11 +149,19 @@ body {
   height: 100%;
 }
 
-.card-container {
-  margin-top: 16px;
+.neon-btn:hover {
+  box-shadow: var(--neon-light);
 }
 
-.card:not(:first-child) {
-  margin-left: 12px;
+.v-divider {
+  border-color: var(--divider-color) !important;
+}
+
+.sidebar-child-item {
+  margin-left: 24px;
+}
+
+.sidebar-child-item:last-child {
+  margin-bottom: 12px;
 }
 </style>

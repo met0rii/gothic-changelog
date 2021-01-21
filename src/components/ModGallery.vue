@@ -20,10 +20,15 @@
           aspect-ratio="1"
           class="grey lighten-2 fullscreen-image"
         />
-        <div class="cross" @click="changeFullscreen(false)">
-          <div class="cross-first"></div>
-          <div class="cross-second"></div>
-        </div>
+        <v-btn
+          small
+          fab
+          color="orange lighten-3"
+          class="cross"
+          @click="changeFullscreen(false)"
+        >
+          <v-icon>mdi-close</v-icon>
+        </v-btn>
         <div class="image-buttons">
           <v-container fill-height fluid>
             <v-row align="center" justify="center">

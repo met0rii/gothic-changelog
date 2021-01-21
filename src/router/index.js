@@ -5,8 +5,10 @@ import VueRouter from "vue-router";
 // views
 import Home from "../views/home/Home.vue";
 import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
+
+// subviews
 import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
-import ChangelogOverview from "../views/mod-changelogs/changelogs-overview/ChangelogOverview.vue";
+import ChangelogOverview from "../views/mod-changelogs/changelogs/changelogs-overview/ChangelogOverview.vue";
 
 Vue.use(VueRouter);
 
@@ -24,18 +26,20 @@ const routes = [
     },
   },
   {
-    path: "/mod/:id",
+    path: "/mod/:gameId/:id/",
     component: ModChangelogs,
     children: [
       {
         path: "/",
+        name: "Changelogs",
+
         component: Changelogs,
       },
       {
         path: "changelog/:changelogId",
         name: "ChangelogPreview",
         component: ChangelogOverview,
-      },
+      }
     ],
   },
 ];
