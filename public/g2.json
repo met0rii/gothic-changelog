@@ -2,7 +2,7 @@
   {
     "id": "ab",
     "title": "Alternative Balance",
-    "titleUrl": "https://imgur.com/hv5Arkm.png",
+    "titleUrl": "https://i.imgur.com/4CY2TAz.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
@@ -829,44 +829,112 @@
     "overview": {
       "lists": [
         {
-          "title": "Najlepszy mod na świecie",
+          "title": "Co jest czym?",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor",
-              "list": [
-                {
-                  "content": "test"
-                },
-                {
-                  "content": "test"
-                },
-                {
-                  "content": "test"
-                },
-                {
-                  "content": "test"
-                }
-              ]
-            },
-            {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
-            },
-            {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych."
             }
           ]
         },
         {
-          "title": "Najlepsza Czerwona Latarnia",
+          "title": "Dodatkowe gildie",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Nowe gildie główne:",
+              "list": [
+                {
+                  "content": "Strażnik Bractwa / Guru,"
+                },
+                {
+                  "content": "Mag Wody,"
+                },
+                {
+                  "content": "Nekromanta."
+                }
+              ]
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Nowe gildie poboczne:",
+              "list": [
+                {
+                  "content": "Gildia Kupców,"
+                },
+                {
+                  "content": "Gildia Myśliwych,"
+                },
+                {
+                  "content": "Gildia Zabójców."
+                }
+              ]
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Poza tym każda z istniejących gildii została rozszerzona o nowe zadania."
+            }
+          ]
+        },
+        {
+          "title": "Rozszerzono istniejące wątki oraz wprowadzono nowe:",
+          "list": [
+            {
+              "content": "Możliwość zostania uczniem kręgu Opiekunów"
+            },
+            {
+              "content": "Ostatecznia walka z Krukiem odbywa w \"Koszmarze Kruka\" - nowy dungeon"
+            },
+            {
+              "content": "Możliwość wykonywania zadań dla orków w ich mieście"
+            },
+            {
+              "content": "Każda gildia poboczna posiada szereg zadań do wykonania"
+            }
+          ]
+        },
+        {
+          "title": "Nowe mechaniki:",
+          "list": [
+            {
+              "content": "Wolne celowanie dla magii oraz broni dystansowych"
+            },
+            {
+              "content": "Możliwość poruszania się podczas strzelania z łuku oraz kuszy"
+            },
+            {
+              "content": "Możliwość szkolenia ognika pomagającego nam między innymi zbierać przedmioty"
+            }
+          ]
+        },
+        {
+          "title": "Nowe lokacje:",
+          "list": [
+            {
+              "content": "Miasto Orków"
+            },
+            {
+              "content": "Pustynia Adanosa"
+            },
+            {
+              "content": "Wyspa Etlu"
+            },
+            {
+              "content": "Fort Azgan"
+            },
+            {
+              "content": "Las Asasynów"
+            },
+            {
+              "content": "Śnieżne Góry Orków"
+            },
+            {
+              "content": "Koszmar Kruka(dungeon)"
+            },
+            {
+              "content": "Zaginiony Brat(dungeon)"
+            },
+            {
+              "content": "Dolina Cieni"
+            },
+            {
+              "content": "Zapomniana Wyspa"
             }
           ]
         }
