@@ -912,7 +912,7 @@
     "authors": {
       "creators": [
         {
-          "name": "Likier",
+          "name": "Liker",
           "role": "Autor",
           "contacts": [
             {
@@ -943,7 +943,7 @@
       "contributors": [
         {
           "name": "Franisz",
-          "role": "Mieszał skrypty"
+          "role": "Tłumacz, wsparcie techniczne"
         },
         {
           "name": "Kredensik",
@@ -952,6 +952,14 @@
         {
           "name": "Bukovsky",
           "role": "Tłumacz"
+        },
+        {
+          "name": "Zipperiusz",
+          "role": "Tłumacz, korekty"
+        },
+        {
+          "name": "Sebastian",
+          "role": "Wsparcie techniczne"
         },
         {
           "name": "Solace",
@@ -995,7 +1003,7 @@
         },
         {
           "name": "Washion",
-          "role": "Wazon"
+          "role": "Tłumacz"
         },
         {
           "name": "Szun",
