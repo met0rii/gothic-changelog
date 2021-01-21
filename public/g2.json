@@ -2,7 +2,7 @@
   {
     "id": "ab",
     "title": "Alternative Balance",
-    "titleUrl": "https://imgur.com/hv5Arkm.png",
+    "titleUrl": "https://i.imgur.com/4CY2TAz.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
@@ -829,85 +829,153 @@
     "overview": {
       "lists": [
         {
-          "title": "Najlepszy mod na świecie",
+          "title": "Co jest czym?",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor",
-              "list": [
-                {
-                  "content": "test"
-                },
-                {
-                  "content": "test"
-                },
-                {
-                  "content": "test"
-                },
-                {
-                  "content": "test"
-                }
-              ]
-            },
-            {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
-            },
-            {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych."
             }
           ]
         },
         {
-          "title": "Najlepsza Czerwona Latarnia",
+          "title": "Dodatkowe gildie",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Nowe gildie główne:",
+              "list": [
+                {
+                  "content": "Strażnik Bractwa / Guru,"
+                },
+                {
+                  "content": "Mag Wody,"
+                },
+                {
+                  "content": "Nekromanta."
+                }
+              ]
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Nowe gildie poboczne:",
+              "list": [
+                {
+                  "content": "Gildia Kupców,"
+                },
+                {
+                  "content": "Gildia Myśliwych,"
+                },
+                {
+                  "content": "Gildia Zabójców."
+                }
+              ]
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Poza tym każda z istniejących gildii została rozszerzona o nowe zadania."
+            }
+          ]
+        },
+        {
+          "title": "Rozszerzono istniejące wątki oraz wprowadzono nowe:",
+          "list": [
+            {
+              "content": "Możliwość zostania uczniem kręgu Opiekunów"
+            },
+            {
+              "content": "Ostatecznia walka z Krukiem odbywa w \"Koszmarze Kruka\" - nowy dungeon"
+            },
+            {
+              "content": "Możliwość wykonywania zadań dla orków w ich mieście"
+            },
+            {
+              "content": "Każda gildia poboczna posiada szereg zadań do wykonania"
+            }
+          ]
+        },
+        {
+          "title": "Nowe mechaniki:",
+          "list": [
+            {
+              "content": "Wolne celowanie dla magii oraz broni dystansowych"
+            },
+            {
+              "content": "Możliwość poruszania się podczas strzelania z łuku oraz kuszy"
+            },
+            {
+              "content": "Możliwość szkolenia ognika pomagającego nam między innymi zbierać przedmioty"
+            }
+          ]
+        },
+        {
+          "title": "Nowe lokacje:",
+          "list": [
+            {
+              "content": "Miasto Orków"
+            },
+            {
+              "content": "Pustynia Adanosa"
+            },
+            {
+              "content": "Wyspa Etlu"
+            },
+            {
+              "content": "Fort Azgan"
+            },
+            {
+              "content": "Las Asasynów"
+            },
+            {
+              "content": "Śnieżne Góry Orków"
+            },
+            {
+              "content": "Koszmar Kruka(dungeon)"
+            },
+            {
+              "content": "Zaginiony Brat(dungeon)"
+            },
+            {
+              "content": "Dolina Cieni"
+            },
+            {
+              "content": "Zapomniana Wyspa"
             }
           ]
         }
       ]
     },
     "gallery": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ81TeqUX-phCYKFpSQXOLwv2qFIzBjQ8MWJQ&usqp=CAU",
-      "img/returning/ADANOSVALLEY.jpg",
-      "img/returning/ADDONWORLD.jpg",
-      "img/returning/ASHTARTEMPLE.jpg",
-      "img/returning/AZGALORTEMPLE.jpg",
-      "img/returning/DEMONCAVE.jpg",
-      "img/returning/DEMONSTOWER.jpg",
-      "img/returning/DRAGONISLAND.jpg",
-      "img/returning/DRAGONTEMPLE.jpg",
-      "img/returning/FIRECAVE.jpg",
-      "img/returning/FREEMINE.jpg",
-      "img/returning/GINNOKWORLD.jpg",
-      "img/returning/GOLDMINE.jpg",
-      "img/returning/GUARDIANCHAMBERS.jpg",
-      "img/returning/HAOSWORLD.jpg",
-      "img/returning/HARADRIMARENA.jpg",
-      "img/returning/ITUSELDTOWER.jpg",
-      "img/returning/LOSTISLAND.jpg",
-      "img/returning/LOSTVALLEY.jpg",
-      "img/returning/NEWWORLD.jpg",
-      "img/returning/OLDMINE.jpg",
-      "img/returning/OLDWORLD.jpg",
-      "img/returning/ORCCITY.jpg",
-      "img/returning/ORCGRAVEYARD.jpg",
-      "img/returning/ORCMOUNTAIN.jpg",
-      "img/returning/ORCMOUNTAIN2.jpg",
-      "img/returning/ORCOREMINE.jpg",
-      "img/returning/ORCTEMPEL.jpg",
-      "img/returning/PALADINFORT.jpg",
-      "img/returning/PASHALWORLD.jpg",
-      "img/returning/PRIORATWORLD.jpg",
-      "img/returning/SECRETISLAND.jpg",
-      "img/returning/SHVALLEY.jpg",
-      "img/returning/TEARSTEMPLE.jpg",
-      "img/returning/UNDEADZONE.jpg"
+      "https://imgur.com/Ybh01Bg.jpg",
+      "https://imgur.com/pQY0l6y.jpg",
+      "https://imgur.com/8ZdiXf3.jpg",
+      "https://imgur.com/DR0trA1.jpg",
+      "https://imgur.com/jENDQI8.jpg",
+      "https://imgur.com/schnXYm.jpg",
+      "https://imgur.com/PxC0y2W.jpg",
+      "https://imgur.com/DV5b1HX.jpg",
+      "https://imgur.com/LG4YYVd.jpg",
+      "https://imgur.com/ZGpI8mG.jpg",
+      "https://imgur.com/J5WQ5BI.jpg",
+      "https://imgur.com/KlnhrgJ.jpg",
+      "https://imgur.com/DCH6YUu.jpg",
+      "https://imgur.com/X8OmVUV.jpg",
+      "https://imgur.com/rQ3aiX1.jpg",
+      "https://imgur.com/J5ZSIJD.jpg",
+      "https://imgur.com/6ncb5wh.jpg",
+      "https://imgur.com/Z10FCO4.jpg",
+      "https://imgur.com/4q5xzs5.jpg",
+      "https://imgur.com/tGpTI8X.jpg",
+      "https://imgur.com/zx3AmEG.jpg",
+      "https://imgur.com/aNUNq8f.jpg",
+      "https://imgur.com/m96ft8g.jpg",
+      "https://imgur.com/2Lk5IoR.jpg",
+      "https://imgur.com/uWpquJV.jpg",
+      "https://imgur.com/MxQYLfn.jpg",
+      "https://imgur.com/Hsk77Gn.jpg",
+      "https://imgur.com/oQFHAdD.jpg",
+      "https://imgur.com/2vWdNZH.jpg",
+      "https://imgur.com/cBM10Fo.jpg",
+      "https://imgur.com/rrK4SkC.jpg",
+      "https://imgur.com/qriu8Th.jpg",
+      "https://imgur.com/ayBDFy8.jpg",
+      "https://imgur.com/hE9K0vs.jpg",
+      "https://imgur.com/yU8zI1P.jpg"
     ],
     "authors": {
       "creators": [
@@ -918,10 +986,6 @@
             {
               "platform": "Forum",
               "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
-            },
-            {
-              "platform": "Discord",
-              "url": "https://google.com"
             }
           ]
         },
@@ -932,10 +996,6 @@
             {
               "platform": "Forum",
               "url": "https://rpgrussia.com/forums/gotika-2-vozvraschenie-2-0-alternativnyj-balans.374/"
-            },
-            {
-              "platform": "Discord",
-              "url": "https://google.com"
             }
           ]
         }
@@ -946,20 +1006,20 @@
           "role": "Tłumacz, wsparcie techniczne"
         },
         {
-          "name": "Kredensik",
-          "role": "Tłumacz"
-        },
-        {
-          "name": "Bukovsky",
-          "role": "Tłumacz"
+          "name": "Sebastian",
+          "role": "Wsparcie techniczne"
         },
         {
           "name": "Zipperiusz",
           "role": "Tłumacz, korekty"
         },
         {
-          "name": "Sebastian",
-          "role": "Wsparcie techniczne"
+          "name": "Kredensik",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Bukovsky",
+          "role": "Tłumacz"
         },
         {
           "name": "Solace",
@@ -1038,8 +1098,14 @@
       {
         "updateId": "2",
         "updateDescription": "Balans rozgrywki, poprawione AI przeciwników, zmiany w umiejętnościach, broniach, pancerzach i innych przedmiotach.",
-        "version": "1.1.6",
+        "version": "1.6",
         "date": "11.02.2021",
+        "alerts": [
+          {
+            "color": "red",
+            "text": "<b>UWAGA!</b> Wersja 1.6 nie jest jeszcze dostępna, planowana data premiery to 11.02.2021!"
+          }
+        ],
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1386,8 +1452,8 @@
       },
       {
         "updateId": "1",
-        "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli...",
-        "version": "1.1.5",
+        "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli.",
+        "version": "1.5",
         "date": "16.03.2020",
         "lists": [
           {
@@ -1409,21 +1475,7 @@
                     "content": "-30 modlitw za 100 złota (80% na otrzymanie + 2HP)"
                   },
                   {
-                    "content": "-15 modlitw za 200 złota (losowy bonus)",
-                    "list": [
-                      {
-                        "content": "lorem"
-                      },
-                      {
-                        "content": "ipsum"
-                      },
-                      {
-                        "content": "lorem"
-                      },
-                      {
-                        "content": "lorem"
-                      }
-                    ]
+                    "content": "-15 modlitw za 200 złota (losowy bonus)"
                   },
                   {
                     "content": " nie możesz otrzymać many jeżeli nie jesteś magiem lub nowicjuszem, nie możesz otrzymać siły lub zręczności jeżeli jesteś magiem, + 1 siły, + 1 zręczności, + 2MP, + 5HP)"
@@ -1431,7 +1483,7 @@
                 ]
               },
               {
-                "content": "Grobowy mech, klucze i inne rzeczy z wersji 1.1.4 są teraz poprawnie umieszczone w świecie."
+                "content": "Grobowy mech, klucze i inne rzeczy z wersji 1.4 są teraz poprawnie umieszczone w świecie."
               },
               {
                 "content": "Naprawiono błąd, w którym średnia zbroja najemnika wyświetlała koszt 500, ale faktycznie kosztowała 750."
@@ -1565,8 +1617,8 @@
       },
       {
         "updateId": "0",
-        "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji...",
-        "version": "1.1.4",
+        "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji.",
+        "version": "1.4",
         "date": "09.11.2018",
         "lists": [
           {
@@ -1639,65 +1691,158 @@
     "overview": {
       "lists": [
         {
-          "title": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "title": "Zmiany ogólne:",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Zmieniona szata graficzna,"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Mapa powiększona o nowe obszary do eksploracji,"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Nowe modele przedmiotów,"
+            },
+            {
+              "content": "Dodano tarcze i możliwość blokowania wrogich ciosów i zaklęć,"
+            },
+            {
+              "content": "Możliwość gotowania zup w kotle,"
+            },
+            {
+              "content": "Dodano zaklinanie pozwalające na tworzenie biżuterii,"
+            },
+            {
+              "content": "Nowe rośliny oraz mikstury stałe,"
+            },
+            {
+              "content": "Nowe rodzaje strzał,"
+            },
+            {
+              "content": "Nowi przeciwnicy,"
+            },
+            {
+              "content": "Dodano umiejętności regeneracji życia oraz many,"
+            },
+            {
+              "content": "Nowe przepisy i umiejętności dotyczące tworzenia:",
+              "list": [
+                {
+                  "content": "mieczy,"
+                },
+                {
+                  "content": "łuków,"
+                },
+                {
+                  "content": "zbroi,"
+                },
+                {
+                  "content": "mikstur."
+                }
+              ]
             }
           ]
         },
         {
-          "title": "lorem caspada",
+          "title": "Balans",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Usunięto tabliczki dające stałe bonusy do statystyk,"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Mikstury przywracają zdrowie/manę procentowo,"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Zmienione progi nauczania,"
+            },
+            {
+              "content": "Bonusy nie są wliczane do progów nauki,"
+            },
+            {
+              "content": "Zmienione zachowanie przeciwników,"
+            },
+            {
+              "content": "Zwiększone statystyki przeciwników,"
+            },
+            {
+              "content": "Zmieniony system bonusów z modlitw."
             }
           ]
         }
       ]
     },
     "gallery": [
-      "img/lhiver/1.png",
-      "img/lhiver/2.png",
-      "img/lhiver/3.png",
-      "img/lhiver/4.png",
-      "img/lhiver/5.png",
-      "img/lhiver/6.png",
-      "img/lhiver/7.png",
-      "img/lhiver/8.png",
-      "img/lhiver/9.png",
-      "img/lhiver/10.png",
-      "img/lhiver/11.png",
-      "img/lhiver/12.png",
-      "img/lhiver/13.png",
-      "img/lhiver/14.png",
-      "img/lhiver/15.png",
-      "img/lhiver/16.png",
-      "img/lhiver/17.png",
-      "img/lhiver/18.png",
-      "img/lhiver/19.png",
-      "img/lhiver/20.png",
-      "img/lhiver/21.png",
-      "img/lhiver/22.png",
-      "img/lhiver/23.png",
-      "img/lhiver/24.png"
+      "https://imgur.com/HAWM4df.jpg",
+      "https://imgur.com/dCgyCEi.jpg",
+      "https://imgur.com/ucNoPol.jpg",
+      "https://imgur.com/kpL3Bpc.jpg",
+      "https://imgur.com/1OyGItR.jpg",
+      "https://imgur.com/uT9H82e.jpg",
+      "https://imgur.com/AOIiRut.jpg",
+      "https://imgur.com/RRtupLh.jpg",
+      "https://imgur.com/2JrM8uA.jpg",
+      "https://imgur.com/XCcuz6E.jpg",
+      "https://imgur.com/WkrIC0s.jpg",
+      "https://imgur.com/F5GJXvy.jpg",
+      "https://imgur.com/BBbr5ul.jpg",
+      "https://imgur.com/RuYjuGm.jpg",
+      "https://imgur.com/vUAK3xS.jpg",
+      "https://imgur.com/ra31WTF.jpg",
+      "https://imgur.com/okD5m2A.jpg",
+      "https://imgur.com/0q3rZRU.jpg",
+      "https://imgur.com/bBkNIDI.jpg",
+      "https://imgur.com/5EFptaH.jpg",
+      "https://imgur.com/aAAWZF2.jpg",
+      "https://imgur.com/lKhgZPp.jpg",
+      "https://imgur.com/MwiMPWn.jpg",
+      "https://imgur.com/8tqvMvY.jpg"
     ],
     "authors": {
-      "creators": [],
-      "contributors": [],
-      "translators": []
+      "creators": [
+        {
+          "name": "Masty",
+          "role": "Autor",
+          "contacts": [
+            {
+              "platform": "Forum",
+              "url": "https://forum.worldofplayers.de/forum/threads/1524640-Release-Gothic-2-L-Hiver-1-1-English-Edition-2"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/K8UveNNTHk"
+            }
+          ]
+        },
+        {
+          "name": "unknown111",
+          "role": "Autor"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Franisz",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Sebastian",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Zipperiusz",
+          "role": "Tłumacz, Tester"
+        },
+        {
+          "name": "Kredensik",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "Hexen",
+          "role": "Tester"
+        },
+        {
+          "name": "Washion",
+          "role": "Tester"
+        }
+      ]
     }
   }
 ]
