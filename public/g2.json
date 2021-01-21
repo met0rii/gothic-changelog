@@ -7,6 +7,44 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "10",
+        "updateDescription": "Aktualizacja wprowadza między innymi drobne poprawki i zmiany w lokacjach oraz ważne waypointy potrzebne do gry Mrocznym rycerzem w przyszłości. <i>Osoby planujące grać Mrocznym rycerzem mogą zacząć nową grę na tej aktualizacji. Za kilka dni zostanie skończona klasa i będzie można nią odrazu zostać. Pamiętać trzeba tylko, żeby nie dołączać do żadnej gildii ani nie zabijać Rigeliona.</i>",
+        "version": "20.01.2021",
+        "date": "20-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              "Zmieniono mechanikę używania magii przez przeciwników. (harpie, golemy, gobliny, itd.) Teraz będą oni strzelać tylko, gdy bohater jest w ich polu widzenia, nie będzie już sytuacji, że przeciwnik strzela w ścianę lub przez ścianę.",
+              "Zmieniono zależności pomiędzy gildiami przeciwników a gildiami przyzwańców. Teraz potwory i przyzwańce będą się naturalniej atakować. Zmiana nie dotyczy ludzi.",
+              "Dodano nową funkcję sprawdzającą zarówno wersję skryptów jak i plików moda. Jeśli wersje nie będą się zgadzać, wyświetli się komunikat o tym.",
+              "Teraz <i>Berło Adanosa</i> oraz <i>Różdżka Władcy Smoków</i> nie są zaliczane jako pierścienie i można je swobodnie zakładać.",
+              "Moc magiczna zwiększa szansę na zadanie dodatkowych obrażeń magicznych z kostura lub miecza magicznego.",
+              "Runa <i>Ognista ochrona</i> zwiększa teraz też ilość ticków ze spalania o 1.",
+              "Przeniesiono serca golemów do kategorii mikstur.",
+              "Poprawiono koszt many run nekromanty, których opis nie zgadzał się z właściwym wymogiem many.",
+              "Szansa na zamrożenie bossów przy pomocy <i>Lodowego młota</i> wynosi teraz 10% i trwa tylko sekundę.",
+              "Naprawiono kilka błędów z zamrażaniem przeciwników.",
+              "Naprawiono błąd z runą <i>Przyzwanie Demonicznego Legionu</i>.",
+              "Naprawiono błąd sprawiający, że <i>Haniar</i> oraz <i>Kruk</i> mogli atakować bohatera będąc nieśmiertelnym.",
+              "Naprawiono błąd sprawiający, że obrażenia z łuków i kusz były naliczane niepoprawnie podczas strzelania w trolle.",
+              "I inne mniejsze poprawki..."
+            ]
+          },
+          {
+            "title": "Zmiany w lokacjach:",
+            "list": [
+              "Naprawiono znikające obiekty w <i>Przeklętej Latarni</i> oraz <i>Jaskini Samuela</i>. (zmiana ta nie wymaga nowej gry)",
+              "Naprawiono kilka miejsc w <i>Jaskini Bólu</i>, gdzie bohater często mógł się zaciąć.",
+              "Naprawiono miejsca z drobnymi błędami wizualnymi.",
+              "Dodano łóżko w pomieszczeniu obok teleportów na <i>Płaskowyżu Starożytnych</i>.",
+              "Usunięto miejsce wymuszające śmierć bohatera gdy spadł on w przepaść w drodze do <i>Świątyni Łez</i> na <i>Płaskowyżu Starożytnych</i>.",
+              "Zaktualizowano zawartość niektórych skrzyń w <i>Khorinis</i>, <i>Jarkendarze</i>, <i>Górniczej Dolinie</i> oraz na <i>Płaskowyżu Starożytnych</i>."
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "9",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "15.01.2021",

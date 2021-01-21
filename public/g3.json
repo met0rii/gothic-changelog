@@ -109,7 +109,7 @@
       },
       {
         "updateId": "0",
-        "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi<br>Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
+        "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkami<br>Po zdobyciu miast orkowe sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
         "version": "0.31",
         "date": "25.06.2020",
         "lists": [
@@ -123,7 +123,7 @@
                 "content": "Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi."
               },
               {
-                "content": "Po zdobyciu miast orcze sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną."
+                "content": "Po zdobyciu miast orkowe sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną."
               },
               {
                 "content": "Kilka zadań zostało ulepszonych i naprawionych."
