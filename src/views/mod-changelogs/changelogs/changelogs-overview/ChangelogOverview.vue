@@ -14,7 +14,7 @@
         </div>
         <span v-html="changelog.updateDescription"></span>
         <v-divider class="mt-2" />
-        <changelog-list :changelogList="changelog.lists"></changelog-list>
+        <recursive-list :data="changelog.lists" />
       </div>
     </v-col>
   </v-row>
@@ -22,11 +22,11 @@
 
 <script>
 import BackButton from "../../../../components/BackButton.vue";
-import ChangelogList from "../../../../components/ChangelogList.vue";
+import RecursiveList from "../../../../components/RecursiveList.vue";
 import SectionTitle from "../../../../components/SectionTitle.vue";
 
 export default {
-  components: { BackButton, SectionTitle, ChangelogList },
+  components: { BackButton, SectionTitle, RecursiveList },
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;

@@ -3,7 +3,7 @@
     <div
       class="mt-6"
       :class="{ 'mb-4': multipleListItems && listIndex !== lastIndex }"
-      v-for="(list, listIndex) in changelogList"
+      v-for="(list, listIndex) in data"
       :key="listIndex"
     >
       <h4 v-html="list.title" />
@@ -16,17 +16,17 @@
 <script>
 import NodeTree from "./NodeTree.vue";
 export default {
-  name: "ChangelogList",
+  name: "RecursiveList",
   props: {
-    changelogList: { type: Array, required: true },
+    data: { type: Array, required: true },
   },
   components: { NodeTree },
   computed: {
     lastIndex() {
-      return this.changelogList.length - 1;
+      return this.data.length - 1;
     },
     multipleListItems() {
-      return this.changelogList.length > 1;
+      return this.data.length > 1;
     },
   },
 };
