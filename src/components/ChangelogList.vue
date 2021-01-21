@@ -6,7 +6,7 @@
       v-for="(list, listIndex) in changelogList"
       :key="listIndex"
     >
-      <h3 v-html="list.title" />
+      <h4 v-html="list.title" />
       <node-tree :node="list.list"></node-tree>
     </div>
   </div>

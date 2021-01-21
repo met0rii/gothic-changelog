@@ -119,6 +119,7 @@ export default {
   --h1: 40px;
   --h2: 36px;
   --h3: 26px;
+  --h4: 22px;
 }
 
 h1 {
@@ -131,6 +132,10 @@ h2 {
 
 h3 {
   font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
 }
 
 body {
