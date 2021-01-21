@@ -1384,7 +1384,7 @@
       },
       {
         "updateId": "1",
-        "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli...",
+        "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli.",
         "version": "1.5",
         "date": "16.03.2020",
         "lists": [
@@ -1407,21 +1407,7 @@
                     "content": "-30 modlitw za 100 złota (80% na otrzymanie + 2HP)"
                   },
                   {
-                    "content": "-15 modlitw za 200 złota (losowy bonus)",
-                    "list": [
-                      {
-                        "content": "lorem"
-                      },
-                      {
-                        "content": "ipsum"
-                      },
-                      {
-                        "content": "lorem"
-                      },
-                      {
-                        "content": "lorem"
-                      }
-                    ]
+                    "content": "-15 modlitw za 200 złota (losowy bonus)"
                   },
                   {
                     "content": " nie możesz otrzymać many jeżeli nie jesteś magiem lub nowicjuszem, nie możesz otrzymać siły lub zręczności jeżeli jesteś magiem, + 1 siły, + 1 zręczności, + 2MP, + 5HP)"
@@ -1563,7 +1549,7 @@
       },
       {
         "updateId": "0",
-        "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji...",
+        "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji.",
         "version": "1.4",
         "date": "09.11.2018",
         "lists": [
@@ -1637,30 +1623,80 @@
     "overview": {
       "lists": [
         {
-          "title": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "title": "Zmiany ogólne:",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Zmieniona szata graficzna,"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Mapa powiększona o nowe obszary do eksploracji,"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Nowe modele przedmiotów,"
+            },
+            {
+              "content": "Dodano tarcze i możliwość blokowania wrogich ciosów i zaklęć,"
+            },
+            {
+              "content": "Możliwość gotowania zup w kotle,"
+            },
+            {
+              "content": "Dodano zaklinanie pozwalające na tworzenie biżuterii,"
+            },
+            {
+              "content": "Nowe rośliny oraz mikstury stałe,"
+            },
+            {
+              "content": "Nowe rodzaje strzał,"
+            },
+            {
+              "content": "Nowi przeciwnicy,"
+            },
+            {
+              "content": "Dodano umiejętności regeneracji życia oraz many,"
+            },
+            {
+              "content": "Nowe przepisy i umiejętności dotyczące tworzenia:",
+              "list": [
+                {
+                  "content": "mieczy,"
+                },
+                {
+                  "content": "łuków,"
+                },
+                {
+                  "content": "zbroi,"
+                },
+                {
+                  "content": "mikstur."
+                }
+              ]
             }
           ]
         },
         {
-          "title": "lorem caspada",
+          "title": "Balans",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Usunięto tabliczki dające stałe bonusy do statystyk,"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Mikstury przywracają zdrowie/manę procentowo,"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Zmienione progi nauczania,"
+            },
+            {
+              "content": "Bonusy nie są wliczane do progów nauki,"
+            },
+            {
+              "content": "Zmienione zachowanie przeciwników,"
+            },
+            {
+              "content": "Zwiększone statystyki przeciwników,"
+            },
+            {
+              "content": "Zmieniony system bonusów z modlitw."
             }
           ]
         }
