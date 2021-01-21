@@ -14,28 +14,7 @@
         </div>
         <span v-html="changelog.updateDescription"></span>
         <v-divider class="mt-2" />
-        <div
-          class="mt-6"
-          :class="{ 'mb-4': multipleListItems && listIndex !== lastIndex }"
-          v-for="(list, listIndex) in changelog.lists"
-          :key="listIndex"
-        >
-          <h3 v-html="list.title" />
-
-          <template>
-            <v-treeview
-              item-children="list"
-              item-text="content"
-              dark
-              open-all
-              :items="list.list"
-            >
-              <template v-slot:prepend="{ item }">
-                <v-icon v-if="item"> mdi-pan-right </v-icon>
-              </template>
-            </v-treeview>
-          </template>
-        </div>
+        <changelog-list :changelogList="changelog.lists"></changelog-list>
       </div>
     </v-col>
   </v-row>
@@ -43,19 +22,14 @@
 
 <script>
 import BackButton from "../../../../components/BackButton.vue";
+import ChangelogList from "../../../../components/ChangelogList.vue";
 import SectionTitle from "../../../../components/SectionTitle.vue";
 
 export default {
-  components: { BackButton, SectionTitle },
+  components: { BackButton, SectionTitle, ChangelogList },
   computed: {
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;
-    },
-    lastIndex() {
-      return this.$store.state.changelogs.selectedChangelog.lists.length - 1;
-    },
-    multipleListItems() {
-      return this.$store.state.changelogs.selectedChangelog.lists.length > 1;
     },
   },
 };
