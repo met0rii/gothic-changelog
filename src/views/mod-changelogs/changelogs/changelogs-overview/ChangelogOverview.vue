@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <section-title title="Lista zmian" />
-    <v-col xs="12" class="pl-4 pr-4" v-if="changelog">
+    <v-col cols="12" class="pl-4 pr-4" v-if="changelog">
       <div class="changelog-row pa-4">
         <div class="back-button-container mb-2">
           <back-button text="Powrót" />
@@ -14,7 +14,7 @@
         </div>
         <span v-html="changelog.updateDescription"></span>
         <v-divider class="mt-2" />
-        <recursive-list :data="changelog.lists" />
+        <recursive-list class="mt-6" :data="changelog.lists" />
       </div>
     </v-col>
   </v-row>

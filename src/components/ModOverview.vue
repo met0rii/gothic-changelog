@@ -1,21 +1,18 @@
+
 <template>
-  <div class="overview pt-4 pb-4 pr-4 pl-2">
-    <v-treeview
-      item-children="list"
-      item-text="content"
-      dark
-      :items="data.overview.lists"
-    >
-    </v-treeview>
+  <div class="overview pt-6 pb-6 pl-4 pr-4">
+    <recursive-list :data="data.overview.lists" />
   </div>
 </template>
 
 <script>
+import RecursiveList from "./RecursiveList.vue";
+
 export default {
   props: {
     data: { type: Object, required: true },
   },
-  components: {},
+  components: { RecursiveList },
 };
 </script>
 <style scoped>

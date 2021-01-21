@@ -1,7 +1,6 @@
 <template>
   <div>
     <div
-      class="mt-6"
       :class="{ 'mb-4': multipleListItems && listIndex !== lastIndex }"
       v-for="(list, listIndex) in data"
       :key="listIndex"

@@ -1,5 +1,5 @@
 <template>
-  <v-col class="gallery-image-container" xs="12" sm="6" lg="2">
+  <v-col class="gallery-image-container" cols="12" sm="6" lg="2">
     <v-img
       v-on:click="imageClick"
       :src="assetUrl"

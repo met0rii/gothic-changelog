@@ -2,28 +2,28 @@
   <div>
     <v-row>
       <section-title title="Zmiany" />
-      <v-col xs="12" class="pl-4 pr-4">
+      <v-col cols="12" class="pl-4 pr-4">
         <changelogs-cards />
       </v-col>
     </v-row>
 
     <v-row>
       <section-title title="Przegląd" />
-      <v-col xs="12" class="pl-4 pr-4">
+      <v-col cols="12" class="pl-4 pr-4">
         <mod-overview :data="selected" />
       </v-col>
     </v-row>
 
     <v-row>
       <section-title title="Galeria" />
-      <v-col xs="12" class="pl-4 pr-4">
+      <v-col cols="12" class="pl-4 pr-4">
         <mod-gallery :data="selected" />
       </v-col>
     </v-row>
 
     <v-row>
       <section-title title="Autorzy" />
-      <v-col xs="12" class="pl-4 pr-4">
+      <v-col cols="12" class="pl-4 pr-4">
         <mod-authors :data="selected" />
       </v-col>
     </v-row>
