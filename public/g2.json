@@ -7,6 +7,54 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "11",
+        "updateDescription": "Aktualizacja wprowadza do gry długo wyczekiwaną gildię Mrocznego Rycerza.",
+        "version": "23.01.2021",
+        "date": "23-01-2021",
+        "alerts": [
+          {
+            "color": "red",
+            "text": "<b>UWAGA!</b> Aby zagrać jako Mroczny Rycerz należy zacząć nową grę na AB Modzie z 20.01.2021!"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Naprawiono błąd sprawiający, że bandyci z obozu Dextera i innych miejsc atakowali bohatera gdy nosił on pancerz bandytów."
+              }
+            ]
+          },
+          {
+            "title": "Mroczny Rycerz:",
+            "list": [
+              {
+                "content": "Mroczny Rycerz to osobna gildia do której może dołączyć każdy w 1 rozdziale. Jest to klasa wojownika, który ma dostęp do potężnych run oraz wyjątkowego przyzwańca oraz innych unikalnych umiejętności. Gildia ta nie posiada jednak wątku fabularnego."
+              },
+              {
+                "content": "Dołączanie do gildii należy zacząć od zabicia Rigeliona w zadaniu <i>Horror na cmentarzu</i>."
+              },
+              {
+                "content": "Klasa może przyzwać mrocznego sługę, który na podczas jego działania zabierze bohaterowi połowę maksymalnej many. Statystyki przyzwańca zależą od poziomu postaci gracza a obrażenia sługi są zależne od many bohatera. Sam sługa nie zdobywan doświadczenia. Przyzwanic ten posiada też dodatkowe obrażenia od ataku równe dwukrotności poziomu bohatera. Gracz może też nauczyć się wielu umiejętności, które wzmocnią sługusa. Przyzwaniec zajmuje wszystkie 4 sloty summonów więc nie można przyzwać nic innego gdy jest on aktywny."
+              },
+              {
+                "content": "Klasa może nauczyć się specjalnych run, które pasywnie wzmacniają bohatera i / lub jego przyzwańca. Jego runy nie działają na kosturach / mieczach magicznych / rapierach / dwóch broniach / włóczniach / tarczach i broni dystansowej. Dlatego jedyną opcją jest granie 2h pod siłę, lub ewentualnie 1h ale bez tarczy."
+              },
+              {
+                "content": "Postać ta może robić zadania u Xardasa te same co Nekromanta oraz może oddawać mu składniki i serca demonów. Klasa może też składać w ofierze Beliarowi przeklętą broń."
+              },
+              {
+                "content": "Zbroje mrocznego rycerza wymagają siły. Każda z nich może zostać przekuta a następnie sprofanowana na ołtarzu Beliara w celu jeszcze większego wzmocnienia zbroji. (jak konsekracja u paladynów) Na ten moment klasa posiada 3 zbroje i unikalną broń dwuręczną. Przedmioty te są możliwe do kupienia w dalszych rozdziałach gry."
+              },
+              {
+                "content": "Gildia ta nie ma dostępu do Krayta ani do nauki trucizn Freygala. Mikstury lecznicze i many mają lekko osłabione działanie, dotyczy to równierz umiejętności regeneracji. Klasa otrzymuje też zmniejszony bonus od siły do obrażeń jakie zadaje walcząc wręcz. (siła słabiej przekłada się na obrażenia postaci)"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "10",
         "updateDescription": "Aktualizacja wprowadza między innymi drobne poprawki i zmiany w lokacjach oraz ważne waypointy potrzebne do gry Mrocznym rycerzem w przyszłości. <i>Osoby planujące grać Mrocznym rycerzem mogą zacząć nową grę na tej aktualizacji. Za kilka dni zostanie skończona klasa i będzie można nią odrazu zostać. Pamiętać trzeba tylko, żeby nie dołączać do żadnej gildii ani nie zabijać Rigeliona.</i>",
         "version": "20.01.2021",
