@@ -7,6 +7,48 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "12",
+        "updateDescription": "Aktualizacja wprowadza zmiany i poprawki dotyczące Mrocznego Rycerza.",
+        "version": "24.01.2021",
+        "date": "24-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Teraz <i>Gor Hanis</i> daje eliksir siły za zabicie jaszczurów gdy bohater ma 100 siły. (wcześniej 150)"
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że na pasku statusów nie pojawiała się ikona ognika gdy był on przywołany."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany Mrocznego Rycerza:",
+            "list": [
+              {
+                "content": "Przyzwanie Mrocznego Sługi nie zabiera już maksymalnej many - powodowało to wiele błędów, więc przyzwanie go kosztuje po prostu połowę many bohatera."
+              },
+              {
+                "content": "Mroczny Rycerz otrzymuje podwójne doświadczenie i karmę za modlitwę do Beliara. Modlenie się do Innosa jest zablokowane."
+              },
+              {
+                "content": "Ranny ork nie atakuje już Mrocznego Sługi."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że Rigelion nie posiadał notatki jeśli gracz zabił przemianą."
+              },
+              {
+                "content": "Teraz nauczyciel Mrocznego Rycerza uczy także statystyk oraz władania bronią jedno, oraz dwuręczną."
+              },
+              {
+                "content": "Podczas przyspieszenia czasu, szybciej mija czas odnowienia Mrocznego Sługi."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "11",
         "updateDescription": "Aktualizacja wprowadza do gry długo wyczekiwaną gildię Mrocznego Rycerza.",
         "version": "23.01.2021",
