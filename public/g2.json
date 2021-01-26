@@ -7,6 +7,63 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "13",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "26.01.2021",
+        "date": "26-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Wypłata strażnika miejskiego u Lorda Andre zależy teraz od wykonanych dla niego zadań. Wypłata u Andre i Onara kumuluje się też teraz do 10 dni. (wcześniej do 7)"
+              },
+              {
+                "content": "Zwiększono lekko ilość złota, jaką otrzymuje gracz u Halvora za sprzedane przedmioty."
+              },
+              {
+                "content": "Teraz gdy gracz rozpocznie grę na bardzo łatwym poziomie trudności, (15 pn / poziom lub więcej) to większość umiejętności będzie kosztować tylko 50% złota."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że przyzwańce atakowały <i>Ognika</i>."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że górscy orkowie atakowali zwierzęta."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że bohater mógł się zablokować podczas animacji chowania broni / magii będąc do pasa w wodzie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że NPC-ty reagowały na kradzież gdy bohater był niewidzialny."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany Mrocznego Rycerza:",
+            "list": [
+              {
+                "content": "Teraz życie i obrażenia mrocznego sługi są zwiększone też o ilość inteligencji bohatera. (1 inta to + 1 zdrowia i dmga sługi)"
+              },
+              {
+                "content": "Mroczny Rycerz ma dostęp do specjalnych darów u Beliara."
+              },
+              {
+                "content": "Zmniejszono lekko ilość punktów nauki wymaganych do nauczenia się niektórych umiejętności mrocznego sługi."
+              },
+              {
+                "content": "Umiejętność regeneracji many zapewnia dodatkowe + 1 many na sekundę."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że <i>Eksplozja zwłok</i> prowadziła do crasha gry."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że sługa atakował magią martwych przeciwników."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "12",
         "updateDescription": "Aktualizacja wprowadza zmiany i poprawki dotyczące Mrocznego Rycerza.",
         "version": "24.01.2021",
