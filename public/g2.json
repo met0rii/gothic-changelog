@@ -7,6 +7,42 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "14",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "27.01.2021",
+        "date": "27-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Przywrócono możliwość nauki języka demonów za darmo po zdobyciu osiągnięcia <i>Ręka Beliara</i>. (należy zabić 100 ludzi)"
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że obrażenia obszarowe prowadziły czasem do crasha gry."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany Mrocznego Rycerza:",
+            "list": [
+              {
+                "content": "Mroczny Rycerz przywraca sobie po teleportacji 30% many jeśli mroczny sługa był przyzwany i zniknął. (jest tak, żeby można było go przyzwać ponownie)"
+              },
+              {
+                "content": "Poprawiono zachowanie sługi w niektórych sytuacjach."
+              },
+              {
+                "content": "Mroczny sługa może teraz pokonać widma i golemy."
+              },
+              {
+                "content": "Po otrzymaniu zadania na zostanie Mrocznym Rycerzem, przy Martwej Harpii pojawi się paladyn, którego można zabić. (nadal można zabić dowolnego paladyna)"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "13",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "26.01.2021",
