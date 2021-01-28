@@ -16,7 +16,7 @@
         <v-icon right> mdi-arrow-right </v-icon>
       </v-btn>
     </v-card-actions>
-    <div class="card-ribbon-container" v-if="showBadge">
+    <div v-if="showBadge" class="card-ribbon-container">
       <div class="card-left-outer-space"></div>
       <div class="card-ribbon">
         <div class="card-ribbon-content">
