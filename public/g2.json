@@ -7,6 +7,45 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "15",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "28.01.2021",
+        "date": "28-01-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Po pokonaniu Ile'Sila gracz otrzumuje teraz osiągnięcie."
+              },
+              {
+                "content": "Dodano nowy dialog z Krukiem dla osób będących Mrocznym Rycerze, Nekromantą lub Czarnoksiężnikiem."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że Ognik pokazywał złą ilośc tabliczek w lokacji. Ognik teraz będzie też zbierał poprawne ilości roślin zwykłych w lokacjach."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany Mrocznego Rycerza:",
+            "list": [
+              {
+                "content": "Mroczny Mentor daje teraz bohaterowi notatkę opisującą runy oraz umiejętności jakich można się u niego nauczyć."
+              },
+              {
+                "content": "Dodano alternatywne zakończenie zadania <i>Nekromanta w Khorinis</i>. Dodano też kilka unikalnych dialogów powiązanych z gildią Mrocznego Rycerza."
+              },
+              {
+                "content": "Usunięto kaptur z modelu zbroi rycerza śmierci, można teraz bez problemu zakładać hełm razem ze zbroją."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że dołączenie do gildii Mrocznego Rycerza było niemożliwe. (ostatni patch zepsuł jeden dialog)"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "14",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "27.01.2021",
