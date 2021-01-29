@@ -145,8 +145,8 @@ export default {
 
 .card-right-outer-space {
   bottom: -50px;
-  right: 32px;
-  width: 8px;
+  right: 31px;
+  width: 9px;
   height: 13px;
 
   border-bottom-right-radius: 6px;
