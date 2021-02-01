@@ -27,6 +27,9 @@
           :version="changes.version"
         />
       </v-col>
+      <v-col cols="12">
+
+      </v-col>
     </template>
   </v-row>
 </template>

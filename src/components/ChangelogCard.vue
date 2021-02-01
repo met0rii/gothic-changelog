@@ -101,7 +101,7 @@ export default {
   position: absolute;
   right: -40px;
   top: 15px;
-  z-index: 200;
+  z-index: 1;
 }
 
 .card-ribbon {

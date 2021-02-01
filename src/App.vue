@@ -48,7 +48,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar clipped-left color="#212121" dark app>
+    <v-app-bar class="navbar" clipped-left color="#212121" dark app>
       <v-app-bar-nav-icon
         v-on:click="drawerVisible = !drawerVisible"
       ></v-app-bar-nav-icon>
