@@ -7,6 +7,51 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "16",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "01.02.2021",
+        "date": "01-02-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Teraz w mieście orków można używać QuickLootu na skrzyniach jeśli orkowie go nie widzą lub gracz jest niewidzialny."
+              },
+              {
+                "content": "Teraz za zabicie <i>Itu'Zelda</i> oraz <i>Utroga</i> gracz otrzymuje szafir."
+              },
+              {
+                "content": "Zwiększono ilość złota otrzymywaną od Lorda Andre za głowy bandytów."
+              },
+              {
+                "content": "Podwojono doświadczenie otrzymywane za <i>Demonicznych nieumarłych orków</i>."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że skrzynie w dolinie Ash'Tara czasem nie działały poprawnie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że używanie łuku / kuszy niepoprawnie wpływało na obrażenia zadawane przez bohatera."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że trolle oraz kamienni strażnicy zadawali graczu podwójne obrażenia."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany Mrocznego Rycerza:",
+            "list": [
+              {
+                "content": "Zmieniono działanie specjalnej umiejętności regenerującej wytrzymałość. Teraz umiejętność przywraca 1% wytrzymałości przy każdym uderzeniu zamiast 5% przy zabiciu."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że <i>eksplozja zwłok</i> zadawała obrażenia na arenie orków oraz na arenie w lesie asasynów."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "15",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "28.01.2021",
