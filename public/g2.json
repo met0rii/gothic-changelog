@@ -16,6 +16,9 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
+                "content": "Naprawiono błąd sprawiający, że umiejętności łowieckie posiadały niepoprawnie opisane koszta nauki."
+              },
+              {
                 "content": "Teraz w mieście orków można używać QuickLootu na skrzyniach jeśli orkowie go nie widzą lub gracz jest niewidzialny."
               },
               {
