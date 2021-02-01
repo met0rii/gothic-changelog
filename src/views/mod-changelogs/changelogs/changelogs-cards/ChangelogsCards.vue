@@ -1,37 +1,29 @@
 <template>
-  <v-row>
-    <template v-if="selected">
-      <v-col cols="12" sm="6" lg="4" xl="2" class="card-container pl-4 pr-4">
-        <changelog-card
-          :id="latestChangelog.updateId"
-          :description="latestChangelog.updateDescription"
-          :date="latestChangelog.date"
-          :version="latestChangelog.version"
-          :showBadge="true"
-          badgeText="Latest"
-        />
-      </v-col>
-      <v-col
-        cols="12"
-        sm="6"
-        lg="4"
-        xl="2"
-        class="card-container pl-4 pr-4"
-        v-for="changes in slicedChanglogs"
-        v-bind:key="changes.version"
-      >
-        <changelog-card
-          :id="changes.updateId"
-          :description="changes.updateDescription"
-          :date="changes.date"
-          :version="changes.version"
-        />
-      </v-col>
-      <v-col cols="12">
-
-      </v-col>
-    </template>
-  </v-row>
+  <div>
+    <v-row>
+      <template v-if="selected">
+        <v-col
+          cols="12"
+          sm="6"
+          lg="4"
+          xl="2"
+          class="card-container pl-4 pr-4"
+          v-for="changes in changelogs"
+          v-bind:key="changes.version"
+        >
+          <changelog-card
+            :id="changes.updateId"
+            :description="changes.updateDescription"
+            :date="changes.date"
+            :version="changes.version"
+          />
+        </v-col>
+      </template>
+    </v-row>
+    <div class="d-flex justify-end">
+      <v-pagination dark v-model="page" :length="pagesLength" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -42,15 +34,23 @@ export default {
   components: {
     ChangelogCard,
   },
+  data: () => {
+    return {
+      page: 1,
+      itemsPerPage: 5,
+    };
+  },
   computed: {
+    pagesLength() {
+      return Math.floor(
+        this.$store.state.changelogs.selected.changes.length / this.itemsPerPage
+      );
+    },
     selected() {
       return this.$store.state.changelogs.selected;
     },
-    latestChangelog() {
-      return this.$store.state.changelogs.selected.changes[0];
-    },
-    slicedChanglogs() {
-      return this.$store.state.changelogs.selected.changes.slice(1);
+    changelogs() {
+      return this.$store.state.changelogs.selected.changes;
     },
   },
 };
