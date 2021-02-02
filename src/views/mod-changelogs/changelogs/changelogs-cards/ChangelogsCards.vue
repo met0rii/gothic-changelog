@@ -23,7 +23,7 @@
         </template>
       </v-row>
     </transition>
-    <div class="d-flex justify-end">
+    <div v-if="pagesLength !== 1" class="d-flex justify-end">
       <v-pagination dark v-model="page" :length="pagesLength" />
     </div>
   </div>
