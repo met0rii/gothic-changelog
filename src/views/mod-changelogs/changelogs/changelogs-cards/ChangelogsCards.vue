@@ -8,7 +8,7 @@
           lg="4"
           xl="2"
           class="card-container pl-4 pr-4"
-          v-for="changes in changelogs"
+          v-for="(changes, index) in changelogs"
           v-bind:key="changes.version"
         >
           <changelog-card
@@ -16,6 +16,8 @@
             :description="changes.updateDescription"
             :date="changes.date"
             :version="changes.version"
+            :show-badge="index === 0 && isFirstPage"
+            badgeText="Latest"
           />
         </v-col>
       </template>
@@ -37,12 +39,12 @@ export default {
   data: () => {
     return {
       page: 1,
-      itemsPerPage: 5,
+      itemsPerPage: 6,
     };
   },
   computed: {
     pagesLength() {
-      return Math.floor(
+      return Math.ceil(
         this.$store.state.changelogs.selected.changes.length / this.itemsPerPage
       );
     },
@@ -50,7 +52,12 @@ export default {
       return this.$store.state.changelogs.selected;
     },
     changelogs() {
-      return this.$store.state.changelogs.selected.changes;
+      const start = (this.page - 1) * this.itemsPerPage;
+      const end = start + this.itemsPerPage;
+      return this.$store.state.changelogs.selected.changes.slice(start, end);
+    },
+    isFirstPage() {
+      return this.page === 1;
     },
   },
 };
