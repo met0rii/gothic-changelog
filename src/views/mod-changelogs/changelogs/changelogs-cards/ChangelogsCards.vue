@@ -1,27 +1,29 @@
 <template>
   <div>
-    <v-row>
-      <template v-if="selected">
-        <v-col
-          cols="12"
-          sm="6"
-          lg="4"
-          xl="2"
-          class="card-container pl-4 pr-4"
-          v-for="(changes, index) in changelogs"
-          v-bind:key="changes.version"
-        >
-          <changelog-card
-            :id="changes.updateId"
-            :description="changes.updateDescription"
-            :date="changes.date"
-            :version="changes.version"
-            :show-badge="index === 0 && isFirstPage"
-            badgeText="Latest"
-          />
-        </v-col>
-      </template>
-    </v-row>
+    <transition enter-active-class="fadeIn">
+      <v-row :key="page">
+        <template v-if="selected">
+          <v-col
+            cols="12"
+            sm="6"
+            lg="4"
+            xl="2"
+            class="card-container pl-4 pr-4"
+            v-for="(changes, index) in changelogs"
+            v-bind:key="changes.version"
+          >
+            <changelog-card
+              :id="changes.updateId"
+              :description="changes.updateDescription"
+              :date="changes.date"
+              :version="changes.version"
+              :show-badge="index === 0 && isFirstPage"
+              badgeText="Latest"
+            />
+          </v-col>
+        </template>
+      </v-row>
+    </transition>
     <div class="d-flex justify-end">
       <v-pagination dark v-model="page" :length="pagesLength" />
     </div>

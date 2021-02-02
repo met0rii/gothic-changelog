@@ -66,7 +66,7 @@ export default {
   text-decoration: none;
 }
 .line-clamp {
-  max-height: 150px;
+  height: 150px;
   padding: 0px !important;
   display: -webkit-box;
   -webkit-line-clamp: 5;
