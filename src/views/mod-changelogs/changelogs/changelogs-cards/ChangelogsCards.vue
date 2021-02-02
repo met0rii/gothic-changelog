@@ -6,8 +6,7 @@
           <v-col
             cols="12"
             sm="6"
-            lg="4"
-            xl="2"
+            md="3"
             class="card-container pl-4 pr-4"
             v-for="(changes, index) in changelogs"
             v-bind:key="changes.version"
@@ -41,7 +40,7 @@ export default {
   data: () => {
     return {
       page: 1,
-      itemsPerPage: 6,
+      itemsPerPage: 4,
     };
   },
   computed: {
