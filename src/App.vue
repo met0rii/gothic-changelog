@@ -114,6 +114,8 @@ export default {
   --divider-color: #686868;
   --black-mask: #000;
   --orange-secondary: #ffb74d;
+  --orange-secondary-dark: #a86b0e;
+  --orange-secondary-light: #ffcc80;
 
   /*TYPOGRAPHY*/
   --h1: 40px;
