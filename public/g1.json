@@ -1,22 +1,76 @@
 [
   {
-    "id": "id",
-    "title": "title",
-    "titleUrl": "https://imgur.com/MujebJr.png",
-    "url": "https://drive.google.com/drive/folders/1rPh-tK8xAb124q6NaBdVCHRd7g5wvd5k",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim nibh vitae pharetra pharetra. Phasellus consequat magna ac arcu venenatis venenatis ut quis augue. Fusce accumsan est erat, rutrum dignissim orci fringilla ac. Curabitur tempor feugiat euismod. Donec vel nunc vel dui facilisis sagittis.",
+    "id": "dz",
+    "title": "Dolina Zombie",
+    "titleUrl": "https://imgur.com/zfHISse.png",
+    "url": "https://mega.nz/file/4kpGmSgT#JRANgttD7fg1rA03MUTMXJDyr9d4LdZqRL8owu5qPcA",
+    "description": "Wciel się w Bragusa, nowego skazańca wtrąconego do kolonii za zabójstwo człowieka, który pozbawił go rodziny. Nie zastań jednak Diego, nie zastań tego co było w podstawce, zmierz się z doliną opanowaną przez apokalipsę zombie. Odkryj tajemnice epidemii, zmierz się z ponad 40 rodzajami zombie i potworów, postaraj się przetrwać i położyć kres rozwojowi wirusa, uratuj tych, co przeżyli!",
     "changes": [
       {
         "updateId": "0",
-        "updateDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim nibh vitae pharetra pharetra. Phasellus consequat magna ac arcu venenatis venenatis ut quis augue.",
-        "version": "0.31",
-        "date": "25.06.2020",
+        "updateDescription": "Aktualizacja rozbudowuje dotychczasowy świat o nowe przedmioty, zadania, mechaniki, wątki oraz wiele więcej...",
+        "version": "2.2",
+        "date": "11.01.2021",
         "lists": [
           {
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "content": "Donec cursus turpis sodales, volutpat elit ut, elementum augue."
+                "content": "Urozmaicono znacznie fabułę"
+              },
+              {
+                "content": "Wiele poprawek"
+              },
+              {
+                "content": "Masę nowego kontentu"
+              },
+              {
+                "content": "Nowe zadania poboczne i główne"
+              },
+              {
+                "content": "Możliwość gry magiem, wojownikiem lub łowcą"
+              },
+              {
+                "content": "Wprowadzono stary system levelowania i zdobywania umiejętności"
+              },
+              {
+                "content": "Dodano Alchemię, naukę wiecznego sprintu"
+              },
+              {
+                "content": "Wolne celowanie"
+              },
+              {
+                "content": "Nowe zombie"
+              },
+              {
+                "content": "Nowe przedmioty ( broń, pancerz, hełmy itd )"
+              },
+              {
+                "content": "Nowe dźwięki"
+              },
+              {
+                "content": "Nowe zadania, postaci, zdarzenia fabularne"
+              },
+              {
+                "content": "Wprowadzono wątek z orkami"
+              },
+              {
+                "content": "Zmiany w świecie"
+              },
+              {
+                "content": "2 nowe światy"
+              },
+              {
+                "content": "Nowa walka z bossem"
+              },
+              {
+                "content": "Ulepszono ogólny balans rozgrywki"
+              },
+              {
+                "content": "I wiele więcej"
+              },
+              {
+                "content": "Dodatkowe easter eggi"
               }
             ]
           }
@@ -26,40 +80,307 @@
     "overview": {
       "lists": [
         {
-          "title": "Nunc commodo felis sed nisl tempor, sed placerat massa feugiat. Nam tortor ligula, tempor sollicitudin faucibus id, ornare id quam. Nam eget luctus justo.",
+          "title": "Ogólny przegląd Doliny.",
           "list": [
             {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Klimatyczna i oryginalna fabuła osadzona w Górniczej Dolinie"
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Ponad 20h rozgrywki"
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
-            }
-          ]
-        },
-        {
-          "title": "Praesent ac bibendum libero, eget lobortis augue. Nunc efficitur odio elit. Aenean ultrices nisl fermentum efficitur commodo. Phasellus pharetra libero nulla, vitae congue urna rutrum a.",
-          "list": [
-            {
-              "content": "Vivamus convallis, mauris non dictum accumsan, tortor nisi pharetra dolor"
+              "content": "Przerażający, mroczny klimat Kolonii Karnej."
             },
             {
-              "content": "Proin enim lorem, fringilla a finibus et, facilisis in sem. Vivamus quis cursus neque. Vivamus malesuada vel quam et ultrices. Quisque ac"
+              "content": "Około 45 zadań, głównych i pobocznych."
             },
             {
-              "content": "Morbi rutrum massa a leo pellentesque rutrum."
+              "content": "Masa nowych, zróżnicowanych typów zombie, a także ich wyglądów."
+            },
+            {
+              "content": "Nowe przedmioty ( Broń, pancerze, mikstury itd )"
+            },
+            {
+              "content": "Dubbing"
+            },
+            {
+              "content": "Wiele zmian w świecie"
+            },
+            {
+              "content": "Ponad 200 nowych dźwięków ( Dźwięki otoczenia, potworów, przedmiotów etc )"
+            },
+            {
+              "content": "Nowy soundtrack w kilku miejscach"
+            },
+            {
+              "content": "Dynamiczna i wciągająca rozgrywka"
+            },
+            {
+              "content": "Nowe modele i textury"
+            },
+            {
+              "content": "Nowe postaci i dialogi"
+            },
+            {
+              "content": "Broń drzewcowa i tarcze ( Przy czym walka tarczą nie jest dostępna dla gracza )"
+            },
+            {
+              "content": "Nowe ciekawe funkcje skryptowe"
+            },
+            {
+              "content": "Easter Eggi"
+            },
+            {
+              "content": "I wiele wiele więcej"
             }
           ]
         }
       ]
     },
-    "gallery": [],
+    "gallery": [
+      "https://imgur.com/mNxmAfA.png",
+      "https://imgur.com/HubDLk0.png",
+      "https://imgur.com/ZwRmb5f.png",
+      "https://imgur.com/baZB8SR.png",
+      "https://imgur.com/sbDPHp6.png"
+    ],
     "authors": {
-      "creators": [],
-      "contributors": [],
-      "translators": []
+      "creators": [
+        {
+          "name": "OrtegaX",
+          "role": "Autor"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Jędrzej Rosa",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Archi",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Robinskateboard",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Majes",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Wagon",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "VMAJSTER",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Sebastian Sikora",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Minus25",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Dodo",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Damiano",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "SnowFox",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Kairos",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Kito",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Thinger",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Siemiach",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Nosalduhr",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Wierowski",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "DISTRICT",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Zegier",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Ajsin",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Shagito",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "PR3CEL",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Ciecik",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Szczapek",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "KRZYŻOWSKI",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "John Garett",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Quoltec",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Enteri",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Simen",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "MaikeloO",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Sudiah",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Mathew19951",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Maruc",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Barti35",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Leiwark",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Jakimix135",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Okiem Fabiana",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Paweł \"Cichy\"",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Kanterov",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Johnny",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Opol",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Benson",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Grabek",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Fayors",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "PeQs",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Ogoniasty",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Serbernus",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "VernoMeek",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Vixi",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Panker",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Bartosz Socha",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "LANCA",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Mugi",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Sonof",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "PENDA",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Vorhacz",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Zentix",
+          "role": "Aktor głosowy"
+        }
+      ]
     }
   }
 ]
