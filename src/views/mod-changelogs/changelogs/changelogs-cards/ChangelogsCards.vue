@@ -1,7 +1,7 @@
 <template>
   <div>
-    <transition enter-active-class="fadeIn">
-      <v-row :key="page">
+    <transition enter-active-class="animated fadeIn">
+      <v-row class="cards-container" :key="page">
         <template v-if="selected">
           <v-col
             cols="12"
@@ -65,4 +65,7 @@ export default {
 </script>
 
 <style scoped>
+.cards-container {
+  min-height: 150px;
+}
 </style>
