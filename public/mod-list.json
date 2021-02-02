@@ -1,4 +1,13 @@
 {
+  "g1": {
+    "name": "Gothic I",
+    "data": [
+      {
+        "id": "dz",
+        "title": "Dolina Zombie"
+      }
+    ]
+  },
   "g2": {
     "name": "Gothic II: Noc Kruka",
     "data": [
