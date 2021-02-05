@@ -7,6 +7,48 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "17",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "03.02.2021",
+        "date": "03-02-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Teraz obrażenia, jakie otrzymuje bohater mogą być wyświetlane na ekranie. W gothic.ini zmień lub dodaj linijkę bShowDamagePlayerGot = 1 (aby włączyć)"
+              },
+              {
+                "content": "Kusza <i>Pogromca Nieumarłych</i> zadaje teraz bonusowe obrażenia widmom."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że bohater przemieniał się w losowego NPC-ta lub potwora po wejściu do innej lokacji."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że zapisanie gry było niemożliwe gdy bohater miał mniej niż 5 punktów życia."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że zabicie <i>Nyarlathotepa</i> zapewniało 300 doświadczenia zamiast 2000."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany Mrocznego Rycerza:",
+            "list": [
+              {
+                "content": "Naprawiono błąd sprawiający, że oddawanie składników nieumarłych Xardasowi i Kreolowi było niemożliwe."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że dodatkowe obrażenia Mrocznego Sługi nie działały poprawnie."
+              },
+              {
+                "content": "Naprawiono kilka mniejszych błędów Mrocznego Rycerza."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "16",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "01.02.2021",
