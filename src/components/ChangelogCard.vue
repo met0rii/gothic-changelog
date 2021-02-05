@@ -66,7 +66,7 @@ export default {
   text-decoration: none;
 }
 .line-clamp {
-  max-height: 150px;
+  height: 150px;
   padding: 0px !important;
   display: -webkit-box;
   -webkit-line-clamp: 5;
@@ -101,7 +101,7 @@ export default {
   position: absolute;
   right: -40px;
   top: 15px;
-  z-index: 200;
+  z-index: 1;
 }
 
 .card-ribbon {
