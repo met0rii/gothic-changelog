@@ -167,7 +167,7 @@ body {
 .list-header {
   font-size: 12px;
   margin-bottom: 4px;
-  padding-left: 12px;
+  padding-left: 6px;
   color: var(--white-secondary);
 }
 
@@ -177,8 +177,12 @@ body {
   margin-top: 8px;
 }
 
+.list-section:not(:first-child) {
+  margin-top: 20px;
+}
+
 .custom-list-item {
-  padding-left: 24px !important;
+  padding: 0px;
   min-height: 30px !important;
 }
 
@@ -189,7 +193,6 @@ body {
 }
 
 .custom-list-item .v-list-item__content {
-  padding: 0px !important;
   min-height: 20px !important;
 }
 
