@@ -17,13 +17,17 @@
 
       <v-divider></v-divider>
 
-      <v-list dense nav>
-        <v-list-item to="/" link>
+      <v-list class="custom-list-nav" dense nav>
+        <v-list-item class="custom-list-item" to="/" link>
           <v-list-item-content>
-            <v-list-item-title>Home </v-list-item-title>
+            <v-list-item-title>Home</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-group v-for="(value, key) in sidebarItem" :key="key">
+        <v-list-group
+          class="custom-list-group"
+          v-for="(value, key) in sidebarItem"
+          :key="key"
+        >
           <template v-slot:activator>
             <v-list-item-content>
               <v-list-item-title v-text="value.name"></v-list-item-title>
@@ -31,7 +35,7 @@
           </template>
 
           <v-list-item
-            class="sidebar-child-item"
+            class="custom-list-item sidebar-child-item"
             v-for="child in value.data"
             :key="child.title"
             link
@@ -109,10 +113,15 @@ export default {
 
   /*COLOURS*/
   --black-primary: #313030;
-  --white-primary: #ffff;
+  --black-background: #141414;
+
+  --white-primary: #fafafa;
   --white-secondary: rgba(255, 255, 255, 0.7);
+
   --divider-color: #686868;
   --black-mask: #000;
+  --list-item-active: #565656;
+
   --orange-secondary: #ffb74d;
   --orange-secondary-dark: #a86b0e;
   --orange-secondary-light: #ffcc80;
@@ -141,12 +150,12 @@ h4 {
 }
 
 body {
-  background-color: #141414;
+  background-color: var(--black-background);
 }
 
 .content-container {
-  background-color: #141414;
-  color: #fafafa;
+  background-color: var(--black-background);
+  color: var(--white-primary);
   height: 100%;
   height: 100%;
 }
@@ -165,5 +174,27 @@ body {
 
 .sidebar-child-item:last-child {
   margin-bottom: 12px;
+}
+
+/* Nav list custom styles */
+
+.custom-list-nav.v-list--nav {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.custom-list-item.v-list-item--active,
+.custom-list-group .v-list-item--active {
+  color: var(--white-primary) !important;
+  border-radius: 0px !important;
+}
+
+.custom-list-item.v-list-item--active {
+  background-color: (--list-item-active);
+  border-left: 4px solid var(--orange-secondary);
+}
+.custom-list-item.v-list-item--active::before {
+  opacity: 1;
+  border-radius: 0px !important;
 }
 </style>
