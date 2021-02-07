@@ -14,28 +14,25 @@
           <v-list-item-subtitle> Zobacz najnowsze wersje </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
-
       <v-divider></v-divider>
 
       <v-list class="custom-list-nav" dense nav>
-        <v-list-item class="custom-list-item" to="/" link>
-          <v-list-item-content>
-            <v-list-item-title>Home</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-        <v-list-group
-          class="custom-list-group"
+        <div class="list-section">
+          <div class="list-header">Główne</div>
+          <v-list-item class="custom-list-item" to="/" link>
+            <v-list-item-content>
+              <v-list-item-title>Home</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </div>
+        <div
+          class="list-section"
           v-for="(value, key) in sidebarItem"
           :key="key"
         >
-          <template v-slot:activator>
-            <v-list-item-content>
-              <v-list-item-title v-text="value.name"></v-list-item-title>
-            </v-list-item-content>
-          </template>
-
+          <div class="list-header">{{ value.name }}</div>
           <v-list-item
-            class="custom-list-item sidebar-child-item"
+            class="custom-list-item"
             v-for="child in value.data"
             :key="child.title"
             link
@@ -48,7 +45,7 @@
               <v-list-item-title v-text="child.title"></v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-        </v-list-group>
+        </div>
       </v-list>
     </v-navigation-drawer>
 
@@ -120,7 +117,6 @@ export default {
 
   --divider-color: #686868;
   --black-mask: #000;
-  --list-item-active: #565656;
 
   --orange-secondary: #ffb74d;
   --orange-secondary-dark: #a86b0e;
@@ -168,31 +164,35 @@ body {
   border-color: var(--divider-color) !important;
 }
 
-.sidebar-child-item {
-  margin-left: 24px;
+.list-header {
+  font-size: 12px;
+  margin-bottom: 4px;
+  padding-left: 12px;
+  color: var(--white-secondary);
 }
-
-.sidebar-child-item:last-child {
-  margin-bottom: 12px;
-}
-
-/* Nav list custom styles */
 
 .custom-list-nav.v-list--nav {
   padding-left: 0;
   padding-right: 0;
+  margin-top: 8px;
 }
 
-.custom-list-item.v-list-item--active,
-.custom-list-group .v-list-item--active {
-  color: var(--white-primary) !important;
-  border-radius: 0px !important;
+.custom-list-item {
+  padding-left: 24px !important;
+  min-height: 30px !important;
 }
 
 .custom-list-item.v-list-item--active {
-  background-color: (--list-item-active);
+  color: var(--white-primary) !important;
+  border-radius: 0px !important;
   border-left: 4px solid var(--orange-secondary);
 }
+
+.custom-list-item .v-list-item__content {
+  padding: 0px !important;
+  min-height: 20px !important;
+}
+
 .custom-list-item.v-list-item--active::before {
   opacity: 1;
   border-radius: 0px !important;
