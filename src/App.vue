@@ -186,6 +186,10 @@ body {
   min-height: 30px !important;
 }
 
+.custom-list-item.v-list-item {
+  padding: 0px !important;
+}
+
 .custom-list-item.v-list-item--active {
   color: var(--white-primary) !important;
   border-radius: 0px !important;
@@ -194,7 +198,7 @@ body {
 
 .custom-list-item .v-list-item__content {
   min-height: 20px !important;
-  padding-left: 5px !important;
+  padding-left: 13px !important;
 }
 
 .custom-list-item.v-list-item--active::before {
