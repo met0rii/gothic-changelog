@@ -165,9 +165,9 @@ body {
 }
 
 .list-header {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 4px;
-  padding-left: 6px;
+  padding-left: 12px;
   color: var(--white-secondary);
 }
 
@@ -194,6 +194,7 @@ body {
 
 .custom-list-item .v-list-item__content {
   min-height: 20px !important;
+  padding-left: 5px !important;
 }
 
 .custom-list-item.v-list-item--active::before {
