@@ -8,13 +8,12 @@
       dark
       app
     >
-      <v-list-item>
+      <v-list-item class="introduction">
         <v-list-item-content>
-          <v-list-item-title class="title">Modyfikacje</v-list-item-title>
+          <h3>Modyfikacje</h3>
           <v-list-item-subtitle> Zobacz najnowsze wersje </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
-      <v-divider></v-divider>
 
       <sidebar-list :sidebarItems="sidebarItems"></sidebar-list>
     </v-navigation-drawer>
@@ -133,5 +132,9 @@ body {
 
 .v-divider {
   border-color: var(--divider-color) !important;
+}
+
+.introduction {
+  margin-top: 10px;
 }
 </style>

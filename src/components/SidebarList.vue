@@ -40,22 +40,23 @@ export default {
 
 <style scoped>
 .list-header {
-  margin: 0 13px 4px 13px;
-  font-size: 14px;
-
-  color: var(--white-secondary);
+  padding: 10px 0 10px 15px;
+  font-size: 20px;
+  color: var(--white-primary);
+  background-color: var(--black-primary);
+  font-weight: bold;
 }
 .custom-list-nav.v-list--nav {
   padding: 0 !important;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .list-section {
-  margin-bottom: 20px;
 }
 
 .custom-list-item.v-list-item {
-  padding: 0px !important;
+  padding: 4px !important;
+  margin-bottom: 0 !important;
 }
 
 .custom-list-item.v-list-item--active {
@@ -68,11 +69,11 @@ export default {
 .custom-list-item .v-list-item__content {
   min-height: 20px !important;
   padding: 0px !important;
-  padding-left: 14px !important;
+  padding-left: 20px !important;
 }
 
 .custom-list-item .v-list-item__content .v-list-item__title {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .custom-list-item.v-list-item--active::before {
