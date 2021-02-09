@@ -51,12 +51,16 @@ export default {
   margin-top: 10px;
 }
 
-.list-section {
-}
-
 .custom-list-item.v-list-item {
   padding: 4px !important;
   margin-bottom: 0 !important;
+}
+
+.custom-list-item:hover {
+  border-radius: 0px;
+}
+.custom-list-item.v-list-item:before {
+  border-radius: 0px;
 }
 
 .custom-list-item.v-list-item--active {
@@ -78,6 +82,5 @@ export default {
 
 .custom-list-item.v-list-item--active::before {
   opacity: 0.05;
-  border-radius: 0px !important;
 }
 </style>
