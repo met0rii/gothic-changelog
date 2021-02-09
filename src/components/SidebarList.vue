@@ -4,12 +4,14 @@
       <div class="list-header">Główne</div>
       <v-list-item class="custom-list-item" to="/" link>
         <v-list-item-content>
-          <v-list-item-title>Home</v-list-item-title>
+          <v-list-item-title>Strona główna</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </div>
     <div class="list-section" v-for="(value, key) in sidebarItems" :key="key">
-      <div class="list-header">{{ value.name }}</div>
+      <div class="list-header">
+        {{ value.name }}
+      </div>
       <v-list-item
         class="custom-list-item"
         v-for="child in value.data"
@@ -38,25 +40,18 @@ export default {
 
 <style scoped>
 .list-header {
-  font-size: 12px;
-  margin-bottom: 4px;
-  padding-left: 12px;
+  margin: 0 13px 4px 13px;
+  font-size: 14px;
+
   color: var(--white-secondary);
 }
-
 .custom-list-nav.v-list--nav {
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 8px;
-}
-
-.list-section:not(:first-child) {
+  padding: 0 !important;
   margin-top: 20px;
 }
 
-.custom-list-item {
-  padding: 0px;
-  min-height: 30px !important;
+.list-section {
+  margin-bottom: 30px;
 }
 
 .custom-list-item.v-list-item {
@@ -66,13 +61,18 @@ export default {
 .custom-list-item.v-list-item--active {
   color: var(--white-primary) !important;
   border-radius: 0px !important;
-  border-left: 4px solid var(--orange-secondary);
+  border-right: 4px solid var(--orange-secondary);
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .custom-list-item .v-list-item__content {
   min-height: 20px !important;
+  padding: 0px !important;
   padding-left: 14px !important;
+}
+
+.custom-list-item .v-list-item__content .v-list-item__title {
+  font-size: 14px;
 }
 
 .custom-list-item.v-list-item--active::before {
