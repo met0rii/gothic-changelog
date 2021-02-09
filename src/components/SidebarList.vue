@@ -38,7 +38,7 @@ export default {
 
 <style scoped>
 .list-header {
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 4px;
   padding-left: 12px;
   color: var(--white-secondary);
@@ -72,7 +72,7 @@ export default {
 
 .custom-list-item .v-list-item__content {
   min-height: 20px !important;
-  padding-left: 12px !important;
+  padding-left: 14px !important;
 }
 
 .custom-list-item.v-list-item--active::before {
