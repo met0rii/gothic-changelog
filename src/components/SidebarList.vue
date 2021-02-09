@@ -51,7 +51,7 @@ export default {
 }
 
 .list-section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .custom-list-item.v-list-item {
