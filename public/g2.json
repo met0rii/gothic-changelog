@@ -1411,13 +1411,7 @@
         "updateId": "2",
         "updateDescription": "Balans rozgrywki, poprawione AI przeciwników, zmiany w umiejętnościach, broniach, pancerzach i innych przedmiotach.",
         "version": "1.6",
-        "date": "11.02.2021",
-        "alerts": [
-          {
-            "color": "red",
-            "text": "<b>UWAGA!</b> Wersja 1.6 nie jest jeszcze dostępna, planowana data premiery to 11.02.2021!"
-          }
-        ],
+        "date": "10.02.2021",
         "lists": [
           {
             "title": "Zmiany ogólne:",
