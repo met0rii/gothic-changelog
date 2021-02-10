@@ -8,44 +8,14 @@
       dark
       app
     >
-      <v-list-item>
+      <v-list-item class="introduction">
         <v-list-item-content>
-          <v-list-item-title class="title">Modyfikacje</v-list-item-title>
+          <h3>Modyfikacje</h3>
           <v-list-item-subtitle> Zobacz najnowsze wersje </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
-      <v-divider></v-divider>
-
-      <v-list dense nav>
-        <v-list-item to="/" link>
-          <v-list-item-content>
-            <v-list-item-title>Home </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-        <v-list-group v-for="(value, key) in sidebarItem" :key="key">
-          <template v-slot:activator>
-            <v-list-item-content>
-              <v-list-item-title v-text="value.name"></v-list-item-title>
-            </v-list-item-content>
-          </template>
-
-          <v-list-item
-            class="sidebar-child-item"
-            v-for="child in value.data"
-            :key="child.title"
-            link
-            :to="{
-              name: 'Changelogs',
-              params: { gameId: key, id: child.id },
-            }"
-          >
-            <v-list-item-content>
-              <v-list-item-title v-text="child.title"></v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list-group>
-      </v-list>
+      <sidebar-list :sidebarItems="sidebarItems"></sidebar-list>
     </v-navigation-drawer>
 
     <v-app-bar class="navbar" clipped-left color="#212121" dark app>
@@ -65,10 +35,11 @@
 </template>
 
 <script>
+import SidebarList from "./components/SidebarList.vue";
 export default {
   name: "App",
 
-  components: {},
+  components: { SidebarList },
   data: () => {
     return {
       drawerVisible: true,
@@ -76,7 +47,7 @@ export default {
   },
 
   computed: {
-    sidebarItem() {
+    sidebarItems() {
       return this.$store.state.sidebar.collection;
     },
     routePath() {
@@ -109,10 +80,14 @@ export default {
 
   /*COLOURS*/
   --black-primary: #313030;
-  --white-primary: #ffff;
+  --black-background: #141414;
+
+  --white-primary: #fafafa;
   --white-secondary: rgba(255, 255, 255, 0.7);
+
   --divider-color: #686868;
   --black-mask: #000;
+
   --orange-secondary: #ffb74d;
   --orange-secondary-dark: #a86b0e;
   --orange-secondary-light: #ffcc80;
@@ -141,12 +116,12 @@ h4 {
 }
 
 body {
-  background-color: #141414;
+  background-color: var(--black-background);
 }
 
 .content-container {
-  background-color: #141414;
-  color: #fafafa;
+  background-color: var(--black-background);
+  color: var(--white-primary);
   height: 100%;
   height: 100%;
 }
@@ -159,11 +134,7 @@ body {
   border-color: var(--divider-color) !important;
 }
 
-.sidebar-child-item {
-  margin-left: 24px;
-}
-
-.sidebar-child-item:last-child {
-  margin-bottom: 12px;
+.introduction {
+  margin-top: 10px;
 }
 </style>

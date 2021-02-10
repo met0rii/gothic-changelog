@@ -68,4 +68,9 @@ export default {
 .cards-container {
   min-height: 150px;
 }
+
+.card-container {
+  padding-top: 0px;
+  padding-bottom: 24px;
+}
 </style>

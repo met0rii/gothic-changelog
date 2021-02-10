@@ -43,6 +43,8 @@ export default {
 .gallery-image {
   cursor: pointer;
   transition: 0.4s all;
+  padding-top: 0px;
+  padding-bottom: 24px;
 }
 
 .gallery-image:hover {
