@@ -1,7 +1,7 @@
 <template>
   <div>
-    <transition-group name="fade">
-      <v-row v-if="show" class="cards-container" :key="page">
+    <transition enter-active-class="fadeIn">
+      <v-row class="cards-container" :key="page">
         <template v-if="selected">
           <v-col
             cols="12"
@@ -22,7 +22,7 @@
           </v-col>
         </template>
       </v-row>
-    </transition-group>
+    </transition>
     <div v-if="pagesLength !== 1" class="d-flex justify-end">
       <v-pagination dark v-model="page" :length="pagesLength" />
     </div>
