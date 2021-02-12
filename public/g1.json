@@ -19,9 +19,6 @@
                 "content": "Znacznie urozmaicono fabułę"
               },
               {
-                "content": "Wiele poprawek"
-              },
-              {
                 "content": "Masę nowego kontentu"
               },
               {
@@ -34,7 +31,7 @@
                 "content": "Wprowadzono stary system levelowania i zdobywania umiejętności"
               },
               {
-                "content": "Dodano Alchemię, naukę wiecznego sprintu"
+                "content": "Dodano alchemię, naukę wiecznego sprintu"
               },
               {
                 "content": "Wolne celowanie"
@@ -49,7 +46,7 @@
                 "content": "Nowe dźwięki"
               },
               {
-                "content": "Nowe zadania, postaci, zdarzenia fabularne"
+                "content": "Nowe zadania, postacie, zdarzenia fabularne"
               },
               {
                 "content": "Wprowadzono wątek z orkami"
@@ -67,10 +64,13 @@
                 "content": "Ulepszono ogólny balans rozgrywki"
               },
               {
-                "content": "I wiele więcej"
+                "content": "Drobne poprawki"
               },
               {
                 "content": "Dodatkowe easter eggi"
+              },
+              {
+                "content": "I wiele więcej"
               }
             ]
           }
@@ -119,7 +119,7 @@
               "content": "Nowe modele i textury"
             },
             {
-              "content": "Nowe postaci i dialogi"
+              "content": "Nowe postacie i dialogi"
             },
             {
               "content": "Broń drzewcowa i tarcze (przy czym walka tarczą nie jest dostępna dla gracza)"
