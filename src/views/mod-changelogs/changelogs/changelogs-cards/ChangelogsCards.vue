@@ -1,28 +1,30 @@
 <template>
   <div>
-    <transition enter-active-class="fadeIn">
-      <v-row class="cards-container" :key="page">
-        <template v-if="selected">
-          <v-col
-            cols="12"
-            sm="6"
-            md="3"
-            class="card-container pl-4 pr-4"
-            v-for="(changes, index) in changelogs"
-            v-bind:key="changes.version"
-          >
-            <changelog-card
-              :id="changes.updateId"
-              :description="changes.updateDescription"
-              :date="changes.date"
-              :version="changes.version"
-              :show-badge="index === 0 && isFirstPage"
-              badgeText="Latest"
-            />
-          </v-col>
-        </template>
-      </v-row>
-    </transition>
+    <div class="cards-container">
+      <transition enter-active-class="fadeIn">
+        <v-row class="cards-container" :key="page">
+          <template v-if="selected">
+            <v-col
+              cols="12"
+              sm="6"
+              md="3"
+              class="card-container pl-4 pr-4"
+              v-for="(changes, index) in changelogs"
+              v-bind:key="changes.version"
+            >
+              <changelog-card
+                :id="changes.updateId"
+                :description="changes.updateDescription"
+                :date="changes.date"
+                :version="changes.version"
+                :show-badge="index === 0 && isFirstPage"
+                badgeText="Latest"
+              />
+            </v-col>
+          </template>
+        </v-row>
+      </transition>
+    </div>
     <div v-if="pagesLength !== 1" class="d-flex justify-end">
       <v-pagination dark v-model="page" :length="pagesLength" />
     </div>
@@ -66,7 +68,7 @@ export default {
 
 <style scoped>
 .cards-container {
-  height: 100%;
+  min-height: 300px;
 }
 
 .card-container {
