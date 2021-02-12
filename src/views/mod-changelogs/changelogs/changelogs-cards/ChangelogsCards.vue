@@ -66,7 +66,7 @@ export default {
 
 <style scoped>
 .cards-container {
-  min-height: 150px;
+  height: 100%;
 }
 
 .card-container {
