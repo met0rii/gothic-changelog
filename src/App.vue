@@ -27,7 +27,11 @@
     </v-app-bar>
 
     <v-main class="content-container">
-      <transition enter-active-class="animated fadeIn">
+      <transition
+        enter-active-class="animated fadeIn"
+        leave-active-class="animated fadeOut"
+        mode="out-in"
+      >
         <router-view :key="routePath" />
       </transition>
     </v-main>
@@ -73,6 +77,9 @@ export default {
 </script>
 
 <style>
+/*EXTERNAL CSS*/
+@import "./assets/css/vue2-animate.css";
+
 /*CSS VARIABLES*/
 :root {
   /*BOX SHADOW*/

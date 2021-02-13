@@ -23,7 +23,11 @@
       </v-col>
     </v-row>
 
-    <transition enter-active-class="animated fadeIn">
+    <transition
+      enter-active-class="animated fadeIn"
+      leave-active-class="animated fadeOut"
+      mode="out-in"
+    >
       <router-view />
     </transition>
   </v-container>

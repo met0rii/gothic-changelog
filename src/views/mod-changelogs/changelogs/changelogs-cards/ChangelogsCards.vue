@@ -1,7 +1,11 @@
 <template>
   <div>
-    <transition-group name="fade">
-      <v-row v-if="show" class="cards-container" :key="page">
+    <transition
+      :enter-active-class="enterClassName"
+      :leave-active-class="leaveClassName"
+      mode="out-in"
+    >
+      <v-row class="cards-container" :key="page">
         <template v-if="selected">
           <v-col
             cols="12"
@@ -22,9 +26,14 @@
           </v-col>
         </template>
       </v-row>
-    </transition-group>
+    </transition>
     <div v-if="pagesLength !== 1" class="d-flex justify-end">
-      <v-pagination dark v-model="page" :length="pagesLength" />
+      <v-pagination
+        dark
+        :value="page"
+        @input="changePage"
+        :length="pagesLength"
+      />
     </div>
   </div>
 </template>
@@ -40,6 +49,7 @@ export default {
   data: () => {
     return {
       page: 1,
+      previousPage: 0,
       itemsPerPage: 4,
     };
   },
@@ -60,13 +70,26 @@ export default {
     isFirstPage() {
       return this.page === 1;
     },
+    enterClassName() {
+      return this.page < this.previousPage ? "slideInLeft" : "slideInRight";
+    },
+    leaveClassName() {
+      return this.page < this.previousPage ? "slideOutRight" : "slideOutLeft";
+    },
+  },
+
+  methods: {
+    changePage(page) {
+      this.previousPage = this.page;
+      this.page = page;
+    },
   },
 };
 </script>
 
 <style scoped>
 .cards-container {
-  height: 100%;
+  min-height: 300px;
 }
 
 .card-container {

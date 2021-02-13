@@ -1154,8 +1154,8 @@
 .fadeIn,
 .fade-leave-active,
 .fadeOut {
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
 }
@@ -1176,8 +1176,8 @@
 .fadeInDown,
 .fadeDown-leave-active,
 .fadeOutDown {
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
 }
@@ -2054,8 +2054,8 @@
 .slideInLeft,
 .slideLeft-leave-active,
 .slideOutLeft {
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
 }
@@ -2076,8 +2076,8 @@
 .slideInRight,
 .slideRight-leave-active,
 .slideOutRight {
-        -webkit-animation-duration: 0.9s;
-        animation-duration: 0.9s;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
 }
