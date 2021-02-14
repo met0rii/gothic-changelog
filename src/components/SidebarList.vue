@@ -12,6 +12,7 @@
         v-for="child in value.data"
         :key="child.title"
         :title="child.title"
+        :notAvailable="child.notAvailable"
         :toRoute="{
           name: 'Changelogs',
           params: { gameId: key, id: child.id },

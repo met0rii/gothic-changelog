@@ -21,8 +21,8 @@
       },
       {
         "id": "odyssey",
-        "title": "Odyseja w imieniu króla",
-        "available": false
+        "title": "Odyseja",
+        "notAvailable": true
       }
     ]
   },
