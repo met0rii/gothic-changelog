@@ -5,14 +5,14 @@
     link
     :to="toRoute"
   >
-    <div v-if="notAvailable" class="badge">
-      <span class="text" data-text="Soon">Już Wkrótce</span>
-    </div>
     <v-list-item-content className="custom-list-item-content">
       <v-list-item-title>
         {{ title }}
       </v-list-item-title>
     </v-list-item-content>
+    <div v-if="notAvailable" class="badge">
+      <span class="text" data-text="Soon">Już Wkrótce</span>
+    </div>
   </v-list-item>
 </template>
 
@@ -66,7 +66,6 @@ export default {
   font-family: Comic Sans MS, Comic Sans;
   text-transform: uppercase;
   font-weight: bold;
-  font-style: italic;
 }
 
 .custom-list-item .v-list-item__content {
