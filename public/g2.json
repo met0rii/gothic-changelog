@@ -2150,5 +2150,110 @@
         }
       ]
     }
+  },
+  {
+    "id": "ody",
+    "title": "Odyseja",
+    "titleUrl": "https://imgur.com/OlQrAyl.png",
+    "url": "",
+    "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater naszej modyfikacji - Roland - jest rekrutem w morskiej twierdzy Athanos - na której wojna z orkami nie dała się jeszcze we znaki. Ponieważ nasz bohater pragnie zostać paladynem i walczyć z orkami, postanawia opuścić wyspę, aby osiągnąć swój cel. Okazuje się to nie być takie proste, jak się spodziewał. Przed spełnieniem swojego marzenia, czeka go wiele ekscytujących przygód. Początkowo celem Rolanda było zostanie paladynem, ale w trakcie swojej podróży wiele zobaczył i doświadczył, poznał wrogów królestwa i ich intrygi. Ich celem jest ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
+    "overview": {
+      "lists": [
+        {
+          "title": "Modyfikacja zawiera:",
+          "list": [
+            {
+              "content": "...,"
+            },
+            {
+              "content": "...,"
+            },
+            {
+              "content": "...:",
+              "list": [
+                {
+                  "content": "...,"
+                },
+                {
+                  "content": "...."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gallery": [
+      "https://imgur.com/7XuQHvW.jpg",
+      "https://imgur.com/lg1BIco.jpg",
+      "https://imgur.com/3dS2B8K.jpg",
+      "https://imgur.com/5OGQvUs.jpg",
+      "https://imgur.com/2C8c14m.jpg",
+      "https://imgur.com/wqL0GIu.jpg",
+      "https://imgur.com/o8Jdxxr.jpg",
+      "https://imgur.com/waV401c.jpg",
+      "https://imgur.com/46HDsRr.jpg",
+      "https://imgur.com/giA5aln.jpg",
+      "https://imgur.com/5R1KNP5.jpg",
+      "https://imgur.com/zTGm2CA.jpg",
+      "https://imgur.com/IfTxogU.jpg",
+      "https://imgur.com/3lrtpXF.jpg",
+      "https://imgur.com/Fp4fE6L.jpg",
+      "https://imgur.com/JJhIjY1.jpg",
+      "https://imgur.com/jrse4Xi.jpg",
+      "https://imgur.com/ysi68yo.jpg",
+      "https://imgur.com/N7Flk45.jpg",
+      "https://imgur.com/EMkaHaF.jpg",
+      "https://imgur.com/VliUNqs.jpg",
+      "https://imgur.com/KXXGpFJ.jpg",
+      "https://imgur.com/vD0qRQ4.jpg",
+      "https://imgur.com/2aJadry.jpg",
+      "https://imgur.com/tYpNdaX.jpg",
+      "https://imgur.com/Jv4evY8.jpg",
+      "https://imgur.com/X2XOD89.jpg",
+      "https://imgur.com/9ATcTB8.jpg",
+      "https://imgur.com/ZklKRig.jpg",
+      "https://imgur.com/KPWhL3T.jpg",
+      "https://imgur.com/O12PBQR.jpg",
+      "https://imgur.com/uqPF78o.jpg",
+      "https://imgur.com/JXbXqZt.jpg",
+      "https://imgur.com/mnhZeCp.jpg",
+      "https://imgur.com/F7mXevS.jpg",
+      "https://imgur.com/5RMWEIo.jpg",
+      "https://imgur.com/z7KHAea.jpg",
+      "https://imgur.com/XTgwu68.jpg",
+      "https://imgur.com/j9DoW8x.jpg",
+      "https://imgur.com/zBkAoRL.jpg",
+      "https://imgur.com/7XuQHvW.jpg",
+      "https://imgur.com/oR8kLEH.jpg",
+      "https://imgur.com/0FrRS9W.jpg",
+      "https://imgur.com/HBHyOrv.jpg",
+      "https://imgur.com/32fwWNf.jpg",
+      "https://imgur.com/bWgjD42.jpg"
+    ],
+    "authors": {
+      "creators": [
+        {
+          "name": "OdysseeModTeam",
+          "role": "Autorzy",
+          "contacts": [
+            {
+              "platform": "Forum",
+              "url": "https://forum.worldofplayers.de/forum/forums/792-OdysseeModTeam"
+            }
+          ]
+        }
+      ],
+      "contributors": [
+        {
+          "name": "...",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "...",
+          "role": "Tłumacz"
+        }
+      ]
+    }
   }
 ]
