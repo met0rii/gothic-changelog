@@ -2156,28 +2156,77 @@
     "title": "Odyseja",
     "titleUrl": "https://imgur.com/OlQrAyl.png",
     "url": "",
-    "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater naszej modyfikacji - Roland - jest rekrutem w morskiej twierdzy Athanos - na której wojna z orkami nie dała się jeszcze we znaki. Ponieważ nasz bohater pragnie zostać paladynem i walczyć z orkami, postanawia opuścić wyspę, aby osiągnąć swój cel. Okazuje się to nie być takie proste, jak się spodziewał. Przed spełnieniem swojego marzenia, czeka go wiele ekscytujących przygód. Początkowo celem Rolanda było zostanie paladynem, ale w trakcie swojej podróży wiele zobaczył i doświadczył, poznał wrogów królestwa i ich intrygi. Ich celem jest ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
+    "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtanę. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
     "overview": {
       "lists": [
         {
-          "title": "Modyfikacja zawiera:",
+          "title": "Modyfikacja oferuje:",
           "list": [
             {
-              "content": "...,"
+              "content": "Ponad 200 godzin czasu gry!"
             },
             {
-              "content": "...,"
+              "content": "Ponad 1000 NPC i 642 zadań!"
             },
             {
-              "content": "...:",
-              "list": [
-                {
-                  "content": "...,"
-                },
-                {
-                  "content": "...."
-                }
-              ]
+              "content": "Barwne postacie i rozbudowane dialogi."
+            },
+            {
+              "content": "Wiele starannie zaprojektowanych rozległych światów o różnych klimatach i ciekawych terenach."
+            },
+            {
+              "content": "Mozliwość spotkania przyjaciół z Gothic II i postaci niezależnych z kilku znanych modyfikacji."
+            },
+            {
+              "content": "Nowe ścieżki dźwiękowe dla Varantu, Myrtany oraz Nordmaru."
+            },
+            {
+              "content": "Zmieniony balans rozgrywki i pięć różnych poziomów trudności."
+            },
+            {
+              "content": "Wiele nowych animacji, w tym ostrzenie broni, picie z beczki, tworzenie zwojów, a także trumien i grobów, które można otworzyć, NPC niosą skrzynie, beczki, kamienie, worki, drewniane belki i drewno opałowe."
+            },
+            {
+              "content": "Wolne celowanie z łuku/magii"
+            },
+            {
+              "content": "Produkcja strzał i bełtów, a także nowe specjalne rodzaje, takie jak ogniste, trujące, rozbijające, lodowe, magiczne i wybuchowe. Specjalne strzały i bełty zadają różne obrażenia."
+            },
+            {
+              "content": "Wydobycie rudy, rudy żelaza, złota, siarki, srebra, węgla, akwamarynu i wielu innych."
+            },
+            {
+              "content": "Mnóstwo nowych tekstur potworów, oraz zupełnie nowe potwory jak np. gryfy, żółwie, ogry."
+            },
+            {
+              "content": "Potwory odradzają się w trakcie gry, i są niebezpieczne na każdym etapie gry."
+            },
+            {
+              "content": "Nowe zaklęcia przemiany oraz system wiedzy magicznej."
+            },
+            {
+              "content": "Potężni magowie, którzy potrafią się leczyć."
+            },
+            {
+              "content": "Hełmy i tarcze w grze, oraz mnóstwo nowych przedmiotów i pancerzy."
+            },
+            {
+              "content": "Mnóstwo gildii, takich jak najemnicy orków, asasyni, koczownicy."
+            },
+            {
+              "content": "Wiele przedmiotów, które można otwierać w tym skrzynki, szafy."
+            },
+            {
+              "content": "Zabójca orków, łowca orków, zatruwanie ostrza, pływanie, nurkowanie i wiele innych nowych umiejętności."
+            },
+            {
+              "content": "Ekrany ładowania z poradami dotyczącymi gry."
+            },
+            {
+              "content": "Wiele nowego pożywienia jak np. ananasy, marchewki, ziemniaki, nowe zupy, żywność w beczkach i workach."
+            },
+            {
+              "content": "I WIELE WIĘCEJ..."
             }
           ]
         }
@@ -2229,31 +2278,9 @@
       "https://imgur.com/0FrRS9W.jpg",
       "https://imgur.com/HBHyOrv.jpg",
       "https://imgur.com/32fwWNf.jpg",
+      "https://imgur.com/Eult7iP.jpg",
+      "https://imgur.com/2gmeX6y.jpg",
       "https://imgur.com/bWgjD42.jpg"
-    ],
-    "authors": {
-      "creators": [
-        {
-          "name": "OdysseeModTeam",
-          "role": "Autorzy",
-          "contacts": [
-            {
-              "platform": "Forum",
-              "url": "https://forum.worldofplayers.de/forum/forums/792-OdysseeModTeam"
-            }
-          ]
-        }
-      ],
-      "contributors": [
-        {
-          "name": "...",
-          "role": "Wsparcie techniczne"
-        },
-        {
-          "name": "...",
-          "role": "Tłumacz"
-        }
-      ]
-    }
+    ]
   }
 ]
