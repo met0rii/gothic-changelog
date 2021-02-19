@@ -1,6 +1,10 @@
 <template>
   <div>
-    <transition enter-active-class="animated fadeIn">
+    <transition
+      :enter-active-class="enterClassName"
+      :leave-active-class="leaveClassName"
+      mode="out-in"
+    >
       <v-row class="cards-container" :key="page">
         <template v-if="selected">
           <v-col
@@ -24,7 +28,12 @@
       </v-row>
     </transition>
     <div v-if="pagesLength !== 1" class="d-flex justify-end">
-      <v-pagination dark v-model="page" :length="pagesLength" />
+      <v-pagination
+        dark
+        :value="page"
+        @input="changePage"
+        :length="pagesLength"
+      />
     </div>
   </div>
 </template>
@@ -40,14 +49,20 @@ export default {
   data: () => {
     return {
       page: 1,
+      previousPage: 0,
       itemsPerPage: 4,
     };
   },
   computed: {
     pagesLength() {
-      return Math.ceil(
-        this.$store.state.changelogs.selected.changes.length / this.itemsPerPage
-      );
+      if (this.$store.state.changelogs.selected.changes) {
+        return Math.ceil(
+          this.$store.state.changelogs.selected.changes.length /
+            this.itemsPerPage
+        );
+      }
+
+      return 1;
     },
     selected() {
       return this.$store.state.changelogs.selected;
@@ -55,10 +70,26 @@ export default {
     changelogs() {
       const start = (this.page - 1) * this.itemsPerPage;
       const end = start + this.itemsPerPage;
-      return this.$store.state.changelogs.selected.changes.slice(start, end);
+      if (this.$store.state.changelogs.selected.changes) {
+        return this.$store.state.changelogs.selected.changes.slice(start, end);
+      }
+      return [];
     },
     isFirstPage() {
       return this.page === 1;
+    },
+    enterClassName() {
+      return this.page < this.previousPage ? "slideInLeft" : "slideInRight";
+    },
+    leaveClassName() {
+      return this.page < this.previousPage ? "slideOutRight" : "slideOutLeft";
+    },
+  },
+
+  methods: {
+    changePage(page) {
+      this.previousPage = this.page;
+      this.page = page;
     },
   },
 };
@@ -66,7 +97,7 @@ export default {
 
 <style scoped>
 .cards-container {
-  min-height: 150px;
+  min-height: 300px;
 }
 
 .card-container {
