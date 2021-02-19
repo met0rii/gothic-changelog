@@ -64,6 +64,7 @@
 import GalleryImage from "./GalleryImage.vue";
 
 export default {
+  name: "ModGallery",
   components: { GalleryImage },
   props: {
     data: {
