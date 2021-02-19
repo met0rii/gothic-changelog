@@ -21,7 +21,13 @@
       </v-col>
     </v-row>
 
-    <v-row>
+    <v-row
+      v-if="
+        selected.authors &&
+          (selected.authors.creators.length > 0 ||
+            selected.authors.contributors.length > 0)
+      "
+    >
       <section-title title="Autorzy" />
       <v-col cols="12" class="pl-4 pr-4">
         <mod-authors :data="selected" />
