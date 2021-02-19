@@ -1,10 +1,5 @@
 <template>
-  <v-list-item
-    :disabled="notAvailable"
-    class="custom-list-item"
-    link
-    :to="toRoute"
-  >
+  <v-list-item :disabled="disabled" class="custom-list-item" link :to="toRoute">
     <v-list-item-content className="custom-list-item-content">
       <v-list-item-title>
         {{ title }}
@@ -16,7 +11,6 @@
   </v-list-item>
 </template>
 
-
 <script>
 export default {
   name: "SidebarListItem",
@@ -24,6 +18,7 @@ export default {
     title: String,
     toRoute: [String, Object],
     notAvailable: Boolean,
+    disabled: Boolean,
   },
 };
 </script>

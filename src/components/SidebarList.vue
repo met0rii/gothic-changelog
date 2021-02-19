@@ -13,6 +13,7 @@
         :key="child.title"
         :title="child.title"
         :notAvailable="child.notAvailable"
+        :disabled="child.disabled"
         :toRoute="{
           name: 'Changelogs',
           params: { gameId: key, id: child.id },

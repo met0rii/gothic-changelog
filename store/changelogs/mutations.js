@@ -3,8 +3,14 @@ import RepositoryMutations from "../repository/module-components/RepositoryMutat
 export default class ChangelogsMutations extends RepositoryMutations {
   selectChangelog = (state, changelogId) => {
     if (state.selected) {
-      state.selectedChangelog = state.selected.changes.find((el) => el.updateId == changelogId);
-
+      if (state.selected.changes) {
+        state.selectedChangelog = state.selected.changes.find(
+          (el) => el.updateId == changelogId
+        );
+      } else {
+        state.selectChangelog = [];
+      }
+      console.log("here", state.selectChangelog);
     }
-  }
+  };
 }

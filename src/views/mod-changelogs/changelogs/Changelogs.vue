@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row>
+    <v-row v-if="selected.changes && selected.changes.length > 0">
       <section-title title="Zmiany" />
       <v-col cols="12" class="pl-4 pr-4">
         <changelogs-cards />
@@ -53,4 +53,3 @@ export default {
   },
 };
 </script>
-
