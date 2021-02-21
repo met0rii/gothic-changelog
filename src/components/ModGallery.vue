@@ -35,34 +35,34 @@
             >
               <v-icon>mdi-close</v-icon>
             </v-btn>
+            <div class="image-buttons">
+              <v-container fill-height fluid>
+                <v-row align="center" justify="center">
+                  <v-col align="left" @click="selectPrevImage">
+                    <v-btn
+                      fab
+                      small
+                      color="orange lighten-3"
+                      :disabled="!canPrevImage"
+                      ><v-icon>mdi-arrow-left-bold</v-icon></v-btn
+                    >
+                  </v-col>
+
+                  <v-col align="right">
+                    <v-btn
+                      fab
+                      small
+                      color="orange lighten-3"
+                      :disabled="!canNextImage"
+                      @click="selectNextImage"
+                      ><v-icon>mdi-arrow-right-bold</v-icon></v-btn
+                    >
+                  </v-col>
+                </v-row>
+              </v-container>
+            </div>
           </div>
         </transition>
-        <div class="image-buttons">
-          <v-container fill-height fluid>
-            <v-row align="center" justify="center">
-              <v-col align="left" @click="selectPrevImage">
-                <v-btn
-                  fab
-                  small
-                  color="orange lighten-3"
-                  :disabled="!canPrevImage"
-                  ><v-icon>mdi-arrow-left-bold</v-icon></v-btn
-                >
-              </v-col>
-
-              <v-col align="right">
-                <v-btn
-                  fab
-                  small
-                  color="orange lighten-3"
-                  :disabled="!canNextImage"
-                  @click="selectNextImage"
-                  ><v-icon>mdi-arrow-right-bold</v-icon></v-btn
-                >
-              </v-col>
-            </v-row>
-          </v-container>
-        </div>
       </div>
     </template>
   </v-row>
