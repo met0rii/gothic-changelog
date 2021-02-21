@@ -11,9 +11,21 @@
       />
     </template>
 
-    <template v-if="fullscreen">
-      <div class="mask" v-on:click="changeFullscreen(false)"></div>
-      <div class="fullscreen-image-container">
+    <div
+      class="mask"
+      v-if="fullscreen"
+      v-on:click="changeFullscreen(false)"
+    ></div>
+    <transition
+      enter-active-class="fadeIn"
+      leave-active-class="fadeOut"
+      mode="out-in"
+    >
+      <div
+        :key="fullscreen.toString()"
+        v-if="fullscreen"
+        class="fullscreen-image-container"
+      >
         <transition
           :enter-active-class="enterClassName"
           :leave-active-class="leaveClassName"
@@ -65,7 +77,7 @@
           </div>
         </transition>
       </div>
-    </template>
+    </transition>
   </v-row>
 </template>
 
