@@ -21,6 +21,7 @@
 
 <script>
 export default {
+  name: "GalleryImage",
   props: {
     url: {
       type: String,

@@ -5,7 +5,7 @@
         <div align="center">
           <img :src="selected.titleUrl" width="60%" />
         </div>
-        <div align="center">
+        <div v-if="selected.url && selected.url.length" align="center">
           <v-btn
             :to="{ name: 'redirect', query: { url: selected.url } }"
             color="orange lighten-3"

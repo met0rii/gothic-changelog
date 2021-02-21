@@ -9,6 +9,7 @@
 import RecursiveList from "./RecursiveList.vue";
 
 export default {
+  name: "ModeOverview",
   props: {
     data: { type: Object, required: true },
   },

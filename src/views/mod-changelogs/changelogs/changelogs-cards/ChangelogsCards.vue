@@ -55,9 +55,14 @@ export default {
   },
   computed: {
     pagesLength() {
-      return Math.ceil(
-        this.$store.state.changelogs.selected.changes.length / this.itemsPerPage
-      );
+      if (this.$store.state.changelogs.selected.changes) {
+        return Math.ceil(
+          this.$store.state.changelogs.selected.changes.length /
+            this.itemsPerPage
+        );
+      }
+
+      return 1;
     },
     selected() {
       return this.$store.state.changelogs.selected;
@@ -65,7 +70,10 @@ export default {
     changelogs() {
       const start = (this.page - 1) * this.itemsPerPage;
       const end = start + this.itemsPerPage;
-      return this.$store.state.changelogs.selected.changes.slice(start, end);
+      if (this.$store.state.changelogs.selected.changes) {
+        return this.$store.state.changelogs.selected.changes.slice(start, end);
+      }
+      return [];
     },
     isFirstPage() {
       return this.page === 1;

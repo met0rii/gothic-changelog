@@ -2,8 +2,8 @@
   <div class="author-list-wrapper">
     <div
       class="author-list-item pb-3"
-      v-for="author in authors"
-      :key="author.name"
+      v-for="(author, authorIndex) in authors"
+      :key="authorIndex"
     >
       <div>
         <h3>
@@ -15,8 +15,8 @@
       </div>
       <div class="mt-1" v-if="author.contacts">
         <v-btn
-          v-for="(contact, index) in author.contacts"
-          :key="index"
+          v-for="(contact, contactIndex) in author.contacts"
+          :key="authorIndex + '_' + contactIndex"
           v-on:click="() => onContactButtonClick(contact.url)"
           small
           light
