@@ -24,7 +24,7 @@
               :src="selectedImage"
               :lazy-src="selectedImage"
               aspect-ratio="1"
-              class="grey lighten-2 fullscreen-image"
+              class="fullscreen-image"
             />
             <v-btn
               small
@@ -205,12 +205,9 @@ export default {
 }
 
 .fullscreen-image {
-  height: 90vh;
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
-}
-
-.image-container {
-  position: relative;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: var(--neon-light);
 }
 
 .cross {
