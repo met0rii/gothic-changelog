@@ -38,12 +38,13 @@
             <div class="image-buttons">
               <v-container fill-height fluid>
                 <v-row align="center" justify="center">
-                  <v-col align="left" @click="selectPrevImage">
+                  <v-col align="left">
                     <v-btn
                       fab
                       small
                       color="orange lighten-3"
                       :disabled="!canPrevImage"
+                      @click="selectPrevImage"
                       ><v-icon>mdi-arrow-left-bold</v-icon></v-btn
                     >
                   </v-col>
