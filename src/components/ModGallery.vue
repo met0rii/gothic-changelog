@@ -27,8 +27,8 @@
               class="fullscreen-image"
             />
             <v-btn
-              small
               fab
+              small
               color="orange lighten-3"
               class="cross"
               @click="changeFullscreen(false)"
