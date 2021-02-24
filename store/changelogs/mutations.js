@@ -10,7 +10,6 @@ export default class ChangelogsMutations extends RepositoryMutations {
       } else {
         state.selectChangelog = [];
       }
-      console.log("here", state.selectChangelog);
     }
   };
 }
