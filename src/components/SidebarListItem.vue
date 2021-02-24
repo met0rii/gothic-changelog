@@ -30,8 +30,9 @@ export default {
   padding-left: 20px !important;
 }
 
-.custom-list-item:hover {
+.custom-list-item.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled):hover {
   border-radius: 0px;
+  color: var(--orange-secondary) !important;
 }
 .custom-list-item.v-list-item:before {
   border-radius: 0px;

@@ -145,4 +145,11 @@ body {
 .introduction {
   margin-top: 10px;
 }
+
+/*VUETIFY OVERRIDES*/
+.theme--dark.v-pagination .v-pagination__item--active {
+  color: var(--black-primary) !important;
+  background-color: var(--orange-secondary) !important;
+  border-color: var(--orange-secondary) !important;
+}
 </style>
