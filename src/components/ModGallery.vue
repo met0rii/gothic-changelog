@@ -11,52 +11,73 @@
       />
     </template>
 
-    <template v-if="fullscreen">
-      <div class="mask" v-on:click="changeFullscreen(false)"></div>
-      <div class="fullscreen-image-container">
-        <v-img
-          :src="selectedImage"
-          :lazy-src="selectedImage"
-          aspect-ratio="1"
-          class="grey lighten-2 fullscreen-image"
-        />
-        <v-btn
-          small
-          fab
-          color="orange lighten-3"
-          class="cross"
-          @click="changeFullscreen(false)"
+    <div
+      class="mask"
+      v-if="fullscreen"
+      v-on:click="changeFullscreen(false)"
+    ></div>
+    <transition
+      enter-active-class="fadeIn"
+      leave-active-class="fadeOut"
+      mode="out-in"
+    >
+      <div
+        :key="fullscreen.toString()"
+        v-if="fullscreen"
+        class="fullscreen-image-container"
+      >
+        <transition
+          :enter-active-class="enterClassName"
+          :leave-active-class="leaveClassName"
+          mode="out-in"
         >
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
-        <div class="image-buttons">
-          <v-container fill-height fluid>
-            <v-row align="center" justify="center">
-              <v-col align="left" @click="selectPrevImage">
-                <v-btn
-                  fab
-                  small
-                  color="orange lighten-3"
-                  :disabled="!canPrevImage"
-                  ><v-icon>mdi-arrow-left-bold</v-icon></v-btn
-                >
-              </v-col>
+          <div :key="selectedImage" class="image-container">
+            <v-img
+              :src="selectedImage"
+              :lazy-src="selectedImage"
+              aspect-ratio="1"
+              class="fullscreen-image"
+            />
+            <v-btn
+              fab
+              small
+              color="orange lighten-3"
+              class="cross"
+              @click="changeFullscreen(false)"
+            >
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+            <div class="image-buttons">
+              <v-container fill-height fluid>
+                <v-row align="center" justify="center">
+                  <v-col align="left">
+                    <v-btn
+                      fab
+                      small
+                      color="orange lighten-3"
+                      :disabled="!canPrevImage"
+                      @click="selectPrevImage"
+                      ><v-icon>mdi-arrow-left-bold</v-icon></v-btn
+                    >
+                  </v-col>
 
-              <v-col align="right">
-                <v-btn
-                  fab
-                  small
-                  color="orange lighten-3"
-                  :disabled="!canNextImage"
-                  @click="selectNextImage"
-                  ><v-icon>mdi-arrow-right-bold</v-icon></v-btn
-                >
-              </v-col>
-            </v-row>
-          </v-container>
-        </div>
+                  <v-col align="right">
+                    <v-btn
+                      fab
+                      small
+                      color="orange lighten-3"
+                      :disabled="!canNextImage"
+                      @click="selectNextImage"
+                      ><v-icon>mdi-arrow-right-bold</v-icon></v-btn
+                    >
+                  </v-col>
+                </v-row>
+              </v-container>
+            </div>
+          </div>
+        </transition>
       </div>
-    </template>
+    </transition>
   </v-row>
 </template>
 
@@ -76,6 +97,7 @@ export default {
     return {
       fullscreen: false,
       selectedImage: undefined,
+      direction: "",
     };
   },
   beforeMount() {
@@ -93,12 +115,14 @@ export default {
           case 37: {
             this.selectPrevImage();
             // ARROW LEFT
+            this.direction = "left";
             break;
           }
 
           case 39: {
             // ARROW RIGHT
             this.selectNextImage();
+            this.direction = "right";
             break;
           }
         }
@@ -113,6 +137,7 @@ export default {
         return;
       }
       this.selectedImage = this.data.gallery[index];
+      this.direction = "left";
     },
     selectNextImage() {
       if (this.currentImageIndex < 0) {
@@ -123,6 +148,7 @@ export default {
         return;
       }
       this.selectedImage = this.data.gallery[index];
+      this.direction = "right";
     },
     onImageClick(url) {
       this.selectedImage = url;
@@ -151,6 +177,12 @@ export default {
       }
       return this.data.gallery.indexOf(this.selectedImage);
     },
+    enterClassName() {
+      return this.direction === "left" ? "slideInLeft" : "slideInRight";
+    },
+    leaveClassName() {
+      return this.direction === "left" ? "slideOutRight" : "slideOutLeft";
+    },
   },
   beforeDestroy() {
     document.documentElement.classList.remove("image-opened");
@@ -166,6 +198,7 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: 200;
 }
 
 .mask {
@@ -184,36 +217,20 @@ export default {
   right: 0;
 }
 
-.fullscreen-image-container {
-  z-index: 200;
-  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.62);
+.fullscreen-image {
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: var(--neon-light);
 }
 
-.fullscreen-image {
-  height: 90vh;
-}
 .cross {
   position: absolute;
-  right: 50px;
+  right: 30px;
   top: 30px;
   cursor: pointer;
   width: 15px;
   height: 15px;
   z-index: 1000;
-}
-
-.cross-first,
-.cross-second {
-  background-color: rgba(255, 255, 255, 1);
-  width: 30px;
-  height: 5px;
-  border-radius: 6px;
-}
-.cross-first {
-  transform: translateY(5px) rotate(45deg);
-}
-.cross-second {
-  transform: rotate(-45deg);
 }
 
 .image-opened {
