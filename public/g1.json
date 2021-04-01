@@ -382,5 +382,202 @@
         }
       ]
     }
+  },
+  {
+    "id": "mt",
+    "title": "Mroczne Tajemnice",
+    "titleUrl": "https://i.imgur.com/thd7Yny.jpg",
+    "url": "",
+    "description": "Odżwieżona wersja polskiej modyfikacji rozszerzająca content z pierwszej części Gothica. Modyfikacja posiada: profesjonalny dubbing, nowe animacje, potwory, questy, poprawione błędy, zbalansowane poziomy trudności.",
+    "changes": [
+      {
+        "updateId": "0",
+        "updateDescription": "Nowe mechaniki walki bronią (kilka ścieżek rozwoju), przerobiony system alchemii, wolne celowanie z łuku oraz magii oraz wiele innych...",
+        "version": "3.0",
+        "date": "??.06.2021",
+        "lists": [
+          {
+            "title": "Krótki opis zmian modyfikacji:",
+            "list": [
+              {
+                "content": "Przepisano dialogi oraz nagrano nowy dubbing, dzięki współpracy z większością aktorów głosowych, pracujących przy takich produkcjach jak Gothic I, Gothic II NK oraz Gothic 3;"
+              },
+              {
+                "content": "Poprawiono masę błędów;"
+              },
+              {
+                "content": "Usunięto głupie easter-eggi oraz zastąpiono je lepszymi.;"
+              },
+              {
+                "content": "Dodano możliwość zostania magnatem i wspólnego zaplanowania ataku na wolną kopalnię;"
+              },
+              {
+                "content": "Dodano możliwość zagrania w pełni pod alternatywne umiejętności, np. pod walkę dwoma mieczami, czy używając tarczę;"
+              },
+              {
+                "content": "Zmieniono system ekonomii;"
+              },
+              {
+                "content": "Usunięto eliksir z magicznej rudy;"
+              },
+              {
+                "content": "Od teraz wszystkie obrażenia skalowane są na podstawie wymaganych atrybutów;"
+              },
+              {
+                "content": "Dodano 100 nowych zadań na podstawie dokumentacji zakupionej od Piranha Bytes"
+              },
+              {
+                "content": "Przerobiono cały wątek z przemytnikami"
+              },
+              {
+                "content": "Dodano usprawnione walki na arenie w Starym Obozie (od teraz przeciwnicy są losowani na podstawie umiejętności naszej postaci, przez co walki stanowią wyzwanie)"
+              },
+              {
+                "content": "Zaimplementowano ekwipunek z Gothic II"
+              },
+              {
+                "content": "Możliwość zagrania na 3 poziomach trudności:",
+                "list": [
+                  {
+                    "content": "Gothic (możliwość w pełni konfigurowania poziomu trudności)"
+                  },
+                  {
+                    "content": "Nightmare"
+                  },
+                  {
+                    "content": "Impossible (z wymuszonym NoDeath)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "overview": {
+      "lists": [
+        {
+          "title": "Krótki opis zmian modyfikacji:",
+          "list": [
+                      
+{"content" :"Przepisano dialogi oraz nagrano nowy dubbing, dzięki współpracy z większością aktorów głosowych, pracujących przy takich produkcjach jak Gothic I, Gothic II NK oraz Gothic 3;"},
+{"content" :"Poprawiono masę błędów;"},
+{"content" :"Usunięto głupie easter-eggi oraz zastąpiono je lepszymi.;"},
+{"content" :"Dodano możliwość zostania magnatem i wspólnego zaplanowania ataku na wolną kopalnię;"},
+{"content" :"Dodano możliwość zagrania w pełni pod alternatywne umiejętności, np. pod walkę dwoma mieczami, czy używając tarczę;"},
+{"content" :"Zmieniono system ekonomii;"},
+{"content" :"Od teraz wszystkie obrażenia skalowane są na podstawie wymaganych atrybutów"},
+{"content" :"Dodano 100 nowych zadań"},
+{"content" :"Przerobiono cały wątek z przemytnikami"},
+{"content" :"Dodano usprawnione walki na arenie w Starym Obozie (od teraz przeciwnicy są losowani na podstawie umiejętności naszej postaci, przez co walki stanowią wyzwanie)"},
+{"content" :"Ekwipunek z Gothic II"},
+{"content" :"3 poziomy trudności:",
+"list":[
+  {"content": "Gothic (możliwość w pełni konfigurowania poziomu trudności)"},
+  {
+    "content": "Nightmare"
+  },
+  {
+    "content": "Impossible (z wymuszonym NoDeath)"
+  }
+]}
+  
+
+  
+          ]
+        }
+      ]
+    },
+    "gallery": [],
+    "authors": {
+      "creators": [
+        {
+          "name": "Poziomkaz",
+          "role": "Autorzy"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Sebastian",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Franisz",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Zipperiusz",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Jacek Mikołajczak",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Adam Bauman",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Piotr Bąk",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Jarosław Domin",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Agata Gawrońska-Bauman",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Paweł Iwanicki",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Jacek Kopczyński",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Tomasz Marzecki",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Przemysław Nikiel",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Łukasz Nowicki",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Marek Obertyn",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Jacek Sołtysiak",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Paweł Szczesny",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Andrzej Tomecki",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Robert Tondera",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Janusz Wituch",
+          "role": "Aktor głosowy"
+        },
+        {
+          "name": "Mirosław Zbrojewicz",
+          "role": "Aktor głosowy"
+        }
+      ]
+    }
   }
 ]

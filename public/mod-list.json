@@ -5,6 +5,11 @@
       {
         "id": "dz",
         "title": "Dolina Zombie"
+      },
+      {
+        "id": "mt",
+        "title": "MT 3.0",
+        "notAvailable": true
       }
     ]
   },
