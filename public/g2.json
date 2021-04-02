@@ -2160,13 +2160,13 @@
     "title": "Odyseja",
     "titleUrl": "https://imgur.com/OlQrAyl.png",
     "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
-    "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtanę. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
+    "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
     "changes":[
       {
         "updateId": "0",
         "updateDescription": "Lista zmian względem niemieckiej wersji",
         "version": "2.6.4",
-        "date": "11.01.2021",
+        "date": "02.04.2021",
         "lists": [
           {"title":"Zmiany względem wersji niemieckiej:"},
           {
@@ -2443,7 +2443,7 @@
           "role": "Wsparcie techniczne"
         },
         {
-          "name": "AhnBael",
+          "name": "Taliasan",
           "role": "Wsparcie techniczne"
         },        
         {
@@ -2463,11 +2463,15 @@
           "role": "Promocja"
         },
         {
-          "name": "Wiśnia",
+          "name": "Simon Said",
           "role": "Prezentacja światów"          
         },
         {
-          "name":"Fabio",
+          "name": "Archi",
+          "role": "Prezentacja światów"
+        },
+        {
+          "name":"Fabiosek",
           "role":"Tester"
         },
         {
