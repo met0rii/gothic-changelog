@@ -2159,8 +2159,122 @@
     "id": "ody",
     "title": "Odyseja",
     "titleUrl": "https://imgur.com/OlQrAyl.png",
-    "url": "",
+    "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
     "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtanę. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
+    "changes":[
+      {
+        "updateId": "0",
+        "updateDescription": "Lista zmian względem niemieckiej wersji",
+        "version": "2.6.4",
+        "date": "11.01.2021",
+        "lists": [
+          {"title":"Zmiany względem wersji niemieckiej:"},
+          {
+            "title": "Poprawki:",
+            "list": [
+              {
+                "content": "Ujednolicono nazwy przedmiotów we wszystkich opcjach tworzenia."
+              },
+              {
+                "content": "Podczas wzmacniania pancerzy, widoczne są jedynie opcje ulepszenia tych pancerzy, które bohater posiada w ekwipunku."
+              },
+              {
+                "content": "Poprawiono wypisywanie na ekranie informacji na temat wytworzonego przedmiotu."
+              },
+              {
+                "content": "Wszystkie przedmioty, które można stworzyć, posiadają informację na temat wymaganych składników w dzienniku."
+              },
+              {
+                "content": "Naprawiono ostrzenie broni. Przycisk 'WRÓĆ' działa poprawnie. Jednocześnie po naostrzonym mieczu zostajemy w dialogu. Rozdzielono też ostrzenie od szlifowania na kamieniu szlifierskim."
+              },
+              {
+                "content": "Zaostrzone i zatrute bronie nie mają już tej informacji w nazwie przedmiotu. Informacja ta znajduje się w opisie przedmiotu."
+              },
+              {
+                "content": "Zmieniono lekko sposób wypisywania na ekranie nowych wpisów w dzienniku."
+              },
+              {
+                "content": "Poprawiono kategorię dla kilku kluczy, które pokazywały się obok pancerzy."
+              },
+              {
+                "content": "Poprawiono wyświetlanie tekstu podczas górnictwa. Teraz tekst nie nachodzi na siebie."
+              },
+              {
+                "content": "Zmieniono wygląd okna statystyk oraz powiększono trochę okno dziennika."
+              },
+              {
+                "content": "Powiększono lekko okna menu oraz dodano nową zakładkę z dodatkowymi opcjami."
+              },
+              {
+                "content": "Poprawiono warunki podczas składania ofiar dla Innosa oraz Adanosa. Teraz nie będzie sytuacji, że nie wyświetli się, żadna informacja na ekranie jeśli gracz osiągnął przynajmniej jeden z limitów otrzymanych statystyk."
+              },
+              {
+                "content": "Status mistrza górnictwa aktualizuje się teraz za każdym razem gdy gracz zwiększy swoje umiejętności na temat wydobycia."
+              },
+              {
+                "content": "Naprawiono błąd związany z kosztami użycia zwojów zaklęć, przez który mana spadała poniżej zera."
+              },
+              {
+                "content": "Naprawiono błąd, przez który mapa Tamory nie pokazywała pozycji gracza po ponownym przypłynięciu w 4 rozdziale."
+              },
+              {
+                "content": "Naprawiono błąd, przez który kradzież klucza Kajo była niedostępna."
+              },
+              {
+                "content": "Naprawiono błąd, przez który przy kradzieży klucza Szirkuha dostawaliśmy klucz Zoraba."
+              },
+              {
+                "content": "Przetłumaczono napisy na mapach oraz poprawiono kilka nieprzeźroczystych map."
+              }
+            ]
+          },
+          {
+            "title": "Nowości:",
+            "list": [
+              {
+                "content": "Zaktualizowano Gothic Free Aim do wersji 1.2.0"
+              },
+              {
+                "content": "Opisy przedmiotów zawierają więcej informacji. Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Pancerze zawierają też informację na temat ochrony przed obrażeniami obuchowymi oraz o ilości wymaganej many do założenia szat. Żywność, która daje stały bonus do statystyk ma to uwzględnione w opisie. Poprawiono także opisy tarcz, strzał i bełtów."
+              },
+              {
+                "content": "Dodano kolorowanie nazw skrzyń i drzwi."
+              },
+              {
+                "content": "Przy otrzymaniu doświadczenia, na ekranie pojawia się również informacja na temat brakującej ilości do następnego poziomu."
+              },
+              {
+                "content": "Dodano specjalną runę teleportacyjną pozwalającą na teleportację z dialogu do wszystkich miejsc na mapie do których gracz posiada aktualnie teleport. Runa jest do kupienia u Alchemika na Athanos."
+              },
+              {
+                "content": "Zmieniono wiele grafik. (zmian lokacji, loading screeny, zapisywanie, loga, napisy, itd.)"
+              },
+              {
+                "content": "Usunięto z menu opcje 'Autorzy' oraz 'Wprowadzenie', zmieniono domyślnie zaznaczone opcje w menu i przyciemniono okno dziennika oraz statystyk."
+              },
+              {
+                "content": "Dodano licznik wykonanych zadań w dzienniku."
+              },
+              {
+                "content": "Usunięto wymóg zręczności do zobaczenia opcji kradzieży kieszonkowej. Można też dodatkowo w ustawieniach wybrać opcję pokazywania wymaganej zręczności do okradnięcia NPC-ta."
+              },
+              {
+                "content": "Dodano dodatkową opcję pominięcia animacji siadania podczas gry w kości."
+              },
+              {
+                "content": "Dodano możliwość zmiany strzał/bełtów poprzez kliknięcie klawisza 'P'."
+              },
+              {
+                "content": "Dodano instancję PC_Rockefeller posiadającą wszystkie istniejące przedmioty. (nie koniecznie wszystkie występują w grze)"
+              },
+              {
+                "content": "Wybrany rodzaj strzał/bełtów nie resetuje się przy wczytaniu gry."
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "overview": {
       "lists": [
         {
@@ -2285,6 +2399,136 @@
       "https://imgur.com/Eult7iP.jpg",
       "https://imgur.com/2gmeX6y.jpg",
       "https://imgur.com/bWgjD42.jpg"
-    ]
+    ],
+    "authors":
+    {
+      "creators":[
+        {
+          "name":"OdysseyModTeam",
+          "role":"Autorzy",
+          "contacts":[
+            {
+              "platform":"Forum",
+              "url":"https://www.worldofgothic.de/dl/download_522.htm"
+            }
+          ]
+        }
+      ],
+      "contributors":[
+        {
+          "name": "metek58",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "smox",
+          "role": "Tłumacz"
+        },
+        {
+          "name": "kobal",
+          "role": "Tłumacz"
+        },
+        {
+          "name":"bogu9821",
+          "role":"Organizacja tłumaczenia"
+        },
+        {
+          "name": "Nefario",
+          "role": "Organizacja tłumaczenia"
+        },
+        {
+          "name": "AhnBael",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "AhnBael",
+          "role": "Wsparcie techniczne"
+        },        
+        {
+          "name": "OwcaZagady",
+          "role": "Grafiki"
+        },        
+        {
+          "name": "plaq",
+          "role": "Korekty"
+        },
+        {
+          "name": "Jastrząb",
+          "role": "Porady"
+        },
+        {
+          "name": "Duch",
+          "role": "Promocja"
+        },
+        {
+          "name": "Wiśnia",
+          "role": "Prezentacja światów"          
+        },
+        {
+          "name":"Fabio",
+          "role":"Tester"
+        },
+        {
+          "name": "Sebastian",
+          "role": "Programista, wykończenie"
+        },
+        {
+          "name": "Franisz",
+          "role": "Grafik, wykończenie"
+        },
+        {
+          "name": "Zipperiusz",
+          "role": "Korekty, wykończenie, tłumacz"
+        },
+        {
+          "name": "Klodiaa",
+          "role": "Grafiki"
+        },
+        {
+          "name": "Washion",
+          "role": "Tester, Tłumacz"
+        },
+        {
+          "name": "Tulipan",
+          "role": "Tester"
+        },
+        {
+          "name": "Arek",
+          "role": "Tester"
+        },
+        {
+          "name": "Kajma",
+          "role": "Promocja"
+        },
+        {
+          "name": "Buzka",
+          "role": "Tester"
+        },
+        {
+          "name": "HeIISinki",
+          "role": "Tester"
+        },
+        {
+          "name": "Solace",
+          "role": "Tester"
+        },
+        {
+          "name": "JkB",
+          "role": "Tester"
+        },
+        {
+          "name": "Exalté",
+          "role": "Tester"
+        },
+        {
+          "name": "Tavertix",
+          "role": "Tester"
+        },
+        
+        {
+          "name": "Kredensik",
+          "role": "Tłumacz"
+        }
+      ]
+    }
   }
 ]
