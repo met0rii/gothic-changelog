@@ -4,6 +4,38 @@
     "title": "Alternative Balance",
     "titleUrl": "https://i.imgur.com/4CY2TAz.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
+    "instalation":{
+      "url":"https://www.youtube.com/embed/39s9HXBu0EI",
+      "instruction":{        
+        "alerts":[
+          {
+            "color": "deep-orange",
+            "text": "Nie instalujcie swoich pluginów do moda, bo was znajdę i zapierdolę!"
+          }
+        ],
+        "steps": [
+          {
+            "content": "Pobierz i wypakuj zawartość paczki z patchami do folderu z grą.",
+            "desc":"Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0i"
+          },
+          {
+            "content":"Pobierz i wypakuj zawartość paczki z modyfikacją L'Hiver do folderu z grą.",
+            "desc":"Kolejne dwa kroki są opcjonalne, na ten moment można już grać w modyfikację. Grę należy uruchomić poprzez GothicStarter.exe i wybrać modyfikację L'Hiver."
+          }
+        ],
+        "optional": [
+          {
+            "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą.",
+            "desc": ""
+          },
+          {
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor sem vehicula, cursus metus nec, feugiat orci. Mauris fermentum tincidunt erat.",
+            "desc": ""
+          }
+        ]
+      },
+      "links": []
+    },
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {

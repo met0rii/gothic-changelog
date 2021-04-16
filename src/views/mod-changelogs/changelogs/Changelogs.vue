@@ -16,6 +16,17 @@
 
     <v-row
       v-if="
+        selected.instalation
+      "
+    >
+      <section-title title="Lorem" />
+      <v-col cols="12" class="pl-4 pr-4">
+        <instalation :data="selected" />
+      </v-col>
+    </v-row>
+
+    <v-row
+      v-if="
         selected.authors &&
         (selected.authors.creators.length > 0 ||
           selected.authors.contributors.length > 0)
@@ -42,6 +53,7 @@ import ModGallery from "../../../components/ModGallery";
 import SectionTitle from "../../../components/SectionTitle.vue";
 import ModAuthors from "../../../components/ModAuthors.vue";
 import ModOverview from "../../../components/ModOverview.vue";
+import Instalation from "../../../components/Instalation.vue";
 import ChangelogsCards from "./changelogs-cards/ChangelogsCards.vue";
 
 export default {
@@ -51,6 +63,7 @@ export default {
     ModAuthors,
     ModOverview,
     ChangelogsCards,
+    Instalation,
   },
   computed: {
     selected() {
