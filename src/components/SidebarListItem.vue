@@ -72,6 +72,7 @@ export default {
 
 .custom-list-item .v-list-item__content .v-list-item__title {
   font-size: 16px;
+  line-height: normal;
 }
 
 .custom-list-item.v-list-item--active::before {

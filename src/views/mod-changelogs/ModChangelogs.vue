@@ -3,7 +3,20 @@
     <v-row>
       <v-col>
         <div align="center">
-          <img :src="selected.titleUrl" width="60%" />
+          <v-img
+            :src="selected.titleUrl"
+            :lazy-src="selected.titleUrl"
+            width="60%"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
         </div>
         <div v-if="selected.url && selected.url.length" align="center">
           <v-btn
@@ -39,6 +52,10 @@ export default {
   computed: {
     selected() {
       return this.$store.state.changelogs.selected;
+    },
+
+    modId() {
+      return this.$route.params.id;
     },
   },
 
