@@ -382,5 +382,202 @@
         }
       ]
     }
+  },
+  {
+    "id": "othello",
+    "title": "Othello",
+    "titleUrl": "https://imgur.com/nVVj8hi.png",
+    "url": "",
+    "description": "Modyfikacja znacznie poprawiająca oprawę graficzną Gothica I. Dodaje nowe, odświeżone tekstury. Nowe własnoręcznie robione modele oraz gotowe z sieci. Lokacje w modzie zostały odświeżone. Posiadają większą liczbę detali oraz przedmiotów.  Nie zabrakło również poukrywanych rzeczy. Oprócz Górniczej Doliny, która została całkowicie odświeżona przyjdzie nam zwiedzić jeszcze starą kopalnie i inne miejsca. Przebudowano niektóre aspekty jak np. ciała poległych świątynnych strażników. Tak jak tereny zostały odświeżone tak samo liczba przedmiotów do znalezienia również. Dodano 3000 roślin do zebrania, nie mówiąc już o innych przedmiotach, poukrywanych ksiąg, broni i wiele innych. Modyfikacja znacząco zwiększa poziom trudności niż miało to miejsce w podstawowej wersji gry. Statystyki potworów również zostały zwiększone. Dodano animacje sprintu, która jest nieco \"szybsza\" od swojej poprzedniej. Zmiany w kilku zadaniach. Pomimo tylu zmian modyfikacja rozgrywa się nadal w znanej nam fabule Gothica.",
+    "changes": [],
+    "overview": {
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Klimatyczna i oryginalna fabuła osadzona w Górniczej Dolinie"
+            },
+            {
+              "content": "Zmieniona szata graficzna"
+            },
+            {
+              "content": "Mapę powiększono o nowe lokalizacje (wykorzystanie pustych terenów w kolonii)"
+            },
+            {
+              "content": "Nowe modele przedmiotów, obiektów"
+            },
+            {
+              "content": "5 punktów nauki co poziom"
+            },
+            {
+              "content": "Nauka kosztuje teraz rude u nauczycieli"
+            },
+            {
+              "content": "Poprawione stare dialogi"
+            },
+            {
+              "content": "Możliwość pieczenia mięsa / chrząszczy"
+            },
+            {
+              "content": "Możliwość oddawania skór u Wilka"
+            },
+            {
+              "content": "20% ceny sprzedaży przedmiotów"
+            },
+            {
+              "content": "Alchemia:",
+              "list": [
+                {
+                  "content": "3 poziomowa nauka,"
+                },
+                {
+                  "content": "14 różnych przepisów na mikstury,"
+                },
+                {
+                  "content": "Nowe rośliny."
+                }
+              ]
+            },
+            {
+              "content": "Trofea:",
+              "list": [
+                {
+                  "content": "3 poziomowa nauka,"
+                },
+                {
+                  "content": "księgi wymagają umiejętności,"
+                },
+                {
+                  "content": "Nowe trofea."
+                }
+              ]
+            },
+            {
+              "content": "Kowalstwo:",
+              "list": [
+                {
+                  "content": "3 poziomowa nauka,"
+                },
+                {
+                  "content": "produkcja amunicji,"
+                },
+                {
+                  "content": "przetapianie przedmiotów."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Balans:",
+          "list": [
+            {
+              "content": "Zmieniono system nauki na 3 poziomy z większą premią do krytycznego trafienia"
+            },
+            {
+              "content": "Krytyczne trafienia są mnożone 3x"
+            },
+            {
+              "content": "Leczenie przedmiotami jest procentowe"
+            },
+            {
+              "content": "Możliwość nauki do 200 punktów atrybutu za pomocą mikstur stałych u nauczycieli:",
+              "list": [
+                {
+                  "content": "Diego,"
+                },
+                {
+                  "content": "Lares,"
+                },
+                {
+                  "content": "Gor Na Thot."
+                }
+              ]
+            },
+            {
+              "content": "Bonusy nie są wliczane do nauki (np Biżuteria, mikstury stałe)"
+            },
+            {
+              "content": "Zmienione statystyki przeciwników"
+            },
+            {
+              "content": "Zwiększona agresja u drapieżników"
+            },
+            {
+              "content": "Dostępne leczenie tylko i wyłącznie w wolnych łóżkach"
+            },
+            {
+              "content": "Przebudowany system respawnów przeciwników"
+            },
+            {
+              "content": "Zmienione statystyki pancerzy"
+            },
+            {
+              "content": "Zmienione statystyki pancerzy"
+            },
+            {
+              "content": "NPC posiadają znacznie podniesione statystyki"
+            },
+            {
+              "content": "NPC posiadają kiepskie bronie tak jak w Gothic 2 Noc Kruk"
+            },
+            {
+              "content": "Przebudowane całkowicie bronie (ich obrażenia oraz wymagania)"
+            },
+            {
+              "content": "Nieśmiertelni handlarze"
+            }
+          ]
+        },
+        {
+          "title": "Nauczyciele (Atrybuty):",
+          "list": [
+            {
+              "content": "Diego (Siła / Zręczność / Życie)"
+            },
+            {
+              "content": "Lares (Siła / Zręczność / Życie)"
+            },
+            {
+              "content": "Gor Na Toth (Siła / Zręczność / Życie / Mana)"
+            },
+            {
+              "content": "Wilk (Zręczność)"
+            },
+            {
+              "content": "Thorus (Siła)"
+            },
+            {
+              "content": "Lee (Siła)"
+            },
+            {
+              "content": "Cor Angar (Siła / Zręczność)"
+            },
+            {
+              "content": "Torrez (Życie / Mana)"
+            },
+            {
+              "content": "Cronos (Życie / Mana)"
+            },
+            {
+              "content": "Corristo (Życie / Mana)"
+            },
+            {
+              "content": "Baal Cadar (Życie / Mana)"
+            }
+          ]
+        }
+      ]
+    },
+    "gallery": [],
+    "authors": {
+      "creators": [
+        {
+          "name": "Othello",
+          "role": "Autor"
+        }
+      ]      
+    }
   }
 ]

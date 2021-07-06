@@ -5,6 +5,11 @@
       {
         "id": "dz",
         "title": "Dolina Zombie"
+      },
+      {
+        "id": "othello",
+        "title": "Othello",
+        "notAvailable": true
       }
     ]
   },
