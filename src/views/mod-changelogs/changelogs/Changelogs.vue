@@ -16,12 +16,12 @@
 
     <v-row
       v-if="
-        selected.instalation
+        selected.installation
       "
     >
       <section-title title="Lorem" />
       <v-col cols="12" class="pl-4 pr-4">
-        <instalation :data="selected" />
+        <mod-installation :data="selected" />
       </v-col>
     </v-row>
 
@@ -53,7 +53,7 @@ import ModGallery from "../../../components/ModGallery";
 import SectionTitle from "../../../components/SectionTitle.vue";
 import ModAuthors from "../../../components/ModAuthors.vue";
 import ModOverview from "../../../components/ModOverview.vue";
-import Instalation from "../../../components/Instalation.vue";
+import ModInstallation from "../../../components/ModInstallation.vue";
 import ChangelogsCards from "./changelogs-cards/ChangelogsCards.vue";
 
 export default {
@@ -63,7 +63,7 @@ export default {
     ModAuthors,
     ModOverview,
     ChangelogsCards,
-    Instalation,
+    ModInstallation,
   },
   computed: {
     selected() {

@@ -1,17 +1,17 @@
 <template>
   <v-row class="pl-4 pr-4">
-    <v-col class="mod-instalation">
+    <v-col class="mod-installation">
       <v-tabs v-model="tab" dark>
         <v-tabs-slider color="orange lighten-3"></v-tabs-slider>
 
-        <v-tab v-if="data.instalation.url"> Film </v-tab>
-        <v-tab v-if="data.instalation.instruction"> Instrukcja </v-tab>
-        <v-tab v-if="data.instalation.links"> Linki </v-tab>
+       <v-tab v-if="data.installation.url && data.installation.url.length>0"> Film </v-tab>
+        <v-tab v-if="data.installation.instruction"> Instrukcja </v-tab>
+        <v-tab v-if="data.installation.links && data.installation.links.length>0"> Linki </v-tab>
       </v-tabs>
       <v-tabs-items class="tab-items" dark v-model="tab">
         <v-tab-item class="pa-4">
           <div class="tab-item">
-            <iframe :src="data.instalation.url"
+            <iframe :src="data.installation.url"
             class="mod-video"
             title="YouTube video player"
             frameborder="0"
@@ -23,27 +23,24 @@
           <div class="tab-item">
             <div
           class="mt-4"
-          v-if="data.instalation.instruction.alerts && data.instalation.instruction.alerts.length > 0"
+          v-if="data.installation.instruction.alerts && data.installation.instruction.alerts.length > 0"
         >
         <v-alert
-              v-for="(alert, index) in data.instalation.instruction.alerts"
+              v-for="(alert, index) in data.installation.instruction.alerts"
               :color="alert.color + ' lighten-1'"
               :key="index"
               ><span v-html="alert.text"
             /></v-alert>  
             
-            <ol>
-              <li v-for="(step,index) in data.instalation.instruction.steps" :key="index" v-html="step.content" />
-            </ol>
+          <ol v-for="(step, index) in data.installation.instruction.steps" :key="index">
+            {{step.content}}
 
-            
+          </ol>
 
-            <ul v-if="data.instalation.instruction.optional && data.instalation.instruction.optional.length>0">
-              <li v-for="(step,index) in data.instalation.instruction.steps" :key="index" v-html="step.content" />
-            </ul>
-
-            
           </div>
+          
+          
+
           </div>
         </v-tab-item>
         <v-tab-item class="pa-4" >
@@ -59,8 +56,9 @@
 <script>
 
 
+
 export default {
-  name: "Instalation",
+  name: "Installation",
   props: {
     data: { type: Object, required: true },
   },  
@@ -69,24 +67,24 @@ export default {
     tab: "Instalacja",    
     };
   },
-  components: {  },
+  components: { },
 };
 </script>
 <style>
-.mod-instalation {
+.mod-installation {
   padding: 0;
 }
 
-.mod-instalation .tab-items {
+.mod-installation .tab-items {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
-.mod-instalation .v-tabs .v-tabs-bar {
+.mod-installation .v-tabs .v-tabs-bar {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-.mod-instalation .mod-video
+.mod-installation .mod-video
 {
   width: 100%;
   height: 75vh;
