@@ -7,6 +7,94 @@
     "description": "Modyfikacja jest tworzona z zamysłem aby uczynić miasta żywszymi po ich wyzwoleniu tak aby można było do nich wracać. Na ten moment dotyczy to głównie miast: Cape Dun, Ardea, Ben Sala, Lago, oraz Gotha.",
     "changes": [
       {
+        "updateId": "3",
+        "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Dodano możliwość usunięcia magicznej bariery.<br>Zmieniono kilka tekstur.",
+        "version": "0.34",
+        "date": "13.06.2021",
+        "alerts":[
+          {
+            "color":"red",
+            "text":"Ta wersja nie jest kompatybilna z Konsekwencjami oraz Powrotem Generała Lee."
+          }
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Zmieniono imiona niektórych postaci."
+              },
+              {
+                "content": "Bohater może usunąć barierę nad stolicą Myrtany. Należy wykonać pewne zadanie."
+              },
+              {
+                "content": "Ulepszono i poprawiono kilka zadań oraz dodano nowe."
+              },
+              {
+                "content": "Zmniejszono ilość bagiennego ziela na bagnach."
+              },
+              {
+                "content": "Zmieniono modele mieczy Szpon Beliara, Przywoływacz burz i innych na lepsze."
+              },
+              {
+                "content": "Dodano nowe przedmioty, broń i sekrety do gry."
+              },
+              {
+                "content": "Zmieniono model i nazwę zaklętej zbroi, teraz jest to Zbroja Władcy."
+              },
+              {
+                "content": "Poprawiono skrzynie z Content Moda. Dodano unikalne nazwy, zawartość i zmieniono teksturę."
+              },
+              {
+                "content": "Dodano normalne łóżka do miast i wiosek. Łóżka pokryte sianem można teraz znaleźć tylko w jaskiniach, na farmach i ubogich domach."
+              },
+              {
+                "content": "Augustino nie sprzedaje już artefaktów."
+              },
+              {
+                "content": "Umieszczono dodatkowe łopaty, piły i młotki w świecie gry."
+              },
+              {
+                "content": "Ogniste golemy na drodze do wieży Xardasa zostały zastąpione lodowymi."
+              },
+              {
+                "content": "Iomar uda się teraz do Ardei. Po powrocie do wioski będzie siedział w tawernie."
+              },
+              {
+                "content": "Zmieniono świątynię Innosa w Vengardzie i dodano komnaty króla."
+              },
+              {
+                "content": "Zmieniono balans broni, teraz obrażenia broni zależą również od długości ostrza - im krótsza broń, tym większe obrażenia."
+              },
+              {
+                "content": "Teraz główne archiwum modów jest oparte na patchu G3WD."
+              },
+              {
+                "content": "Dodano opcjonalne skrypty (folder scripts - przeczytaj Readme)."
+              },
+              {
+                "content": "W Faring pojawi się handlarz, który będzie sprzedawał orkową broń."
+              },
+              {
+                "content": "Wszystkie amulety, pierścienie zostały usunięte ze zwykłych skrzyń."
+              },
+              {
+                "content": "Nordmarczyk Lars będzie teraz zamknięty. Zanim udasz się z nim na przełęcz do Nordmaru, musisz przynieść jego topór (zmodyfikowane zadanie z moda Konsekwencje)."
+              },
+              {
+                "content": "Dodano zamknięte drzwi do celi Gorna;"
+              },
+              {
+                "content": "Dodano klucze do cel Gorna, Larsa i Wenzela. Potrzebujesz trzeciego poziomu otwierania zamków, aby otworzyć te drzwi."
+              },
+              {
+                "content": "Inne drobne poprawki."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "2",
         "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Usunięto lub skrócono oczekiwanie w niektórych zadaniach<br>Dodano nowe zadania do gry.",
         "version": "0.33",

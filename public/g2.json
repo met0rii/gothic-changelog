@@ -39,6 +39,40 @@
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
+        "updateId": "18",
+        "updateDescription": "Wprowadzono możliwość wyboru wersji trybu Slash & Craft oraz kilka innych ciekawych zmian.",
+        "version": "12.04.2021",
+        "date": "12-04-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Teraz przy starcie gry jest możliwość wyboru między starym i nowym systemem Slash & Craft."
+              },
+              {
+                "content": "Zmieniono mechanikę zmieniania celu przez przeciwnika, którego atakuje więcej niż postać. Wcześniej przeciwnik zawsze zmieniał cel ataku gdy został trafiony 2 razy, teraz przeciwnik powinien być bardziej nieprzewidywalny."
+              },
+              {
+                "content": "Poprawiono skalowanie statystyk Krayta z jego poziomem. Teraz posiada on stały wzrost w statystykach co poziom. Ogólna siła Krayta pozostaje bez zmian, usuwa to jedynie gwałtowny przeskok w statystykach, który występował wcześniej na 10 poziomie."
+              },
+              {
+                "content": "Bonusy za palenie skrętów <i>Zew nocy</i> i <i>Gorzki sen</i> są teraz wyświetlane na ekranie. Ich czas może być też odświeżony poprzez ponowne zapalenie nawet jeśli efekt jeszcze się nie skończył."
+              },
+              {
+                "content": "Hubaxis posiada teraz na początku 1000 punktów życia. (wcześniej 100)"
+              },
+              {
+                "content": "Orkowi kusznicy teraz chętniej będą używać swojej broni dystansowej."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że podczas gry w kości nie dało się wyrzucić szóstki."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "17",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "03.02.2021",
@@ -2189,14 +2223,14 @@
     "titleUrl": "https://imgur.com/OlQrAyl.png",
     "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
     "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
-    "changes":[
+    "changes": [
       {
         "updateId": "0",
         "updateDescription": "Lista zmian względem niemieckiej wersji",
         "version": "2.6.4",
         "date": "02.04.2021",
         "lists": [
-          {"title":"Zmiany względem wersji niemieckiej:"},
+          { "title": "Zmiany względem wersji niemieckiej:" },
           {
             "title": "Poprawki:",
             "list": [
@@ -2255,7 +2289,7 @@
                 "content": "Przetłumaczono napisy na mapach oraz poprawiono kilka nieprzeźroczystych map."
               },
               {
-                "content":"Teraz gracz otrzymuje właściwą wersję muszkietu od rusznikarza."
+                "content": "Teraz gracz otrzymuje właściwą wersję muszkietu od rusznikarza."
               }
             ]
           },
@@ -2431,21 +2465,20 @@
       "https://imgur.com/2gmeX6y.jpg",
       "https://imgur.com/bWgjD42.jpg"
     ],
-    "authors":
-    {
-      "creators":[
+    "authors": {
+      "creators": [
         {
-          "name":"OdysseyModTeam",
-          "role":"Autorzy",
-          "contacts":[
+          "name": "OdysseyModTeam",
+          "role": "Autorzy",
+          "contacts": [
             {
-              "platform":"Forum",
-              "url":"https://www.worldofgothic.de/dl/download_522.htm"
+              "platform": "Forum",
+              "url": "https://www.worldofgothic.de/dl/download_522.htm"
             }
           ]
         }
       ],
-      "contributors":[
+      "contributors": [
         {
           "name": "metek58",
           "role": "Tłumacz"
@@ -2459,8 +2492,8 @@
           "role": "Tłumacz"
         },
         {
-          "name":"bogu9821",
-          "role":"Organizacja tłumaczenia"
+          "name": "bogu9821",
+          "role": "Organizacja tłumaczenia"
         },
         {
           "name": "Nefario",
@@ -2473,11 +2506,11 @@
         {
           "name": "Taliasan",
           "role": "Wsparcie techniczne"
-        },        
+        },
         {
           "name": "OwcaZagady",
           "role": "Grafiki"
-        },        
+        },
         {
           "name": "plaq",
           "role": "Korekty"
@@ -2492,15 +2525,15 @@
         },
         {
           "name": "Simon Said",
-          "role": "Prezentacja światów"          
+          "role": "Prezentacja światów"
         },
         {
           "name": "Archi",
           "role": "Prezentacja światów"
         },
         {
-          "name":"Fabiosek",
-          "role":"Tester"
+          "name": "Fabiosek",
+          "role": "Tester"
         },
         {
           "name": "Sebastian",
@@ -2558,7 +2591,7 @@
           "name": "Tavertix",
           "role": "Tester"
         },
-        
+
         {
           "name": "Kredensik",
           "role": "Tłumacz"

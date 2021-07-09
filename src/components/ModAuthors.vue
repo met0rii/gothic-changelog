@@ -4,8 +4,8 @@
       <v-tabs v-model="tab" dark>
         <v-tabs-slider color="orange lighten-3"></v-tabs-slider>
 
-        <v-tab> Autorzy </v-tab>
-        <v-tab> Kontrybutorzy </v-tab>
+        <v-tab v-if="data.authors.creators"> Autorzy </v-tab>
+        <v-tab v-if="data.authors.contributors"> Kontrybutorzy </v-tab>
       </v-tabs>
       <v-tabs-items class="tab-items" dark v-model="tab">
         <v-tab-item class="pa-4">
