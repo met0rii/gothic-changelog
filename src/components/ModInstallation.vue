@@ -1,20 +1,13 @@
 <template>
-  <v-row class="pl-4 pr-4">
-    <div
-          class="mt-4"
-          v-if="data.installation.instruction.alerts && data.installation.instruction.alerts.length > 0"
-        >
+ <div class="overview pt-6 pb-6 pl-4 pr-4">
         <v-alert
               v-for="(alert, index) in data.installation.instruction.alerts"
               :color="alert.color + ' lighten-1'"
-              :key="index"
-              ><span v-html="alert.text"
-            /></v-alert>  
+              :key="index"><span v-html="alert.text"/></v-alert>  
             
           <recursive-list-ordered class="mt-6" :data="data.installation.instruction.lists" />
 
-          </div>
-  </v-row>
+  </div>
 </template>
 
 <script>

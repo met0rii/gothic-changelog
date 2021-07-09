@@ -1,4 +1,5 @@
 <template>
+<div class="overview pt-6 pb-6 pl-4 pr-4">
   <div class="author-list-wrapper">
     <div
       class="author-list-item pb-3"
@@ -15,6 +16,7 @@
       </div>      
     </div>
   </div>
+</div>
 </template>
 
 <script>

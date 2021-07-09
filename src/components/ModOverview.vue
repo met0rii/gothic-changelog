@@ -16,10 +16,3 @@ export default {
   components: { RecursiveList },
 };
 </script>
-<style scoped>
-.overview {
-  background-color: var(--black-primary);
-  border-radius: 4px;
-  color: var(--white-primary);
-}
-</style>
