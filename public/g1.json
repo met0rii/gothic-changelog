@@ -388,7 +388,7 @@
     "title": "Othello",
     "titleUrl": "https://imgur.com/nVVj8hi.png",
     "url": "https://drive.google.com/drive/folders/1tvmmToOXi9w88Q_OO4ao2xbp7E_TZ1r7?usp=sharing",
-    "description": "Modyfikacja znacznie poprawiająca oprawę graficzną Gothica I. Dodaje nowe, odświeżone tekstury. Nowe własnoręcznie robione modele oraz gotowe z sieci. Lokacje w modzie zostały odświeżone. Posiadają większą liczbę detali oraz przedmiotów.  Nie zabrakło również poukrywanych rzeczy. Oprócz Górniczej Doliny, która została całkowicie odświeżona przyjdzie nam zwiedzić jeszcze starą kopalnie i inne miejsca. Przebudowano niektóre aspekty jak np. ciała poległych świątynnych strażników. Tak jak tereny zostały odświeżone tak samo liczba przedmiotów do znalezienia również. Dodano 3000 roślin do zebrania, nie mówiąc już o innych przedmiotach, poukrywanych ksiąg, broni i wiele innych. Modyfikacja znacząco zwiększa poziom trudności niż miało to miejsce w podstawowej wersji gry. Statystyki potworów również zostały zwiększone. Dodano animacje sprintu, która jest nieco \"szybsza\" od swojej poprzedniej. Zmiany w kilku zadaniach. Pomimo tylu zmian modyfikacja rozgrywa się nadal w znanej nam fabule Gothica.",
+    "description": "",
     "changes": [],
     "overview": {
       "lists": [
@@ -592,5 +592,9 @@
         }
       ]      
     }
+  },
+  {
+    "id":"test",
+    "title": "testello"
   }
 ]

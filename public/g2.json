@@ -10,32 +10,51 @@
         "alerts":[
           {
             "color": "deep-orange",
-            "text": "Nie instalujcie swoich pluginów do moda, bo was znajdę i zapierdolę!"
+            "text": "error!"
           }
         ],
-        "steps": [
+        "lists": [
           {
-            "content": "Pobierz i wypakuj zawartość paczki z patchami do folderu z grą.",
-            "desc":"Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0i"
+            "title": "Wymagane:",
+            "list": [
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum Gothic II Patch Bundle do folderu z grą.",
+                "list": [
+                  {
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
+              },
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum Odyseja_skrypty do folderu z grą"
+              }
+            ]
           },
           {
-            "content":"Pobierz i wypakuj zawartość paczki z modyfikacją L'Hiver do folderu z grą.",
-            "desc":"Kolejne dwa kroki są opcjonalne, na ten moment można już grać w modyfikację. Grę należy uruchomić poprzez GothicStarter.exe i wybrać modyfikację L'Hiver."
-          }
-        ],
-        "optional": [
-          {
-            "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą.",
-            "desc": ""
-          },
-          {
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor sem vehicula, cursus metus nec, feugiat orci. Mauris fermentum tincidunt erat.",
-            "desc": ""
+            "title":"Opcjonalne",
+            "list":[
+              {
+                "content":"Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj Odyssee_2.5.1_Speech_1 oraz Odyssee_2.5.1_Speech_2 do folderu z grą."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum OdysseeMusic do folderu z grą."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum LHiverGraphicForOdyssee do folderu data."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu system."
+              }
+            ]
           }
         ]
-      },
-      "links": []
+      }
+      
     },
+    "links": [],
     "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
     "changes": [
       {
@@ -1471,6 +1490,56 @@
     "title": "L'Hiver",
     "titleUrl": "https://i.imgur.com/CP5tesl.png",
     "url": "https://drive.google.com/drive/folders/1E0-g4atytrCqLvTB2-BYX6ksDNgEmDrP",
+    "installation":{
+      "url":"",
+      "instruction":{
+        "alerts":[
+          {
+            "color": "deep-orange",
+            "text": "Nie instalujcie swoich pluginów do moda, bo was znajdę i zapierdolę!"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Wymagane:",
+            "list": [
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum Gothic II Patch Bundle do folderu z grą.",
+                "list": [
+                  {
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
+              },
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum Odyseja_skrypty do folderu z grą"
+              }
+            ]
+          },
+          {
+            "title":"Opcjonalne",
+            "list":[
+              {
+                "content":"Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj Odyssee_2.5.1_Speech_1 oraz Odyssee_2.5.1_Speech_2 do folderu z grą."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum OdysseeMusic do folderu z grą."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum LHiverGraphicForOdyssee do folderu data."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu system."
+              }
+            ]
+          }
+        ]
+      },
+      "links": []
+    },
     "description": "L'Hiver to modyfikacja znacznie poprawiająca oprawę graficzną Gothica II. Dodaje nowe tekstury, przeciwników, lokacje oraz modyfikuje istniejące, takie jak zniszczony zewnętrzny pierścień Starego Obozu w Górniczej Dolinie, miasto Khorinis, las za farmą Onara czy plaża piratów z Jarkendaru. Modyfikacja znacząco zwiększa poziom trudności oferowany w podstawowej wersji gry. Statystyki potworów zostały zwiększone, zobaczysz także nowe animacje. Niemniej jednak L'Hiver nie zmienia fabuły gry.",
     "changes": [
       {
@@ -2223,6 +2292,9 @@
     "titleUrl": "https://imgur.com/OlQrAyl.png",
     "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
     "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
+    "installation":{
+      "instruction":{}
+    },
     "changes": [
       {
         "updateId": "0",
@@ -2599,4 +2671,5 @@
       ]
     }
   }
+  
 ]
