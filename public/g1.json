@@ -5,6 +5,35 @@
     "titleUrl": "https://imgur.com/zfHISse.png",
     "url": "https://mega.nz/file/l0pilR6J#nwM4C2ilMkKcFE4QLyJyIEeaPE43pFIi7-a5P1t_LUA",
     "description": "Wciel się w Bragusa, nowego skazańca wtrąconego do kolonii za zabójstwo człowieka, który pozbawił go rodziny. Nie zastań jednak Diego, nie zastań tego co było w podstawce, zmierz się z doliną opanowaną przez apokalipsę zombie. Odkryj tajemnice epidemii, zmierz się z ponad 40 rodzajami zombie i potworów, postaraj się przetrwać i położyć kres rozwojowi wirusa, uratuj tych, co przeżyli!",
+    "installation":{
+      "instruction":{
+        "alerts":[
+          {
+            "text":"W modyfikację NIE NALEŻY grać z rozszerzeniem DX11!",
+            "color":"deep-orange darken-1"
+          }
+        ],
+        "lists":[
+          {
+            "title":"Kolejność instalacji:",
+            "list":[
+              {
+                "content":"Gothic 1"
+              },
+              {
+                "content":"Player Kit"
+              },
+              {
+                "content":"System pack 1.7! ( nie starszy, nie nowszy )"
+              },
+              {
+                "content":"GMDK"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "changes": [
       {
         "updateId": "0",
@@ -389,6 +418,27 @@
     "titleUrl": "https://imgur.com/nVVj8hi.png",
     "url": "https://drive.google.com/drive/folders/1tvmmToOXi9w88Q_OO4ao2xbp7E_TZ1r7?usp=sharing",
     "description": "",
+    "installation":{
+      "instruction":{
+        "lists":[
+          {
+            "title":"Kolejność instalacji",
+            "list":[
+              
+                {"content": "Patch 1.08k"},
+                {"content": "Player kit"},
+                {"content": "System pack"},
+                {"content": "Othello mod",
+                "list":[{
+                  "content":"Pliki z modem wrzucic do głównego folderu z grą"
+                }]}
+              
+            ]
+        }
+       
+      ]
+      }
+    },
     "changes": [],
     "overview": {
       "lists": [

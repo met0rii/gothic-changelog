@@ -123,11 +123,10 @@ export default {
     getHeaders() {
       const refKeys = Object.keys(this.$refs)
       .filter(x => x.split('-')[0] === 'header')
-      .sort((a, b) => {
-        console.log(a, b, +a.split('-')[1], +b.split('-')[1], +a.split('-')[1] < +b.split('-')[1]);
+      .sort((a, b) => {        
         return +a.split('-')[1] > +b.split('-')[1] ? 1 : -1;
       });
-      console.log(refKeys);
+      
 
       const arr = [];
       for(const key of refKeys) {
@@ -135,8 +134,7 @@ export default {
         if(item) {
         arr.push({ element: item, title: item.$props.title });
         }
-      }
-      console.log(arr);
+      }      
       return arr;
     },
     onMenuClick(element) {
@@ -153,7 +151,7 @@ export default {
   },
   computed: {
     showInstallationTab() {
-      return this.selected?.installation?.instruction !== undefined;
+      return this.selected?.installation !== undefined;
     },
     showInstallationVideo() {
       return this.showInstallationTab && this.selected.installation.url;

@@ -5,57 +5,10 @@
     "titleUrl": "https://i.imgur.com/4CY2TAz.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
     "installation":{
-      "url":"https://www.youtube.com/embed/39s9HXBu0EI",
-      "instruction":{
-        "alerts":[
-          {
-            "color": "deep-orange",
-            "text": "error!"
-          }
-        ],
-        "lists": [
-          {
-            "title": "Wymagane:",
-            "list": [
-              {
-                "content": "Pobierz i wypakuj zawartość archiwum Gothic II Patch Bundle do folderu z grą.",
-                "list": [
-                  {
-                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
-                  }
-                ]
-              },
-              {
-                "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
-              },
-              {
-                "content": "Pobierz i wypakuj zawartość archiwum Odyseja_skrypty do folderu z grą"
-              }
-            ]
-          },
-          {
-            "title":"Opcjonalne",
-            "list":[
-              {
-                "content":"Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj Odyssee_2.5.1_Speech_1 oraz Odyssee_2.5.1_Speech_2 do folderu z grą."
-              },
-              {
-                "content":"Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum OdysseeMusic do folderu z grą."
-              },
-              {
-                "content":"Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum LHiverGraphicForOdyssee do folderu data."
-              },
-              {
-                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu system."
-              }
-            ]
-          }
-        ]
-      }
-      
+      "url":"https://www.youtube.com/embed/39s9HXBu0EI"
     },
     "links": [],
-    "description": "Alternative Balance jest rozszerzeniem do modyfikacji Returning 2.0, które w znaczącym stopniu balansuje, odświeża oraz usprawnia rozgrywkę.",
+    "description": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
         "updateId": "18",
@@ -1224,15 +1177,7 @@
       }
     ],
     "overview": {
-      "lists": [
-        {
-          "title": "Co jest czym?",
-          "list": [
-            {
-              "content": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych."
-            }
-          ]
-        },
+      "lists": [        
         {
           "title": "Dodatkowe gildie",
           "list": [
@@ -1493,29 +1438,21 @@
     "installation":{
       "url":"",
       "instruction":{
-        "alerts":[
-          {
-            "color": "deep-orange",
-            "text": "Nie instalujcie swoich pluginów do moda, bo was znajdę i zapierdolę!"
-          }
-        ],
+        "alerts":[],
         "lists": [
           {
             "title": "Wymagane:",
             "list": [
               {
-                "content": "Pobierz i wypakuj zawartość archiwum Gothic II Patch Bundle do folderu z grą.",
+                "content": "Pobierz i wypakuj zawartość paczki z patchami do folderu z grą.",
                 "list": [
                   {
-                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0i"
                   }
                 ]
               },
               {
-                "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
-              },
-              {
-                "content": "Pobierz i wypakuj zawartość archiwum Odyseja_skrypty do folderu z grą"
+                "content": "Pobierz i wypakuj zawartość paczki z modyfikacją L'Hiver do folderu z grą."
               }
             ]
           },
@@ -1523,16 +1460,7 @@
             "title":"Opcjonalne",
             "list":[
               {
-                "content":"Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj Odyssee_2.5.1_Speech_1 oraz Odyssee_2.5.1_Speech_2 do folderu z grą."
-              },
-              {
-                "content":"Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum OdysseeMusic do folderu z grą."
-              },
-              {
-                "content":"Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum LHiverGraphicForOdyssee do folderu data."
-              },
-              {
-                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu system."
+                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą."
               }
             ]
           }
@@ -2293,7 +2221,45 @@
     "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
     "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
     "installation":{
-      "instruction":{}
+      "instruction":{
+        "lists":[
+          {
+            "title":"Kolejność instalacji",
+            "list":[
+              {
+                "content":"Pobierz i wypakuj zawartość archiwum <b>Gothic II Patch Bundle</b> do folderu z grą.",
+                "list":[
+                  {"content":"Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"}
+                ]                
+              },
+              {
+                "content":"Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
+                     
+              },
+              {
+                "content":"Pobierz i wypakuj zawartość archiwum <b>Odyseja_skrypty</b> do folderu z grą"
+              }
+            ]
+          },
+          {
+            "title":"Opcjonalne:",
+            "list":[
+              {
+                "content":"Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj <b>Odyssee_2.5.1_Speech_1</b> oraz <b>Odyssee_2.5.1_Speech_2</b> do folderu z grą."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum <b>OdysseeMusic</b> do folderu z grą."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum <b>LHiverGraphicForOdyssee</b> do folderu <b>data</b>."
+              },
+              {
+                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z <b>DX11</b> do folderu <b>system</b>."
+              }
+            ]
+          }
+        ]
+      }
     },
     "changes": [
       {
@@ -2670,6 +2636,201 @@
         }
       ]
     }
-  }
-  
+  },
+  {
+    "id": "velen",
+    "title": "Velen 2.0",
+    "titleUrl": "https://i.imgur.com/Q9kpdkR.png",
+    "url": "",
+    "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: orześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Jednak stał się dla nich nieszczęśliwy zbieg okoliczności. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast wrzuceni do lochu.<br>Jeszcze tego samego dnia dostali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wysypy Velen.",
+    "changes": [],
+    "overview": {
+      "lists": [
+        {
+          "title": "Zmiany względem wersji niemieckiej:",
+          "list": [
+            {
+              "content": "Zaktualizowano pakiety Ikarus, LeGo oraz Gothic Free Aim do najnowszej wersji."
+            },
+            {
+              "content": "Informacja na temat uzyskiwanych statystyk i władania bronią są teraz wyświetlane z lewej strony ekranu."
+            },
+            {
+              "content": "Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Ujednolicono też format wyświetlania informacji o przedmiocie."
+            },
+            {
+              "content": "Dodano instancję PC_Itemfeller posiadającą wszystkie istniejące przedmioty. (nie koniecznie wszystkie występują w grze)"
+            },
+            {
+              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest fioletowy."
+            }
+          ]
+        }
+        
+      ]
+    },
+    "gallery": [
+      "https://i.imgur.com/CtChQT4.png",
+      "https://i.imgur.com/aLbR6nn.jpeg",
+      "https://i.imgur.com/77uI9mP.jpeg",
+      "https://i.imgur.com/A2aMOhN.png",
+      "https://i.imgur.com/4DlgqrM.png",
+      "https://i.imgur.com/3b1aZzK.jpeg",
+      "https://i.imgur.com/Vh701DY.png",
+      "https://i.imgur.com/g1J6vRF.png",
+      "https://i.imgur.com/f9TGtBd.png",
+      "https://i.imgur.com/8iFpmpF.png",
+      "https://i.imgur.com/uNWWtJ9.png",
+      "https://i.imgur.com/pZ9CIuX.png",
+      "https://i.imgur.com/GCJ11ms.png",
+      "https://i.imgur.com/ea7eyj4.png",
+      "https://i.imgur.com/rxqRPAM.png"
+    ],
+    "authors": {
+      "creators": [        
+        {
+          "name": "Bloodfly91",
+          "role": "Lider zespołu, skrypter, spacer, scenarzysta, grafik 3D"
+        },
+        {
+          "name":"Allewege",
+          "role":"Scenarzysta, spacer, aktor dubbingowy"
+        },
+        {
+          "name":"BusfahrerCharlie",
+          "role":"Grafik 3D"
+        },
+        {
+          "name":"Lord Peter",
+          "role":"Obróbka dźwięku i filmów, aktor dubbingowy"
+        },
+        {
+          "name": "Alexander Matecka",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "GenerationLost",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Jonas Richter",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Jaro Krieg",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Seelensplitter",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "RPG-Kurga",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Meatbug",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Fleischwanzentopf",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "PinkyPiranha",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Multithread",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Milgo",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Umfi",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Reveares ",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Imme Rauh",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "LP' Piranha",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Jorgenson",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Kelly1337",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "RobiBalboa",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Mr Pepperwood",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Eldar Elrador",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Plasquar",
+          "role": "Aktor dubbingowy"
+        },
+        {
+          "name": "Nick12",
+          "role": "Aktor dubbingowy"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Franisz",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Sebastian",
+          "role": "Wsparcie techniczne"
+        },
+        {
+          "name": "Zipperiusz",
+          "role": "Tłumacz, tester"
+        },        
+        {
+          "name": "Tulipan",
+          "role": "Tłumacz, tester"
+        },
+        {
+          "name": "Buźka",
+          "role": "Tłumacz, tester"
+        },        
+        {
+          "name": "Washion",
+          "role": "Tłumacz, tester"
+        },
+        {
+          "name": "Hexen",
+          "role": "Tester"
+        },
+        {
+          "name": "templar",
+          "role": "Tester"
+        },
+        {
+          "name": "JkB",
+          "role": "Tester"
+        }
+      ]
+    }
+  }  
 ]
