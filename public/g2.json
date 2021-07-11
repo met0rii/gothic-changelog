@@ -1441,7 +1441,7 @@
         "alerts":[],
         "lists": [
           {
-            "title": "Wymagane:",
+            "title": "Kolejność instalacji:",
             "list": [
               {
                 "content": "Pobierz i wypakuj zawartość paczki z patchami do folderu z grą.",
