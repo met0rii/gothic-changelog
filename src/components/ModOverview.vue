@@ -1,6 +1,10 @@
 
 <template>
   <div class="overview pt-6 pb-6 pl-4 pr-4">
+    <div v-if="data.description">      
+      <span v-html="data.description" />
+      <br><br>
+    </div>
     <recursive-list :data="data.overview.lists" />
   </div>
 </template>
@@ -16,10 +20,3 @@ export default {
   components: { RecursiveList },
 };
 </script>
-<style scoped>
-.overview {
-  background-color: var(--black-primary);
-  border-radius: 4px;
-  color: var(--white-primary);
-}
-</style>

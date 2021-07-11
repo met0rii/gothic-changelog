@@ -100,6 +100,8 @@ export default {
   --orange-secondary-dark: #a86b0e;
   --orange-secondary-light: #ffcc80;
 
+  --black-secondary: #212121;
+
   /*TYPOGRAPHY*/
   --h1: 40px;
   --h2: 36px;
@@ -151,5 +153,14 @@ body {
   color: var(--black-primary) !important;
   background-color: var(--orange-secondary) !important;
   border-color: var(--orange-secondary) !important;
+}
+.theme--dark.v-tabs > .v-tabs-bar {
+  background-color: var(--black-secondary) !important;
+}
+
+.overview {
+  background-color: var(--black-primary);
+  border-radius: 4px;
+  color: var(--white-primary);
 }
 </style>
