@@ -29,10 +29,7 @@
             <v-icon left dark> mdi-cloud-download </v-icon>
             Pobierz
           </v-btn>
-        </div>
-        <div>
-          <span class="recent-version">{{ selected.description }}</span>
-        </div>
+        </div>        
       </v-col>
     </v-row>
 

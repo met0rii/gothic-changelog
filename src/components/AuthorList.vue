@@ -1,4 +1,5 @@
 <template>
+<div class="overview pt-6 pb-6 pl-4 pr-4">
   <div class="author-list-wrapper">
     <div
       class="author-list-item pb-3"
@@ -12,21 +13,10 @@
       </div>
       <div class="author-list-subheader">
         {{ author.role }}
-      </div>
-      <div class="mt-1" v-if="author.contacts">
-        <v-btn
-          v-for="(contact, contactIndex) in author.contacts"
-          :key="authorIndex + '_' + contactIndex"
-          v-on:click="() => onContactButtonClick(contact.url)"
-          small
-          light
-          class="mr-3 neon-btn"
-          color="orange lighten-3"
-          >{{ contact.platform }}</v-btn
-        >
-      </div>
+      </div>      
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -36,11 +26,7 @@ export default {
     authors: { type: Array, required: true },
   },
   components: {},
-  methods: {
-    onContactButtonClick(url) {
-      window.open(url, "_blank");
-    },
-  },
+  methods: {},
 };
 </script>
 

@@ -5,6 +5,84 @@
     "titleUrl": "https://imgur.com/MujebJr.png",
     "url": "https://drive.google.com/drive/folders/1rPh-tK8xAb124q6NaBdVCHRd7g5wvd5k",
     "description": "Modyfikacja jest tworzona z zamysłem aby uczynić miasta żywszymi po ich wyzwoleniu tak aby można było do nich wracać. Na ten moment dotyczy to głównie miast: Cape Dun, Ardea, Ben Sala, Lago, oraz Gotha.",
+    "installation":{
+      "instruction":{
+        "alerts":[
+          {"text":"Jeżeli nie widzisz tekstur budynków przeczytaj zawartość 3 nagłówka",
+          "color":"red"}
+
+        ],
+        "lists":[
+          {
+            "title":"Kolejność instalacji",
+            "list":[{
+              "content":"Patch   ->   Gothic_3_EE_Patch_v1.75.14_Int_Full.exe"
+            },
+            {
+              "content":"Update pack   ->   Gothic_3_EE_v1.75_Int_Update_Pack_v1.04.11.exe"
+            },
+            {
+              "content":"Quest pack na steam -> G3_QUEST_PACK_4_U2_pl_DIGI_Steam_fix.exe",
+              "list":[{"content":"Quest pack bez steam -> G3_QUEST_PACK_4_U2_pl_DIGI.exe"}]
+            },
+            {
+              "content":"Content mod   ->   CM_3.1_INT_FINAL.exe"
+            },
+            {
+              "content":"MDS -> ModStarter_v1_2.rar wypakuj w dowolnym miejscu i wskaż plik gothic3.exe"
+            },
+            {
+              "content":"Pliki do MDSA -> wypakuj do folderu <b>FanMods</b>"
+            },
+            {
+              "content":"Strings.m01 -> wklej do folderu <b>Gothic 3/Data</b>"
+            },
+            {
+              "content":"LTM -> wypakuj do folderu <b>FanMods</b>, a następnie zintegruj mody w MDS."
+            }
+          ]
+          },
+          {
+            "title":"Opcjonalne (Umieścić w <b>Gothic 3/scripts</b>)",
+            "list":[
+              {
+                "content":"Script_MouseDrag.dll",
+                "list":[
+                  {"content":"Zapobiega przypadkowemu wykryciu przeciągania myszy w ekwipunku. Problem występuje tylko w określonych okolicznościach (np. w systemie Windows 10)."}
+                ]
+              },
+              {
+                "content":"Script_Subtitles.dll",
+                "list":[
+                  {"content":"Czas wyświetlania napisów dla okien dialogowych bez dubbingu"},
+                  {"content":"Plik <b>subtitles.ini</b> umieścić w <b>Gothic 3/ini</b>"}
+                ]
+              },
+              {
+                "content":"Script_FontScale.dll",
+                "list":[
+                  {"content":"Zapobiega zmianie rozmiaru nazw w zależności od rozdzielczości gry, skalując rozmiar czcionki nazwy zgodnie z rozdzielczością renderowania."}
+                ]
+              }
+            ]
+          },
+          {
+            "title":"Jeżeli instalujesz LTM razem z Content Modem:",
+            "list":[
+              {
+                "content":"Content Mod ma krytyczny błąd. Zdarza się, że w trakcie instalacji robi przerwy w kolejności archiwów.<br>Po zainstalowaniu Content Moda, sprawdź kolejność archiwów w folderze data.<br>Szczególnie pliki z rozszerzeniem .m"
+              },
+              {
+                "content":"Przykłady:<br>Templates.m00, Templates.m01, Templates.m02, Templates.m05 <b>(brak .m03, .m04)</b><br>_compiledMaterial.m01, _compiledMaterial.m02, _compiledMaterial.m03 <b>(brak .m00)</b>"
+              },
+              {
+                "content":"Rozwiązanie:<br>Po zainstalowaniu Content Moda jeżeli znalazłeś lukę w kolejności, musisz zmienić nazwy tych archiwów pozbywając się luk w numeracji.<br>Templates.m00, Templates.m01, Templates.m02, Templates.m03 _compiledMaterial.m00, _compiledMaterial.m01, _compiledMaterial.m02"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "changes": [
       {
         "updateId": "4",

@@ -10,17 +10,18 @@ import VueGtag from "vue-gtag";
 import './assets/css/vue2-animate.css';
 
 Vue.config.productionTip = false
-
-Vue.use(VueGtag, {
-  config: { id: "G-70MWY7X2NK" },
-  pageTrackerTemplate(to) {
-    return {
-      page_title: `${to.name}${to.params.id ? " - " + to.params.id : ""}`,
-      page_path: to.path
+if(process.env.NODE_ENV !== 'development')
+{
+  Vue.use(VueGtag, {
+    config: { id: "G-70MWY7X2NK" },
+    pageTrackerTemplate(to) {
+      return {
+        page_title: `${to.name}${to.params.id ? " - " + to.params.id : ""}`,
+        page_path: to.path
+      }
     }
-  }
-}, router);
-
+  }, router);
+}
 new Vue({
   store,
   vuetify,
