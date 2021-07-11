@@ -1,83 +1,83 @@
 <template>
-<keep-alive>
-  <div>
-    <v-row class="sticky-tabs d-none d-md-flex">
-      <v-tabs dark v-model="currentTab">
-        <v-tabs-slider color="orange lighten-3"></v-tabs-slider>
-        <v-tab
-          v-for="(entry, index) in headers"
-          :key="index"
-          @click="onMenuClick(entry.element)"
-          >{{ entry.title }}</v-tab
-        >
-      </v-tabs>
-    </v-row>
-
-    <div v-if="showInstallationTab">
-      <v-row v-if="showInstallationVideo">
-        <section-title ref="header-1" title="Film instalacyjny" />
-        <v-col cols="12" class="pl-4 pr-4">
-          <mod-video :data="selected" />
-        </v-col>
+  <keep-alive>
+    <div>
+      <v-row class="sticky-tabs d-none d-md-flex">
+        <v-tabs dark v-model="currentTab">
+          <v-tabs-slider color="orange lighten-3"></v-tabs-slider>
+          <v-tab
+            v-for="(entry, index) in headers"
+            :key="index"
+            @click="onMenuClick(entry.element)"
+            >{{ entry.title }}</v-tab
+          >
+        </v-tabs>
       </v-row>
 
-      <v-row v-if="showInstruction">
-        <section-title ref="header-2" title="Instrukcja" />
+      <div v-if="showInstallationTab">
+        <v-row v-if="showInstallationVideo">
+          <section-title ref="header-1" title="Film instalacyjny" />
+          <v-col cols="12" class="pl-4 pr-4">
+            <mod-video :data="selected" />
+          </v-col>
+        </v-row>
 
+        <v-row v-if="showInstruction">
+          <section-title ref="header-2" title="Instrukcja" />
+
+          <v-col cols="12" class="pl-4 pr-4">
+            <mod-installation :data="selected" />
+          </v-col>
+        </v-row>
+      </div>
+
+      <div v-if="showOverviewTab">
+        <v-row v-if="showChangesList">
+          <section-title ref="header-3" title="Zmiany" />
+          <v-col cols="12" class="pl-4 pr-4">
+            <changelogs-cards />
+          </v-col>
+        </v-row>
+        <v-row v-if="showOverviewList">
+          <section-title ref="header-4" title="Opis" />
+          <v-col cols="12" class="pl-4 pr-4">
+            <mod-overview :data="selected" />
+          </v-col>
+        </v-row>
+      </div>
+
+      <div v-if="showLinks">
+        <v-row>
+          <v-col cols="12" class="pl-4 pr-4">
+            <mod-links :data="selected" />
+          </v-col>
+        </v-row>
+      </div>
+
+      <div v-if="showCreators">
+        <v-row>
+          <section-title ref="header-5" title="Autorzy" />
+          <v-col cols="12" class="pl-4 pr-4">
+            <author-list :authors="selected.authors.creators" />
+          </v-col>
+        </v-row>
+      </div>
+
+      <div v-if="showContributors">
+        <v-row>
+          <section-title ref="header-6" title="Kontrybutorzy" />
+          <v-col cols="12" class="pl-4 pr-4">
+            <author-list :authors="selected.authors.contributors" />
+          </v-col>
+        </v-row>
+      </div>
+
+      <v-row v-if="showGallery">
+        <section-title ref="header-7" title="Galeria" />
         <v-col cols="12" class="pl-4 pr-4">
-          <mod-installation :data="selected" />
+          <mod-gallery :data="selected" />
         </v-col>
       </v-row>
     </div>
-
-    <div v-if="showOverviewTab">
-      <v-row v-if="showChangesList">
-        <section-title ref="header-3" title="Zmiany" />
-        <v-col cols="12" class="pl-4 pr-4">
-          <changelogs-cards />
-        </v-col>
-      </v-row>
-      <v-row v-if="showOverviewList">
-        <section-title ref="header-4" title="Opis" />
-        <v-col cols="12" class="pl-4 pr-4">
-          <mod-overview :data="selected" />
-        </v-col>
-      </v-row>
-    </div>
-
-    <div v-if="showLinks">
-      <v-row>
-        <v-col cols="12" class="pl-4 pr-4">
-          <mod-links :data="selected" />
-        </v-col>
-      </v-row>
-    </div>
-
-    <div v-if="showCreators">
-      <v-row>
-        <section-title ref="header-5" title="Autorzy" />
-        <v-col cols="12" class="pl-4 pr-4">
-          <author-list :authors="selected.authors.creators" />
-        </v-col>
-      </v-row>
-    </div>
-
-    <div v-if="showContributors">
-      <v-row>
-        <section-title ref="header-6" title="Kontrybutorzy" />
-        <v-col cols="12" class="pl-4 pr-4">
-          <author-list :authors="selected.authors.contributors" />
-        </v-col>
-      </v-row>
-    </div>
-
-    <v-row v-if="showGallery">
-      <section-title ref="header-7" title="Galeria" />
-      <v-col cols="12" class="pl-4 pr-4">
-        <mod-gallery :data="selected" />
-      </v-col>
-    </v-row>
-  </div>
   </keep-alive>
 </template>
 
@@ -113,7 +113,7 @@ export default {
   mounted() {
     this.$nextTick(() => {
       this.headers = this.getHeaders();
-    })
+    });
     document.addEventListener("scroll", this.onDocumentScroll);
   },
   beforeDestroy() {
@@ -122,23 +122,22 @@ export default {
   methods: {
     getHeaders() {
       const refKeys = Object.keys(this.$refs)
-      .filter(x => x.split('-')[0] === 'header')
-      .sort((a, b) => {        
-        return +a.split('-')[1] > +b.split('-')[1] ? 1 : -1;
-      });
-      
+        .filter((x) => x.split("-")[0] === "header")
+        .sort((a, b) => {
+          return +a.split("-")[1] > +b.split("-")[1] ? 1 : -1;
+        });
 
       const arr = [];
-      for(const key of refKeys) {
+      for (const key of refKeys) {
         const item = this.$refs[key];
-        if(item) {
-        arr.push({ element: item, title: item.$props.title });
+        if (item) {
+          arr.push({ element: item, title: item.$props.title });
         }
-      }      
+      }
       return arr;
     },
     onMenuClick(element) {
-      window.scrollTo(0, element.$el.offsetTop);
+      window.scrollTo(0, element.$el.offsetTop - 50);
     },
     onDocumentScroll() {
       this.currentTab = this.getCrossedHeaders().length - 1;
@@ -202,8 +201,8 @@ export default {
   watch: {
     selected() {
       this.$nextTick(() => {
-        this.$set(this, 'headers', this.getHeaders())
-      })
+        this.$set(this, "headers", this.getHeaders());
+      });
     },
   },
 };
@@ -243,5 +242,4 @@ export default {
   position: sticky !important;
   z-index: 3;
 }
-
 </style>

@@ -1,31 +1,34 @@
 <template>
- <div class="overview pt-6 pb-6 pl-4 pr-4">
-        <v-alert
-              v-for="(alert, index) in data.installation.instruction.alerts"
-              :color="alert.color + ' lighten-1'"
-              :key="index"><span v-html="alert.text"/></v-alert>  
-            
-          <recursive-list-ordered class="mt-6" :data="data.installation.instruction.lists" />
+  <div class="overview pt-6 pb-6 pl-4 pr-4">
+    <v-alert
+      v-for="(alert, index) in data.installation.instruction.alerts"
+      :color="alert.color + ' lighten-1'"
+      :style="{ color: 'white' }"
+      :key="index"
+      ><span v-html="alert.text"
+    /></v-alert>
 
+    <recursive-list-ordered
+      :class="{ 'mt-6': !!data.installation.instruction.alert }"
+      :data="data.installation.instruction.lists"
+    />
   </div>
 </template>
 
 <script>
-import RecursiveListOrdered from './RecursiveListOrdered.vue';
-
-
+import RecursiveListOrdered from "./RecursiveListOrdered.vue";
 
 export default {
   name: "Installation",
   props: {
     data: { type: Object, required: true },
-  },  
+  },
   data: () => {
     return {
-    tab: "Instalacja",    
+      tab: "Instalacja",
     };
   },
-  components: {RecursiveListOrdered },
+  components: { RecursiveListOrdered },
 };
 </script>
 <style>
@@ -42,8 +45,7 @@ export default {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-.mod-installation .mod-video
-{
+.mod-installation .mod-video {
   width: 100%;
   height: 75vh;
 }
@@ -58,6 +60,4 @@ export default {
 .tab-items {
   width: 100%;
 }
-
-
 </style>
