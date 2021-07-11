@@ -8,7 +8,7 @@
     "changes": [
       {
         "updateId": "4",
-        "updateDescription": "Dodano wszystkie dodatkowe misje z moda PGL - Powrót Generała Lee (UWAGA: misja główna nie została jeszcze dodana).<br>Częściowo zintegrowany mod Konsekwencje (30-40%).<br>Naprawiono inne znalezione błędy w modach LTM, PGL i Aftermath.",
+        "updateDescription": "Dodano wszystkie dodatkowe misje z moda PGL - Powrót Generała Lee (UWAGA: misja główna nie została jeszcze dodana).<br>Częściowo zintegrowany mod Konsekwencje (30-40%).<br>Naprawiono inne znalezione błędy w modach LTM, PGL i Konsekwencjach.",
         "version": "0.35",
         "date": "11.07.2021",
         "alerts": [],
@@ -59,7 +59,7 @@
                 "content": "Naprawiono pamiętniki z Content Moda (była niewidoczna tekstura). Zmieniono wartości statystyk zwiększanych te pamiętniki;"
               },
               {
-                "content": "Naprawiono inne znalezione błędy w modach LTM, PGL i Aftermath."
+                "content": "Naprawiono inne znalezione błędy w modach LTM, PGL i Konsekwencjach."
               },
               {
                 "content": "Dodano nowe przedmioty i obiekty do świata gry."
