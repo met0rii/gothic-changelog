@@ -100,7 +100,7 @@ export default {
   --orange-secondary-dark: #a86b0e;
   --orange-secondary-light: #ffcc80;
 
-  --black-secondary: rgb(33, 33, 33);
+  --black-secondary: #212121;
 
   /*TYPOGRAPHY*/
   --h1: 40px;
