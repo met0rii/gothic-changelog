@@ -4,12 +4,315 @@
     "title": "Alternative Balance",
     "titleUrl": "https://i.imgur.com/4CY2TAz.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
-    "installation":{
-      "url":"https://www.youtube.com/embed/39s9HXBu0EI"
+    "installation": {
+      "url": "https://www.youtube.com/embed/39s9HXBu0EI"
     },
     "links": [],
     "description": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
+      {
+        "updateId": "19",
+        "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
+        "version": "XX-07-2021",
+        "date": "XX-07-2021",
+        "alerts": [
+          {
+            "text": "Ten patch będzie wymagał nowej gry, jako że mod został przeniesiony na platformę UNION!",
+            "color": "red"
+          },
+          {
+            "text": "Aktualizacja nie jest jeszcze dostępna do pobrania. Publikacja planowana jest na okolice <b>20.07.2021</b>.",
+            "color": "orange"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Dodano nową klasę szamana orków:",
+            "list": [
+              {
+                "content": "Szamanem można zostać w 1 rozdziale udając się do orkowego szamana we wschodnim lesie."
+              },
+              {
+                "content": "Szamanem nie można zostać będą Mrocznym Rycerzem lub po nauczeniu się trucizn Freygala. Każda inna gildia może zostać szamanem, gdyż nie jest to gildia główna."
+              },
+              {
+                "content": "Po zostaniu szamanem, bohater straci możliwość używania przyzwańców. Obrażenia zaklęć zmaleją o 75% a obrażenia fizyczne o 30%."
+              },
+              {
+                "content": "Po zostaniu szamanem, gracz nie będzie atakowany przez orków. Po dotarciu do orkowego miasta (do tego wciąż gracz potrzebuje Ulu-Mulu) bohater będzie mógł kontynuować naukę od wyższych szamanów i będzie mógł kupić pancerz."
+              },
+              {
+                "content": "Bohater, będąc szamanem będzie musiał rozwijać umiejętność walki wręcz i siłę, ale też manę i inteligencję."
+              },
+              {
+                "content": "Szaman posiada specjalną umiejętność <i>Podmuch Wiatru</i>, która zadaje dodatkowe obrażenia przy walce bronią obuchową i toporami. Na wyższych poziomach umiejętność pozwala na przebicie się przez gardę przeciwnika i zadanie podwójnych obrażeń."
+              },
+              {
+                "content": "Szaman może nauczyć się 8 różnych totemów, którym może rozkazywać jak przyzwańcom."
+              }
+            ]
+          },
+          {
+            "title": "Dodano <i>tryb ulepszeń i zaklinania</i>:",
+            "list": [
+              {
+                "content": "Tryb jest opcjonalny i można go włączyć tylko przy starcie rozgrywki."
+              },
+              {
+                "content": "Tryb pozwala na zwiększenie obrażeń broni poprzez umieszczanie w nich specjalnych pieczęci na stole rzemieślniczym."
+              },
+              {
+                "content": "Dodatkowo broń, pancerze i biżuterię można wielokrotnie ulepszać na kowadle używając różnych składników."
+              },
+              {
+                "content": "Bennet, Hakon oraz Lutero sprzedają teraz notatkę wprowadzającą w nową mechanikę ulepszania przedmiotów."
+              },
+              {
+                "content": "Brahim sprzedaje też zaklętą mapę pokazującą lokalizację rzadkich roślin w Khorinis, Górniczej Dolinie, Jarkendarze oraz na Pustyni Adanosa."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Dodano nową misję w Khorinis. Misja jest dostępna od 1 rozdziału dla wszystkich gildii."
+              },
+              {
+                "content": "Naprawiono problemy z kolidującymi teksturami w porcie. FPS'y powinny wzrosnąć o 3-10."
+              },
+              {
+                "content": "Przepisano system wyświetlania statystyk broni i zbroi na ekranie. Teraz jest bardziej spójny i przejrzysty"
+              },
+              {
+                "content": "Przepisano system ostrzenia broni. Teraz efekt nie będzie znikał i można też posiadać wiele naostrzonych broni na raz."
+              },
+              {
+                "content": "Broń jednoręczna (rapiery również) dodatkowo zadaje teraz bonusowe obrażenia równe umiejętności władania bronią jednoręczną jeśli wytrzymałość bohatera jest większa niż 0."
+              },
+              {
+                "content": "Dodano mechanikę uderzeń w plecy. (do 40% dodatkowych obrażeń zależnie od kątu między atakującym, a ofiarą). Wszyscy oprócz przyzwańców mogą zadawać w ten sposób więcej obrażeń."
+              },
+              {
+                "content": "Ustabilizowano obrażenia kuszy. Nie są one już tak losowe i nakładają się poprawnie. Teraz im wyższy stopień władania, tym większe dodatkowe obrażenia. Zmniejszono też lekko obrażenia początkowych kusz."
+              },
+              {
+                "content": "Statystyki następujących broni uległy zmianie: Żniwiarz Dusz, Ar'Urat, Szpon Beliara (szpada, 1h, 2h, halabarda), Czarne serce, Gniew Innosa, Święty Egzekutor, Jad, Złodziej dusz, Miecz Szalonego Krzyżowca, Miecz Żywiołów, Miecz Zagubionych Dusz, Halabarda najemnika, Halabarda orkowego najemnika, Rozrywający Szpon, Aleor, Złota Igła, Krwiopijca, Krwiożerca."
+              },
+              {
+                "content": "Krayt może zostać teraz wymieniony za potężną miksturę u druida Freygala. Wymiana może nastąpić jedynie jeśli cieniostwór nie był levelowany. (+400 hp, +30 obr. fiz. +10 pn)"
+              },
+              {
+                "content": "Mroczny rycerz może wyrzec się pomocy ze strony mrocznego sługi. W zamian za to gracz zwiększy limit jednocześnie aktywnych run o 1. Punkty nauki wydane na runę przywołania sługusa oraz na runy dotyczące sługi zostaną zwrócone. Decyzję tę należy podjąć w 1 rozdziale."
+              },
+              {
+                "content": "Runy Mrocznego Rycerza nie wyłączają się już, podczas korzystania z magii."
+              },
+              {
+                "content": "Poprawiono zachowanie przeciwników. Teraz gdy bohater biegnie w kierunku potworów, zareagują one nawet jeśli są obrócone plecami. Aby nie zostać usłyszanym, bohater musi się podkraść."
+              },
+              {
+                "content": "Teraz bohater może się tylko skradać w czyimś domu jeśli nie chce nikogo obudzić. Chodzenie / bieganie / skakanie od razu obudzi śpiące NPC-ty."
+              },
+              {
+                "content": "Zmieniono statystyki wielu przeciwników."
+              },
+              {
+                "content": "Dodano nowych przeciwników w khorinis."
+              },
+              {
+                "content": "Zmniejszono koszt w złocie za nauki atrybutów."
+              },
+              {
+                "content": "Zwiększono limit nauki statystyk u nauczycieli z 1000 na 1500."
+              },
+              {
+                "content": "Quickloot nie będzie działał jeśli bohater jest blisko przeciwników lub gdy bohater jest w czyimś domu i jego właściciel jest w pobliżu."
+              },
+              {
+                "content": "Zaszły małe zmiany wizualne w lokacjach."
+              },
+              {
+                "content": "Dodano więcej kosztowności do domów w górnym mieście Khorinis."
+              },
+              {
+                "content": "Na poziomie trudności Nightmare gracz otrzymuje teraz mniej punktów nauki za poziom na poziomach 0-15. Za pokonywanie bossów również gracz otrzyma mniej punktów nauki."
+              },
+              {
+                "content": "Zmieniono statystyki smoków. Teraz łatwiej będzie je pokonać na Gothicowym, a trudniej na Nightmare."
+              },
+              {
+                "content": "Zmieniono trochę arenę orków. Teraz klatka jest okrągła i większa."
+              },
+              {
+                "content": "Osłabiono maksymalne obrażenia od klątwy czarnoksiężnika na niektórych runach. Osłabiono też obrażenia od uderzenia."
+              },
+              {
+                "content": "Guru otrzymał bonus regeneracji many +1/sekundę od momentu dołączenia do gildii."
+              },
+              {
+                "content": "Sprzedawcy mają w sprzedaży dodatkowe zwoje wskrzeszenia."
+              },
+              {
+                "content": "Umiejętność regeneracji życia nie zapewnia już bonusu zwiększającego wszystkie leczenia o 10%."
+              },
+              {
+                "content": "Przywrócono bonusową regenerację życia i wytrzymałości, jaką otrzymywał świątynny strażnik przy dołączeniu do gildii. (+1 życia i wytrzymałości na sekundę)"
+              },
+              {
+                "content": "Zmniejszono obrażenia wszystkich zaklęć maga ognia."
+              },
+              {
+                "content": "Zmieniono zachowanie ognika. Teraz nie zbiera rzeczy, jeśli jakiś przeciwnik jest agresywnie nastawiony do bohatera."
+              },
+              {
+                "content": "Poprawiono i zmniejszono koszt utrzymania <i>Armii Ciemności</i>."
+              },
+              {
+                "content": "Odświeżono teksturę mapy Pustyni Adanosa."
+              },
+              {
+                "content": "Przy rozpoczynaniu gry na trybie Nightmare będzie można zdecydować, czy chcemy mieć możliwość swobodnego zapisu."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował crashowanie gry, jeśli gracz nie posiadał DX'a 11 przy ładowaniu miecza w 7 rozdziale."
+              },
+              {
+                "content": "Wszystkie serca golemów dają teraz taki sam bonus do ochrony: +50."
+              },
+              {
+                "content": "Zmieniono sposób obliczania obrażeń broni!! Przy jednakowych statystykach, maczuga będzie bić więcej, ale wolniej. Broń dwuręczna zawsze bije średnio 20% więcej niż bronie jednoręczne. Zmieniono statystyki przebicia niektórych broni, głównie halabard."
+              },
+              {
+                "content": "Zamieniono miejscami następujące miecze: Ar'Urat (Koszmar Kruka --> Zaginiony Brat), Wielki Miecz Strażnika Równowagi (Zaginiony Brat --> Koszmar Kruka), Czarne serce (Azgalor --> Zaginiony brat), Łamacz kości (Cmentarz Orków na końcu --> Cmentarz Orków przed bossem)"
+              },
+              {
+                "content": "Usprawniono misje z eskortą Cliffa. Teraz będzie on czekał na nas na dole przy taranie."
+              },
+              {
+                "content": "Czar 5 kręgu Guru (Wir) zadaje teraz znacznie większe obrażenia."
+              },
+              {
+                "content": "Demon Keyron musi zostać teraz pokonany, aby przejść do Kruka. Nie da się już go ominąć."
+              },
+              {
+                "content": "Eliksir życia i Eliksir ducha kosztują teraz po 20PN, Eliksiry Ducha (własnoręcznie stworzony) zapewnia teraz bonus +4 many."
+              },
+              {
+                "content": "Wzmocniono runy: Przyzwanie Drzewca (Od Netbeka w 4r.) oraz Lodowa Fala. (teraz nie oddziałuje na osoby w grupie)"
+              },
+              {
+                "content": "Dodano po 20 smoczych korzeni i jagód do kupców, tak aby wyrównać ich ilość ze szczawiami. Teraz w grze jest jednakowa ilość każdego z nich."
+              },
+              {
+                "content": "W związku z powyższą zmianą, teraz u Constantino pojawiają się mikstury siły/zręczności co 8, a nie 5 oddanych jagód/korzeni."
+              },
+              {
+                "content": "Ostrzenie zwiększa teraz obrażenia broni o 8%, a drugi poziom naostrzenia o 12%."
+              },
+              {
+                "content": "Nieznacznie zwiększono obrażenia zadawane przez magów wody."
+              },
+              {
+                "content": "Runa <i>Szpon Beliara,/i> zadaje teraz obrażenia obszarowe."
+              },
+              {
+                "content": "Wyciągnięto wiele przedmiotów/obiektów spod tekstur."
+              },
+              {
+                "content": "Dodano możliwość zresetowania licznika śmierci. Skrót klawiszowy można sprawdzić po klawiszem <i>H</i>."
+              },
+              {
+                "content": "Osłabiono bossa <i>Malbara</i> Należy się jednak liczyć z tym, że nie będzie się dało zabrać jego skarbu bez walki."
+              },
+              {
+                "content": "Opcję przyspieszania czasu można teraz włączyć/wyłączyć w menu gry."
+              },
+              {
+                "content": "Dodano nową opcję w ustawieniach, która sprawia, że ciała martwych NPC nie będą usuwane."
+              },
+              {
+                "content": "Trzęsienie ziemi kosztuje 10 pn mniej, Magiczna kula kosztuje 5 pn mniej, Wir kosztuje 5 pn więcej."
+              },
+              {
+                "content": "Dodano dodatkowe miejsce zapisu w starej kopalnii - na dolnym poziomie przy piecu."
+              },
+              {
+                "content": "Osłabiono lekko bazowe statystyki mrocznego sługi. Skalowanie statystyk z jego poziomem również jest minimalnie słabsze."
+              },
+              {
+                "content": "Bazowa regeneracja życia z Sakta Nomen wynosi teraz 4. (wcześniej 2)"
+              },
+              {
+                "content": "Bonus za zabijanie magów, szamanów, itp. wynosi teraz 1 punkt many. (wcześniej 2)"
+              },
+              {
+                "content": "Zębacze przy wejściu do kopalni łączącej Khorinis i Górniczą Dolinę zostały lekko przesunięte."
+              },
+              {
+                "content": "U niektórych sprzedawców dodano mieszki do przechowywania przedmiotów."
+              },
+              {
+                "content": "Znacznik bohatera na mapie jest teraz czerwony, zamiast białego."
+              },
+              {
+                "content": "Gritta i Elvrich są teraz nieśmiertelni, aż do momentu uratowania ich z rąk bandytów."
+              },
+              {
+                "content": "Baltram również nie może teraz zginąć, dopóki nie okaże się on zastępstwem dla Laresa."
+              },
+              {
+                "content": "Pirat Bones i Bandyta Garaz są teraz nieśmiertelni, dopóki nie wykonamy powiązanych z nimi misji."
+              },
+              {
+                "content": "Ramon nie wpuści już bohatera do obozu, jeśli ten nie nosi pancerza bandytów (Nawet jeśli zabił Franco)"
+              },
+              {
+                "content": "Ur-Shak w 5 rozdziale da graczowi Ulu-Mulu, jeśli ten go jeszcze nie otrzymał."
+              },
+              {
+                "content": "Zombie Strażnicy w Świątyni Adanosa zadają teraz około 30% mniej obrażeń."
+              },
+              {
+                "content": "Kostur nowicjusza nie wymaga już siły."
+              },
+              {
+                "content": "Boss pełzaczy <i>Padlinożerca</i> nie musi zostać zabity, aby Bloodwynn przyszedł do kopalni."
+              },
+              {
+                "content": "Usunięto możliwość wyteleportowania się z małych lokacji np. Zatopionej Wiezy Xardasa/Cmentarzyska Orków/Jaskini Bólu."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował zawieszanie bohatera podczas teleportu"
+              },
+              {
+                "content": "Naprawiono błąd, który powodował wyświetlanie się menu spania/modlitwy podczas teleportu."
+              },
+              {
+                "content": "Naprawiono działanie skrótu Alt+F1, który uwalniał z zawieszenia w dialogu"
+              },
+              {
+                "content": "Naprawiono walkę ze Śniącym. Już nie zawiesza się, kiedy od niego odbiegniemy"
+              },
+              {
+                "content": "Naprawiono skalowanie obrażeń golemów, trolli i kamiennych strażników. Wcześniej niezależnie od poziomu trudności, bili tyle samo."
+              },
+              {
+                "content": "Naprawiono błędy związane z <i>brodzeniem w wodzie</i> po wyjściu na brzeg i zawieszeniu się przy użyciu runy w tym stanie."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował zawieszenie kamery, po powiadomieniu Garonda o zabiciu Bagiennego Smoka."
+              },
+              {
+                "content": "Naprawiono sporo mniejszych błędów."
+              },
+              {
+                "content": "I WIELE więcej mniejszych zmian..."
+              }
+            ]
+          }
+        ]
+      },
       {
         "updateId": "18",
         "updateDescription": "Wprowadzono możliwość wyboru wersji trybu Slash & Craft oraz kilka innych ciekawych zmian.",
@@ -1177,7 +1480,7 @@
       }
     ],
     "overview": {
-      "lists": [        
+      "lists": [
         {
           "title": "Dodatkowe gildie",
           "list": [
@@ -1435,10 +1738,10 @@
     "title": "L'Hiver",
     "titleUrl": "https://i.imgur.com/CP5tesl.png",
     "url": "https://drive.google.com/drive/folders/1E0-g4atytrCqLvTB2-BYX6ksDNgEmDrP",
-    "installation":{
-      "url":"",
-      "instruction":{
-        "alerts":[],
+    "installation": {
+      "url": "",
+      "instruction": {
+        "alerts": [],
         "lists": [
           {
             "title": "Kolejność instalacji:",
@@ -1457,10 +1760,10 @@
             ]
           },
           {
-            "title":"Opcjonalne",
-            "list":[
+            "title": "Opcjonalne",
+            "list": [
               {
-                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą."
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą."
               }
             ]
           }
@@ -2224,41 +2527,42 @@
     "titleUrl": "https://imgur.com/OlQrAyl.png",
     "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
     "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
-    "installation":{
-      "instruction":{
-        "lists":[
+    "installation": {
+      "instruction": {
+        "lists": [
           {
-            "title":"Kolejność instalacji",
-            "list":[
+            "title": "Kolejność instalacji",
+            "list": [
               {
-                "content":"Pobierz i wypakuj zawartość archiwum <b>Gothic II Patch Bundle</b> do folderu z grą.",
-                "list":[
-                  {"content":"Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"}
-                ]                
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Gothic II Patch Bundle</b> do folderu z grą.",
+                "list": [
+                  {
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
+                  }
+                ]
               },
               {
-                "content":"Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
-                     
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
               },
               {
-                "content":"Pobierz i wypakuj zawartość archiwum <b>Odyseja_skrypty</b> do folderu z grą"
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja_skrypty</b> do folderu z grą"
               }
             ]
           },
           {
-            "title":"Opcjonalne:",
-            "list":[
+            "title": "Opcjonalne:",
+            "list": [
               {
-                "content":"Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj <b>Odyssee_2.5.1_Speech_1</b> oraz <b>Odyssee_2.5.1_Speech_2</b> do folderu z grą."
+                "content": "Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj <b>Odyssee_2.5.1_Speech_1</b> oraz <b>Odyssee_2.5.1_Speech_2</b> do folderu z grą."
               },
               {
-                "content":"Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum <b>OdysseeMusic</b> do folderu z grą."
+                "content": "Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum <b>OdysseeMusic</b> do folderu z grą."
               },
               {
-                "content":"Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum <b>LHiverGraphicForOdyssee</b> do folderu <b>data</b>."
+                "content": "Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum <b>LHiverGraphicForOdyssee</b> do folderu <b>data</b>."
               },
               {
-                "content":"Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z <b>DX11</b> do folderu <b>system</b>."
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z <b>DX11</b> do folderu <b>system</b>."
               }
             ]
           }
@@ -2670,7 +2974,6 @@
             }
           ]
         }
-        
       ]
     },
     "gallery": [
@@ -2691,22 +2994,22 @@
       "https://i.imgur.com/rxqRPAM.png"
     ],
     "authors": {
-      "creators": [        
+      "creators": [
         {
           "name": "Bloodfly91",
           "role": "Lider zespołu, skrypter, spacer, scenarzysta, grafik 3D"
         },
         {
-          "name":"Allewege",
-          "role":"Scenarzysta, spacer, aktor dubbingowy"
+          "name": "Allewege",
+          "role": "Scenarzysta, spacer, aktor dubbingowy"
         },
         {
-          "name":"BusfahrerCharlie",
-          "role":"Grafik 3D"
+          "name": "BusfahrerCharlie",
+          "role": "Grafik 3D"
         },
         {
-          "name":"Lord Peter",
-          "role":"Obróbka dźwięku i filmów, aktor dubbingowy"
+          "name": "Lord Peter",
+          "role": "Obróbka dźwięku i filmów, aktor dubbingowy"
         },
         {
           "name": "Alexander Matecka",
@@ -2809,7 +3112,7 @@
         {
           "name": "Zipperiusz",
           "role": "Tłumacz, tester"
-        },        
+        },
         {
           "name": "Tulipan",
           "role": "Tłumacz, tester"
@@ -2817,7 +3120,7 @@
         {
           "name": "Buźka",
           "role": "Tłumacz, tester"
-        },        
+        },
         {
           "name": "Washion",
           "role": "Tłumacz, tester"
@@ -2836,5 +3139,5 @@
         }
       ]
     }
-  }  
+  }
 ]
