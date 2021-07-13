@@ -11,6 +11,290 @@
     "description": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId":"19",
+        "updateDescription": "",
+        "version": "",
+        "date": "20-07-2021",
+        "alerts": [
+          {
+            "text": "Ten patch będzie wymagał nowej gry, jako że mod został przeniesiony na platformę UNION!",
+            "color": "red"
+          },
+          {
+            "text": "Patch planowany jest na okolice <b>20.07.2021</b>",
+            "color": "orange"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Zwiększono limit nauki statystyk u nauczycieli z 1000 na 1500."
+              },
+              {
+                "content": "Naprawiono wiele pomniejszych bugów."
+              },
+              {
+                "content": "Pirat Bones i Bandyta Garaz są teraz nieśmiertelni, dopóki nie wykonamy powiazanych z nimi misji."
+              },
+              {
+                "content": "Guru otrzymał bonus regeneracji many +1/sekundę od momentu dołączenia do gildii."
+              },
+              {
+                "content": "Ramon nie wpuści już bohatera do obozu, jeśli ten nie nosi pancerza bandytów. (Nawet jeśli zabił Franco)"
+              },
+              {
+                "content": "Ur-Shak w 5 rozdziale da graczowi Ulu-Mulu, jeśli ten go jeszcze nie otrzymał."
+              },
+              {
+                "content": "Naprawiono problemy z kolidującymi teksturami w porcie. FPS'y powinny wzrosnąć o 3-10."
+              },
+              {
+                "content": "Zombie Strażnicy w Świątyni Adanosa zadają teraz około 30% mniej obrażeń."
+              },
+              {
+                "content": "Pika bitewna nowicjusza nie wymaga już siły."
+              },
+              {
+                "content": "Krayat może zostać oddany Fregyalowi, jeśli nie awansował on jeszcze na drugi poziom. Otrzymamy za to cenną miksturę. (Podobno 400hp, +25 zręki/siły, 20-40 resistów na fizyczne."
+              },
+              {
+                "content": "Mroczny Rycerz może PERMAMENTNIE zrezygnować z używania Umy i zyskać za to dodatkowy slot na runę. Może to zostać wykonane jedynie w pierwszym rozdziale."
+              },
+              {
+                "content": "Runy Mrocznego Rycerza nie wyłączają się już, podczas korzystania z magii."
+              },
+              {
+                "content": "Zębacze przy wejściu do kopalni łączącej Górniczą Dolinę i Khorinis zostały nieco odsunięte od wejścia."
+              },
+              {
+                "content": "U niektórych sprzedawców dodano mieszki do przechowywania przedmiotów."
+              },
+              {
+                "content": "Znacznik bohatera na mapie jest teraz czerwony, zamiast białego."
+              },
+              {
+                "content": "Gritta i Elvrich są teraz nieśmiertelni, aż do momentu uratowania ich z rąk bandytów."
+              },
+              {
+                "content": "Baltram również nie może teraz zginąć, dopóki nie okaże się on zastępstwem dla Laresa."
+              },
+              {
+                "content": "Boss pełzaczy \"Padlinożerca\" nie musi zostać zabity, aby Bloodwynn przyszedł do kopalni."
+              },
+              {
+                "content": "Przepisano system wyświetlania statystyk broni i zbroji na ekranie. Teraz jest bardziej spójny i przejrzysty."
+              },
+              {
+                "content": "Przepisano system ostrzenia broni. Teraz można zaostrzyć broń po raz drugi, jeśli nauczyliśmy się lepszego ostrzenia z książki."
+              },
+              {
+                "content": "Miecz Ar'Urat z Dungeonu Kruka otrzymał 50% przebicia pancerza."
+              },
+              {
+                "content": "Żniwiarz Dusz (Specjalna broń Mrocznego Rycerza) jest teraz mieczem i ma 10 więcej zasięgu."
+              },
+              {
+                "content": "Dodano opcję wyłączenia znikania martwych NPC z pustym ekwipunkiem."
+              },
+              {
+                "content": "Constantino ma w sprzedaży dodatkowe zwoje wskrzeszenia. (które dochodzą mu wraz z rozdziałami)"
+              },
+              {
+                "content": "Dodano miejsce do zapisu na dnie Starej Kopalni."
+              },
+              {
+                "content": "Lekko zmieniono statystyki smoków. Teraz łatwiej będzie je pokonać na Gothicowym, a trudniej na Nightmare."
+              },
+              {
+                "content": "Zmieniono klatkę w arenie orków. Teraz klatka jest okrągła, a jej rozmiar jest nieznacznie zwiększony."
+              },
+              {
+                "content": "Przeniesiono młot \"Łamacz kości\". Teraz można go zdobyć przed ukończeniem Zaginionego Brata."
+              },
+              {
+                "content": "Poprawiono sztuczną inteligencję zwierząt i potworów. Jeśli bohater będzie biegł, potwór go usłyszy, a jeśli się zakradnie, to tego nie zrobi."
+              },
+              {
+                "content": "Teraz jeśli bohater dostał się do czyjegoś domu, nie będzie mógł po nim skakać/biegać/chodzić bez interwencji właściciela i mieszczan."
+              },
+              {
+                "content": "Dodano mieczom niewielki bonus do obrażeń od wytrzymałości. (Przy 50% władania wynosi on 50 obrażeń)"
+              },
+              {
+                "content": "Umiejętność regeneracji zdrowia nie wzmacnia już efektów leczących, jako że powodowało to wiele problemów."
+              },
+              {
+                "content": "Strażnicy Świątynni otrzymali gildyjny bonus regeneracji HP i wytrzymałości w wysokości 1/sekundę."
+              },
+              {
+                "content": "Teraz quickloot nie działa, jeśli bohatera goni agresywny mob/npc, lub jeśli bohater jest w czyimś domu, a właściciel jest nieopodal."
+              },
+              {
+                "content": "Dodano mechanikę dźgnięcia w plecy (max 40% zależnie od kątu między atakującym, a ofiarą). Ten bonus nie przysługuje przyzwanym istotom."
+              },
+              {
+                "content": "Zaszły małe zmiany wizualne w lokacjach."
+              },
+              {
+                "content": "Naprawiono błędy związane z \"brodzeniem w wodzie\" po wyjściu na brzeg i zawieszeniu się przy użyciu runy w tym stanie."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował zawieszenie kamery, po powiadomieniu Garonda o zabiciu Bagiennego Smoka."
+              },
+              {
+                "content": "Zmniejszono łączną ilość punktów nauki na trybie Nightmare."
+              },
+              {
+                "content": "Dodano nową misję w Khorinis."
+              },
+              {
+                "content": "Zmniejszono obrażenia od spalania maga ognia (o 10%)."
+              },
+              {
+                "content": "Dodano więcej kosztowności do domów w górnym mieście Khorinis."
+              },
+              {
+                "content": "Zmieniono zachowanie ognika. Teraz nie zbiera rzeczy, jeśli jakiś przeciwnik jest agresywnie nastawiony do bohatera."
+              },
+              {
+                "content": "Poprawiono i zmniejszono koszt utrzymania \"Armii Ciemności\"."
+              },
+              {
+                "content": "Dodano odświeżoną mapę Pustyni Adanosa."
+              },
+              {
+                "content": "Przy rozpoczynaniu gry na trybie Nightmare będzie można zdecydować, czy chcemy mieć możliwość swobodnego zapisu."
+              },
+              {
+                "content": "Naprawiono błąd, którhy powodował crashowanie gry, jeśli gracz nie posiadał DX'a 11 przy ładowaniu miecza w 7r."
+              },
+              {
+                "content": "Wszystkie serca golemów dają teraz taki sam bonus do ochrony: +50."
+              },
+              {
+                "content": "Zmieniono sposób obliczania obrażeń broni!"
+              },
+              {
+                "content": "Przy jednakowych statystykach, maczuga będzie bić więcej, ale wolniej."
+              },
+              {
+                "content": "Broń dwuręczna zawsze bije średnio 20% więcej niż bronie jednoręczne."
+              },
+              {
+                "content": "Zmieniono statystyki przebicia niektórych broni, głównie halabard."
+              },
+              {
+                "content": "Zamieniono miejscami miecze:",
+                "list": [
+                  {
+                    "content": "Ar'Urat (Koszmar Kruka --> Zaginiony Brat)"
+                  },
+                  {
+                    "content": "Wielki MIecz czegośtam (Zaginiony Brat --> Koszmar Kruka)"
+                  },
+                  {
+                    "content": "Czarne serce ( Azgalor --> Zaginiony brat)"
+                  }
+                ]
+              },
+              {
+                "content": "Usprawniono misje z eskortą Cliffa. Teraz będzie on czekał na nas przy taranie na dole."
+              },
+              {
+                "content": "Na początku gry będzie można teraz wybrać specjalną opcje \"Zaklęcia i Zaklinanie\"",
+                "list": [
+                  {
+                    "content": "Zaklinanie - Zdolność do wsadzania w bronie/biżuterie/zbroje specjalnych kamieni."
+                  },
+                  {
+                    "content": "Kamienie będą wypadać z bossów, a także znajdować się w niektórych skrzyniach."
+                  },
+                  {
+                    "content": "Można umieścić maksymalnie 20 kamieni w jednym przedmiocie, przy czym zwiększają one obrażenia, wartości obronne lub statystyki. (w zależności w jaki przedmiot wpakujemy)"
+                  }
+                ]
+              },
+              {
+                "content": "Czar 5 kręgu Guru (Wir) zadaje teraz znacznie większe obrażenia."
+              },
+              {
+                "content": "Demon Keyron jest teraz wymagany, aby przejść do Kruka. Nie da się już go ominąć."
+              },
+              {
+                "content": "Eliksir Życia i Eliksir Ducha kosztują teraz 20PN (+ PN'y za poprzednie mikstury), a Eliksiry Ducha dają teraz +4 many."
+              },
+              {
+                "content": "Wzmocniono runy: Przyzwanie Drzewca (Od Netbeka w 4r.) oraz Lodowa Fala (teraz nie oddziaływuje na osoby w grupie)"
+              },
+              {
+                "content": "Dodano po 20 smoczych korzeni i jagód do kupców, tak aby wyrównać ich ilość ze szczawiami. Teraz w grze jest jednakowa ilość każdego z nich."
+              },
+              {
+                "content": "W związku z powyższą zmianą, teraz u Constantino pojawiaja się mikstury siły/zręczności co 8, a nie 5 oddanych jagód/korzeni."
+              },
+              {
+                "content": "Ostrzenie zwiększa teraz obrazenia broni o 8%, a drugi poziom naostrzenia o 12%."
+              },
+              {
+                "content": "Naprawiono bug, który powodował zawieszanie bohatera podczas teleportu."
+              },
+              {
+                "content": "Naprawiono bug, który powodował wyświetlanie się menu spania/modlitwy podczas teleportu."
+              },
+              {
+                "content": "Usunięto możliwośc wyteleportowania się z małych lokacji np. Zatopionej Wiezy Xardasa/Cmentarzyska Orków/Jaskini Bólu."
+              },
+              {
+                "content": "Ustabilizowano obrażenia kuszy. Nie są one już tak losowe i nakładają się poprawnie. Teraz im wyższy stopień władania, tym większe dodatkowe obrażenia."
+              },
+              {
+                "content": "Naprawiono działanie skrótu Alt+F1, który uwalniał z zawieszenia w dialogu."
+              },
+              {
+                "content": "Nieznacznie zwiększono obrażenia zadawane przez magów wody."
+              },
+              {
+                "content": "Runa \"Szpon Beliara\" ma teraz inny pocisk i zadaje ogromne obrażenia."
+              },
+              {
+                "content": "Przeniesiono linijki o przyśpieszeniu czasu do sekcji AST w gothic.ini, teraz wygląda to tak:",
+                "list": [
+                  {
+                    "content": "bToggleWorldTimeAcceleration = 1"
+                  },
+                  {
+                    "content": "ActivationKey = Z"
+                  },
+                  {
+                    "content": "AccelerationRatio = 3"
+                  }
+                ]
+              },
+              {
+                "content": "Wyciągnięto wiele przedmiotów/obiektów spod tekstur."
+              },
+              {
+                "content": "Naprawiono walkę ze Śniącym. Już nie zawiesza się, kiedy od niego odbiegniemy."
+              },
+              {
+                "content": "Naprawiono skalowanie obrażeń golemów, trolli i kamiennych strażników. Wcześniej niezależnie od poziomu trudności, bili tyle samo."
+              },
+              {
+                "content": "Dodano możliwość zresetowania licznika śmierci skrótem klawiszowym."
+              },
+              {
+                "content": "Osłabiono bossa \"Malbara\" Należy się jednak liczyć z tym, że nie będzie się dało zabrać jego skarbu bez walki."
+              },
+              {
+                "content": "Dodano nową klase: Szaman."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "18",
         "updateDescription": "Wprowadzono możliwość wyboru wersji trybu Slash & Craft oraz kilka innych ciekawych zmian.",
         "version": "12.04.2021",
