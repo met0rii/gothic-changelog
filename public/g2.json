@@ -21,7 +21,7 @@
             "color": "red"
           },
           {
-            "text": "Aktualizacja nie jest jeszcze dostępna do pobrania. Publikacja planowana jest na okolice <b>20.07.2021</b>.",
+            "text": "Aktualizacja nie jest jeszcze dostępna do pobrania. Publikacja planowana jest po <b>25.07.2021</b>.",
             "color": "orange"
           }
         ],
@@ -36,7 +36,7 @@
                 "content": "Szamanem nie można zostać będą Mrocznym Rycerzem lub po nauczeniu się trucizn Freygala. Każda inna gildia może zostać szamanem, gdyż nie jest to gildia główna."
               },
               {
-                "content": "Po zostaniu szamanem, bohater straci możliwość używania przyzwańców. Obrażenia zaklęć zmaleją o 75% a obrażenia fizyczne o 30%."
+                "content": "Po zostaniu szamanem, bohater straci możliwość używania przyzwańców. Obrażenia zaklęć zmaleją o 75% a obrażenia fizyczne o 30%. Siła zaklęć leczących ulegnie zmniejszeniu o 50%."
               },
               {
                 "content": "Po zostaniu szamanem, gracz nie będzie atakowany przez orków. Po dotarciu do orkowego miasta (do tego wciąż gracz potrzebuje Ulu-Mulu) bohater będzie mógł kontynuować naukę od wyższych szamanów i będzie mógł kupić pancerz."
@@ -66,9 +66,6 @@
               },
               {
                 "content": "Bennet, Hakon oraz Lutero sprzedają teraz notatkę wprowadzającą w nową mechanikę ulepszania przedmiotów."
-              },
-              {
-                "content": "Brahim sprzedaje też zaklętą mapę pokazującą lokalizację rzadkich roślin w Khorinis, Górniczej Dolinie, Jarkendarze oraz na Pustyni Adanosa."
               }
             ]
           },
@@ -88,7 +85,7 @@
                 "content": "Przepisano system ostrzenia broni. Teraz efekt nie będzie znikał i można też posiadać wiele naostrzonych broni na raz."
               },
               {
-                "content": "Broń jednoręczna (rapiery również) dodatkowo zadaje teraz bonusowe obrażenia równe umiejętności władania bronią jednoręczną jeśli wytrzymałość bohatera jest większa niż 0."
+                "content": "Rapiery zadają teraz bonusowe obrażenia równe umiejętności władania bronią jednoręczną jeśli wytrzymałość bohatera jest większa niż 0."
               },
               {
                 "content": "Dodano mechanikę uderzeń w plecy. (do 40% dodatkowych obrażeń zależnie od kątu między atakującym, a ofiarą). Wszyscy oprócz przyzwańców mogą zadawać w ten sposób więcej obrażeń."
@@ -100,7 +97,7 @@
                 "content": "Statystyki następujących broni uległy zmianie: Żniwiarz Dusz, Ar'Urat, Szpon Beliara (szpada, 1h, 2h, halabarda), Czarne serce, Gniew Innosa, Święty Egzekutor, Jad, Złodziej dusz, Miecz Szalonego Krzyżowca, Miecz Żywiołów, Miecz Zagubionych Dusz, Halabarda najemnika, Halabarda orkowego najemnika, Rozrywający Szpon, Aleor, Złota Igła, Krwiopijca, Krwiożerca."
               },
               {
-                "content": "Krayt może zostać teraz wymieniony za potężną miksturę u druida Freygala. Wymiana może nastąpić jedynie jeśli cieniostwór nie był levelowany. (+400 hp, +30 obr. fiz. +10 pn)"
+                "content": "Krayt może zostać teraz wymieniony za potężną miksturę u druida Freygala. Wymiana może nastąpić jedynie jeśli cieniostwór nie był levelowany. (+400 hp, +30 obr. fiz. +8 pn)"
               },
               {
                 "content": "Mroczny rycerz może wyrzec się pomocy ze strony mrocznego sługi. W zamian za to gracz zwiększy limit jednocześnie aktywnych run o 1. Punkty nauki wydane na runę przywołania sługusa oraz na runy dotyczące sługi zostaną zwrócone. Decyzję tę należy podjąć w 1 rozdziale."
@@ -118,7 +115,7 @@
                 "content": "Zmieniono statystyki wielu przeciwników."
               },
               {
-                "content": "Dodano nowych przeciwników w khorinis."
+                "content": "Zaszły mniejsze i większe zmiany wizualne na mapach. Dodano też nowych przeciwników w Khorinis."
               },
               {
                 "content": "Zmniejszono koszt w złocie za nauki atrybutów."
@@ -130,13 +127,13 @@
                 "content": "Quickloot nie będzie działał jeśli bohater jest blisko przeciwników lub gdy bohater jest w czyimś domu i jego właściciel jest w pobliżu."
               },
               {
-                "content": "Zaszły małe zmiany wizualne w lokacjach."
-              },
-              {
                 "content": "Dodano więcej kosztowności do domów w górnym mieście Khorinis."
               },
               {
-                "content": "Na poziomie trudności Nightmare gracz otrzymuje teraz mniej punktów nauki za poziom na poziomach 0-15. Za pokonywanie bossów również gracz otrzyma mniej punktów nauki."
+                "content": "Punkty nauki za niektóre zadania i bossy zostały zmniejszone. Dodatkowo na poziomie nightmare gracz otrzyma jeszcze mniej punktów za bossy."
+              },
+              {
+                "content": "Na poziomie trudności Nightmare gracz otrzymuje teraz mniej punktów nauki za poziom na poziomach 0-15."
               },
               {
                 "content": "Zmieniono statystyki smoków. Teraz łatwiej będzie je pokonać na Gothicowym, a trudniej na Nightmare."
@@ -145,10 +142,13 @@
                 "content": "Zmieniono trochę arenę orków. Teraz klatka jest okrągła i większa."
               },
               {
-                "content": "Osłabiono maksymalne obrażenia od klątwy czarnoksiężnika na niektórych runach. Osłabiono też obrażenia od uderzenia."
+                "content": "Zmniejszono obrażenia wszystkich zaklęć maga ognia. Czary elektryczne maga wody zadają teraz więcej obrażeń a czary lodu mniej. Osłabiono maksymalne obrażenia od klątwy oraz obrażenia od uderzenia zaklęć czarnoksiężnika."
               },
               {
-                "content": "Guru otrzymał bonus regeneracji many +1/sekundę od momentu dołączenia do gildii."
+                "content": "Guru otrzymał bonus regeneracji many +1/sekundę od momentu dołączenia do gildii. Czar 5 kręgu Guru (Wir) zadaje teraz znacznie większe obrażenia. Trzęsienie ziemi kosztuje 10 pn mniej, Magiczna kula kosztuje 5 pn mniej, Wir kosztuje 5 pn więcej."
+              },
+              {
+                "content": "Runa <i>Szpon Beliara,/i> zadaje teraz obrażenia obszarowe."
               },
               {
                 "content": "Sprzedawcy mają w sprzedaży dodatkowe zwoje wskrzeszenia."
@@ -160,16 +160,13 @@
                 "content": "Przywrócono bonusową regenerację życia i wytrzymałości, jaką otrzymywał świątynny strażnik przy dołączeniu do gildii. (+1 życia i wytrzymałości na sekundę)"
               },
               {
-                "content": "Zmniejszono obrażenia wszystkich zaklęć maga ognia."
-              },
-              {
                 "content": "Zmieniono zachowanie ognika. Teraz nie zbiera rzeczy, jeśli jakiś przeciwnik jest agresywnie nastawiony do bohatera."
               },
               {
                 "content": "Poprawiono i zmniejszono koszt utrzymania <i>Armii Ciemności</i>."
               },
               {
-                "content": "Odświeżono teksturę mapy Pustyni Adanosa."
+                "content": "Odświeżono teksturę mapy Pustyni Adanosa, gracz będzie też widział znacznik gdzie się znajduje."
               },
               {
                 "content": "Przy rozpoczynaniu gry na trybie Nightmare będzie można zdecydować, czy chcemy mieć możliwość swobodnego zapisu."
@@ -190,10 +187,7 @@
                 "content": "Usprawniono misje z eskortą Cliffa. Teraz będzie on czekał na nas na dole przy taranie."
               },
               {
-                "content": "Czar 5 kręgu Guru (Wir) zadaje teraz znacznie większe obrażenia."
-              },
-              {
-                "content": "Demon Keyron musi zostać teraz pokonany, aby przejść do Kruka. Nie da się już go ominąć."
+                "content": "Demon Keyron musi zostać teraz pokonany, aby przejść do Kruka. Nie da się już go ominąć i boss jest silniejszy."
               },
               {
                 "content": "Eliksir życia i Eliksir ducha kosztują teraz po 20PN, Eliksiry Ducha (własnoręcznie stworzony) zapewnia teraz bonus +4 many."
@@ -211,12 +205,6 @@
                 "content": "Ostrzenie zwiększa teraz obrażenia broni o 8%, a drugi poziom naostrzenia o 12%."
               },
               {
-                "content": "Nieznacznie zwiększono obrażenia zadawane przez magów wody."
-              },
-              {
-                "content": "Runa <i>Szpon Beliara,/i> zadaje teraz obrażenia obszarowe."
-              },
-              {
                 "content": "Wyciągnięto wiele przedmiotów/obiektów spod tekstur."
               },
               {
@@ -230,9 +218,6 @@
               },
               {
                 "content": "Dodano nową opcję w ustawieniach, która sprawia, że ciała martwych NPC nie będą usuwane."
-              },
-              {
-                "content": "Trzęsienie ziemi kosztuje 10 pn mniej, Magiczna kula kosztuje 5 pn mniej, Wir kosztuje 5 pn więcej."
               },
               {
                 "content": "Dodano dodatkowe miejsce zapisu w starej kopalnii - na dolnym poziomie przy piecu."
