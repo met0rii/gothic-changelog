@@ -21,7 +21,7 @@
             "color": "red"
           },
           {
-            "text": "Aktualizacja nie jest jeszcze dostępna do pobrania. Publikacja planowana jest po <b>25.07.2021</b>.",
+            "text": "Aktualizacja nie jest jeszcze dostępna do pobrania. Publikacja planowana jest po <b>17.07.2021</b>.",
             "color": "orange"
           }
         ],
@@ -33,13 +33,13 @@
                 "content": "Szamanem można zostać w 1 rozdziale udając się do orkowego szamana we wschodnim lesie."
               },
               {
-                "content": "Szamanem nie można zostać będą Mrocznym Rycerzem lub po nauczeniu się trucizn Freygala. Każda inna gildia może zostać szamanem, gdyż nie jest to gildia główna."
+                "content": "Szamanem nie można zostać będąc Mrocznym Rycerzem lub po nauczeniu się trucizn Freygala. Każda inna gildia może zostać szamanem, gdyż nie jest to gildia główna."
               },
               {
-                "content": "Po zostaniu szamanem, bohater straci możliwość używania przyzwańców. Obrażenia zaklęć zmaleją o 75% a obrażenia fizyczne o 30%. Siła zaklęć leczących ulegnie zmniejszeniu o 50%."
+                "content": "Po zostaniu szamanem, obrażenia zaklęć zmaleją o 75% a obrażenia fizyczne o 30%. Siła zaklęć leczących ulegnie zmniejszeniu o 50%. Bohater straci też możliwość używania przyzwańców, oraz kontrolowania istot jako czarnoksiężnik."
               },
               {
-                "content": "Po zostaniu szamanem, gracz nie będzie atakowany przez orków. Po dotarciu do orkowego miasta (do tego wciąż gracz potrzebuje Ulu-Mulu) bohater będzie mógł kontynuować naukę od wyższych szamanów i będzie mógł kupić pancerz."
+                "content": "Po zostaniu szamanem, gracz nie będzie atakowany przez orków. Po dotarciu do orkowego miasta (do tego wciąż gracz potrzebuje Ulu-Mulu) bohater będzie mógł kontynuować naukę od wysokiego szamana i będzie mógł kupić pancerz."
               },
               {
                 "content": "Bohater, będąc szamanem będzie musiał rozwijać umiejętność walki wręcz i siłę, ale też manę i inteligencję."
@@ -48,7 +48,7 @@
                 "content": "Szaman posiada specjalną umiejętność <i>Podmuch Wiatru</i>, która zadaje dodatkowe obrażenia przy walce bronią obuchową i toporami. Na wyższych poziomach umiejętność pozwala na przebicie się przez gardę przeciwnika i zadanie podwójnych obrażeń."
               },
               {
-                "content": "Szaman może nauczyć się 8 różnych totemów, którym może rozkazywać jak przyzwańcom."
+                "content": "Szaman może nauczyć się 8 różnych totemów, którym może rozkazywać jak przyzwańcom. Totemy należy używać z paska szybkiego wyboru."
               }
             ]
           },
@@ -118,10 +118,7 @@
                 "content": "Zaszły mniejsze i większe zmiany wizualne na mapach. Dodano też nowych przeciwników w Khorinis."
               },
               {
-                "content": "Zmniejszono koszt w złocie za nauki atrybutów."
-              },
-              {
-                "content": "Zwiększono limit nauki statystyk u nauczycieli z 1000 na 1500."
+                "content": "Zwiększono limit nauki statystyk u nauczycieli z 1000 na 1500. Zmniejszono koszt w złocie za naukę atrybutów."
               },
               {
                 "content": "Quickloot nie będzie działał jeśli bohater jest blisko przeciwników lub gdy bohater jest w czyimś domu i jego właściciel jest w pobliżu."
@@ -190,16 +187,13 @@
                 "content": "Demon Keyron musi zostać teraz pokonany, aby przejść do Kruka. Nie da się już go ominąć i boss jest silniejszy."
               },
               {
-                "content": "Eliksir życia i Eliksir ducha kosztują teraz po 20PN, Eliksiry Ducha (własnoręcznie stworzony) zapewnia teraz bonus +4 many."
-              },
-              {
                 "content": "Wzmocniono runy: Przyzwanie Drzewca (Od Netbeka w 4r.) oraz Lodowa Fala. (teraz nie oddziałuje na osoby w grupie)"
               },
               {
-                "content": "Dodano po 20 smoczych korzeni i jagód do kupców, tak aby wyrównać ich ilość ze szczawiami. Teraz w grze jest jednakowa ilość każdego z nich."
+                "content": "Eliksir życia i Eliksir ducha kosztują teraz po 20PN, Eliksiry Ducha (własnoręcznie stworzony) zapewnia teraz bonus +4 many."
               },
               {
-                "content": "W związku z powyższą zmianą, teraz u Constantino pojawiają się mikstury siły/zręczności co 8, a nie 5 oddanych jagód/korzeni."
+                "content": "Dodano po 20 smoczych korzeni i jagód do kupców, tak aby wyrównać ich ilość ze szczawiami. Teraz w grze jest jednakowa ilość każdego z nich. W związku z tym, teraz u Constantino pojawiają się mikstury siły/zręczności co 8, a nie 5 oddanych jagód/korzeni."
               },
               {
                 "content": "Ostrzenie zwiększa teraz obrażenia broni o 8%, a drugi poziom naostrzenia o 12%."
@@ -250,7 +244,7 @@
                 "content": "Pirat Bones i Bandyta Garaz są teraz nieśmiertelni, dopóki nie wykonamy powiązanych z nimi misji."
               },
               {
-                "content": "Ramon nie wpuści już bohatera do obozu, jeśli ten nie nosi pancerza bandytów (Nawet jeśli zabił Franco)"
+                "content": "Ramon nie wpuści już bohatera do obozu, jeśli ten nie nosi pancerza bandytów. (Nawet jeśli zabił Franco)"
               },
               {
                 "content": "Ur-Shak w 5 rozdziale da graczowi Ulu-Mulu, jeśli ten go jeszcze nie otrzymał."
@@ -268,16 +262,16 @@
                 "content": "Usunięto możliwość wyteleportowania się z małych lokacji np. Zatopionej Wiezy Xardasa/Cmentarzyska Orków/Jaskini Bólu."
               },
               {
-                "content": "Naprawiono błąd, który powodował zawieszanie bohatera podczas teleportu"
+                "content": "Naprawiono błąd, który powodował zawieszanie bohatera podczas teleportu."
               },
               {
                 "content": "Naprawiono błąd, który powodował wyświetlanie się menu spania/modlitwy podczas teleportu."
               },
               {
-                "content": "Naprawiono działanie skrótu Alt+F1, który uwalniał z zawieszenia w dialogu"
+                "content": "Naprawiono działanie skrótu Alt+F1, który uwalniał z zawieszenia w dialogu."
               },
               {
-                "content": "Naprawiono walkę ze Śniącym. Już nie zawiesza się, kiedy od niego odbiegniemy"
+                "content": "Naprawiono walkę ze Śniącym. Już nie zawiesza się, kiedy od niego odbiegniemy."
               },
               {
                 "content": "Naprawiono skalowanie obrażeń golemów, trolli i kamiennych strażników. Wcześniej niezależnie od poziomu trudności, bili tyle samo."
