@@ -19,7 +19,7 @@
         <div class="changelog-headline-container mb-4">
           <h2>Changelog {{ changelog.version }}</h2>
           <span class="changelog-subline">
-            Data wydania: {{ changelog.date }}
+            Data wydania: {{ changelog.date | moment("calendar") }}
           </span>
         </div>
 
