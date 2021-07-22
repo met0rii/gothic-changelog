@@ -1,28 +1,50 @@
 [
   {
     "id": "ab",
-    "title": "Alternative Balance",
-    "titleUrl": "https://i.imgur.com/4CY2TAz.png",
+    "title": "New Balance",
+    "titleUrl": "https://i.imgur.com/AsGFpKN.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
     "installation": {
-      "url": "https://www.youtube.com/embed/39s9HXBu0EI"
+      "url": "",
+      "instruction": {
+        "alerts": [],
+        "lists": [
+          {
+            "title": "Kolejność instalacji:",
+            "list": [
+              {
+                "content": "Pobierz instalator i zainstaluj modyfikację na czystą Noc Kruka.",
+                "list": [
+                  {
+                    "content": "Instalator jest podzielony na 3 części, należy pobrać wszystkie a następnie uruchomić plikiem exe."
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj polskie skrypty do folderu z grą.",
+                "list": [
+                  {
+                    "content": "Część dialogów z Nocy Kruka może zostać nadpisana rosyjskimi, dlatego należy pobrać i wypakować do folderu z grą archiwum <i>NB_Speech_PL_Fix</i>."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": []
     },
-    "links": [],
-    "description": "Returning 2.0 jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. Alternative Balance (AB) jest to rozszerzenie do podstawowego Returninga, które ma za zadanie zbalansować w jeszcze lepszym stopniu podstawowego Returninga 2.0. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
+    "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
         "updateId": "19",
         "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
-        "version": "XX-07-2021",
-        "date": "XX-07-2021",
+        "version": "22-07-2021",
+        "date": "22-07-2021",
         "alerts": [
           {
-            "text": "Ten patch będzie wymagał nowej gry, jako że mod został przeniesiony na platformę UNION!",
+            "text": "Aktualizacja wymaga rozpoczęcia nowej gry, jako że mod został przeniesiony na platformę UNION!",
             "color": "red"
-          },
-          {
-            "text": "Aktualizacja nie jest jeszcze dostępna do pobrania. Publikacja planowana jest po <b>17.07.2021</b>.",
-            "color": "orange"
           }
         ],
         "lists": [
@@ -45,7 +67,7 @@
                 "content": "Bohater, będąc szamanem będzie musiał rozwijać umiejętność walki wręcz i siłę, ale też manę i inteligencję."
               },
               {
-                "content": "Szaman posiada specjalną umiejętność <i>Podmuch Wiatru</i>, która zadaje dodatkowe obrażenia przy walce bronią obuchową i toporami. Na wyższych poziomach umiejętność pozwala na przebicie się przez gardę przeciwnika i zadanie podwójnych obrażeń."
+                "content": "Szaman posiada specjalną umiejętność <i>Furia Wichru</i>, która zadaje dodatkowe obrażenia przy walce bronią obuchową, toporami, halabardami i kosturami. Na wyższych poziomach umiejętność pozwala na przebicie się przez gardę przeciwnika i zadanie podwójnych obrażeń. Przy aktywacji umiejętności pobierana jest mana."
               },
               {
                 "content": "Szaman może nauczyć się 8 różnych totemów, którym może rozkazywać jak przyzwańcom. Totemy należy używać z paska szybkiego wyboru."
@@ -82,10 +104,13 @@
                 "content": "Przepisano system wyświetlania statystyk broni i zbroi na ekranie. Teraz jest bardziej spójny i przejrzysty"
               },
               {
-                "content": "Przepisano system ostrzenia broni. Teraz efekt nie będzie znikał i można też posiadać wiele naostrzonych broni na raz."
+                "content": "Przepisano system ostrzenia broni. Teraz efekt nie będzie znikał i można też posiadać wiele naostrzonych broni na raz. Pierwszy poziom ostrzenia zwiększa obrażenia broni o 8%, a drugi poziom naostrzenia o 12%."
               },
               {
                 "content": "Rapiery zadają teraz bonusowe obrażenia równe umiejętności władania bronią jednoręczną jeśli wytrzymałość bohatera jest większa niż 0."
+              },
+              {
+                "content": "Szansa na zadanie bonusowych obrażeń w walce kosturami i mieczami magicznymi jest teraz równa umiejętności walki bronią + 5. (wcześniej umiejętność walki bronią + 20 + moc magiczna)"
               },
               {
                 "content": "Dodano mechanikę uderzeń w plecy. (do 40% dodatkowych obrażeń zależnie od kątu między atakującym, a ofiarą). Wszyscy oprócz przyzwańców mogą zadawać w ten sposób więcej obrażeń."
@@ -94,10 +119,16 @@
                 "content": "Ustabilizowano obrażenia kuszy. Nie są one już tak losowe i nakładają się poprawnie. Teraz im wyższy stopień władania, tym większe dodatkowe obrażenia. Zmniejszono też lekko obrażenia początkowych kusz."
               },
               {
-                "content": "Statystyki następujących broni uległy zmianie: Żniwiarz Dusz, Ar'Urat, Szpon Beliara (szpada, 1h, 2h, halabarda), Czarne serce, Gniew Innosa, Święty Egzekutor, Jad, Złodziej dusz, Miecz Szalonego Krzyżowca, Miecz Żywiołów, Miecz Zagubionych Dusz, Halabarda najemnika, Halabarda orkowego najemnika, Rozrywający Szpon, Aleor, Złota Igła, Krwiopijca, Krwiożerca."
+                "content": "Zmieniono sposób obliczania obrażeń broni! Przy jednakowych statystykach, obuchy będą bić więcej. Broń dwuręczna powinna zadawać średnio 20% więcej niż bronie jednoręczne."
               },
               {
-                "content": "Krayt może zostać teraz wymieniony za potężną miksturę u druida Freygala. Wymiana może nastąpić jedynie jeśli cieniostwór nie był levelowany. (+400 hp, +30 obr. fiz. +8 pn)"
+                "content": "Zamieniono miejscami następujące miecze: Ar'Urat (Koszmar Kruka --> Zaginiony Brat), Wielki Miecz Strażnika Równowagi (Zaginiony Brat --> Koszmar Kruka), Czarne serce (Azgalor --> Zaginiony brat), Łamacz kości (Cmentarz Orków na końcu --> Cmentarz Orków przed bossem)"
+              },
+              {
+                "content": "Statystyki następujących broni uległy zmianie: Żniwiarz Dusz, Ar'Urat, Szpon Beliara (szpada, 1h, 2h, halabarda), Czarne serce, Gniew Innosa, Święty Egzekutor, Jad, Złodziej dusz, Miecz Szalonego Krzyżowca, Miecz Żywiołów, Miecz Zagubionych Dusz, Halabarda najemnika, Halabarda orkowego najemnika, Rozrywający Szpon, Aleor, Złota Igła, Krwiopijca, Krwiożerca. Inne bronie również mogą mieć lekko zmienione statystyki."
+              },
+              {
+                "content": "Krayt może zostać teraz wymieniony za potężną miksturę u druida Freygala. Wymiana może nastąpić jedynie jeśli cieniostwór nie był levelowany."
               },
               {
                 "content": "Mroczny rycerz może wyrzec się pomocy ze strony mrocznego sługi. W zamian za to gracz zwiększy limit jednocześnie aktywnych run o 1. Punkty nauki wydane na runę przywołania sługusa oraz na runy dotyczące sługi zostaną zwrócone. Decyzję tę należy podjąć w 1 rozdziale."
@@ -112,7 +143,7 @@
                 "content": "Teraz bohater może się tylko skradać w czyimś domu jeśli nie chce nikogo obudzić. Chodzenie / bieganie / skakanie od razu obudzi śpiące NPC-ty."
               },
               {
-                "content": "Zmieniono statystyki wielu przeciwników."
+                "content": "Zmieniono statystyki wielu przeciwników. Statystyki niektórych bossów również znacznie się zmieniły."
               },
               {
                 "content": "Zaszły mniejsze i większe zmiany wizualne na mapach. Dodano też nowych przeciwników w Khorinis."
@@ -133,22 +164,28 @@
                 "content": "Na poziomie trudności Nightmare gracz otrzymuje teraz mniej punktów nauki za poziom na poziomach 0-15."
               },
               {
+                "content": "Zmniejszono obrażenia wszystkich zaklęć maga ognia. Czary elektryczne maga wody zadają teraz więcej obrażeń a czary lodu mniej. Osłabiono maksymalne obrażenia od klątwy oraz obrażenia od uderzenia zaklęć czarnoksiężnika."
+              },
+              {
+                "content": "Guru otrzymał bonus regeneracji many +1/sekundę od momentu dołączenia do gildii. Czar 5 kręgu Guru (Wir) zadaje teraz znacznie większe obrażenia. Trzęsienie ziemi kosztuje 10 pn mniej, Magiczna kula kosztuje 5 pn mniej, Wir kosztuje 5 pn więcej. Dodatkowo guru otrzymuje teraz 3 punkty maksymalnej many za wypalenie skręta, łączny bonus jest jednak zredukowany do 150 many."
+              },
+              {
+                "content": "Drzewiec przywołany runą Netbeka skaluje się teraz lepiej. Lodowa Fala nie oddziałuje już na osoby w grupie. Poprawiono i zmniejszono koszt utrzymania <i>Armii Ciemności</i>. Fala energetyczna wygląda teraz inaczej, koszt many został zmniejszony a animacja przyspieszona. Pięść wichru nie odrzuca już celu. Runa <i>Szpon Beliara</i> zadaje teraz obrażenia obszarowe."
+              },
+              {
+                "content": "Sprzedawcy mają w sprzedaży dodatkowe zwoje wskrzeszenia."
+              },
+              {
                 "content": "Zmieniono statystyki smoków. Teraz łatwiej będzie je pokonać na Gothicowym, a trudniej na Nightmare."
               },
               {
                 "content": "Zmieniono trochę arenę orków. Teraz klatka jest okrągła i większa."
               },
               {
-                "content": "Zmniejszono obrażenia wszystkich zaklęć maga ognia. Czary elektryczne maga wody zadają teraz więcej obrażeń a czary lodu mniej. Osłabiono maksymalne obrażenia od klątwy oraz obrażenia od uderzenia zaklęć czarnoksiężnika."
+                "content": "Bosper sprzedaje teraz w 1 rozdziale skórę cieniostwora."
               },
               {
-                "content": "Guru otrzymał bonus regeneracji many +1/sekundę od momentu dołączenia do gildii. Czar 5 kręgu Guru (Wir) zadaje teraz znacznie większe obrażenia. Trzęsienie ziemi kosztuje 10 pn mniej, Magiczna kula kosztuje 5 pn mniej, Wir kosztuje 5 pn więcej."
-              },
-              {
-                "content": "Runa <i>Szpon Beliara,/i> zadaje teraz obrażenia obszarowe."
-              },
-              {
-                "content": "Sprzedawcy mają w sprzedaży dodatkowe zwoje wskrzeszenia."
+                "content": "Nauka tworzenia zwojów u Gallahada nie kosztuje już punktów nauki, za to znacząco zwiększono koszt w złocie."
               },
               {
                 "content": "Umiejętność regeneracji życia nie zapewnia już bonusu zwiększającego wszystkie leczenia o 10%."
@@ -158,9 +195,6 @@
               },
               {
                 "content": "Zmieniono zachowanie ognika. Teraz nie zbiera rzeczy, jeśli jakiś przeciwnik jest agresywnie nastawiony do bohatera."
-              },
-              {
-                "content": "Poprawiono i zmniejszono koszt utrzymania <i>Armii Ciemności</i>."
               },
               {
                 "content": "Odświeżono teksturę mapy Pustyni Adanosa, gracz będzie też widział znacznik gdzie się znajduje."
@@ -175,37 +209,37 @@
                 "content": "Wszystkie serca golemów dają teraz taki sam bonus do ochrony: +50."
               },
               {
-                "content": "Zmieniono sposób obliczania obrażeń broni!! Przy jednakowych statystykach, maczuga będzie bić więcej, ale wolniej. Broń dwuręczna zawsze bije średnio 20% więcej niż bronie jednoręczne. Zmieniono statystyki przebicia niektórych broni, głównie halabard."
-              },
-              {
-                "content": "Zamieniono miejscami następujące miecze: Ar'Urat (Koszmar Kruka --> Zaginiony Brat), Wielki Miecz Strażnika Równowagi (Zaginiony Brat --> Koszmar Kruka), Czarne serce (Azgalor --> Zaginiony brat), Łamacz kości (Cmentarz Orków na końcu --> Cmentarz Orków przed bossem)"
-              },
-              {
                 "content": "Usprawniono misje z eskortą Cliffa. Teraz będzie on czekał na nas na dole przy taranie."
               },
               {
                 "content": "Demon Keyron musi zostać teraz pokonany, aby przejść do Kruka. Nie da się już go ominąć i boss jest silniejszy."
               },
               {
-                "content": "Wzmocniono runy: Przyzwanie Drzewca (Od Netbeka w 4r.) oraz Lodowa Fala. (teraz nie oddziałuje na osoby w grupie)"
+                "content": "Zmieniono zachowanie <i>Im'Araha</i>. (wymagane alternatywne AI lub poziom trudności koszmar) Statystyki bossa zostały zmniejszone."
+              },
+              {
+                "content": "Obrażenia nieumarłych skalują się teraz poprawnie z siłą, dlatego obrażenia nieumarłych mogą się trochę różnić. Zmiana działa również na przyzwańce Nekromanty."
+              },
+              {
+                "content": "Nieumarli z Zaginionego Brata atakują teraz grupą, nie da się ich odciągać pojedyńczo."
+              },
+              {
+                "content": "Kamienie runiczne goblinów szamanów mogą być teraz rozbite na kawałki."
               },
               {
                 "content": "Eliksir życia i Eliksir ducha kosztują teraz po 20PN, Eliksiry Ducha (własnoręcznie stworzony) zapewnia teraz bonus +4 many."
               },
               {
-                "content": "Dodano po 20 smoczych korzeni i jagód do kupców, tak aby wyrównać ich ilość ze szczawiami. Teraz w grze jest jednakowa ilość każdego z nich. W związku z tym, teraz u Constantino pojawiają się mikstury siły/zręczności co 8, a nie 5 oddanych jagód/korzeni."
-              },
-              {
-                "content": "Ostrzenie zwiększa teraz obrażenia broni o 8%, a drugi poziom naostrzenia o 12%."
+                "content": "Dodano po 20 smoczych korzeni i jagód do kupców, tak aby wyrównać ich ilość ze szczawiami. Teraz w grze jest jednakowa ilość każdego z nich. W związku z tym, teraz u Constantino pojawiają się do kupienia mikstury siły/zręczności co 8, a nie 5 sprzedanych (jako czeladnik) jagód/korzeni."
               },
               {
                 "content": "Wyciągnięto wiele przedmiotów/obiektów spod tekstur."
               },
               {
-                "content": "Dodano możliwość zresetowania licznika śmierci. Skrót klawiszowy można sprawdzić po klawiszem <i>H</i>."
+                "content": "Dodano możliwość zresetowania licznika śmierci. Skrót klawiszowy można sprawdzić pod klawiszem <i>H</i>."
               },
               {
-                "content": "Osłabiono bossa <i>Malbara</i> Należy się jednak liczyć z tym, że nie będzie się dało zabrać jego skarbu bez walki."
+                "content": "Osłabiono bossa <i>Malbara</i>, należy się jednak liczyć z tym, że nie będzie się dało zabrać jego skarbu bez walki."
               },
               {
                 "content": "Opcję przyspieszania czasu można teraz włączyć/wyłączyć w menu gry."
@@ -220,7 +254,7 @@
                 "content": "Osłabiono lekko bazowe statystyki mrocznego sługi. Skalowanie statystyk z jego poziomem również jest minimalnie słabsze."
               },
               {
-                "content": "Bazowa regeneracja życia z Sakta Nomen wynosi teraz 4. (wcześniej 2)"
+                "content": "Bazowa regeneracja zdrowia z Sakta Nomen wynosi teraz 4. (wcześniej 2)"
               },
               {
                 "content": "Bonus za zabijanie magów, szamanów, itp. wynosi teraz 1 punkt many. (wcześniej 2)"
@@ -235,13 +269,7 @@
                 "content": "Znacznik bohatera na mapie jest teraz czerwony, zamiast białego."
               },
               {
-                "content": "Gritta i Elvrich są teraz nieśmiertelni, aż do momentu uratowania ich z rąk bandytów."
-              },
-              {
-                "content": "Baltram również nie może teraz zginąć, dopóki nie okaże się on zastępstwem dla Laresa."
-              },
-              {
-                "content": "Pirat Bones i Bandyta Garaz są teraz nieśmiertelni, dopóki nie wykonamy powiązanych z nimi misji."
+                "content": "Gritta i Elvrich są teraz nieśmiertelni, aż do momentu uratowania ich z rąk bandytów. Baltram również nie może teraz zginąć, dopóki nie okaże się on zastępstwem dla Laresa. Pirat Bones i Bandyta Garaz są nieśmiertelni, dopóki nie wykonamy powiązanych z nimi misji."
               },
               {
                 "content": "Ramon nie wpuści już bohatera do obozu, jeśli ten nie nosi pancerza bandytów. (Nawet jeśli zabił Franco)"
@@ -253,13 +281,28 @@
                 "content": "Zombie Strażnicy w Świątyni Adanosa zadają teraz około 30% mniej obrażeń."
               },
               {
-                "content": "Kostur nowicjusza nie wymaga już siły."
-              },
-              {
                 "content": "Boss pełzaczy <i>Padlinożerca</i> nie musi zostać zabity, aby Bloodwynn przyszedł do kopalni."
               },
               {
+                "content": "Orkowie szamani w Jarkendarze zadają teraz dużo mniejsze obrażenia. Boss jest teraz trochę silniejszy od zwykłych szamanów."
+              },
+              {
+                "content": "Obrażenia z pięści są teraz równe posiadanej sile, ale nie przebijają pancerza. Obrażenia z pięści działają również na potwory."
+              },
+              {
                 "content": "Usunięto możliwość wyteleportowania się z małych lokacji np. Zatopionej Wiezy Xardasa/Cmentarzyska Orków/Jaskini Bólu."
+              },
+              {
+                "content": "Po walce z Itu'Zeldem można teraz zapisać grę przed wyjściem z jego wieży."
+              },
+              {
+                "content": "Orkowie nie będą już strzelać z kuszy na bardzo bliski zasięg."
+              },
+              {
+                "content": "Teraz Harad sprzedaje pręty po bardzo wysokiej cenie, na wypadek gdyby gracz wyczerpał wszystkie inne źródła pozyskania prętów. (Harad sprzeda maksymalnie 50 prętów)"
+              },
+              {
+                "content": "Usunięto animację wilków - skakania za plecy bohatera. Teraz wilki odskakują na bok tak jak w Nocy Kruka."
               },
               {
                 "content": "Naprawiono błąd, który powodował zawieszanie bohatera podczas teleportu."
@@ -274,7 +317,7 @@
                 "content": "Naprawiono walkę ze Śniącym. Już nie zawiesza się, kiedy od niego odbiegniemy."
               },
               {
-                "content": "Naprawiono skalowanie obrażeń golemów, trolli i kamiennych strażników. Wcześniej niezależnie od poziomu trudności, bili tyle samo."
+                "content": "Naprawiono skalowanie obrażeń golemów, trolli, kamiennych strażników itp. Wcześniej niezależnie od poziomu trudności, bili tyle samo."
               },
               {
                 "content": "Naprawiono błędy związane z <i>brodzeniem w wodzie</i> po wyjściu na brzeg i zawieszeniu się przy użyciu runy w tym stanie."
@@ -283,10 +326,7 @@
                 "content": "Naprawiono błąd, który powodował zawieszenie kamery, po powiadomieniu Garonda o zabiciu Bagiennego Smoka."
               },
               {
-                "content": "Naprawiono sporo mniejszych błędów."
-              },
-              {
-                "content": "I WIELE więcej mniejszych zmian..."
+                "content": "I WIELE więcej..."
               }
             ]
           }
