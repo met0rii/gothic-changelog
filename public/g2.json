@@ -13,18 +13,43 @@
             "title": "Kolejność instalacji:",
             "list": [
               {
-                "content": "Pobierz instalator i zainstaluj modyfikację na czystą Noc Kruka.",
+                "content": "Zainstaluj czystą wersję gry Gothic II Noc Kruka.",
                 "list": [
                   {
-                    "content": "Instalator jest podzielony na 3 części, należy pobrać wszystkie a następnie uruchomić plikiem exe."
+                    "content": "Gra nie może być zainstalowana w lokalizacji <i>C:Program files (x86)</i> lub <i>C:Program files</i> ani w żadnej innej lokalizacji, która wymaga uprawnień administratora. Najlepiej zainstalować grę na innym dysku."
+                  },
+                  {
+                    "content": "Nie ma znaczenia czy gothic został pobrany ze Steama, czy z GOGa."
                   }
                 ]
               },
               {
-                "content": "Pobierz i wypakuj polskie skrypty do folderu z grą.",
+                "content": "Zainstaluj modyfikację poprzez instalator.",
+                "list": [
+                  {
+                    "content": "Instalator jest podzielony na kilka części, które wszystkie trzeba pobrać i umieścić w jednym folderze, a następnie uruchomić plikiem exe."
+                  },
+                  {
+                    "content": "Zaznacz opcję Visual C++ Redist jeśli nie wiesz, czy miałeś to zainstalowane wcześniej na komputerze."
+                  },
+                  {
+                    "content": "Opcja z czcionką i loading screenami nie mają znaczenia, ponieważ, polska wersja i tak posiada swoje."
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj do folderu z grą aktualne archiwum oznaczone nazwą <i>NB Skrypty</i>.",
                 "list": [
                   {
                     "content": "Część dialogów z Nocy Kruka może zostać nadpisana rosyjskimi, dlatego należy pobrać i wypakować do folderu z grą archiwum <i>NB_Speech_PL_Fix</i>."
+                  }
+                ]
+              },
+              {
+                "content": "Jeśli gra działa, można wedle uznania pobrać wybrane dodatki.",
+                "list": [
+                  {
+                    "content": "Zarówno texture packi jak i czcionki są kompatybilne z najnowszą wersją NB. Można je wgrać/usunąć w dowolnym momencie."
                   }
                 ]
               }
