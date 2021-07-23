@@ -62,9 +62,43 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "20",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "23.07.2021",
+        "date": "23-07-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Mapa pustyni Adanosa jest teraz poprawnie umieszczona i można ją znaleźć w grze."
+              },
+              {
+                "content": "Zmieniono animację bohatera przy poruszaniu się na boki, mając wyposażoną pochodnię."
+              },
+              {
+                "content": "Leczenia jakie uzyskuje bohater, ponownie będą wyświetlać się teraz na ekranie. (jeśli opcja jest włączona)"
+              },
+              {
+                "content": "Orkowa broń, którą bohater może wykuć, jest teraz poprawnie traktowana jako broń orków. Umiejętność szamana - Furia Wichru działa teraz podczas używania tych broni."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że na Windowsie 7 (i rzadko 10) gra mogła czasem crashować przy wczytywaniu i zapisywaniu."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gracz mógł spróbować wczytać pozycję szybkiego zapisu, która nie istnieje, co powodowało crasha gry."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po teleportacji bohater mógł powtórzyć animację teleportu."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "19",
         "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
-        "version": "22-07-2021",
+        "version": "22.07.2021",
         "date": "22-07-2021",
         "alerts": [
           {
