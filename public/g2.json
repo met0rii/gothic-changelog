@@ -62,9 +62,98 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "21",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "26.07.2021",
+        "date": "26-07-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Esteban nie może być już okradziony, ponieważ powodowało to problemy związane z fabułą."
+              },
+              {
+                "content": "Obrażenia przyzwanego kamiennego strażnika oraz drzewca skalują się teraz z inteligencją."
+              },
+              {
+                "content": "Obrażenia, jakie zadają przyzwańce nekromanty, są zależne teraz od inteligencji bohatera. Szkielety z armii ciemności, mają też teraz różne bronie."
+              },
+              {
+                "content": "Teraz gracz może rozkazać totemom atakować dany cel. (przyciskiem G)"
+              },
+              {
+                "content": "Naprawiono ostrzenie broni. Pamiętać trzeba jednak, żeby nie umieszczać ulepszonych / naostrzonych przedmiotów w skrzyniach. Wszystkie właściwości przedmiotu wtedy zostają przywrócone do pierwotnych wartości."
+              },
+              {
+                "content": "Naprawiono kilka błędów w zadaniu z zabójstwem Lehmara."
+              },
+              {
+                "content": "Poprawiono funkcję umieszczania totemów na ziemi."
+              },
+              {
+                "content": "Przyspieszenie czasu wpływa teraz na czas odnowienia totemów oraz na akcje wykonywane przez totemy."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gracz nie mógł spać, teleportować się, itd. gdy bohater miał 5 lub mniej punktów życia. "
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra crashowała gdy poszukiwacze przyzywali szkielety."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że wytrzymałość bohatera była zużywana gdy był on zanurzony jedynie po kolana w wodzie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że umieszczanie zwojów i run na pasku zaklęć, było niemożliwe."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po ulepszeniu / naostrzeniu przedmiotu, jego statystyki wyświetlały się nieprawidłowo."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra czasem crashowała podczas umieszczania totemu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "20",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "23.07.2021",
+        "date": "23-07-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Mapa pustyni Adanosa jest teraz poprawnie umieszczona i można ją znaleźć w grze."
+              },
+              {
+                "content": "Zmieniono animację bohatera przy poruszaniu się na boki, mając wyposażoną pochodnię."
+              },
+              {
+                "content": "Leczenia jakie uzyskuje bohater, ponownie będą wyświetlać się teraz na ekranie. (jeśli opcja jest włączona)"
+              },
+              {
+                "content": "Orkowa broń, którą bohater może wykuć, jest teraz poprawnie traktowana jako broń orków. Umiejętność szamana - Furia Wichru działa teraz podczas używania tych broni."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że na Windowsie 7 (i rzadko 10) gra mogła czasem crashować przy wczytywaniu i zapisywaniu."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gracz mógł spróbować wczytać pozycję szybkiego zapisu, która nie istnieje, co powodowało crasha gry."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po teleportacji bohater mógł powtórzyć animację teleportu."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "19",
         "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
-        "version": "22-07-2021",
+        "version": "22.07.2021",
         "date": "22-07-2021",
         "alerts": [
           {
@@ -3005,16 +3094,28 @@
               "content": "Zaktualizowano pakiety Ikarus, LeGo oraz Gothic Free Aim do najnowszej wersji."
             },
             {
-              "content": "Informacja na temat uzyskiwanych statystyk i władania bronią są teraz wyświetlane z lewej strony ekranu."
+              "content": "Usunięto funkcję, która zabierała stale 20-25 FPS. Działanie funkcji zostało rozwiązane w sposób, który nie odbija się na wydajności."
+            },
+            {
+              "content": "Dodano kolorowanie nazw skrzyń i drzwi."
+            },
+            {
+              "content": "Dodano nowy, czwarty poziom trudności - Koszmar. Zmiany jakie wprowadza są wypisane przy wyborze poziomu. Pozostałe poziomy trudności, pozostały niezmienione."
             },
             {
               "content": "Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Ujednolicono też format wyświetlania informacji o przedmiocie."
             },
             {
-              "content": "Dodano instancję PC_Itemfeller posiadającą wszystkie istniejące przedmioty. (nie koniecznie wszystkie występują w grze)"
+              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest teraz unikatowy."
             },
             {
-              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest fioletowy."
+              "content": "Poprawiono sposób wyświetlania wielu tekstów na ekranie."
+            },
+            {
+              "content": "Poszerzono okna menu, aby były czytelniejsze i tekst nie nachodził na siebie."
+            },
+            {
+              "content": "Naprawiono uszkodzone pliki dźwiękowe rąbania drewna."
             }
           ]
         }
