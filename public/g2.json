@@ -3090,16 +3090,28 @@
               "content": "Zaktualizowano pakiety Ikarus, LeGo oraz Gothic Free Aim do najnowszej wersji."
             },
             {
-              "content": "Informacja na temat uzyskiwanych statystyk i władania bronią są teraz wyświetlane z lewej strony ekranu."
+              "content": "Usunięto funkcję, która zabierała stale 20-25 FPS. Działanie funkcji zostało rozwiązane w sposób, który nie odbija się na wydajności."
+            },
+            {
+              "content": "Dodano kolorowanie nazw skrzyń i drzwi."
+            },
+            {
+              "content": "Dodano nowy, czwarty poziom trudności - Koszmar. Zmiany jakie wprowadza są wypisane przy wyborze poziomu. Pozostałe poziomy trudności, pozostały niezmienione."
             },
             {
               "content": "Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Ujednolicono też format wyświetlania informacji o przedmiocie."
             },
             {
-              "content": "Dodano instancję PC_Itemfeller posiadającą wszystkie istniejące przedmioty. (nie koniecznie wszystkie występują w grze)"
+              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest teraz unikatowy."
             },
             {
-              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest fioletowy."
+              "content": "Poprawiono sposób wyświetlania wielu tekstów na ekranie."
+            },
+            {
+              "content": "Poszerzono okna menu, aby były czytelniejsze i tekst nie nachodził na siebie."
+            },
+            {
+              "content": "Naprawiono uszkodzone pliki dźwiękowe rąbania drewna."
             }
           ]
         }
