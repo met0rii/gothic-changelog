@@ -62,6 +62,61 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "21",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "26.07.2021",
+        "date": "26-07-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Esteban nie może być już okradziony, ponieważ powodowało to problemy związane z fabułą."
+              },
+              {
+                "content": "Obrażenia przyzwanego kamiennego strażnika oraz drzewca skalują się teraz z inteligencją."
+              },
+              {
+                "content": "Obrażenia, jakie zadają przyzwańce nekromanty, są zależne teraz od inteligencji bohatera. Szkielety z armii ciemności, mają też teraz różne bronie."
+              },
+              {
+                "content": "Teraz gracz może rozkazać totemom atakować dany cel. (przyciskiem G)"
+              },
+              {
+                "content": "Naprawiono ostrzenie broni. Pamiętać trzeba jednak, żeby nie umieszczać ulepszonych / naostrzonych przedmiotów w skrzyniach. Wszystkie właściwości przedmiotu wtedy zostają przywrócone do pierwotnych wartości."
+              },
+              {
+                "content": "Naprawiono kilka błędów w zadaniu z zabójstwem Lehmara."
+              },
+              {
+                "content": "Poprawiono funkcję umieszczania totemów na ziemi."
+              },
+              {
+                "content": "Przyspieszenie czasu wpływa teraz na czas odnowienia totemów oraz na akcje wykonywane przez totemy."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gracz nie mógł spać, teleportować się, itd. gdy bohater miał 5 lub mniej punktów życia. "
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra crashowała gdy poszukiwacze przyzywali szkielety."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że wytrzymałość bohatera była zużywana gdy był on zanurzony jedynie po kolana w wodzie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że umieszczanie zwojów i run na pasku zaklęć, było niemożliwe."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po ulepszeniu / naostrzeniu przedmiotu, jego statystyki wyświetlały się nieprawidłowo."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra czasem crashowała podczas umieszczania totemu."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "20",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "23.07.2021",
