@@ -1911,7 +1911,7 @@
                 "content": "Pobierz i wypakuj zawartość paczki z patchami do folderu z grą.",
                 "list": [
                   {
-                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0i"
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
                   }
                 ]
               },
@@ -1921,10 +1921,10 @@
             ]
           },
           {
-            "title": "Opcjonalne",
+            "title": "Opcjonalne:",
             "list": [
               {
-                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą."
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
               }
             ]
           }
@@ -2688,13 +2688,13 @@
       "instruction": {
         "lists": [
           {
-            "title": "Kolejność instalacji",
+            "title": "Kolejność instalacji:",
             "list": [
               {
-                "content": "Pobierz i wypakuj zawartość archiwum <b>Gothic II Patch Bundle</b> do folderu z grą.",
+                "content": "Pobierz i wypakuj zawartość archiwum <b>G2 Patch Bundle</b> do folderu z grą.",
                 "list": [
                   {
-                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
                   }
                 ]
               },
@@ -2719,7 +2719,7 @@
                 "content": "Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum <b>LHiverGraphicForOdyssee</b> do folderu <b>data</b>."
               },
               {
-                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z <b>DX11</b> do folderu <b>system</b>."
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
               }
             ]
           }
@@ -3108,6 +3108,42 @@
     "titleUrl": "https://i.imgur.com/Q9kpdkR.png",
     "url": "",
     "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: prześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Jednak stał się dla nich nieszczęśliwy zbieg okoliczności. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast wrzuceni do lochu.<br>Jeszcze tego samego dnia dostali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wyspy Velen.",
+    "installation": {
+      "instruction": {
+        "lists": [
+          {
+            "title": "Kolejność instalacji:",
+            "list": [
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum <b>G2 Patch Bundle</b> do folderu z grą.",
+                "list": [
+                  {
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Velen_Data</b> do folderu z grą."
+              }
+            ]
+          },
+          {
+            "title": "Opcjonalne:",
+            "list": [
+              {
+                "content": "Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i wypakuj zawartość archiwum <b>Velen_Speech</b> do folderu z grą."
+              },
+              {
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
+              },
+              {
+                "content": "Jeśli chcesz zainstalować dobrane pod Velen pluginy Union'a - Pobierz i wypakuj zawartość wybranego <b>Union_Plugins</b> do folderu z grą."
+              }
+            ]
+          }
+        ]
+      }
+    },
     "changes": [],
     "overview": {
       "lists": [
