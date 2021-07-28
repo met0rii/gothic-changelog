@@ -3335,11 +3335,15 @@
           "role": "Tester"
         },
         {
-          "name": "templar",
+          "name": "Dawinio",
           "role": "Tester"
         },
         {
           "name": "JkB",
+          "role": "Tester"
+        },
+        {
+          "name": "Templar",
           "role": "Tester"
         }
       ]
