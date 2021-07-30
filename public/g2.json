@@ -62,6 +62,49 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "24",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "30.07.2021",
+        "date": "30-07-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Ustawienie skalowania interfejsu może być teraz ustawione z dużo większą precyzją. (wymaga restartu gdy aby ustawienia zostały zastosowane)"
+              },
+              {
+                "content": "Zmniejszono punkty nauki otrzymywane za wielu bossów. Punkty nauki za Kruka są teraz przyznawane poprawnie."
+              },
+              {
+                "content": "Totem mocy zwiększa teraz wszystkie obrażenia o 15% zamiast zwiększania siły i zręczności. Totem ochrony teraz prowokuje przeciwników przez 6 sekund po przywołaniu. Zmniejszono czas odnowienia i koszt w manie niektórych totemów. Naprawiono błąd z totemem ziemi."
+              },
+              {
+                "content": "Naprawiono obrażenia zadawane z kusz i łuków przy naciąganiu cięciwy. Prędkość naciągania cięciwy zwiększa się teraz podczas przyspieszania czasu."
+              },
+              {
+                "content": "Zmieniono koszt punktów nauki na wyższych progach władania kuszą."
+              },
+              {
+                "content": "Zmniejszono lekko życie demonicznych szkieletów."
+              },
+              {
+                "content": "Teraz najemnicy nie będą atakować bohatera, gdy walczy on z Rudarem."
+              },
+              {
+                "content": "Naprawiono kilka błędów z przyzwańcami."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra potrafiła się czasem zaciąć po wczytaniu."
+              },
+              {
+                "content": "Szpon Beliara (Halabarda) jest teraz poprawnie traktowana jako halabarda."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "23",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "29.07.2021",
@@ -84,9 +127,6 @@
               },
               {
                 "content": "Niewolnik Clovis wymaga teraz 20 bryłek żelaza zamiast 50."
-              },
-              {
-                "content": "Naprawiono błąd sprawiający, że armia ciemności mogła się nie przywołać."
               },
               {
                 "content": "Naprawiono błąd sprawiający, że przyzwańce źle pojawiały się na ziemi."
@@ -3162,7 +3202,7 @@
     "title": "Velen 2.0",
     "titleUrl": "https://i.imgur.com/Q9kpdkR.png",
     "url": "https://drive.google.com/drive/folders/1eujW7gsEyCByVWuymg55fJg6mGucIm1_?usp=sharing",
-    "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: prześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Jednak stał się dla nich nieszczęśliwy zbieg okoliczności. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast wrzuceni do lochu.<br>Jeszcze tego samego dnia dostali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wyspy Velen.",
+    "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: prześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Tego dnia, los im jednak nie sprzyjał. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast trafili do lochu.<br>Jeszcze tego samego dnia otrzymali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wyspy Velen.",
     "installation": {
       "instruction": {
         "lists": [
