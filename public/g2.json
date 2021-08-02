@@ -62,6 +62,59 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "25",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "02.08.2021",
+        "date": "02-08-2021",
+        "alerts": [
+          {
+            "text": "Przed wgraniem aktualizacji należy usunąć plik \"zModelProtoExtender.vdf\" z folderu \"Data\".",
+            "color": "red"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Obrażenia szpad są teraz wyświetlane jako \"cięte\". W rzeczywistości zawsze były cięte, ale wyświetlane jako kłute."
+              },
+              {
+                "content": "Pancerz Łowcy Nagród wymaga teraz przekuwania na poziomie 1."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że postać sama się poruszała, w momencie zminimalizowania gry."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że zapis gracza był uszkodzony z powodu animacji niektórych NPC."
+              },
+              { "content": "Naprawiono błędy z niektórymi runami strażnika świątynnego." },
+              {
+                "content": "Naprawiono błąd powodujący wyłączenie gry podczas zapisywania, w momencie gdy gracz kliknął przycisk ESC."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra zawieszała się, w momencie gdy gracz jednocześnie umieszczał oraz resetował totemy."
+              },
+              {
+                "content": "Naprawiono błąd powodujący redukcję obrażeń z krwawienia po ulepszeniu broni."
+              },
+              {
+                "content": "Reputacja u orków oraz złodziei są teraz wyświetlane w statystykach."
+              },
+              {
+                "content": "Przyzwańcy nekromanty mają lepszy wygląd."
+              },
+              {
+                "content": "Ogłuszanie i zamrażanie wrogów działa teraz lepiej."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ulepszanie oraz ostrzenie broni osełką działały czasami nieprawidłowo."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "24",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "30.07.2021",
