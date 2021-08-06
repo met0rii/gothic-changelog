@@ -61,6 +61,25 @@
     },
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
+       {
+        "updateId": "27",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "06.08.2021",
+        "date": "06-08-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Kostur nowicjusza zadaje teraz dodatkowe 10 obrażeń. Dodatkowo wymaga teraz 5 siły."
+              },
+              {
+                "content": "Poprawiono parę błędów z nowym panelem zestawów."
+              }
+            ]
+          }
+        ]
+      },
       {
         "updateId": "26",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
@@ -70,13 +89,27 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-{"content":"Przywrócono sposób ataku przyzwanych golemów oraz przy przemianie w golema usunięty w poprzednich aktualizacjach."},
-{"content":"Naprawiono błąd sprawiający, że postać otrzymywała kilkukrotnie obrażenia od jednego ataku smoków. Teraz powinny nakładać się prawidłowo."},
-{"content":"Teraz gdy Mroczny rycerz wyrzeknie się Mrocznego sługi, obrażenia z broni wynoszą 75% zamiast 50%."},
-{"content":"Mroczny rycerz może używać teraz kuszy bez utraty run, obrażenia są zredukowane tak jak w przypadku broni."},
-{"content":"Naprawiono błąd, podczas którego nasza postać mogła zablokować się w wodzie."},
-{"content":"Totem orkowego szamana nie chroni już nas przed atakiem ze strony wargów i wilków."},
-{"content":"Dodano możliwość stworzenia zestawów ekwipunku. Interakcja odbywa się ekwipunku na pasku szybkiego wyboru (patrz porady w ekwipunku). Z zestawu korzysta się poprzez pasek szybkiego wyboru (Przycisk P)."}
+              {
+                "content": "Przywrócono sposób ataku przyzwanych golemów oraz przy przemianie w golema usunięty w poprzednich aktualizacjach."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że postać otrzymywała kilkukrotnie obrażenia od jednego ataku smoków. Teraz powinny nakładać się prawidłowo."
+              },
+              {
+                "content": "Teraz gdy Mroczny rycerz wyrzeknie się Mrocznego sługi, obrażenia z broni wynoszą 75% zamiast 50%."
+              },
+              {
+                "content": "Mroczny rycerz może używać teraz kuszy bez utraty run, obrażenia są zredukowane tak jak w przypadku broni."
+              },
+              {
+                "content": "Naprawiono błąd, podczas którego nasza postać mogła zablokować się w wodzie."
+              },
+              {
+                "content": "Totem orkowego szamana nie chroni już nas przed atakiem ze strony wargów i wilków."
+              },
+              {
+                "content": "Dodano możliwość stworzenia zestawów ekwipunku. Interakcja odbywa się ekwipunku na pasku szybkiego wyboru (patrz porady w ekwipunku). Z zestawu korzysta się poprzez pasek szybkiego wyboru (Przycisk P)."
+              }
             ]
           }
         ]
@@ -108,7 +141,9 @@
               {
                 "content": "Naprawiono błąd sprawiający, że zapis gracza był uszkodzony z powodu animacji niektórych NPC."
               },
-              { "content": "Naprawiono błędy z niektórymi runami strażnika świątynnego." },
+              {
+                "content": "Naprawiono błędy z niektórymi runami strażnika świątynnego."
+              },
               {
                 "content": "Naprawiono błąd powodujący wyłączenie gry podczas zapisywania, w momencie gdy gracz kliknął przycisk ESC."
               },
