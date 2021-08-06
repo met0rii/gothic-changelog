@@ -97,7 +97,7 @@ export default {
     return {
       tab: "section",
       headers: [],
-      currentTab: 3,
+      currentTab: 0,
     };
   },
   components: {
@@ -145,7 +145,7 @@ export default {
     getCrossedHeaders() {
       return this.headers
         .map((x) => x.element.$el.offsetTop)
-        .filter((x) => window.scrollY >= x);
+        .filter((x) => window.scrollY + 50 >= x);
     },
   },
   computed: {
@@ -202,6 +202,7 @@ export default {
     selected() {
       this.$nextTick(() => {
         this.$set(this, "headers", this.getHeaders());
+        this.currentTab = 0;
       });
     },
   },
