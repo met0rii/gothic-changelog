@@ -1,11 +1,11 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col cols="9">
+      <v-col cols="9" class="news">
         <section-title title="Nowości"/>
-
-        <news-item v-for="(item, index) in paginatedNewsList" :data="item" class="mb-5" :key="index"/>
-
+        <v-col cols="12" class="news__container">
+          <news-item v-for="(item, index) in paginatedNewsList" :data="item" class="mb-5" :key="index"/>
+        </v-col>
         <div class="d-flex justify-end">
           
         <v-pagination
@@ -82,3 +82,13 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.news {
+  padding-left: 0px !important;
+}
+
+.news__container {
+  padding: 0 0 0 12px !important;
+}
+</style>
