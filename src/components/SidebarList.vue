@@ -13,6 +13,7 @@
         :key="child.title"
         :title="child.title"
         :notAvailable="child.notAvailable"
+        :isNew="child.isNew"
         :disabled="child.disabled"
         :toRoute="{
           name: 'Changelogs',
