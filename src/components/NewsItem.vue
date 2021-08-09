@@ -5,7 +5,7 @@
       tile
       dark
   >
-    <p class="news-header"><a :to="data.redirect">{{data.title}}</a></p>
+    <item-header fontSize="22px" :title="data.title" :redirect="data.redirect"/>
     <p v-if="date" class="news-date">{{date | moment("calendar")}}</p>
     <p v-else class="news-date">nieznana</p>
     <p class="news-body" v-html="data.body"/>
@@ -18,6 +18,8 @@
 </template>
 
 <script>
+import ItemHeader from "./ItemHeader";
+
 export default {
   props: {
     data: {
@@ -26,6 +28,7 @@ export default {
     }
   },
   name: "NewsItem",
+  components: { ItemHeader },
   computed: {
     date() {
       const date = new Date(this.data.date);
