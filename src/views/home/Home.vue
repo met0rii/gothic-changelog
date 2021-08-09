@@ -106,7 +106,7 @@ export default {
 <style scoped>
 .news {
   padding-left: 0px !important;
-  overflow:
+  overflow: hidden;
 }
 
 .news__container {

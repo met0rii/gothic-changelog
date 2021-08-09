@@ -1,18 +1,23 @@
 ﻿<template>
   <v-card
-      class="pa-5"
+      class="pa-5 news-item"
       elevation="2"
       tile
       dark
   >
-    <item-header fontSize="22px" :title="data.title" :redirect="data.redirect"/>
-    <p v-if="date" class="news-date">{{date | moment("calendar")}}</p>
-    <p v-else class="news-date">nieznana</p>
-    <p class="news-body" v-html="data.body"/>
-    
-    <p class="text-right">
-      <v-btn :to="data.redirect" color="orange lighten-3" light>Więcej</v-btn>
-    </p>
+    <div>
+      <item-header fontSize="22px" :title="data.title" :redirect="data.redirect"/>
+      <p v-if="date" class="news-date">{{date | moment("calendar")}}</p>
+      <p v-else class="news-date">nieznana</p>
+    </div>
+    <div>
+      <p class="news-body" v-html="data.body"/>
+    </div>
+    <div>
+      <p class="text-right">
+        <v-btn :to="data.redirect" color="orange lighten-3" light>Więcej</v-btn>
+      </p>
+    </div>
     
   </v-card>
 </template>
@@ -44,6 +49,12 @@ export default {
 </script>
 
 <style scoped>
+.news-item {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .news-header {
   font-weight: bold;
   font-size:18px;
@@ -58,7 +69,6 @@ export default {
 .news-header a:hover {
   text-decoration: underline;
   color: var(--orange-secondary-dark);
-
 }
 
 .news-date{
