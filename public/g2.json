@@ -62,6 +62,33 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "27",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "09.08.2021",
+        "date": "09-08-2021",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+{"content":"Teraz ulepszony ognik rzadziej się zacina i szybciej zbiera przedmioty."},
+{"content":"Teraz wszyscy kupcy zdejmują swoje bronie przed rozpoczęciem handlu."},
+{"content":"Naprawiono błędy w opisach niektórych przedmiotów."},
+{"content":"Naprawiono teleportacje do Ur-Thralla, wcześniej gracz mógł wpaść pod tekstury."},
+{"content":"Naprawiono błąd sprawiający, że Alrik stawał się nieśmiertelny po pierwszej walce."},
+{"content":"Naprawiono błędy z zestawami."},
+{"content":"Naprawiono błąd sprawiający, że przyzwańcy nie reagowali na bossa Nyarlathotep (Mag w Koszmarze Kruka)"},
+{"content":"Naprawiono kilka błędów z totemami."},
+{"content":"Naprawiono błąd z mapą Płaskowyżu Starożytnych."},
+{"content":"Naprawiono błędy z zamrażaniem przeciwników."},
+{"content":"Dodano opcję wyświetlania regeneracji many na ekranie."},
+{"content":"Dodano możliwość wyświetlania znaku \"+\" przed wartościami leczenia naszej postaci, aby włączyć ustaw wartość bToggleShowStatPlus = 1 w gothic.ini."},
+{"content":"Ulepszanie zbroi i broni wymagają teraz mniej składników, jednak wymagane są bardziej różnorodne przedmioty."},
+{"content":"Zmniejszono obrażenia wszystkich pieczęci z 12 do 10."}
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "26",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "05.08.2021",
