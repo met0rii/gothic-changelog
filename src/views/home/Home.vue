@@ -3,13 +3,20 @@
     <v-row>
       <v-col cols="9" class="news">
         <section-title title="Nowości"/>
-        <v-col cols="12" class="news__container">
-          <news-item v-for="(item, index) in paginatedNewsList" :data="item" class="mb-5" :key="index"/>
-        </v-col>
+        <transition
+        :enter-active-class="enterClassName"
+        :leave-active-class="leaveClassName"
+        mode="out-in"
+        >
+          <v-col cols="12" class="news__container" :key="page">
+            <news-item v-for="(item, index) in paginatedNewsList" :data="item" class="mb-5" :key="index"/>
+          </v-col>
+        </transition>
         <div class="d-flex justify-end">
           
         <v-pagination
-            v-model="currentPage"
+            :value="page"
+            @input="changePage"
             :length="pageCount"
             dark
         />
@@ -41,7 +48,8 @@ export default {
   components: {NewsItem, SectionTitle, SefarisDiscord, CommunityDiscord},
   data() {
     return {
-      currentPage: 1,
+      page: 1,
+      previousPage: 0,
       pageSize: 5
     }
   },
@@ -55,7 +63,7 @@ export default {
     },
     paginatedNewsList() {
       if(this.newsList) {
-        const start = (this.currentPage - 1) * this.pageSize;
+        const start = (this.page - 1) * this.pageSize;
         return this.newsList.slice(start, start + this.pageSize);
       }
       return [];
@@ -79,13 +87,26 @@ export default {
       }
       return [];
     },
-  }
+    enterClassName() {
+      return this.page < this.previousPage ? "slideInLeft" : "slideInRight";
+    },
+    leaveClassName() {
+      return this.page < this.previousPage ? "slideOutRight" : "slideOutLeft";
+    },
+  },
+  methods: {
+    changePage(page) {
+      this.previousPage = this.page;
+      this.page = page;
+    },
+  },
 };
 </script>
 
 <style scoped>
 .news {
   padding-left: 0px !important;
+  overflow:
 }
 
 .news__container {
