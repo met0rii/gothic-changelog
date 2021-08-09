@@ -1,9 +1,7 @@
 <template>
   <v-card dark class="card fill-height">
     <v-card-title class="headline">
-      <router-link class="headline-link" :to="redirectData">
-        {{ version }}
-      </router-link>
+    <item-header fontSize="26px" :title="version" :redirect="redirectData" />
     </v-card-title>
     <v-card-subtitle class="subheadline">
       <div class="line-clamp" v-html="description"></div>
@@ -29,6 +27,8 @@
 </template>
 
 <script>
+import ItemHeader from "./ItemHeader.vue";
+
 export default {
   name: "ChangelogCard",
   props: {
@@ -38,6 +38,9 @@ export default {
     version: String,
     showBadge: Boolean,
     badgeText: String,
+  },
+  components: {
+    ItemHeader,
   },
   data: () => ({}),
   computed: {
@@ -61,10 +64,6 @@ export default {
   font-size: 20px !important;
 }
 
-.headline-link {
-  color: var(--white-primary);
-  text-decoration: none;
-}
 .line-clamp {
   height: 150px;
   padding: 0px !important;
