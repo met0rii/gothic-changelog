@@ -5,7 +5,7 @@
     "titleUrl": "https://i.imgur.com/AsGFpKN.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
     "installation": {
-      "url": "",
+      "url": "https://www.youtube.com/embed/VPkKAobjo94",
       "instruction": {
         "alerts": [],
         "lists": [
@@ -64,8 +64,8 @@
       {
         "updateId": "29",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "12.08.2021",
-        "date": "12-08-2021",
+        "version": "2021-08-12",
+        "date": "2021-08-12",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -102,8 +102,8 @@
       {
         "updateId": "28",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "09.08.2021",
-        "date": "09-08-2021",
+        "version": "2021-08-09",
+        "date": "2021-08-09",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -129,8 +129,8 @@
        {
         "updateId": "27",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "06.08.2021",
-        "date": "06-08-2021",
+        "version": "2021-08-06",
+        "date": "2021-08-06",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -149,8 +149,8 @@
       {
         "updateId": "26",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "05.08.2021",
-        "date": "05-08-2021",
+        "version": "2021-08-05",
+        "date": "2021-08-05",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -183,8 +183,8 @@
       {
         "updateId": "25",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "02.08.2021",
-        "date": "02-08-2021",
+        "version": "2021-08-02",
+        "date": "2021-08-02",
         "alerts": [
           {
             "text": "Przed wgraniem aktualizacji należy usunąć plik \"zModelProtoExtender.vdf\" z folderu \"Data\".",
@@ -238,8 +238,8 @@
       {
         "updateId": "24",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "30.07.2021",
-        "date": "30-07-2021",
+        "version": "2021-07-30",
+        "date": "2021-07-30",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -281,8 +281,8 @@
       {
         "updateId": "23",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "29.07.2021",
-        "date": "29-07-2021",
+        "version": "2021-07-29",
+        "date": "2021-07-29",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -330,8 +330,8 @@
       {
         "updateId": "22",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "28.07.2021",
-        "date": "28-07-2021",
+        "version": "2021-07-28",
+        "date": "2021-07-28",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -358,8 +358,8 @@
       {
         "updateId": "21",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "26.07.2021",
-        "date": "26-07-2021",
+        "version": "2021-07-26",
+        "date": "2021-07-26",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -413,8 +413,8 @@
       {
         "updateId": "20",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "23.07.2021",
-        "date": "23-07-2021",
+        "version": "2021-07-23",
+        "date": "2021-07-23",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -447,8 +447,8 @@
       {
         "updateId": "19",
         "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
-        "version": "22.07.2021",
-        "date": "22-07-2021",
+        "version": "2021-07-22",
+        "date": "2021-07-22",
         "alerts": [
           {
             "text": "Aktualizacja wymaga rozpoczęcia nowej gry, jako że mod został przeniesiony na platformę UNION!",
@@ -743,8 +743,8 @@
       {
         "updateId": "18",
         "updateDescription": "Wprowadzono możliwość wyboru wersji trybu Slash & Craft oraz kilka innych ciekawych zmian.",
-        "version": "12.04.2021",
-        "date": "12-04-2021",
+        "version": "2021-04-12",
+        "date": "2021-04-12",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -777,8 +777,8 @@
       {
         "updateId": "17",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "03.02.2021",
-        "date": "03-02-2021",
+        "version": "2021-02-03",
+        "date": "2021-02-03",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -819,8 +819,8 @@
       {
         "updateId": "16",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "01.02.2021",
-        "date": "01-02-2021",
+        "version": "2021-02-01",
+        "date": "2021-02-01",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -867,8 +867,8 @@
       {
         "updateId": "15",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "28.01.2021",
-        "date": "28-01-2021",
+        "version": "2021-01-28",
+        "date": "2021-01-28",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -906,8 +906,8 @@
       {
         "updateId": "14",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "27.01.2021",
-        "date": "27-01-2021",
+        "version": "2021-01-27",
+        "date": "2021-01-27",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -942,8 +942,8 @@
       {
         "updateId": "13",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "26.01.2021",
-        "date": "26-01-2021",
+        "version": "2021-01-26",
+        "date": "2021-01-26",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -999,8 +999,8 @@
       {
         "updateId": "12",
         "updateDescription": "Aktualizacja wprowadza zmiany i poprawki dotyczące Mrocznego Rycerza.",
-        "version": "24.01.2021",
-        "date": "24-01-2021",
+        "version": "2021-01-24",
+        "date": "2021-01-24",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1041,12 +1041,12 @@
       {
         "updateId": "11",
         "updateDescription": "Aktualizacja wprowadza do gry długo wyczekiwaną gildię Mrocznego Rycerza.",
-        "version": "23.01.2021",
-        "date": "23-01-2021",
+        "version": "2021-01-23",
+        "date": "2021-01-23",
         "alerts": [
           {
             "color": "red",
-            "text": "<b>UWAGA!</b> Aby zagrać jako Mroczny Rycerz należy zacząć nową grę na AB Modzie z 20.01.2021!"
+            "text": "<b>UWAGA!</b> Aby zagrać jako Mroczny Rycerz należy zacząć nową grę na AB Modzie z 2021-01-20!"
           }
         ],
         "lists": [
@@ -1089,8 +1089,8 @@
       {
         "updateId": "10",
         "updateDescription": "Aktualizacja wprowadza między innymi drobne poprawki i zmiany w lokacjach oraz ważne waypointy potrzebne do gry Mrocznym rycerzem w przyszłości. <i>Osoby planujące grać Mrocznym rycerzem mogą zacząć nową grę na tej aktualizacji. Za kilka dni zostanie skończona klasa i będzie można nią odrazu zostać. Pamiętać trzeba tylko, żeby nie dołączać do żadnej gildii ani nie zabijać Rigeliona.</i>",
-        "version": "20.01.2021",
-        "date": "20-01-2021",
+        "version": "2021-01-20",
+        "date": "2021-01-20",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1167,8 +1167,8 @@
       {
         "updateId": "9",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "15.01.2021",
-        "date": "15-01-2021",
+        "version": "2021-01-15",
+        "date": "2021-01-15",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1228,8 +1228,8 @@
       {
         "updateId": "8",
         "updateDescription": "Wprowadzono zmiany w runach magii wody. Dodano nowe ikony broni w ekwipunku oraz usunięto możliwość wejścia do obozu bandytów w Jarkendarze mając stary pancerz cienia.",
-        "version": "07.01.2021",
-        "date": "07-01-2021",
+        "version": "2021-01-07",
+        "date": "2021-01-07",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1286,8 +1286,8 @@
       {
         "updateId": "7",
         "updateDescription": "Ilość statystyk, jakie można uzyskać na <i>Nowym Balansie</i> okazała się znacząco za duża. Zmniejszono dla tego ilość zdobywanych punktów nauki z bossów i zadań przez całą grę. Zmniejszono też ilość zdobywanych punktów życia. Wprowadzono też zmiany dotyczące składników do ciast.",
-        "version": "01.01.2021",
-        "date": "01-01-2021",
+        "version": "2021-01-01",
+        "date": "2021-01-01",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1377,8 +1377,8 @@
       {
         "updateId": "6",
         "updateDescription": "Przywrócono możliwość zbierania roślin w lokacji za pomocą ognika, dodano nowy amulet oraz poprawiono wiele błędów.",
-        "version": "28.12.2020",
-        "date": "28-12-2020",
+        "version": "2020-12-28",
+        "date": "2020-12-28",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1438,8 +1438,8 @@
       {
         "updateId": "5",
         "updateDescription": "Bandyci nie będą już pić mikstur leczniczych podczas walki. Zebrane ważne przedmioty będą teraz wyświetlać się na czerwono. Poza tym jak zawsze mniejsze zmiany i poprawki błędów.",
-        "version": "26.12.2020",
-        "date": "26-12-2020",
+        "version": "2020-12-26",
+        "date": "2020-12-26",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1478,8 +1478,8 @@
       {
         "updateId": "4",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "24.12.2020",
-        "date": "24-12-2020",
+        "version": "2020-12-24",
+        "date": "2020-12-24",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1521,8 +1521,8 @@
       {
         "updateId": "3",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "22.12.2020",
-        "date": "22-12-2020",
+        "version": "2020-12-22",
+        "date": "2020-12-22",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1567,8 +1567,8 @@
       {
         "updateId": "2",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "20.12.2020",
-        "date": "20-12-2020",
+        "version": "2020-12-20",
+        "date": "2020-12-20",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1607,8 +1607,8 @@
       {
         "updateId": "1",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "19.12.2020",
-        "date": "19-12-2020",
+        "version": "2020-12-19",
+        "date": "2020-12-19",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1632,8 +1632,8 @@
       {
         "updateId": "0",
         "updateDescription": "Aktualizacja nazwana też <i>Nowym Balansem</i> odświeża rozgrywkę na wielu płaszczyznach, wprowadza wiele nowości, oraz usprawnień. Zalecam też wgrać nową wersję DX11 - wprowadza ona zmiany między innymi w sposobie wyświetlania tekstu na ekranie co redukuje spadki FPS. Jeśli wystąpiłyby jakiekolwiek problemy z DX'em - należy usunąć folder GD3D11 z folderu System gothica i wgrać ponownie dowolną wersję DX'a.",
-        "version": "18.12.2020",
-        "date": "18-12-2020",
+        "version": "2020-12-18",
+        "date": "2020-12-18",
         "lists": [
           {
             "title": "Zmiany dotyczące poziomu Nightmare:",
@@ -2204,7 +2204,7 @@
         "updateId": "2",
         "updateDescription": "Balans rozgrywki, poprawione AI przeciwników, zmiany w umiejętnościach, broniach, pancerzach i innych przedmiotach.",
         "version": "1.6",
-        "date": "10.02.2021",
+        "date": "2021-02-10",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -2553,7 +2553,7 @@
         "updateId": "1",
         "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli.",
         "version": "1.5",
-        "date": "16.03.2020",
+        "date": "2020-03-16",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -2718,7 +2718,7 @@
         "updateId": "0",
         "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji.",
         "version": "1.4",
-        "date": "09.11.2018",
+        "date": "2018-11-09",
         "lists": [
           {
             "title": "Zmiany ogólne: ",
@@ -3001,9 +3001,11 @@
         "updateId": "0",
         "updateDescription": "Lista zmian względem niemieckiej wersji",
         "version": "2.6.4",
-        "date": "02.04.2021",
+        "date": "2021-04-02",
         "lists": [
-          { "title": "Zmiany względem wersji niemieckiej:" },
+          {
+            "title": "Zmiany względem wersji niemieckiej:"
+          },
           {
             "title": "Poprawki:",
             "list": [
@@ -3364,7 +3366,6 @@
           "name": "Tavertix",
           "role": "Tester"
         },
-
         {
           "name": "Kredensik",
           "role": "Tłumacz"
