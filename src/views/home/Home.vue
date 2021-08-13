@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col cols="9" class="news">
+      <v-col md="9" cols="12" class="news">
         <section-title title="Nowości"/>
         <transition
         :enter-active-class="enterClassName"
@@ -24,7 +24,7 @@
 
       </v-col>
 
-      <v-col cols="3" class="text-right">
+      <v-col md="3" cols="12" class="text-right">
         <section-title title="Discord"/>
         <sefaris-discord/>
 
