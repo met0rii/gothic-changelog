@@ -7,7 +7,7 @@
   >
     <div>
       <item-header fontSize="22px" :title="data.title" :redirect="data.redirect"/>
-      <p v-if="date" class="news-date">{{date | moment("calendar")}}</p>
+      <p v-if="date" class="news-date">{{date | moment("DD.MM.YYYY") }}</p>
       <p v-else class="news-date">nieznana</p>
     </div>
     <div>

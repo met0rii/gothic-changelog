@@ -64,8 +64,8 @@
       {
         "updateId": "29",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "12-08-2021",
-        "date": "12-08-2021",
+        "version": "2021-08-12",
+        "date": "2021-08-12",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -102,8 +102,8 @@
       {
         "updateId": "28",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "09-08-2021",
-        "date": "09-08-2021",
+        "version": "2021-08-09",
+        "date": "2021-08-09",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -129,8 +129,8 @@
        {
         "updateId": "27",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "06-08-2021",
-        "date": "06-08-2021",
+        "version": "2021-08-06",
+        "date": "2021-08-06",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -149,8 +149,8 @@
       {
         "updateId": "26",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "05-08-2021",
-        "date": "05-08-2021",
+        "version": "2021-08-05",
+        "date": "2021-08-05",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -183,8 +183,8 @@
       {
         "updateId": "25",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "02-08-2021",
-        "date": "02-08-2021",
+        "version": "2021-08-02",
+        "date": "2021-08-02",
         "alerts": [
           {
             "text": "Przed wgraniem aktualizacji należy usunąć plik \"zModelProtoExtender.vdf\" z folderu \"Data\".",
@@ -238,8 +238,8 @@
       {
         "updateId": "24",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "30-07-2021",
-        "date": "30-07-2021",
+        "version": "2021-07-30",
+        "date": "2021-07-30",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -281,8 +281,8 @@
       {
         "updateId": "23",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "29-07-2021",
-        "date": "29-07-2021",
+        "version": "2021-07-29",
+        "date": "2021-07-29",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -330,8 +330,8 @@
       {
         "updateId": "22",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "28-07-2021",
-        "date": "28-07-2021",
+        "version": "2021-07-28",
+        "date": "2021-07-28",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -358,8 +358,8 @@
       {
         "updateId": "21",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "26-07-2021",
-        "date": "26-07-2021",
+        "version": "2021-07-26",
+        "date": "2021-07-26",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -413,8 +413,8 @@
       {
         "updateId": "20",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "23-07-2021",
-        "date": "23-07-2021",
+        "version": "2021-07-23",
+        "date": "2021-07-23",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -447,8 +447,8 @@
       {
         "updateId": "19",
         "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
-        "version": "22.07.2021",
-        "date": "22-07-2021",
+        "version": "2021-07-22",
+        "date": "2021-07-22",
         "alerts": [
           {
             "text": "Aktualizacja wymaga rozpoczęcia nowej gry, jako że mod został przeniesiony na platformę UNION!",

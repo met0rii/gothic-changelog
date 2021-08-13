@@ -19,7 +19,7 @@
         <div class="changelog-headline-container mb-4">
           <item-header fontSize="36px" :title="changelogTitle" />
           <span class="changelog-subline">
-            Data wydania: {{ changelog.date | moment("calendar") }}
+            Data wydania: {{ changelog.date | moment("DD.MM.YYYY") }}
           </span>
         </div>
 
