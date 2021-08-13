@@ -163,4 +163,9 @@ body {
   border-radius: 4px;
   color: var(--white-primary);
 }
+
+.header {
+  color: var(--orange-secondary);
+}
+
 </style>

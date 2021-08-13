@@ -5,7 +5,7 @@
       v-for="(list, listIndex) in data"
       :key="listIndex"
     >
-      <h4 v-html="list.title" />
+      <h4 class="header" v-html="list.title" />
       <node-tree-ordered :node="list.list"></node-tree-ordered>
     </div>
   </div>

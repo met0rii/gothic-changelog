@@ -17,9 +17,9 @@
         </div>
 
         <div class="changelog-headline-container mb-4">
-          <h2>Changelog {{ changelog.version }}</h2>
+          <item-header fontSize="36px" :title="changelogTitle" />
           <span class="changelog-subline">
-            Data wydania: {{ changelog.date }}
+            Data wydania: {{ changelog.date | moment("DD.MM.YYYY") }}
           </span>
         </div>
 
@@ -48,10 +48,14 @@
 <script>
 import RecursiveList from "../../../../components/RecursiveList.vue";
 import SectionTitle from "../../../../components/SectionTitle.vue";
+import ItemHeader from "../../../../components/ItemHeader.vue";
 
 export default {
-  components: { SectionTitle, RecursiveList },
+  components: { SectionTitle, RecursiveList, ItemHeader },
   computed: {
+    changelogTitle() {
+      return "Changelog " + this.changelog.version;
+    },
     changelog() {
       return this.$store.state.changelogs.selectedChangelog;
     },
