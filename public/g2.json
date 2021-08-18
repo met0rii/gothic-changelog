@@ -62,6 +62,44 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "30",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-18",
+        "date": "2021-08-18",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Dodano nową wersję Szponu Beliara - Dwa ostrza. Sposób zdobycia ich jest identyczny jak innych wersji Szponu."
+              },
+              { "content": "Naprawiono kilka błędów ze smokami." },
+              {
+                "content": "Dodano po jednym sercu kamiennego golema do kupienia w 1 rozdziale od Zurisa i Baala Tyona."
+              },
+              {
+                "content": "Przekuty pancerz z płytek pełzacza może również zostać przekazany Cliffowi."
+              },
+              {
+                "content": "Nieumarli magowie w Khorinis i Yarkendarze zadają teraz trochę mniej obrażeń."
+              },
+              {
+                "content": "Ochroniarz Lehmara nie będzie się już wybudzał po dialogu bohatera z Lehmarem jeśli został uśpiony zaklęciem."
+              },
+              {
+                "content": "Usunięto wymóg magicznej rudy na 1 i 2 poziomie ulepszania ekwipunku."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra potrafiła zawiesić się na 1-2 sekundy po otwarciu ekwipunku lub dziennika."
+              },
+              {
+                "content": "Dodano 3 płytki z pełzacza do znalezienia w Khorinis."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "29",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-08-12",
@@ -70,31 +108,73 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              {"content":"Naprawiono kilka drobnych błędów w grze."},
-              {"content":"Kamienie szlachetne nie są już wymagane na 4 i 5 poziomie ulepszania."},
-              {"content":"Zmniejszono liczbę zasobów potrzebnych do ulepszenia przedmiotów."},
-              {"content":"Z bossów pełzaczy otrzymujemy teraz więcej płytek."},
-              {"content":"Czas odnowienia totemów jest teraz wyświetlany na ekranie."},
-              {"content":"Naprawiono błąd sprawiający, że przeciwnicy często nie reagowali na Kła."},
-              {"content":"Naprawiono błąd sprawiający, że pragnienie oraz głód zaczynają działać dopiero po 30 sekundach."},
-              {"content":"Naprawiono błąd sprawiający, że ognik zmniejszał FPS do 20."},
-              {"content":"Naprawiono błąd sprawiający, że Argulin w Koszmarze Kruka miał 2 razy większą siłę."},
-              {"content":"Naprawiono kilka błędów związanych z przyspieszeniem czasu."},
-              {"content":"Teraz pieczęcie magii i ognia wpływają na obrażenia run oraz zwojów (Pieczęć ognia dodaje obrażenia zaklęciom ognia, pieczęć magii pozostałym czarom)."},
-              {"content":"Maksymalna liczba pieczęci w broni wynosi 10 zamiast 20."},
-              {"content":"Kilka drobnych zmian w nagrodach za misje."},
-              {"content":"Zmieniono liczbę PN potrzebnych do nauki totemów i podmuchu wiatru."},
-              {"content":"Niektóre runy mrocznego rycerza uległy zmianie."},
-              {"content":"Zmieniono czas odnowienia oraz zdrowie totemów. Większość totemów nie może już \"tankować\" przeciwników, ponieważ mają teraz mniej zdrowia."},
-              {"content":"Naprawiono błąd sprawiający, że mroczny sługa nie mógł zadawać ciosów krytycznych. Szansa na uderzenie krytyczne sługi zależy od many bohatera."},
-              {"content":"Runy nekromanty mają teraz 3% (wcześniej 10%) szans na zadanie dodatkowych obrażeń (szansa jest teraz równa mocy magicznej w %) Obrażenia nie są już zależne od mocy magicznej, a wynoszą zawsze 50%."},
-              {"content":"Wzmocniono runy maga ognia pierwszego i drugiego kręgu, a także nieznacznie zwiększono obrażenia od spalania."},
-              {"content":"Z wilków i wargów możemy teraz zebrać szpony, jeśli posiadamy usuwanie szponów."},
-              {"content":"Zwiększono ilość zdobywanych kłów z cieniostwora z 2 do 4."},
-              {"content":"Korzystanie ze stołu runicznego nie wymaga już posiadania kamienia runicznego."},
-              {"content":"Dodano jeden teleport w wolnej kopalni."},
-              {"content":"Na poziomie Nightmare liczba PN dla bohaterów z poziomem poniżej 30 została nieznacznie zmniejszona."},
-              {"content":"Efekt wizualny zamrożenia trwa teraz tylko 2 sekundy, więc zamrożenie nie uniemożliwia graczowi zobaczenia wrogów."}
+              { "content": "Naprawiono kilka drobnych błędów w grze." },
+              {
+                "content": "Kamienie szlachetne nie są już wymagane na 4 i 5 poziomie ulepszania."
+              },
+              {
+                "content": "Zmniejszono liczbę zasobów potrzebnych do ulepszenia przedmiotów."
+              },
+              {
+                "content": "Z bossów pełzaczy otrzymujemy teraz więcej płytek."
+              },
+              {
+                "content": "Czas odnowienia totemów jest teraz wyświetlany na ekranie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że przeciwnicy często nie reagowali na Kła."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że pragnienie oraz głód zaczynają działać dopiero po 30 sekundach."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ognik zmniejszał FPS do 20."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że Argulin w Koszmarze Kruka miał 2 razy większą siłę."
+              },
+              {
+                "content": "Naprawiono kilka błędów związanych z przyspieszeniem czasu."
+              },
+              {
+                "content": "Teraz pieczęcie magii i ognia wpływają na obrażenia run oraz zwojów (Pieczęć ognia dodaje obrażenia zaklęciom ognia, pieczęć magii pozostałym czarom)."
+              },
+              {
+                "content": "Maksymalna liczba pieczęci w broni wynosi 10 zamiast 20."
+              },
+              { "content": "Kilka drobnych zmian w nagrodach za misje." },
+              {
+                "content": "Zmieniono liczbę PN potrzebnych do nauki totemów i podmuchu wiatru."
+              },
+              { "content": "Niektóre runy mrocznego rycerza uległy zmianie." },
+              {
+                "content": "Zmieniono czas odnowienia oraz zdrowie totemów. Większość totemów nie może już \"tankować\" przeciwników, ponieważ mają teraz mniej zdrowia."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że mroczny sługa nie mógł zadawać ciosów krytycznych. Szansa na uderzenie krytyczne sługi zależy od many bohatera."
+              },
+              {
+                "content": "Runy nekromanty mają teraz 3% (wcześniej 10%) szans na zadanie dodatkowych obrażeń (szansa jest teraz równa mocy magicznej w %) Obrażenia nie są już zależne od mocy magicznej, a wynoszą zawsze 50%."
+              },
+              {
+                "content": "Wzmocniono runy maga ognia pierwszego i drugiego kręgu, a także nieznacznie zwiększono obrażenia od spalania."
+              },
+              {
+                "content": "Z wilków i wargów możemy teraz zebrać szpony, jeśli posiadamy usuwanie szponów."
+              },
+              {
+                "content": "Zwiększono ilość zdobywanych kłów z cieniostwora z 2 do 4."
+              },
+              {
+                "content": "Korzystanie ze stołu runicznego nie wymaga już posiadania kamienia runicznego."
+              },
+              { "content": "Dodano jeden teleport w wolnej kopalni." },
+              {
+                "content": "Na poziomie Nightmare liczba PN dla bohaterów z poziomem poniżej 30 została nieznacznie zmniejszona."
+              },
+              {
+                "content": "Efekt wizualny zamrożenia trwa teraz tylko 2 sekundy, więc zamrożenie nie uniemożliwia graczowi zobaczenia wrogów."
+              }
             ]
           }
         ]
@@ -108,25 +188,45 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-{"content":"Teraz ulepszony ognik rzadziej się zacina i szybciej zbiera przedmioty."},
-{"content":"Teraz wszyscy kupcy zdejmują swoje bronie przed rozpoczęciem handlu."},
-{"content":"Naprawiono błędy w opisach niektórych przedmiotów."},
-{"content":"Naprawiono teleportacje do Ur-Thralla, wcześniej gracz mógł wpaść pod tekstury."},
-{"content":"Naprawiono błąd sprawiający, że Alrik stawał się nieśmiertelny po pierwszej walce."},
-{"content":"Naprawiono błędy z zestawami."},
-{"content":"Naprawiono błąd sprawiający, że przyzwańcy nie reagowali na bossa Nyarlathotep (Mag w Koszmarze Kruka)"},
-{"content":"Naprawiono kilka błędów z totemami."},
-{"content":"Naprawiono błąd z mapą Płaskowyżu Starożytnych."},
-{"content":"Naprawiono błędy z zamrażaniem przeciwników."},
-{"content":"Dodano opcję wyświetlania regeneracji many na ekranie."},
-{"content":"Dodano możliwość wyświetlania znaku \"+\" przed wartościami leczenia naszej postaci, aby włączyć ustaw wartość bToggleShowStatPlus = 1 w gothic.ini."},
-{"content":"Ulepszanie zbroi i broni wymagają teraz mniej składników, jednak wymagane są bardziej różnorodne przedmioty."},
-{"content":"Zmniejszono obrażenia wszystkich pieczęci z 12 do 10."}
+              {
+                "content": "Teraz ulepszony ognik rzadziej się zacina i szybciej zbiera przedmioty."
+              },
+              {
+                "content": "Teraz wszyscy kupcy zdejmują swoje bronie przed rozpoczęciem handlu."
+              },
+              {
+                "content": "Naprawiono błędy w opisach niektórych przedmiotów."
+              },
+              {
+                "content": "Naprawiono teleportacje do Ur-Thralla, wcześniej gracz mógł wpaść pod tekstury."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że Alrik stawał się nieśmiertelny po pierwszej walce."
+              },
+              { "content": "Naprawiono błędy z zestawami." },
+              {
+                "content": "Naprawiono błąd sprawiający, że przyzwańcy nie reagowali na bossa Nyarlathotep (Mag w Koszmarze Kruka)"
+              },
+              { "content": "Naprawiono kilka błędów z totemami." },
+              { "content": "Naprawiono błąd z mapą Płaskowyżu Starożytnych." },
+              { "content": "Naprawiono błędy z zamrażaniem przeciwników." },
+              {
+                "content": "Dodano opcję wyświetlania regeneracji many na ekranie."
+              },
+              {
+                "content": "Dodano możliwość wyświetlania znaku \"+\" przed wartościami leczenia naszej postaci, aby włączyć ustaw wartość bToggleShowStatPlus = 1 w gothic.ini."
+              },
+              {
+                "content": "Ulepszanie zbroi i broni wymagają teraz mniej składników, jednak wymagane są bardziej różnorodne przedmioty."
+              },
+              {
+                "content": "Zmniejszono obrażenia wszystkich pieczęci z 12 do 10."
+              }
             ]
           }
         ]
       },
-       {
+      {
         "updateId": "27",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-08-06",
@@ -145,7 +245,7 @@
           }
         ]
       },
-      
+
       {
         "updateId": "26",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
