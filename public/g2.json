@@ -62,6 +62,46 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "31",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-22",
+        "date": "2021-08-22",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Na poziomie Nightmare, wszystkie przedmioty kosztują 25% więcej."
+              },
+              {
+                "content": "Maksymalny bonus do obrażeń od inteligencji jaki można otrzymać na runach kręgów 1-4 został lekko zwiększony dla gildii Guru."
+              },
+              {
+                "content": "Zwiększono ilość złota otrzymywaną od Andre za głowy bandytów."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że strzały i bełty były usuwane z ciał npc'tów."
+              },
+              {
+                "content": "Wprowadzono drobne poprawki w sterowaniu."
+              },
+              {
+                "content": "Wartość broni jest teraz wyświetlana z prawej strony."
+              },
+              {
+                "content": "Zmieniono trochę obrażenia i wymagania niektórych duali. Początkowe duale wymagają teraz tylko 100 zręczności. (wcześniej 125)"
+              },
+              {
+                "content": "Dodano język ognistego jaszczura i płytkę pełzacza do kupienia u Luthero w 1 rozdziale."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że obrażenia magiczne były czasem niewłaściwe."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "30",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-08-18",
@@ -81,7 +121,7 @@
                 "content": "Przekuty pancerz z płytek pełzacza może również zostać przekazany Cliffowi."
               },
               {
-                "content": "Nieumarli magowie w Khorinis i Yarkendarze zadają teraz trochę mniej obrażeń."
+                "content": "Nieumarli magowie w Khorinis i Jarkendarze zadają teraz trochę mniej obrażeń."
               },
               {
                 "content": "Ochroniarz Lehmara nie będzie się już wybudzał po dialogu bohatera z Lehmarem jeśli został uśpiony zaklęciem."
