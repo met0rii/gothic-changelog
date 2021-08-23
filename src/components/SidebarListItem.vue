@@ -8,6 +8,10 @@
     <div v-if="notAvailable" class="badge">
       <span class="text" data-text="Soon">Już Wkrótce</span>
     </div>
+
+    <div v-if="isNew" class="badge">
+      <span class="text" data-text="Soon">Nowość</span>
+    </div>
   </v-list-item>
 </template>
 
@@ -18,6 +22,7 @@ export default {
     title: String,
     toRoute: [String, Object],
     notAvailable: Boolean,
+    isNew: Boolean,
     disabled: Boolean,
   },
 };

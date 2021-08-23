@@ -5,7 +5,7 @@
     "titleUrl": "https://i.imgur.com/AsGFpKN.png",
     "url": "https://drive.google.com/drive/folders/1FHXbFyROyJ6d3CihUHFOH97w7lP6xXNi",
     "installation": {
-      "url": "",
+      "url": "https://www.youtube.com/embed/VPkKAobjo94",
       "instruction": {
         "alerts": [],
         "lists": [
@@ -13,18 +13,43 @@
             "title": "Kolejność instalacji:",
             "list": [
               {
-                "content": "Pobierz instalator i zainstaluj modyfikację na czystą Noc Kruka.",
+                "content": "Zainstaluj czystą wersję gry Gothic II Noc Kruka.",
                 "list": [
                   {
-                    "content": "Instalator jest podzielony na 3 części, należy pobrać wszystkie a następnie uruchomić plikiem exe."
+                    "content": "Gra nie może być zainstalowana w lokalizacji <i>C:Program files (x86)</i> lub <i>C:Program files</i> ani w żadnej innej lokalizacji, która wymaga uprawnień administratora. Najlepiej zainstalować grę na innym dysku."
+                  },
+                  {
+                    "content": "Nie ma znaczenia czy gothic został pobrany ze Steama, czy z GOGa."
                   }
                 ]
               },
               {
-                "content": "Pobierz i wypakuj polskie skrypty do folderu z grą.",
+                "content": "Zainstaluj modyfikację poprzez instalator.",
+                "list": [
+                  {
+                    "content": "Instalator jest podzielony na kilka części, które wszystkie trzeba pobrać i umieścić w jednym folderze, a następnie uruchomić plikiem exe."
+                  },
+                  {
+                    "content": "Zaznacz opcję Visual C++ Redist jeśli nie wiesz, czy miałeś to zainstalowane wcześniej na komputerze."
+                  },
+                  {
+                    "content": "Opcja z czcionką i loading screenami nie mają znaczenia, ponieważ, polska wersja i tak posiada swoje."
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj do folderu z grą aktualne archiwum oznaczone nazwą <i>NB Skrypty</i>.",
                 "list": [
                   {
                     "content": "Część dialogów z Nocy Kruka może zostać nadpisana rosyjskimi, dlatego należy pobrać i wypakować do folderu z grą archiwum <i>NB_Speech_PL_Fix</i>."
+                  }
+                ]
+              },
+              {
+                "content": "Jeśli gra działa, można wedle uznania pobrać wybrane dodatki.",
+                "list": [
+                  {
+                    "content": "Zarówno texture packi jak i czcionki są kompatybilne z najnowszą wersją NB. Można je wgrać/usunąć w dowolnym momencie."
                   }
                 ]
               }
@@ -37,10 +62,549 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "32",
+        "updateDescription": "Aktualizacja poprawia błęd z źle działającym klawiszem G.",
+        "version": "2021-08-23",
+        "date": "2021-08-23",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Naprawiono błąd sprawiający, że skrót klawiszowy G nie działał poprawnie."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "31",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-22",
+        "date": "2021-08-22",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Na poziomie Nightmare, wszystkie przedmioty kosztują 25% więcej."
+              },
+              {
+                "content": "Maksymalny bonus do obrażeń od inteligencji jaki można otrzymać na runach kręgów 1-4 został lekko zwiększony dla gildii Guru."
+              },
+              {
+                "content": "Zwiększono ilość złota otrzymywaną od Andre za głowy bandytów."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że strzały i bełty były usuwane z ciał npc'tów."
+              },
+              {
+                "content": "Wprowadzono drobne poprawki w sterowaniu."
+              },
+              {
+                "content": "Wartość broni jest teraz wyświetlana z prawej strony."
+              },
+              {
+                "content": "Zmieniono trochę obrażenia i wymagania niektórych duali. Początkowe duale wymagają teraz tylko 100 zręczności. (wcześniej 125)"
+              },
+              {
+                "content": "Dodano język ognistego jaszczura i płytkę pełzacza do kupienia u Luthero w 1 rozdziale."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że obrażenia magiczne były czasem niewłaściwe."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "30",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-18",
+        "date": "2021-08-18",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Dodano nową wersję Szponu Beliara - Dwa ostrza. Sposób zdobycia ich jest identyczny jak innych wersji Szponu."
+              },
+              { "content": "Naprawiono kilka błędów ze smokami." },
+              {
+                "content": "Dodano po jednym sercu kamiennego golema do kupienia w 1 rozdziale od Zurisa i Baala Tyona."
+              },
+              {
+                "content": "Przekuty pancerz z płytek pełzacza może również zostać przekazany Cliffowi."
+              },
+              {
+                "content": "Nieumarli magowie w Khorinis i Jarkendarze zadają teraz trochę mniej obrażeń."
+              },
+              {
+                "content": "Ochroniarz Lehmara nie będzie się już wybudzał po dialogu bohatera z Lehmarem jeśli został uśpiony zaklęciem."
+              },
+              {
+                "content": "Usunięto wymóg magicznej rudy na 1 i 2 poziomie ulepszania ekwipunku."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra potrafiła zawiesić się na 1-2 sekundy po otwarciu ekwipunku lub dziennika."
+              },
+              {
+                "content": "Dodano 3 płytki z pełzacza do znalezienia w Khorinis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "29",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-12",
+        "date": "2021-08-12",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              { "content": "Naprawiono kilka drobnych błędów w grze." },
+              {
+                "content": "Kamienie szlachetne nie są już wymagane na 4 i 5 poziomie ulepszania."
+              },
+              {
+                "content": "Zmniejszono liczbę zasobów potrzebnych do ulepszenia przedmiotów."
+              },
+              {
+                "content": "Z bossów pełzaczy otrzymujemy teraz więcej płytek."
+              },
+              {
+                "content": "Czas odnowienia totemów jest teraz wyświetlany na ekranie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że przeciwnicy często nie reagowali na Kła."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że pragnienie oraz głód zaczynają działać dopiero po 30 sekundach."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ognik zmniejszał FPS do 20."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że Argulin w Koszmarze Kruka miał 2 razy większą siłę."
+              },
+              {
+                "content": "Naprawiono kilka błędów związanych z przyspieszeniem czasu."
+              },
+              {
+                "content": "Teraz pieczęcie magii i ognia wpływają na obrażenia run oraz zwojów (Pieczęć ognia dodaje obrażenia zaklęciom ognia, pieczęć magii pozostałym czarom)."
+              },
+              {
+                "content": "Maksymalna liczba pieczęci w broni wynosi 10 zamiast 20."
+              },
+              { "content": "Kilka drobnych zmian w nagrodach za misje." },
+              {
+                "content": "Zmieniono liczbę PN potrzebnych do nauki totemów i podmuchu wiatru."
+              },
+              { "content": "Niektóre runy mrocznego rycerza uległy zmianie." },
+              {
+                "content": "Zmieniono czas odnowienia oraz zdrowie totemów. Większość totemów nie może już \"tankować\" przeciwników, ponieważ mają teraz mniej zdrowia."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że mroczny sługa nie mógł zadawać ciosów krytycznych. Szansa na uderzenie krytyczne sługi zależy od many bohatera."
+              },
+              {
+                "content": "Runy nekromanty mają teraz 3% (wcześniej 10%) szans na zadanie dodatkowych obrażeń (szansa jest teraz równa mocy magicznej w %) Obrażenia nie są już zależne od mocy magicznej, a wynoszą zawsze 50%."
+              },
+              {
+                "content": "Wzmocniono runy maga ognia pierwszego i drugiego kręgu, a także nieznacznie zwiększono obrażenia od spalania."
+              },
+              {
+                "content": "Z wilków i wargów możemy teraz zebrać szpony, jeśli posiadamy usuwanie szponów."
+              },
+              {
+                "content": "Zwiększono ilość zdobywanych kłów z cieniostwora z 2 do 4."
+              },
+              {
+                "content": "Korzystanie ze stołu runicznego nie wymaga już posiadania kamienia runicznego."
+              },
+              { "content": "Dodano jeden teleport w wolnej kopalni." },
+              {
+                "content": "Na poziomie Nightmare liczba PN dla bohaterów z poziomem poniżej 30 została nieznacznie zmniejszona."
+              },
+              {
+                "content": "Efekt wizualny zamrożenia trwa teraz tylko 2 sekundy, więc zamrożenie nie uniemożliwia graczowi zobaczenia wrogów."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "28",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-09",
+        "date": "2021-08-09",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Teraz ulepszony ognik rzadziej się zacina i szybciej zbiera przedmioty."
+              },
+              {
+                "content": "Teraz wszyscy kupcy zdejmują swoje bronie przed rozpoczęciem handlu."
+              },
+              {
+                "content": "Naprawiono błędy w opisach niektórych przedmiotów."
+              },
+              {
+                "content": "Naprawiono teleportacje do Ur-Thralla, wcześniej gracz mógł wpaść pod tekstury."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że Alrik stawał się nieśmiertelny po pierwszej walce."
+              },
+              { "content": "Naprawiono błędy z zestawami." },
+              {
+                "content": "Naprawiono błąd sprawiający, że przyzwańcy nie reagowali na bossa Nyarlathotep (Mag w Koszmarze Kruka)"
+              },
+              { "content": "Naprawiono kilka błędów z totemami." },
+              { "content": "Naprawiono błąd z mapą Płaskowyżu Starożytnych." },
+              { "content": "Naprawiono błędy z zamrażaniem przeciwników." },
+              {
+                "content": "Dodano opcję wyświetlania regeneracji many na ekranie."
+              },
+              {
+                "content": "Dodano możliwość wyświetlania znaku \"+\" przed wartościami leczenia naszej postaci, aby włączyć ustaw wartość bToggleShowStatPlus = 1 w gothic.ini."
+              },
+              {
+                "content": "Ulepszanie zbroi i broni wymagają teraz mniej składników, jednak wymagane są bardziej różnorodne przedmioty."
+              },
+              {
+                "content": "Zmniejszono obrażenia wszystkich pieczęci z 12 do 10."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "27",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-06",
+        "date": "2021-08-06",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Kostur nowicjusza zadaje teraz dodatkowe 10 obrażeń. Dodatkowo wymaga teraz 5 siły."
+              },
+              {
+                "content": "Poprawiono parę błędów z nowym panelem zestawów."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "updateId": "26",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-05",
+        "date": "2021-08-05",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Przywrócono sposób ataku przyzwanych golemów oraz przy przemianie w golema usunięty w poprzednich aktualizacjach."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że postać otrzymywała kilkukrotnie obrażenia od jednego ataku smoków. Teraz powinny nakładać się prawidłowo."
+              },
+              {
+                "content": "Teraz gdy Mroczny rycerz wyrzeknie się Mrocznego sługi, obrażenia z broni wynoszą 75% zamiast 50%."
+              },
+              {
+                "content": "Mroczny rycerz może używać teraz kuszy bez utraty run, obrażenia są zredukowane tak jak w przypadku broni."
+              },
+              {
+                "content": "Naprawiono błąd, podczas którego nasza postać mogła zablokować się w wodzie."
+              },
+              {
+                "content": "Totem orkowego szamana nie chroni już nas przed atakiem ze strony wargów i wilków."
+              },
+              {
+                "content": "Dodano możliwość stworzenia zestawów ekwipunku. Interakcja odbywa się ekwipunku na pasku szybkiego wyboru (patrz porady w ekwipunku). Z zestawu korzysta się poprzez pasek szybkiego wyboru (Przycisk P)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "25",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-02",
+        "date": "2021-08-02",
+        "alerts": [
+          {
+            "text": "Przed wgraniem aktualizacji należy usunąć plik \"zModelProtoExtender.vdf\" z folderu \"Data\".",
+            "color": "red"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Obrażenia szpad są teraz wyświetlane jako \"cięte\". W rzeczywistości zawsze były cięte, ale wyświetlane jako kłute."
+              },
+              {
+                "content": "Pancerz Łowcy Nagród wymaga teraz przekuwania na poziomie 1."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że postać sama się poruszała, w momencie zminimalizowania gry."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że zapis gracza był uszkodzony z powodu animacji niektórych NPC."
+              },
+              {
+                "content": "Naprawiono błędy z niektórymi runami strażnika świątynnego."
+              },
+              {
+                "content": "Naprawiono błąd powodujący wyłączenie gry podczas zapisywania, w momencie gdy gracz kliknął przycisk ESC."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra zawieszała się, w momencie gdy gracz jednocześnie umieszczał oraz resetował totemy."
+              },
+              {
+                "content": "Naprawiono błąd powodujący redukcję obrażeń z krwawienia po ulepszeniu broni."
+              },
+              {
+                "content": "Reputacja u orków oraz złodziei są teraz wyświetlane w statystykach."
+              },
+              {
+                "content": "Przyzwańcy nekromanty mają lepszy wygląd."
+              },
+              {
+                "content": "Ogłuszanie i zamrażanie wrogów działa teraz lepiej."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ulepszanie oraz ostrzenie broni osełką działały czasami nieprawidłowo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "24",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-07-30",
+        "date": "2021-07-30",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Ustawienie skalowania interfejsu może być teraz ustawione z dużo większą precyzją. (wymaga restartu gdy aby ustawienia zostały zastosowane)"
+              },
+              {
+                "content": "Zmniejszono punkty nauki otrzymywane za wielu bossów. Punkty nauki za Kruka są teraz przyznawane poprawnie."
+              },
+              {
+                "content": "Totem mocy zwiększa teraz wszystkie obrażenia o 15% zamiast zwiększania siły i zręczności. Totem ochrony teraz prowokuje przeciwników przez 6 sekund po przywołaniu. Zmniejszono czas odnowienia i koszt w manie niektórych totemów. Naprawiono błąd z totemem ziemi."
+              },
+              {
+                "content": "Naprawiono obrażenia zadawane z kusz i łuków przy naciąganiu cięciwy. Prędkość naciągania cięciwy zwiększa się teraz podczas przyspieszania czasu."
+              },
+              {
+                "content": "Zmieniono koszt punktów nauki na wyższych progach władania kuszą."
+              },
+              {
+                "content": "Zmniejszono lekko życie demonicznych szkieletów."
+              },
+              {
+                "content": "Teraz najemnicy nie będą atakować bohatera, gdy walczy on z Rudarem."
+              },
+              {
+                "content": "Naprawiono kilka błędów z przyzwańcami."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra potrafiła się czasem zaciąć po wczytaniu."
+              },
+              {
+                "content": "Szpon Beliara (Halabarda) jest teraz poprawnie traktowana jako halabarda."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "23",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-07-29",
+        "date": "2021-07-29",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Naprawiono błąd sprawiający, że gra mogła czasem zcrashować przy wciskaniu niektórych przycisków."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że część przedmiotów po zużyciu duplikowała się i zostawała w ekwipunku."
+              },
+              {
+                "content": "Naprawiono błąd z zadawaniem obrażeń z duali."
+              },
+              {
+                "content": "Naprawiono błąd z naliczaniem zadawanych obrażeń z duali na trybie S&C."
+              },
+              {
+                "content": "Niewolnik Clovis wymaga teraz 20 bryłek żelaza zamiast 50."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że przyzwańce źle pojawiały się na ziemi."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że część smoków nie używała zaklęć i przyzwańców."
+              },
+              {
+                "content": "Srebrny Miecz Jacka zadaje teraz bonusowe obrażenia wszystkim nieumarłym."
+              },
+              {
+                "content": "Naprawiono błędy z obrażeniami włóczni oraz ich krwawieniem."
+              },
+              {
+                "content": "Część totemów wymaga teraz trochę mniej many."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że totem ziemi potrafił zcrashować czasem grę."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że totem mógł zniknąć zaraz po postawieniu go."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "22",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-07-28",
+        "date": "2021-07-28",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Poprawiono obliczanie szansy na trafienie krytyczne, teraz nie będzie sytuacji, gdzie przy 50% władania bronią, postać potrafiła uderzyć 10 razy z rzędu nie krytycznie."
+              },
+              {
+                "content": "Totem ziemi oraz totem ochrony mogą teraz zostać nauczone już w Khorinis."
+              },
+              {
+                "content": "Naprawiono błąd w zadaniu <i>Przewodnik Diego</i>."
+              },
+              {
+                "content": "Obrażenia <i>Furii Wichru</i> są teraz różne dla różnych typów broni."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że posiadając 90% władania bronią, krwawienie przestawało działać po 2 tickach."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "21",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-07-26",
+        "date": "2021-07-26",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Esteban nie może być już okradziony, ponieważ powodowało to problemy związane z fabułą."
+              },
+              {
+                "content": "Obrażenia przyzwanego kamiennego strażnika oraz drzewca skalują się teraz z inteligencją."
+              },
+              {
+                "content": "Obrażenia, jakie zadają przyzwańce nekromanty, są zależne teraz od inteligencji bohatera. Szkielety z armii ciemności, mają też teraz różne bronie."
+              },
+              {
+                "content": "Teraz gracz może rozkazać totemom atakować dany cel. (przyciskiem G)"
+              },
+              {
+                "content": "Naprawiono ostrzenie broni. Pamiętać trzeba jednak, żeby nie umieszczać ulepszonych / naostrzonych przedmiotów w skrzyniach. Wszystkie właściwości przedmiotu wtedy zostają przywrócone do pierwotnych wartości."
+              },
+              {
+                "content": "Naprawiono kilka błędów w zadaniu z zabójstwem Lehmara."
+              },
+              {
+                "content": "Poprawiono funkcję umieszczania totemów na ziemi."
+              },
+              {
+                "content": "Przyspieszenie czasu wpływa teraz na czas odnowienia totemów oraz na akcje wykonywane przez totemy."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gracz nie mógł spać, teleportować się, itd. gdy bohater miał 5 lub mniej punktów życia. "
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra crashowała gdy poszukiwacze przyzywali szkielety."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że wytrzymałość bohatera była zużywana gdy był on zanurzony jedynie po kolana w wodzie."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że umieszczanie zwojów i run na pasku zaklęć, było niemożliwe."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po ulepszeniu / naostrzeniu przedmiotu, jego statystyki wyświetlały się nieprawidłowo."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra czasem crashowała podczas umieszczania totemu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "20",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-07-23",
+        "date": "2021-07-23",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Mapa pustyni Adanosa jest teraz poprawnie umieszczona i można ją znaleźć w grze."
+              },
+              {
+                "content": "Zmieniono animację bohatera przy poruszaniu się na boki, mając wyposażoną pochodnię."
+              },
+              {
+                "content": "Leczenia jakie uzyskuje bohater, ponownie będą wyświetlać się teraz na ekranie. (jeśli opcja jest włączona)"
+              },
+              {
+                "content": "Orkowa broń, którą bohater może wykuć, jest teraz poprawnie traktowana jako broń orków. Umiejętność szamana - Furia Wichru działa teraz podczas używania tych broni."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że na Windowsie 7 (i rzadko 10) gra mogła czasem crashować przy wczytywaniu i zapisywaniu."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gracz mógł spróbować wczytać pozycję szybkiego zapisu, która nie istnieje, co powodowało crasha gry."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że po teleportacji bohater mógł powtórzyć animację teleportu."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "19",
         "updateDescription": "Aktualizacja wprowadza do gry wiele zmian. Cała modyfikacja została przeniesiona na platformę Union. Między innymi poprawiona wydajność, dodano nową klasę Szamana, wprowadzono zmiany dotyczące poziomu trudności, dodano zupełnie nowe zadanie.",
-        "version": "22-07-2021",
-        "date": "22-07-2021",
+        "version": "2021-07-22",
+        "date": "2021-07-22",
         "alerts": [
           {
             "text": "Aktualizacja wymaga rozpoczęcia nowej gry, jako że mod został przeniesiony na platformę UNION!",
@@ -335,8 +899,8 @@
       {
         "updateId": "18",
         "updateDescription": "Wprowadzono możliwość wyboru wersji trybu Slash & Craft oraz kilka innych ciekawych zmian.",
-        "version": "12.04.2021",
-        "date": "12-04-2021",
+        "version": "2021-04-12",
+        "date": "2021-04-12",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -369,8 +933,8 @@
       {
         "updateId": "17",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "03.02.2021",
-        "date": "03-02-2021",
+        "version": "2021-02-03",
+        "date": "2021-02-03",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -411,8 +975,8 @@
       {
         "updateId": "16",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "01.02.2021",
-        "date": "01-02-2021",
+        "version": "2021-02-01",
+        "date": "2021-02-01",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -459,8 +1023,8 @@
       {
         "updateId": "15",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "28.01.2021",
-        "date": "28-01-2021",
+        "version": "2021-01-28",
+        "date": "2021-01-28",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -498,8 +1062,8 @@
       {
         "updateId": "14",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "27.01.2021",
-        "date": "27-01-2021",
+        "version": "2021-01-27",
+        "date": "2021-01-27",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -534,8 +1098,8 @@
       {
         "updateId": "13",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "26.01.2021",
-        "date": "26-01-2021",
+        "version": "2021-01-26",
+        "date": "2021-01-26",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -591,8 +1155,8 @@
       {
         "updateId": "12",
         "updateDescription": "Aktualizacja wprowadza zmiany i poprawki dotyczące Mrocznego Rycerza.",
-        "version": "24.01.2021",
-        "date": "24-01-2021",
+        "version": "2021-01-24",
+        "date": "2021-01-24",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -633,12 +1197,12 @@
       {
         "updateId": "11",
         "updateDescription": "Aktualizacja wprowadza do gry długo wyczekiwaną gildię Mrocznego Rycerza.",
-        "version": "23.01.2021",
-        "date": "23-01-2021",
+        "version": "2021-01-23",
+        "date": "2021-01-23",
         "alerts": [
           {
             "color": "red",
-            "text": "<b>UWAGA!</b> Aby zagrać jako Mroczny Rycerz należy zacząć nową grę na AB Modzie z 20.01.2021!"
+            "text": "<b>UWAGA!</b> Aby zagrać jako Mroczny Rycerz należy zacząć nową grę na AB Modzie z 2021-01-20!"
           }
         ],
         "lists": [
@@ -681,8 +1245,8 @@
       {
         "updateId": "10",
         "updateDescription": "Aktualizacja wprowadza między innymi drobne poprawki i zmiany w lokacjach oraz ważne waypointy potrzebne do gry Mrocznym rycerzem w przyszłości. <i>Osoby planujące grać Mrocznym rycerzem mogą zacząć nową grę na tej aktualizacji. Za kilka dni zostanie skończona klasa i będzie można nią odrazu zostać. Pamiętać trzeba tylko, żeby nie dołączać do żadnej gildii ani nie zabijać Rigeliona.</i>",
-        "version": "20.01.2021",
-        "date": "20-01-2021",
+        "version": "2021-01-20",
+        "date": "2021-01-20",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -759,8 +1323,8 @@
       {
         "updateId": "9",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "15.01.2021",
-        "date": "15-01-2021",
+        "version": "2021-01-15",
+        "date": "2021-01-15",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -820,8 +1384,8 @@
       {
         "updateId": "8",
         "updateDescription": "Wprowadzono zmiany w runach magii wody. Dodano nowe ikony broni w ekwipunku oraz usunięto możliwość wejścia do obozu bandytów w Jarkendarze mając stary pancerz cienia.",
-        "version": "07.01.2021",
-        "date": "07-01-2021",
+        "version": "2021-01-07",
+        "date": "2021-01-07",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -878,8 +1442,8 @@
       {
         "updateId": "7",
         "updateDescription": "Ilość statystyk, jakie można uzyskać na <i>Nowym Balansie</i> okazała się znacząco za duża. Zmniejszono dla tego ilość zdobywanych punktów nauki z bossów i zadań przez całą grę. Zmniejszono też ilość zdobywanych punktów życia. Wprowadzono też zmiany dotyczące składników do ciast.",
-        "version": "01.01.2021",
-        "date": "01-01-2021",
+        "version": "2021-01-01",
+        "date": "2021-01-01",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -969,8 +1533,8 @@
       {
         "updateId": "6",
         "updateDescription": "Przywrócono możliwość zbierania roślin w lokacji za pomocą ognika, dodano nowy amulet oraz poprawiono wiele błędów.",
-        "version": "28.12.2020",
-        "date": "28-12-2020",
+        "version": "2020-12-28",
+        "date": "2020-12-28",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1030,8 +1594,8 @@
       {
         "updateId": "5",
         "updateDescription": "Bandyci nie będą już pić mikstur leczniczych podczas walki. Zebrane ważne przedmioty będą teraz wyświetlać się na czerwono. Poza tym jak zawsze mniejsze zmiany i poprawki błędów.",
-        "version": "26.12.2020",
-        "date": "26-12-2020",
+        "version": "2020-12-26",
+        "date": "2020-12-26",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1070,8 +1634,8 @@
       {
         "updateId": "4",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "24.12.2020",
-        "date": "24-12-2020",
+        "version": "2020-12-24",
+        "date": "2020-12-24",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1113,8 +1677,8 @@
       {
         "updateId": "3",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "22.12.2020",
-        "date": "22-12-2020",
+        "version": "2020-12-22",
+        "date": "2020-12-22",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1159,8 +1723,8 @@
       {
         "updateId": "2",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "20.12.2020",
-        "date": "20-12-2020",
+        "version": "2020-12-20",
+        "date": "2020-12-20",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1199,8 +1763,8 @@
       {
         "updateId": "1",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
-        "version": "19.12.2020",
-        "date": "19-12-2020",
+        "version": "2020-12-19",
+        "date": "2020-12-19",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -1224,8 +1788,8 @@
       {
         "updateId": "0",
         "updateDescription": "Aktualizacja nazwana też <i>Nowym Balansem</i> odświeża rozgrywkę na wielu płaszczyznach, wprowadza wiele nowości, oraz usprawnień. Zalecam też wgrać nową wersję DX11 - wprowadza ona zmiany między innymi w sposobie wyświetlania tekstu na ekranie co redukuje spadki FPS. Jeśli wystąpiłyby jakiekolwiek problemy z DX'em - należy usunąć folder GD3D11 z folderu System gothica i wgrać ponownie dowolną wersję DX'a.",
-        "version": "18.12.2020",
-        "date": "18-12-2020",
+        "version": "2020-12-18",
+        "date": "2020-12-18",
         "lists": [
           {
             "title": "Zmiany dotyczące poziomu Nightmare:",
@@ -1769,7 +2333,7 @@
                 "content": "Pobierz i wypakuj zawartość paczki z patchami do folderu z grą.",
                 "list": [
                   {
-                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0i"
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
                   }
                 ]
               },
@@ -1779,10 +2343,10 @@
             ]
           },
           {
-            "title": "Opcjonalne",
+            "title": "Opcjonalne:",
             "list": [
               {
-                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z DX11 do folderu z grą."
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
               }
             ]
           }
@@ -1796,7 +2360,7 @@
         "updateId": "2",
         "updateDescription": "Balans rozgrywki, poprawione AI przeciwników, zmiany w umiejętnościach, broniach, pancerzach i innych przedmiotach.",
         "version": "1.6",
-        "date": "10.02.2021",
+        "date": "2021-02-10",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -2145,7 +2709,7 @@
         "updateId": "1",
         "updateDescription": "Przebudowany system modlitw u Innosa, wzmocnienie broni dwuręcznych, zmienione progi PN u nauczycieli.",
         "version": "1.5",
-        "date": "16.03.2020",
+        "date": "2020-03-16",
         "lists": [
           {
             "title": "Zmiany ogólne:",
@@ -2310,7 +2874,7 @@
         "updateId": "0",
         "updateDescription": "Poprawki w dialogach, usunięcie niektórych wymogów w dialogach, zmiana kosztów amunicji.",
         "version": "1.4",
-        "date": "09.11.2018",
+        "date": "2018-11-09",
         "lists": [
           {
             "title": "Zmiany ogólne: ",
@@ -2550,13 +3114,13 @@
       "instruction": {
         "lists": [
           {
-            "title": "Kolejność instalacji",
+            "title": "Kolejność instalacji:",
             "list": [
               {
-                "content": "Pobierz i wypakuj zawartość archiwum <b>Gothic II Patch Bundle</b> do folderu z grą.",
+                "content": "Pobierz i wypakuj zawartość archiwum <b>G2 Patch Bundle</b> do folderu z grą.",
                 "list": [
                   {
-                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0j"
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
                   }
                 ]
               },
@@ -2581,7 +3145,7 @@
                 "content": "Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum <b>LHiverGraphicForOdyssee</b> do folderu <b>data</b>."
               },
               {
-                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość archiwum z <b>DX11</b> do folderu <b>system</b>."
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
               }
             ]
           }
@@ -2593,9 +3157,11 @@
         "updateId": "0",
         "updateDescription": "Lista zmian względem niemieckiej wersji",
         "version": "2.6.4",
-        "date": "02.04.2021",
+        "date": "2021-04-02",
         "lists": [
-          { "title": "Zmiany względem wersji niemieckiej:" },
+          {
+            "title": "Zmiany względem wersji niemieckiej:"
+          },
           {
             "title": "Poprawki:",
             "list": [
@@ -2956,7 +3522,6 @@
           "name": "Tavertix",
           "role": "Tester"
         },
-
         {
           "name": "Kredensik",
           "role": "Tłumacz"
@@ -2968,8 +3533,44 @@
     "id": "velen",
     "title": "Velen 2.0",
     "titleUrl": "https://i.imgur.com/Q9kpdkR.png",
-    "url": "",
-    "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: prześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Jednak stał się dla nich nieszczęśliwy zbieg okoliczności. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast wrzuceni do lochu.<br>Jeszcze tego samego dnia dostali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wyspy Velen.",
+    "url": "https://drive.google.com/drive/folders/1eujW7gsEyCByVWuymg55fJg6mGucIm1_?usp=sharing",
+    "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: prześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Tego dnia, los im jednak nie sprzyjał. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast trafili do lochu.<br>Jeszcze tego samego dnia otrzymali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wyspy Velen.",
+    "installation": {
+      "instruction": {
+        "lists": [
+          {
+            "title": "Kolejność instalacji:",
+            "list": [
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum <b>G2 Patch Bundle</b> do folderu z grą.",
+                "list": [
+                  {
+                    "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
+                  }
+                ]
+              },
+              {
+                "content": "Pobierz i wypakuj zawartość archiwum <b>Velen_Data</b> do folderu z grą."
+              }
+            ]
+          },
+          {
+            "title": "Opcjonalne:",
+            "list": [
+              {
+                "content": "Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i wypakuj zawartość archiwum <b>Velen_Speech</b> do folderu z grą."
+              },
+              {
+                "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
+              },
+              {
+                "content": "Jeśli chcesz zainstalować dobrane pod Velen pluginy Union'a - Pobierz i wypakuj zawartość wybranego <b>Union_Plugins</b> do folderu z grą."
+              }
+            ]
+          }
+        ]
+      }
+    },
     "changes": [],
     "overview": {
       "lists": [
@@ -2980,16 +3581,28 @@
               "content": "Zaktualizowano pakiety Ikarus, LeGo oraz Gothic Free Aim do najnowszej wersji."
             },
             {
-              "content": "Informacja na temat uzyskiwanych statystyk i władania bronią są teraz wyświetlane z lewej strony ekranu."
+              "content": "Usunięto funkcję, która zabierała stale 20-25 FPS. Działanie funkcji zostało rozwiązane w sposób, który nie odbija się na wydajności."
+            },
+            {
+              "content": "Dodano kolorowanie nazw skrzyń i drzwi."
+            },
+            {
+              "content": "Dodano nowy, czwarty poziom trudności - Koszmar. Zmiany jakie wprowadza są wypisane przy wyborze poziomu. Pozostałe poziomy trudności, pozostały niezmienione."
             },
             {
               "content": "Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Ujednolicono też format wyświetlania informacji o przedmiocie."
             },
             {
-              "content": "Dodano instancję PC_Itemfeller posiadającą wszystkie istniejące przedmioty. (nie koniecznie wszystkie występują w grze)"
+              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest teraz unikatowy."
             },
             {
-              "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest fioletowy."
+              "content": "Poprawiono sposób wyświetlania wielu tekstów na ekranie."
+            },
+            {
+              "content": "Poszerzono okna menu, aby były czytelniejsze i tekst nie nachodził na siebie."
+            },
+            {
+              "content": "Naprawiono uszkodzone pliki dźwiękowe rąbania drewna."
             }
           ]
         }
@@ -3149,11 +3762,15 @@
           "role": "Tester"
         },
         {
-          "name": "templar",
+          "name": "Dawinio",
           "role": "Tester"
         },
         {
           "name": "JkB",
+          "role": "Tester"
+        },
+        {
+          "name": "Templar",
           "role": "Tester"
         }
       ]
