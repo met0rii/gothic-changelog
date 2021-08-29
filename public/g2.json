@@ -62,6 +62,81 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "33",
+        "updateDescription": "Aktualizacja wprowadza możliwość zmiany wielu skrótów klawiszowych, poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-29",
+        "date": "2021-08-29",
+        "alerts": [
+          {
+            "text": "Przed wgraniem aktualizacji należy usunąć plik \"Gothic_Keys.ini\" z folderu \"System\".",
+            "color": "red"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Ustawienia sterowania:",
+            "list": [
+              {
+                "content": "Wprowadzono możliwość zmiany wielu skrótów klawiszowych poprzez nową zakładkę w menu gry."
+              },
+              {
+                "content": "ESC, Lewy klawisz myszki oraz ENTER nie mogą być przypisane. Nie ma też większego sensu przypisywanie czegokolwiek pod klawisze WASD, 0-9 czy F11."
+              },
+              {
+                "content": "Można też używać kombinacji klawiszy jak SHIFT + V, czy CTRL + SHIFT + R. Można też używać dodatkowych przycisków na myszcze jeśli ktoś je posiada."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Jeśli DX11 jest włączony, klawisz F9 nie będzie już robił screenshotów i można go przypisać do czegoś innego."
+              },
+              {
+                "content": "Zmniejszono lekko penetrację pancerza łuków i kusz."
+              },
+              {
+                "content": "Przyzwany kamienny strażnik zajmuje teraz 2 miejsca przyzwańców."
+              },
+              {
+                "content": "Strażnicy świątynni mogą teraz handlować z Baalem Tyonem."
+              },
+              {
+                "content": "Zmniejszono koszt nauki tworzenia zwojów u Gallahada."
+              },
+              {
+                "content": "Zmniejszono koszt w złocie za naukę statystyk w późnej fazie gry oraz koszt w złocie za naukę zdrowia na początku."
+              },
+              {
+                "content": "Teraz na poziomie Nightmare, po 30 poziomie gracz otrzymuje 4 punkty nauki za poziom zamiast 3. Dodatkowo na poziomach początkowych gracz otrzyma łącznie trochę więcej punktów nauki. Na trybie Nightmare S&C na poziomach 15-20 gracz otrzymuje 3 punkty za poziom zamiast 2."
+              },
+              {
+                "content": "Usunięto ostatnią zmianę, która podnosiła ceny wszystkich towarów o 25% na poziomie nightmare."
+              },
+              {
+                "content": "Wino zapomnienia wymaga teraz 3 winogrona i przyznaje 12 maksymalnego zdrowia. (wcześniej 4 winogrona i 10 maks. zdrowia)"
+              },
+              {
+                "content": "Przywrócono i zwiększono ilość złota otrzymywaną za część zadań i bossów."
+              },
+              {
+                "content": "Mroczny mentor teraz poprawnie sprzedaje przedmioty mrocznemu rycerzowi."
+              },
+              {
+                "content": "Zwiększono lekko obrażenia trującego ukąszenia. (4 krąg)"
+              },
+              {
+                "content": "Zaklęcie 3 kręgu guru - Magiczna kula ma teraz 25% szansy na zadanie 30% dodatkowych obrażeń."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że obrażenia run 1 kręgu od ostatniego patcha były obliczane niewłaściwie."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "32",
         "updateDescription": "Aktualizacja poprawia błąd ze źle działającym klawiszem G.",
         "version": "2021-08-23",
