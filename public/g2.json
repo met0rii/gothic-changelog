@@ -62,6 +62,73 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "34",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-09-05",
+        "date": "2021-09-05",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Odświeżono menu pomocy w grze pod klawiszem H. Teraz znajdują się tam różne porady dotyczące gry."
+              },
+              {
+                "content": "Przywrócono skróty klawiszowe shift + F1/2/3 do zmiany broni."
+              },
+              {
+                "content": "Dodano nowe opcje do menu przypisania klawiszy."
+              },
+              {
+                "content": "Teraz każda gildia może zdobyć cały ekwipunek z zadania Zaginiony Brat."
+              },
+              {
+                "content": "Wzmocniono święte strzały o około 75 obrażeń."
+              },
+              {
+                "content": "Dodano 2 nowe umiejętności do nauczenia się jako Guru. Umysł Guru: raz na minutę przywraca 10% many gdy spadnie ona poniżej 10%. Potęga Guru: bonus 3% mocy magicznej."
+              },
+              {
+                "content": "Runa trzęsienie ziemi teraz poprawnie ogłusza przeciwników."
+              },
+              {
+                "content": "Woń trucizny teraz poprawnie otrzymuje bonus gdy założony jest kieł muritana."
+              },
+              {
+                "content": "Mroczny rycerz po oddaniu mrocznego sługi, będzie miał o 5% mniejszą karę do obrażeń od siły."
+              },
+              {
+                "content": "Runy mrocznego rycerza nie wyłączają się już po przemianie."
+              },
+              {
+                "content": "Obrażenia obszarowe działają teraz poprawnie na broni specjalnej mrocznego rycerza - Żniwiarz Dusz. (zmiana zadziała tylko jeśli broń nie została jeszcze kupiona)"
+              },
+              {
+                "content": "Zwiększono lekko ilość jabłek do kupienia u handlarzy."
+              },
+              {
+                "content": "Gobliny obok rzeki w Khorinis zostały przeniesione trochę dalej, tak aby Lares się nie blokował."
+              },
+              {
+                "content": "Naprawiono teksturę miecza Rozjemca."
+              },
+              {
+                "content": "W 7 rozdziale Bennet ma nowe towary na sprzedaż w tym paczkę z dużą ilością magicznej rudy, gdyby komuś zabrakło jej do zadań."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ognik mógł usunąć ciało NPC-ta przed zebraniem przedmiotów, przez co były one stracone."
+              },
+              {
+                "content": "Naprawiono kilka błędów z przyzwańcami."
+              },
+              {
+                "content": "Poprawiono opisy niektórych run."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "33",
         "updateDescription": "Aktualizacja wprowadza możliwość zmiany wielu skrótów klawiszowych, poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-08-29",
