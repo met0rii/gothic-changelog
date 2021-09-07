@@ -62,6 +62,37 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "35",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-09-07",
+        "date": "2021-09-07",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Do menu pomocy dodano informacje na temat ognika."
+              },
+              {
+                "content": "Po oddaniu Xardasowi Necronomiconu, gracz może teraz wybrać czy chce eliksir życia, czy ducha. (wcześniej zależało od gildii)"
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że przyzwańce nie atakowały celu na rozkaz gracza."
+              },
+              {
+                "content": "Zabite szkielety są teraz poprawnie usuwane po wczytaniu gry. Ich świecące oczy nie będą już wisieć w powietrzu."
+              },
+              {
+                "content": "Naprawiono kilka błędów z Hubaxisem."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że nie można było użyć klawisza B oraz C w nazwie zapisu gry."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "34",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-09-05",
