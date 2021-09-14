@@ -62,6 +62,40 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "36",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-09-14",
+        "date": "2021-09-14",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Okno statystyk postaci może być teraz zamknięte klawiszem ESC."
+              },
+              {
+                "content": "Skrzynia z wielkim rubinem w ratuszu może być teraz otworzona przy użyciu mikstury ochrony przed następnym atakiem. Zawartość skrzyni została lekko zmieniona. Dwa klejnoty zostały przeniesione w inne miejsca."
+              },
+              {
+                "content": "Zwiększono koszt mikstury ochrony przed następnym atakiem."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra potrafiła zawiesić się podczas używania magii i broni."
+              },
+              {
+                "content": "Mikstura ochrony przed upadkiem chroni teraz całkowicie przed upadkiem z dowolnej wysokości."
+              },
+              {
+                "content": "Runy świątynnego strażnika otrzymują teraz bonus od inteligencji równy 65% (wcześniej 50%) i mają inny kolor."
+              },
+              {
+                "content": "Naprawiono kilka błędów z aktualizowaniem opisu run."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "35",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-09-07",
