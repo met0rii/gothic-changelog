@@ -3,7 +3,7 @@
     "id": "dz",
     "title": "Dolina Zombie",
     "titleUrl": "https://imgur.com/zfHISse.png",
-    "url": "https://mega.nz/file/l0pilR6J#nwM4C2ilMkKcFE4QLyJyIEeaPE43pFIi7-a5P1t_LUA",
+    "url": "https://drive.google.com/file/d/1R8mRawOC0CgRiQ-OsLDa0LX4FNolYAM_/view?usp=sharing",
     "description": "Wciel się w Bragusa, nowego skazańca wtrąconego do kolonii za zabójstwo człowieka, który pozbawił go rodziny. Nie zastań jednak Diego, nie zastań tego co było w podstawce, zmierz się z doliną opanowaną przez apokalipsę zombie. Odkryj tajemnice epidemii, zmierz się z ponad 40 rodzajami zombie i potworów, postaraj się przetrwać i położyć kres rozwojowi wirusa, uratuj tych, co przeżyli!",
     "installation":{
       "instruction":{
@@ -35,6 +35,36 @@
       }
     },
     "changes": [
+      {
+        "updateId": "1",
+        "updateDescription": "Aktualizacja poprawia błędy, dodaje nowe przedmioty oraz mechaniki...",
+        "version": "Ewolucja 2.0",
+        "date": "2021-09-08",
+        "alerts":[{
+          "text":"Mod nadal jest w wersji beta! Bardzo proszę o zgłaszanie błędów na kanale discrod w sekcji Dolina Zombie!",
+          "color":"red"
+        }],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+{"content":"Poprawki błędów z podstawowej wersji Ewolucji"},
+{"content":"Nowe wątki, zadania, dialogi, postacie"},
+{"content":"Nowe umiejętności: Hiena Cmentarna, wabienie przeciwnika, redukcja stresu, orkowa broń, strzelanie z dmuchawek."},
+{"content":"Możliwość szybszego zdobycia 2 poziomu walki bronią dwuręczną"},
+{"content":"Nowe dźwięki"},
+{"content":"Nowy świat"},
+{"content":"Nowe rodzaje zombie"},
+{"content":"Nowi przeciwnicy"},
+{"content":"Zmiany w świecie, więcej roślinności, zniszczeń itd"},
+{"content":"Poprawki w balansie"},
+{"content":"Zwiększony poziom trudności"},
+{"content":"Ciosy krytyczne jako osobny mechanizm"},
+{"content":"I wiele więcej..."}
+            ]
+          }
+        ]
+      },
       {
         "updateId": "0",
         "updateDescription": "Aktualizacja rozbudowuje dotychczasowy świat o nowe przedmioty, zadania, mechaniki, wątki oraz wiele więcej...",
@@ -105,6 +135,7 @@
           }
         ]
       }
+      
     ],
     "overview": {
       "lists": [
