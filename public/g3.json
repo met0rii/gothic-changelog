@@ -26,7 +26,8 @@
               "list":[{"content":"Quest pack bez steam -> G3_QUEST_PACK_4_U2_pl_DIGI.exe"}]
             },
             {
-              "content":"Content mod   ->   CM_3.1_INT_FINAL.exe"
+              "content":"Content mod   ->   CM_3.1_INT_FINAL.exe",
+              "list":[{"content":"W trakcie instalacji odznacz nową twarz bohatera oraz konsekwencje."}]
             },
             {
               "content":"MDS -> ModStarter_v1_2.rar wypakuj w dowolnym miejscu i wskaż plik gothic3.exe"
@@ -84,6 +85,50 @@
       }
     },
     "changes": [
+      {
+        "updateId": "5",
+        "updateDescription": "Mod PGL został w pełni zintegrowany.<br>Na ten moment 50% zawartości z Konsekwencji jest zintegrowane.<br> Poprawiono wiele znalezionych błędów.<br>",
+        "version": "0.36",
+        "date": "2021-08-28",
+        "alerts": [
+          
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {"content":"Bandyci z Myrtany otrzymali bardziej zróżnicowane zbroje i broń, a niektórzy będą nosić hełmy."},
+{"content":"Wiele pustych miejsc w świecie zostało przekształconych."},
+{"content":"Dodano nowe przedmioty i obiekty do gry."},
+{"content":"Naprawiono błąd dający możliwość otrzymania drugiej nagrody od Gamala po ukończeniu zadania „Zabij Starszego”."},
+{"content":"Bohater otrzyma reputację u Asasynów za zostanie mistrzem areny Mora Sul. Zmniejszono reputacje za zadanie „Darowizna dla Beliara”."},
+{"content":"Naprawiono dialogi u Ingvara i Ugolfa."},
+{"content":"Paladyn Wenzel jest teraz nieuzbrojony będąc schwytanym przez orków."},
+{"content":"Teraz możesz wybrać opcje dla moda „Konsekwencje” (wersja okrojona, pełna lub bez konsekwencji). Po uwolnieniu Ardei musisz porozmawiać z Tristanem. Uwaga: jeśli awansujesz dalej w grze, wybór nie będzie dostępny (np. uwolnienie jakiegoś miasta lub rozmowa z postaciami: Robarem, Zubenem, Xardasem itp.). Domyślnie konsekwencje są wyłączone."},
+{"content":"Główne zadanie moda PGL zostało zintegrowane. Naprawiono wszystkie znalezione do tej pory błędy. Uwaga: jeśli stanąłeś po stronie któregoś z bogów przed aktywacją PGL, mod nie będzie już mógł zostać aktywowany."},
+{"content":"Rozmawiając z Lee, możesz zignorować fabułę moda PGL i całkowicie ją pominąć."},
+{"content":"Teraz możesz ukończyć PGL nawet po wyzwoleniu Nordmaru, bez wcześniejszej rozmowy z Lee."},
+{"content":"Jeśli nie zabierzesz ze sobą Lee, aby uwolnić Nordmar, orkowie zaatakują Klan Ognia, tak jak wynikało to z dialogów."},
+{"content":"Teraz nie będzie można zdobyć starej zbroi najemnika, pokonując Lee, jeśli masz zainstalowany QuestPack."},
+{"content":"Lee da bohaterowi zbroję najemnika, nawet jeśli mod PGL jest wyłączony."},
+{"content":"Zmieniono przedmiot „Królewski pierścień”, dodano nową ikonę."},
+{"content":"Naprawiono zadanie „Odwrócić uwagę strażnika”. Teraz nie musisz czekać całej godziny na ukończenie zadania."},
+{"content":"Strażnik w pobliżu celi Laresa będzie faktycznie stał na straży."},
+{"content":"Cela Laresa będzie zamknięta drzwiami, które można otworzyć tylko kluczem."},
+{"content":"Powiązania niektórych zadań PGL z QuestPackiem zostały usunięte."},
+{"content":"Dodano alternatywne ścieżki dla fabuły PGL, jeśli ta lub inna postać zginęła (na przykład Markus, Vendorn i inne postacie nie są już wymagane do pomyślnego ukończenia zadania)."},
+{"content":"Król Rhobar i Karrypto nie są już klonowani. Teraz zadanie „Złam opór Morr!” można wykonać pomyślnie."},
+{"content":"Karrypto nie teleportuje się już do swojej wieży po rozmowie z bohaterem, ale idzie pieszo (w większości przypadków mag ginął podczas teleportacji)."},
+{"content":"Dodano dodatkowe dialogi, aby lepiej zrozumieć, co robić dalej w fabule."},
+{"content":"Paladyni nie wezmą udziału w zabiciu króla, jak zamierzał autor."},
+{"content":"Lee będzie miał nowy topór. Można go zdobyć po ukończeniu głównego wątku fabularnego moda PGL."},
+{"content":"Zadanie „Zniszcz Vengard” nie będzie już ukończone, jeśli Vengard nie został oczyszczony."},
+{"content":"Naprawiono wiele innych błędów i niedociągnięć."},
+{"content":"Naprawiono inne znalezione błędy w modzie LTM."}
+            ]
+          }
+        ]
+      },
       {
         "updateId": "4",
         "updateDescription": "Dodano wszystkie dodatkowe misje z moda PGL - Powrót Generała Lee (UWAGA: misja główna nie została jeszcze dodana).<br>Częściowo zintegrowany mod Konsekwencje (30-40%).<br>Naprawiono inne znalezione błędy w modach LTM, PGL i Konsekwencjach.",

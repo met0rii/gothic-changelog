@@ -62,6 +62,213 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "36",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-09-14",
+        "date": "2021-09-14",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Okno statystyk postaci może być teraz zamknięte klawiszem ESC."
+              },
+              {
+                "content": "Skrzynia z wielkim rubinem w ratuszu może być teraz otworzona przy użyciu mikstury ochrony przed następnym atakiem. Zawartość skrzyni została lekko zmieniona. Dwa klejnoty zostały przeniesione w inne miejsca."
+              },
+              {
+                "content": "Zwiększono koszt mikstury ochrony przed następnym atakiem."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że gra potrafiła zawiesić się podczas używania magii i broni."
+              },
+              {
+                "content": "Mikstura ochrony przed upadkiem chroni teraz całkowicie przed upadkiem z dowolnej wysokości."
+              },
+              {
+                "content": "Runy świątynnego strażnika otrzymują teraz bonus od inteligencji równy 65% (wcześniej 50%) i mają inny kolor."
+              },
+              {
+                "content": "Naprawiono kilka błędów z aktualizowaniem opisu run."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "35",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-09-07",
+        "date": "2021-09-07",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Do menu pomocy dodano informacje na temat ognika."
+              },
+              {
+                "content": "Po oddaniu Xardasowi Necronomiconu, gracz może teraz wybrać czy chce eliksir życia, czy ducha. (wcześniej zależało od gildii)"
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że przyzwańce nie atakowały celu na rozkaz gracza."
+              },
+              {
+                "content": "Zabite szkielety są teraz poprawnie usuwane po wczytaniu gry. Ich świecące oczy nie będą już wisieć w powietrzu."
+              },
+              {
+                "content": "Naprawiono kilka błędów z Hubaxisem."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że nie można było użyć klawisza B oraz C w nazwie zapisu gry."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "34",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-09-05",
+        "date": "2021-09-05",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Odświeżono menu pomocy w grze pod klawiszem H. Teraz znajdują się tam różne porady dotyczące gry."
+              },
+              {
+                "content": "Przywrócono skróty klawiszowe shift + F1/2/3 do zmiany broni."
+              },
+              {
+                "content": "Dodano nowe opcje do menu przypisania klawiszy."
+              },
+              {
+                "content": "Teraz każda gildia może zdobyć cały ekwipunek z zadania Zaginiony Brat."
+              },
+              {
+                "content": "Wzmocniono święte strzały o około 75 obrażeń."
+              },
+              {
+                "content": "Dodano 2 nowe umiejętności do nauczenia się jako Guru. Umysł Guru: raz na minutę przywraca 10% many gdy spadnie ona poniżej 10%. Potęga Guru: bonus 3% mocy magicznej."
+              },
+              {
+                "content": "Runa trzęsienie ziemi teraz poprawnie ogłusza przeciwników."
+              },
+              {
+                "content": "Woń trucizny teraz poprawnie otrzymuje bonus gdy założony jest kieł muritana."
+              },
+              {
+                "content": "Mroczny rycerz po oddaniu mrocznego sługi, będzie miał o 5% mniejszą karę do obrażeń od siły."
+              },
+              {
+                "content": "Runy mrocznego rycerza nie wyłączają się już po przemianie."
+              },
+              {
+                "content": "Obrażenia obszarowe działają teraz poprawnie na broni specjalnej mrocznego rycerza - Żniwiarz Dusz. (zmiana zadziała tylko jeśli broń nie została jeszcze kupiona)"
+              },
+              {
+                "content": "Zwiększono lekko ilość jabłek do kupienia u handlarzy."
+              },
+              {
+                "content": "Gobliny obok rzeki w Khorinis zostały przeniesione trochę dalej, tak aby Lares się nie blokował."
+              },
+              {
+                "content": "Naprawiono teksturę miecza Rozjemca."
+              },
+              {
+                "content": "W 7 rozdziale Bennet ma nowe towary na sprzedaż w tym paczkę z dużą ilością magicznej rudy, gdyby komuś zabrakło jej do zadań."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że ognik mógł usunąć ciało NPC-ta przed zebraniem przedmiotów, przez co były one stracone."
+              },
+              {
+                "content": "Naprawiono kilka błędów z przyzwańcami."
+              },
+              {
+                "content": "Poprawiono opisy niektórych run."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "33",
+        "updateDescription": "Aktualizacja wprowadza możliwość zmiany wielu skrótów klawiszowych, poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-08-29",
+        "date": "2021-08-29",
+        "alerts": [
+          {
+            "text": "Przed wgraniem aktualizacji należy usunąć plik \"Gothic_Keys.ini\" z folderu \"System\".",
+            "color": "red"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Ustawienia sterowania:",
+            "list": [
+              {
+                "content": "Wprowadzono możliwość zmiany wielu skrótów klawiszowych poprzez nową zakładkę w menu gry."
+              },
+              {
+                "content": "ESC, Lewy klawisz myszki oraz ENTER nie mogą być przypisane. Nie ma też większego sensu przypisywanie czegokolwiek pod klawisze WASD, 0-9 czy F11."
+              },
+              {
+                "content": "Można też używać kombinacji klawiszy jak SHIFT + V, czy CTRL + SHIFT + R. Można też używać dodatkowych przycisków na myszcze jeśli ktoś je posiada."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Jeśli DX11 jest włączony, klawisz F9 nie będzie już robił screenshotów i można go przypisać do czegoś innego."
+              },
+              {
+                "content": "Zmniejszono lekko penetrację pancerza łuków i kusz."
+              },
+              {
+                "content": "Przyzwany kamienny strażnik zajmuje teraz 2 miejsca przyzwańców."
+              },
+              {
+                "content": "Strażnicy świątynni mogą teraz handlować z Baalem Tyonem."
+              },
+              {
+                "content": "Zmniejszono koszt nauki tworzenia zwojów u Gallahada."
+              },
+              {
+                "content": "Zmniejszono koszt w złocie za naukę statystyk w późnej fazie gry oraz koszt w złocie za naukę zdrowia na początku."
+              },
+              {
+                "content": "Teraz na poziomie Nightmare, po 30 poziomie gracz otrzymuje 4 punkty nauki za poziom zamiast 3. Dodatkowo na poziomach początkowych gracz otrzyma łącznie trochę więcej punktów nauki. Na trybie Nightmare S&C na poziomach 15-20 gracz otrzymuje 3 punkty za poziom zamiast 2."
+              },
+              {
+                "content": "Usunięto ostatnią zmianę, która podnosiła ceny wszystkich towarów o 25% na poziomie nightmare."
+              },
+              {
+                "content": "Wino zapomnienia wymaga teraz 3 winogrona i przyznaje 12 maksymalnego zdrowia. (wcześniej 4 winogrona i 10 maks. zdrowia)"
+              },
+              {
+                "content": "Przywrócono i zwiększono ilość złota otrzymywaną za część zadań i bossów."
+              },
+              {
+                "content": "Mroczny mentor teraz poprawnie sprzedaje przedmioty mrocznemu rycerzowi."
+              },
+              {
+                "content": "Zwiększono lekko obrażenia trującego ukąszenia. (4 krąg)"
+              },
+              {
+                "content": "Zaklęcie 3 kręgu guru - Magiczna kula ma teraz 25% szansy na zadanie 30% dodatkowych obrażeń."
+              },
+              {
+                "content": "Naprawiono błąd sprawiający, że obrażenia run 1 kręgu od ostatniego patcha były obliczane niewłaściwie."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "32",
         "updateDescription": "Aktualizacja poprawia błąd ze źle działającym klawiszem G.",
         "version": "2021-08-23",
