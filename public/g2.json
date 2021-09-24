@@ -89,7 +89,7 @@
                 "content": "Wzmocniono statystyki paladynów na wyspie Etlu."
               },
               {
-                "content": "Dodano 3 szafiry: do kupienia u Luthero, do zdobycia ze starożytnego aligatora, od Saturasa po ucieczce Kruka."
+                "content": "Dodano 3 szafiry: do kupienia u Luthero, do zdobycia ze starożytnego aligatora, od Saturasa po ucieczce Kruka. Zwiększono wartość szafiru."
               },
               {
                 "content": "Zmniejszono obrażenia ataku obszarowego mrocznego rycerza."
@@ -99,6 +99,9 @@
               },
               {
                 "content": "Teraz można powiedzieć Gregowi, że Kruk nie jest już problemem po jego ucieczce, zamiast po zabiciu go."
+              },
+              {
+                "content": "Statystyki Kła zwiększają się w rozdziałach 1-3."
               }
             ]
           }
