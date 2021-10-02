@@ -86,6 +86,34 @@
     },
     "changes": [
       {
+        "updateId": "6",
+        "updateDescription": "Zintegrowano 70% zawartości moda Konsekwencje.<br>Poprawiono wiele znalezionych błędów.",
+        "version": "0.37",
+        "date": "2021-10-01",
+        "alerts": [
+          
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {"content":"Strażnicy Świątyni Innos będą teraz nosić nową zbroję."},
+{"content":"Naprawiono tekstury niektórych broni."},
+{"content":"Zamieniono modele niektórych mieczy na lepsze."},
+{"content":"Dodano nowe przedmioty i obiekty do gry."},
+{"content":"Grobowiec Horan Ho został rozbudowany."},
+{"content":"Przeniesiono wszystkie misje z moda Konsekwencje."},
+{"content":"Zmieniono nagrody za niektóre misje z moda Konsekwencje."},
+{"content":"Dodano nowe misje."},
+{"content":"Dodano nowe przedmioty do kupienia od Seruka i Flinta z Faring."},
+{"content":"Seruk będzie nosił nową zbroję."},
+{"content":"Zintegrowane 70% treści z moda Konsekwencje."},
+{"content":"Naprawiono znalezione drobne błędy w modzie LTM."}
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "5",
         "updateDescription": "Mod PGL został w pełni zintegrowany.<br>Na ten moment 50% zawartości z Konsekwencji jest zintegrowane.<br> Poprawiono wiele znalezionych błędów.<br>",
         "version": "0.36",
