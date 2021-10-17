@@ -62,6 +62,67 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "40",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-10-17",
+        "date": "2021-10-17",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Kusza, jaką gracz otrzymuje po pokonaniu Kruka została znacząco wzmocniona. Dodatkowo jest ona wyjątkowo skuteczna przeciwko nieumarłym i duchom."
+              },
+              {
+                "content": "Naprawiono kilka błędów, które mogły czasem powodować crasha gry."
+              },
+              {
+                "content": "Znacząco osłabiono wszystkich orków kuszników. Na Irdorath dodatkowo znacząco zredukowano ilość orków posiadających kuszę. Orkowie z kuszą będą jej teraz poprawnie używać."
+              },
+              {
+                "content": "Naprawiono błąd związany z używaniem Kerenowego Łuku."
+              },
+              {
+                "content": "Naprawiono błąd związany z kilkoma skrzyniami."
+              },
+              {
+                "content": "Zwiększono lekko bonus, jaki zapewnia mikstura Mroczna Dusza."
+              },
+              {
+                "content": "Przywrócono możliwość teleportowania się z takich lokacji jak np. Jaskinia Bólu czy Stara Kopalnia."
+              },
+              {
+                "content": "Zwiększono lekko bazowe obrażenia trucizn 4 i 5 poziomu."
+              },
+              {
+                "content": "Kieł muritana zwiększa teraz obrażenia od trucizn o 12%. (wcześniej 10%)"
+              },
+              {
+                "content": "Zwiększono lekko zdrowie ofensywnych totemów szamana."
+              },
+              {
+                "content": "Zmieniono lekko wartości bonusów, jakie przyznają wytworzone specjalne stalowe pierścienie."
+              },
+              {
+                "content": "Naprawiono błąd związany z możliwie niepoprawnym naliczaniem się śmierci na liczniku."
+              },
+              {
+                "content": "Na Irdorath dodano możliwość odesłania towarzyszy z powrotem na statek."
+              },
+              {
+                "content": "Naprawiono błąd związany z wyświetlaniem niektórych przedmiotów w ekwipunku."
+              },
+              {
+                "content": "Naprawiono regenerację zdrowia smoka-ożywieńca."
+              },
+              {
+                "content": "I inne mniejsze poprawki..."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "39",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-10-09",
