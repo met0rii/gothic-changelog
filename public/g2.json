@@ -62,6 +62,65 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "42",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-10-23",
+        "date": "2021-10-23",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Eliksir ducha kosztuje teraz 1000 monet. (wcześniej 2000)"
+              },
+              {
+                "content": "Eliksir ducha, który otrzymuje gracz za zadania czy bossy dają teraz 4 punkty many."
+              },
+              {
+                "content": "Teraz zadanie <i>Prorocze sny</i> u Gritty może zostać rozpoczęte dopiero po spotkaniu Grega w Jarkendarze."
+              },
+              {
+                "content": "Zadanie <i>Sztuka walki</i> od Corda zostało przeniesione do ogólnego zadania na zdobycie szacunku najemników i nie widnieje już jako osobne zadanie."
+              },
+              {
+                "content": "Wartości ochronne <i>Pancerza Ciemności</i> zostały lekko zwiększone. (pancerz pod zręczność od opiekunów)"
+              },
+              {
+                "content": "Bazowa szansa na trafienie krytyczne mrocznego sługi wynosi teraz 25%. (wcześniej 10%)"
+              },
+              {
+                "content": "Poprawiono opisy pasów, które otrzymują bonusy z jakimiś zbrojami."
+              },
+              {
+                "content": "Naprawiono kilka błędów w craftingu i ekwipunku na dużych rozdzielczościach ekranu."
+              },
+              {
+                "content": "Naprawiono błąd związany z przyznawaniem karmy za zabijanie paladynów z Etlu."
+              },
+              {
+                "content": "I inne mniejsze poprawki..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updateId": "41",
+        "updateDescription": "Aktualizacja naprawia błąd spowodowany poprzednią aktualizacją.",
+        "version": "2021-10-18",
+        "date": "2021-10-18",
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Naprawiono błąd w działaniu runy teleportacyjnej z zadania Mroczna Sieć."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "40",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-10-17",
