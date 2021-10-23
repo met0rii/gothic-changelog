@@ -508,7 +508,7 @@
       {
         "updateId": "0",
         "updateDescription": "Aktualizacja poprawia błędy, dodaje nowe przedmioty oraz zmienia balans...",
-        "version": "1.4",
+        "version": "1.5",
         "date": "2021-11-01",
         "alerts": [
           {
@@ -525,8 +525,8 @@
             "title": "Zmiany ogólne:",
             "list": [
               {
-                "content": "Ulu mulu jest teraz amuletem."
-              },
+                "content": "Ulu mulu jest teraz amuletem i daje bonus do inteligencji."
+              },                            
               {
                 "content": "Dodano nowe przedmioty:",
                 "list": [
