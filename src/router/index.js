@@ -3,12 +3,12 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 // views
-import Home from "../views/home/Home.vue";
-import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
+const Home = () => import("../views/home/Home.vue");
+const ModChangelogs = () => import("../views/mod-changelogs/ModChangelogs.vue");
 
 // subviews
-import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
-import ChangelogOverview from "../views/mod-changelogs/changelogs/changelogs-overview/ChangelogOverview.vue";
+const Changelogs = () => import("../views/mod-changelogs/changelogs/Changelogs.vue");
+const ChangelogOverview = () => import("../views/mod-changelogs/changelogs/changelogs-overview/ChangelogOverview.vue");
 
 Vue.use(VueRouter);
 
