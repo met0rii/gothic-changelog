@@ -36,7 +36,6 @@
 </template>
 
 <script>
-import moment from 'moment';
 
 import SefarisDiscord from "../../components/SefarisDiscord";
 import CommunityDiscord from "../../components/CommunityDiscord";
@@ -72,8 +71,8 @@ export default {
       if (this.$store.state.news.collection && this.$store.state.news.collection.changelogs && this.$store.state.news.collection.news) {
         const collection = this.$store.state.news.collection;
         const arr = [...collection.changelogs, ...collection.news].sort((a, b) => {
-          const firstDate = moment(a.date);
-          const secondDate = moment(b.date);
+          const firstDate = this.dayjs(a.date);
+          const secondDate = this.dayjs(b.date);
           
           if (firstDate.diff(secondDate) > 0) {
             return -1;

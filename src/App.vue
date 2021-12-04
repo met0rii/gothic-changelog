@@ -11,7 +11,7 @@
       <v-list-item class="introduction">
         <v-list-item-content>
           <h3>Modyfikacje</h3>
-          <v-list-item-subtitle> Zobacz najnowsze wersje </v-list-item-subtitle>
+          <v-list-item-subtitle>Najnowsze wersje</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 

@@ -5,9 +5,10 @@ import vuetify from './plugins/vuetify';
 import router from './router'
 import store from "../store/index";
 import VueGtag from "vue-gtag";
-import VueMoment from "vue-moment";
-const moment = require('moment')
-require('moment/locale/pl')
+import dayjs from 'dayjs';
+import 'dayjs/locale/pl';
+
+dayjs.locale('pl');
 
 // animations
 import './assets/css/vue2-animate.css';
@@ -26,10 +27,18 @@ if(process.env.NODE_ENV !== 'development')
   }, router);
 }
 
-Vue.use(VueMoment, {moment});
+
+Vue.mixin({
+  data() {
+    return {
+      dayjs
+    }
+  }
+})
+
 new Vue({
   store,
   vuetify,
   router,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app')
