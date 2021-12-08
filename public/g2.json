@@ -63,13 +63,26 @@
     "changes": [
       {
         "updateId": "43",
-        "updateDescription": "",
+        "updateDescription": "Aktualizacja wprowadza do gry całkowicie nowy wątek fabularny wraz z nową lokacją oraz opcjonalną podklasą druida.",
         "version": "2021-12-07",
         "date": "2021-12-07",
+        "alerts": [
+          {
+            "text": "Aby wgrać aktualizację, należy pobrać nowy instalator oraz zainstalować (lub zaaktualizować) NB a następnie wrzucić polskie skrypty.",
+            "color": "red"
+          },
+          {
+            "text": "Aktualizacja NIE wymaga nowej gry.",
+            "color": "orange"
+          }
+        ],
         "lists": [
           {
             "title": "Druid:",
             "list": [
+              {
+                "content": "Obrażenia zadawane podczas przemian NIE naliczają się na STARYM SnC dlatego odradzany jest ten tryb gdy ktoś planuje grać druidem."
+              },
               {
                 "content": "Druidem można zostać w rozdziale 2 na „Zachodnim Wybrzeżu”."
               },
@@ -86,7 +99,7 @@
                 "content": "Z każdym poziomem kamień zwiększa statystyki po transformacji, a także umożliwia naukę nowych umiejętności."
               },
               {
-                "content": "Bohater będzie miał 3 dni(po zapytaniu o to Kormaka), aby podjąć decyzję o zostaniu druidem. Po tym dialog zniknie."
+                "content": "Bohater będzie miał 3 dni (po zapytaniu o to Kormaka), aby podjąć decyzję o zostaniu druidem. Po tym dialog zniknie."
               },
               {
                 "content": "Dwóch pierwszych przemian uczy Fregyal w 1 rozdziale."
@@ -325,6 +338,12 @@
               },
               {
                 "content": "Dodano do ustawień możliwość zmiany czułości myszy na osiach X i Y."
+              },
+              {
+                "content": "Przywrócono tryb Nightmare + w odświeżonej nieco innej formie. Jedyna różnica między zwykłym nightmarem polega na tym, że zaczynamy mając 1000 zdrowia i tracimy po 50 na poziom. Aby tryb ukazał się w menu należy w gothic.ini włączyć opcję bNewLegPlusNB = 1."
+              },
+              {
+                "content": "I WIELE, WIELE więcej..."
               }
             ]
           }
