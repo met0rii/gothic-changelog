@@ -62,6 +62,294 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "43",
+        "updateDescription": "Aktualizacja wprowadza do gry całkowicie nowy wątek fabularny wraz z nową lokacją oraz opcjonalną podklasą druida.",
+        "version": "2021-12-07",
+        "date": "2021-12-07",
+        "alerts": [
+          {
+            "text": "Aby wgrać aktualizację, należy pobrać nowy instalator oraz zainstalować (lub zaaktualizować) NB a następnie wrzucić polskie skrypty.",
+            "color": "red"
+          },
+          {
+            "text": "Aktualizacja NIE wymaga nowej gry.",
+            "color": "orange"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Druid:",
+            "list": [
+              {
+                "content": "Obrażenia zadawane podczas przemian NIE naliczają się na STARYM SnC dlatego odradzany jest ten tryb gdy ktoś planuje grać druidem."
+              },
+              {
+                "content": "Druidem można zostać w rozdziale 2 na „Zachodnim Wybrzeżu”."
+              },
+              {
+                "content": "Druid może przemieniać się w różne stworzenia."
+              },
+              {
+                "content": "Druid otrzymuje kamień, w którym umieszcza część swojej mocy, kamień zdobywa doświadczenie. (kamień zdobywa połowę doświadczenia bohatera, bohater zdobywa doświadczenie normalnie)"
+              },
+              {
+                "content": "Maksymalny poziom kamienia druida: 50"
+              },
+              {
+                "content": "Z każdym poziomem kamień zwiększa statystyki po transformacji, a także umożliwia naukę nowych umiejętności."
+              },
+              {
+                "content": "Bohater będzie miał 3 dni (po zapytaniu o to Kormaka), aby podjąć decyzję o zostaniu druidem. Po tym dialog zniknie."
+              },
+              {
+                "content": "Dwóch pierwszych przemian uczy Fregyal w 1 rozdziale."
+              },
+              {
+                "content": "Szaman i Mroczny Rycerz nie mogą być druidami"
+              },
+              {
+                "content": "Druid, nawet podczas transformacji, otrzymuje maksymalną ilość mięsa od zwierząt. (jeśli bohater posiada umiejętność zdobywania mięsa)"
+              },
+              {
+                "content": "Na trybie SNC Druid nie będzie otrzymywał statystyk. Lepiej nie grać tego trybu jako druid."
+              },
+              {
+                "content": "Obrażenia fizyczne i magiczne druida zmniejszone o 30%."
+              },
+              {
+                "content": "Menu druida otwiera się domyślnie za pomocą Shift + P, możesz to zmienić w ustawieniach."
+              },
+              {
+                "content": "Druid może używać ognika i quickloota podczas przemiany. (Identycznie jak bez przemiany tzn. nie działa w walce)"
+              }
+            ]
+          },
+          {
+            "title": "Zmiany w lokacjach:",
+            "list": [
+              {
+                "content": "Dodano nową lokację „Zachodnie Wybrzeże”:",
+                "list": [
+                  {
+                    "content": "W tej lokacji zostanie opowiedziana krótka historia o druidach."
+                  },
+                  {
+                    "content": "Bohater i postacie w tej lokacji zostały w pełni udźwiękowione."
+                  },
+                  {
+                    "content": "Do lokacji można dostać się od 2 rozdziału (pod warunkiem, że Jarkendar jest już otwarty). Musisz także wykonać zadania Fregyala."
+                  }
+                ]
+              },
+              {
+                "content": "Ognik nie będzie działał w tej lokacji przez pierwsze kilka aktualizacji, aby zapewnić lepsze wrażenia z eksploracji."
+              },
+              {
+                "content": "Poświata rudy została usunięta w kopalni orków, co powinno zwiększyć FPS na niektórych komputerach."
+              },
+              {
+                "content": "W obozie Dextera, obok budynku, w którym przebywa Dexter, został umieszczony manekin treningowy."
+              },
+              {
+                "content": "Lokalizacja Khorinis została lekko zoptymalizowana, dla niektórych graczy może to nieznacznie zwiększyć ilość FPS. (Wymaga nowej gry)"
+              },
+              {
+                "content": "Nieznacznie zoptymalizowano lokalizację Płaskowyżu Starożytnych, dla niektórych graczy może to nieznacznie zwiększyć FPS. (Wymaga nowej gry, jeśli odwiedziłeś już lokację)"
+              },
+              {
+                "content": "Poprawiono widoczność obiektów w Starej Kopalni."
+              }
+            ]
+          },
+          {
+            "title": "Nightmare+:",
+            "list": [
+              {
+                "content": "Dodano tryb Nightmare+. Będziemy na nim posiadać bazowe 1000 HP, ale będziemy tracić 50 max HP co poziom."
+              },
+              {
+                "content": "Poza tym gra nie różni się od poziomu Nightmare."
+              },
+              {
+                "content": "Tryb aktywujemy w gothic.ini ustawiając bNewLegPlusNB na 1 przed rozpoczęciem nowej gry."
+              },
+              {
+                "content": "Tryb SNC na Nightmare+ został zablokowany."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Pliki dźwiękowe przeniesiono do pliku AB_SPEECH, a dźwięki gry do pliku AB_SOUNDS."
+              },
+              {
+                "content": "Naprawiono błąd z podwójnymi uderzeniami na przemianie/bez przemiany."
+              },
+              {
+                "content": "„Puste animacje” bez obrażeń już nie występują."
+              },
+              {
+                "content": "Zmniejszono statystyki otrzymywane za wypicie mikstury Fregyala po oddaniu Krayta."
+              },
+              {
+                "content": "Teraz nauka trucizn u Fregyala obniża obrażenia również zasięgowym postaciom."
+              },
+              {
+                "content": "Przyzwańce zadają teraz 15% mniej obrażeń bossom. (poza smokami)"
+              },
+              {
+                "content": "Zwiększono statystyki niektórych przyzwańców."
+              },
+              {
+                "content": "Nekromanta może teraz używać Armii Ciemności na Zaginionym Bracie."
+              },
+              {
+                "content": "Zwiększono ilość inteligencji otrzymywaną za naukę 6 kręgu magii."
+              },
+              {
+                "content": "Netbek nie uczy już run przemiany. (poza krwiopijcą)"
+              },
+              {
+                "content": "Dodano kilka nowych modeli broni do gry."
+              },
+              {
+                "content": "W 4 rozdziale Mroczny Rycerz będzie mógł kupić nową broń dwuręczną od swojego mentora."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował, że jeśli zagadał nas NPC z włączonym menu pod B/C to nie mogliśmy wyjść z dialogu."
+              },
+              {
+                "content": "Dodano wolne celowanie do run paladyna."
+              },
+              {
+                "content": "Zmniejszono wymaganie jabłek na szarlotki. (25 -> 10)"
+              },
+              {
+                "content": "Zwiększono ilość jabłek u handlarzy."
+              },
+              {
+                "content": "Usunięto przewracanie NPC jednoręczną bronią obuchową."
+              },
+              {
+                "content": "Alfred skupuje teraz od gracza płytki pancerza pełzaczy."
+              },
+              {
+                "content": "Zmniejszono koszt nauki zdejmowania płytek pełzacza pełzaczy. (3PN -> 2PN)"
+              },
+              {
+                "content": "Dodano powiadomienie dźwiękowe do skrzyń, które spawnują przeciwników."
+              },
+              {
+                "content": "Dodano opóźnienie w spawnie tych przeciwników, aby gracz miał czas na reakcję."
+              },
+              {
+                "content": "Naprawiono zacinanie się NPC/Bossów magów podczas używania czarów."
+              },
+              {
+                "content": "Dodano nowy miecz magiczny, który znajdziemy w jednej z Oaz na Pustyni Adanosa."
+              },
+              {
+                "content": "Miecz Łamacz Zaklęć przeniesiono z Itu'Zelda do Orkowego Handlarza"
+              },
+              {
+                "content": "Hagen daje strażnikom i paladynom nowy miecz po wyczyszczeniu Obozu Dextera z Poszukiwaczy w 3 rozdziale."
+              },
+              {
+                "content": "Ur-Karras daje nowy miecz jednoręczny za zabicie oddziału Alberta."
+              },
+              {
+                "content": "Najemnicy otrzymali do kupna 3 nowe topory. (Jeden w 1 rozdziale i dwa w 2 rozdziale)"
+              },
+              {
+                "content": "Dodano nowy topór, który wypada ze strażnika Opuszczonej Kopalni."
+              },
+              {
+                "content": "Poprawiono logikę NPC z bronią jednoręczną."
+              },
+              {
+                "content": "Ogniste golemy nie będą już atakować bez animacji."
+              },
+              {
+                "content": "Po zdobyciu 100 reputacji i otrzymaniu dostępu od Ur-Thralla, postać nie będzie już musiała nosić Ulu-Mulu. Jeśli postać wyciągnie broń/ofensywną magię, to nadal zostanie zaatakowany."
+              },
+              {
+                "content": "Zmniejszono HP arcydemonów, Mistrzów Mroku, Poszukiwaczy, Nieumarłych Magów i Wysokich Kapłanów na Pustyni Adanosa"
+              },
+              {
+                "content": "Zmniejszono HP i obrażenia bagiennych stworów w Górniczej Dolinie"
+              },
+              {
+                "content": "Zmniejszono HP i obrażenia orków hersztów."
+              },
+              {
+                "content": "Bohater może teraz robić przewroty w bok z dobytym zaklęciem, jeśli nauczył się akrobatyki."
+              },
+              {
+                "content": "Nauka akrobatyki wymaga teraz 100 zręczności u Cassii i 70 zręczności u Harta."
+              },
+              {
+                "content": "Zwiększono ilość PN/lvl na poziomie Nightmare:",
+                "list": [
+                  {
+                    "content": "10 PN do 10 poziomu,"
+                  },
+                  {
+                    "content": "7 PN do 15 poziomu,"
+                  },
+                  {
+                    "content": "6 PN do 20 poziomu,"
+                  },
+                  {
+                    "content": "5 PN."
+                  }
+                ]
+              },
+              {
+                "content": "Zmieniono ilość PN potrzebnych do nauki otwierania zamków. Teraz zarówno umiejętnosć jak i runa kosztują 5PN."
+              },
+              {
+                "content": "Nie można już wyważać zamków bez odpowiedniej umiejętności. Uczy jej Carl za 2PN."
+              },
+              {
+                "content": "Paladyni w mieście otrzymali kusze."
+              },
+              {
+                "content": "Pasy możliwe do kupna u Ramireza mają zwiększone statystyki obrony. (zdejmij pas przed wgraniem aktualizacji)"
+              },
+              {
+                "content": "Cassia po wykonaniu zadania z Rubinem może nas nauczyć umiejętności Niezmordowany biegacz lub dać nam złoto. Umiejętność ta zmniejsza zużywaną wytrzymałość podczas biegania o 30%."
+              },
+              {
+                "content": "Saturas nie idzie już przed teleport do Ashtara. Zostaje z resztą magów w obozie."
+              },
+              {
+                "content": "Poprawiono działanie runy „Ognista ochrona”. Teraz prawidłowo zwiększa obrażenia spalania."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował nie naliczanie się obrażeń od spalania/klątw na upiorach."
+              },
+              {
+                "content": "Można teraz swobodnie używać quickloota po wypiciu mikstury Czarna Mgła."
+              },
+              {
+                "content": "Nauka mieczy jako czeladnik Harada nie wymaga już PN, ale kosztuje więcej złota."
+              },
+              {
+                "content": "Dodano do ustawień możliwość zmiany czułości myszy na osiach X i Y."
+              },
+              {
+                "content": "Przywrócono tryb Nightmare + w odświeżonej nieco innej formie. Jedyna różnica między zwykłym nightmarem polega na tym, że zaczynamy mając 1000 zdrowia i tracimy po 50 na poziom. Aby tryb ukazał się w menu należy w gothic.ini włączyć opcję bNewLegPlusNB = 1."
+              },
+              {
+                "content": "I WIELE, WIELE więcej..."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "42",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-10-23",
@@ -588,7 +876,9 @@
               {
                 "content": "Dodano nową wersję Szponu Beliara - Dwa ostrza. Sposób zdobycia ich jest identyczny jak innych wersji Szponu."
               },
-              { "content": "Naprawiono kilka błędów ze smokami." },
+              {
+                "content": "Naprawiono kilka błędów ze smokami."
+              },
               {
                 "content": "Dodano po jednym sercu kamiennego golema do kupienia w 1 rozdziale od Zurisa i Baala Tyona."
               },
@@ -623,7 +913,9 @@
           {
             "title": "Zmiany ogólne:",
             "list": [
-              { "content": "Naprawiono kilka drobnych błędów w grze." },
+              {
+                "content": "Naprawiono kilka drobnych błędów w grze."
+              },
               {
                 "content": "Kamienie szlachetne nie są już wymagane na 4 i 5 poziomie ulepszania."
               },
@@ -657,11 +949,15 @@
               {
                 "content": "Maksymalna liczba pieczęci w broni wynosi 10 zamiast 20."
               },
-              { "content": "Kilka drobnych zmian w nagrodach za misje." },
+              {
+                "content": "Kilka drobnych zmian w nagrodach za misje."
+              },
               {
                 "content": "Zmieniono liczbę PN potrzebnych do nauki totemów i podmuchu wiatru."
               },
-              { "content": "Niektóre runy mrocznego rycerza uległy zmianie." },
+              {
+                "content": "Niektóre runy mrocznego rycerza uległy zmianie."
+              },
               {
                 "content": "Zmieniono czas odnowienia oraz zdrowie totemów. Większość totemów nie może już \"tankować\" przeciwników, ponieważ mają teraz mniej zdrowia."
               },
@@ -683,7 +979,9 @@
               {
                 "content": "Korzystanie ze stołu runicznego nie wymaga już posiadania kamienia runicznego."
               },
-              { "content": "Dodano jeden teleport w wolnej kopalni." },
+              {
+                "content": "Dodano jeden teleport w wolnej kopalni."
+              },
               {
                 "content": "Na poziomie Nightmare liczba PN dla bohaterów z poziomem poniżej 30 została nieznacznie zmniejszona."
               },
@@ -718,13 +1016,21 @@
               {
                 "content": "Naprawiono błąd sprawiający, że Alrik stawał się nieśmiertelny po pierwszej walce."
               },
-              { "content": "Naprawiono błędy z zestawami." },
+              {
+                "content": "Naprawiono błędy z zestawami."
+              },
               {
                 "content": "Naprawiono błąd sprawiający, że przyzwańcy nie reagowali na bossa Nyarlathotep (Mag w Koszmarze Kruka)"
               },
-              { "content": "Naprawiono kilka błędów z totemami." },
-              { "content": "Naprawiono błąd z mapą Płaskowyżu Starożytnych." },
-              { "content": "Naprawiono błędy z zamrażaniem przeciwników." },
+              {
+                "content": "Naprawiono kilka błędów z totemami."
+              },
+              {
+                "content": "Naprawiono błąd z mapą Płaskowyżu Starożytnych."
+              },
+              {
+                "content": "Naprawiono błędy z zamrażaniem przeciwników."
+              },
               {
                 "content": "Dodano opcję wyświetlania regeneracji many na ekranie."
               },
@@ -760,7 +1066,6 @@
           }
         ]
       },
-
       {
         "updateId": "26",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
