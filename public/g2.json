@@ -340,9 +340,6 @@
                 "content": "Dodano do ustawień możliwość zmiany czułości myszy na osiach X i Y."
               },
               {
-                "content": "Przywrócono tryb Nightmare + w odświeżonej nieco innej formie. Jedyna różnica między zwykłym nightmarem polega na tym, że zaczynamy mając 1000 zdrowia i tracimy po 50 na poziom. Aby tryb ukazał się w menu należy w gothic.ini włączyć opcję bNewLegPlusNB = 1."
-              },
-              {
                 "content": "I WIELE, WIELE więcej..."
               }
             ]
