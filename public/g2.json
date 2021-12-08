@@ -64,11 +64,11 @@
       {
         "updateId": "43",
         "updateDescription": "Aktualizacja wprowadza do gry całkowicie nowy wątek fabularny wraz z nową lokacją oraz opcjonalną podklasą druida.",
-        "version": "2021-12-07",
-        "date": "2021-12-07",
+        "version": "2021-12-08",
+        "date": "2021-12-08",
         "alerts": [
           {
-            "text": "Aby wgrać aktualizację, należy pobrać nowy instalator oraz zainstalować (lub zaaktualizować) NB a następnie wrzucić polskie skrypty.",
+            "text": "Aby wgrać aktualizację, należy pobrać nowy instalator oraz zainstalować (lub zaktualizować) NB, a następnie wrzucić polskie skrypty.",
             "color": "red"
           },
           {
