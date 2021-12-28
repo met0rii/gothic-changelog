@@ -62,6 +62,87 @@
     "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
     "changes": [
       {
+        "updateId": "46",
+        "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+        "version": "2021-12-25",
+        "date": "2021-12-25",
+        "lists": [
+          {
+            "title": "Zmiany dotyczące druida:",
+            "list": [
+              {
+                "content": "Naprawiono błąd z niepoprawnymi obrażeniami druida."
+              },
+              {
+                "content": "Przemiana w ognistego jaszczura nie ma już długiej animacji, obrażenia zadawane są od razu."
+              },
+              {
+                "content": "Zmieniono statystyki niektórych druidzkich przemian."
+              },
+              {
+                "content": "Zmniejszono cooldown 'Uzdrowienia' golema z 4 na 2 minuty, ale zmniejszono skuteczność z 30 na 25%."
+              },
+              {
+                "content": "Zwiększono cooldown 'Udawania martwego' z przemiany w jaszczuroczłeka."
+              },
+              {
+                "content": "Zwiększono cooldown 'Przerażenia' z przemiany w jaszczuroczłeka."
+              },
+              {
+                "content": "Zmniejszono czas trwania 'Pajęczyny' z przemiany w pełzacza."
+              },
+              {
+                "content": "Lekko zwiększono krwawienie na przemianie w kolcogrzbieta."
+              },
+              {
+                "content": "Lekko zmniejszono cooldown, ale zwiększono koszt kuli ognia na przemianie w goblina."
+              },
+              {
+                "content": "Teraz zdrowie bohatera będzie wpływało na zdrowie podczas przemian tylko po wyuczeniu się nowej umiejętności."
+              },
+              {
+                "content": "Dodano umiejętność obszarową dla przemiany w kolcogrzbieta."
+              }
+            ]
+          },
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Za wykonywanie zadań bohater nie otrzyma już mikstur zależnych od 'prf' statystyki, ale otrzyma 'Wyciąg ze szczawiu królewskiego'. Może go on według uznania przerobić na stole alchemicznym w eliksir siły, zręczności lub ducha, bez żadnej wiedzy alchemicznej i wymagając jedynie menzurki. Oznaczenie 'prf' nie wyświetla się już w menu statystyk."
+              },
+              {
+                "content": "W menu statystyk obok całkowitej many będzie wyświetlona mana nauczona u nauczycieli."
+              },
+              {
+                "content": "Mając 50 retoryki lub więcej, nie trzeba się już targować z Goraxem o cenę wina."
+              },
+              {
+                "content": "Od teraz można używać ognika do zbierania roślin z mapy kilkukrotnie jednego dnia. Kosztuje to jednak coraz więcej rudy z każdym użyciem danego dnia. Cena resetuje się następnego dnia."
+              },
+              {
+                "content": "Przywrócono możliwość odpychania czarowi Pięść Wichru. Bazowa szansa wynosi 10%, ale zwiększa się wraz ze wzrostem inteligencji. Jeśli przeciwnik zginie od upadku wskutek pięści wichru, bohater nadal otrzyma doświadczenie. Niektóre potwory są odporne na odepchnięcie."
+              },
+              {
+                "content": "Naprawiono błąd, który powodował, że nie można było przypisać totemów do hotbara."
+              },
+              {
+                "content": "Teraz można przynieść też zwykłe pirackie kordelasy piratom z Zachodniego Wybrzeża."
+              },
+              {
+                "content": "Bonus do zręczności za kradzież kieszonkową jest teraz ograniczony do 5 punktów na rozdział. Dodatkowo gracz teraz może otrzymać bonus do zręczności za kucie szpad i wytrychów. (również max 5 zręczności na rozdział) Łącznie dając 10 zręczności na rozdział, tak jak to jest w przypadku siły."
+              },
+              {
+                "content": "Ramirez będzie teraz skupował wykute przez bohatera szpady. (jeśli nie jest obrażony na gracza)"
+              },
+              {
+                "content": "I inne mniejsze poprawki..."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "45",
         "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
         "version": "2021-12-21",
