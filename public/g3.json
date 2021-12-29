@@ -5,79 +5,60 @@
     "titleUrl": "https://imgur.com/MujebJr.png",
     "url": "https://drive.google.com/drive/folders/1rPh-tK8xAb124q6NaBdVCHRd7g5wvd5k",
     "description": "Modyfikacja jest tworzona z zamysłem aby uczynić miasta żywszymi po ich wyzwoleniu tak aby można było do nich wracać. Na ten moment dotyczy to głównie miast: Cape Dun, Ardea, Ben Sala, Lago, oraz Gotha.",
-    "installation":{
-      "instruction":{
-        "alerts":[
-          {"text":"Jeżeli nie widzisz tekstur budynków przeczytaj zawartość 3 nagłówka",
-          "color":"red"}
-
-        ],
-        "lists":[
+    "installation": {
+      "url": "https://www.youtube.com/embed/tS-rR3nkJKM",
+      "instruction": {
+        "lists": [
           {
-            "title":"Kolejność instalacji",
-            "list":[{
-              "content":"Patch   ->   Gothic_3_EE_Patch_v1.75.14_Int_Full.exe"
-            },
-            {
-              "content":"Update pack   ->   Gothic_3_EE_v1.75_Int_Update_Pack_v1.04.11.exe"
-            },
-            {
-              "content":"Quest pack na steam -> G3_QUEST_PACK_4_U2_pl_DIGI_Steam_fix.exe",
-              "list":[{"content":"Quest pack bez steam -> G3_QUEST_PACK_4_U2_pl_DIGI.exe"}]
-            },
-            {
-              "content":"Content mod   ->   CM_3.1_INT_FINAL.exe",
-              "list":[{"content":"W trakcie instalacji odznacz nową twarz bohatera oraz konsekwencje."}]
-            },
-            {
-              "content":"MDS -> ModStarter_v1_2.rar wypakuj w dowolnym miejscu i wskaż plik gothic3.exe"
-            },
-            {
-              "content":"Pliki do MDSA -> wypakuj do folderu <b>FanMods</b>"
-            },
-            {
-              "content":"Strings.m01 -> wklej do folderu <b>Gothic 3/Data</b>"
-            },
-            {
-              "content":"LTM -> wypakuj do folderu <b>FanMods</b>, a następnie zintegruj mody w MDS."
-            }
-          ]
-          },
-          {
-            "title":"Opcjonalne (Umieścić w <b>Gothic 3/scripts</b>)",
-            "list":[
+            "title": "Kolejność instalacji",
+            "list": [
               {
-                "content":"Script_MouseDrag.dll",
-                "list":[
-                  {"content":"Zapobiega przypadkowemu wykryciu przeciągania myszy w ekwipunku. Problem występuje tylko w określonych okolicznościach (np. w systemie Windows 10)."}
+                "content": "Patch   ->   Gothic_3_EE_Patch_v1.75.14_Int_Full.exe"
+              },
+              {
+                "content": "Update pack   ->   Gothic_3_EE_v1.75_Int_Update_Pack_v1.04.11.exe"
+              },
+              {
+                "content": "Parallel Universe Patch   ->   Gothic_3_Parallel_Universe_Patch_v1.0.exe"
+              },
+              {
+                "content": "Quest pack na steam -> G3_QUEST_PACK_4_U2_pl_DIGI_Steam_fix.exe",
+                "list": [
+                  {
+                    "content": "Quest pack bez steam -> G3_QUEST_PACK_4_U2_pl_DIGI.exe"
+                  }
                 ]
               },
               {
-                "content":"Script_Subtitles.dll",
-                "list":[
-                  {"content":"Czas wyświetlania napisów dla okien dialogowych bez dubbingu"},
-                  {"content":"Plik <b>subtitles.ini</b> umieścić w <b>Gothic 3/ini</b>"}
+                "content": "Content mod   ->   CM_3.1_INT_FINAL.exe",
+                "list": [
+                  {
+                    "content": "W trakcie instalacji odznacz nową twarz bohatera oraz Konsekwencje."
+                  }
                 ]
               },
               {
-                "content":"Script_FontScale.dll",
-                "list":[
-                  {"content":"Zapobiega zmianie rozmiaru nazw w zależności od rozdzielczości gry, skalując rozmiar czcionki nazwy zgodnie z rozdzielczością renderowania."}
-                ]
+                "content": "ModStarter -> MDS.zip wypakuj w dowolnym miejscu i wskaż plik Gothic3.exe"
+              },
+              {
+                "content": "FanMods -> FanMods.zip wypakuj do folderu <b>MDS</b>"
+              },
+              {
+                "content": "LTM -> LivelyTownsMod.zip wypakuj do folderu <b>FanMods</b>, a następnie zintegruj mody w MDS."
               }
             ]
-          },
+          },          
           {
-            "title":"Jeżeli instalujesz LTM razem z Content Modem:",
-            "list":[
+            "title": "Jeżeli instalujesz LTM razem z Content Modem:",
+            "list": [
               {
-                "content":"Content Mod ma krytyczny błąd. Zdarza się, że w trakcie instalacji robi przerwy w kolejności archiwów.<br>Po zainstalowaniu Content Moda, sprawdź kolejność archiwów w folderze data.<br>Szczególnie pliki z rozszerzeniem .m"
+                "content": "Content Mod ma krytyczny błąd. Zdarza się, że w trakcie instalacji robi przerwy w kolejności archiwów.<br>Po zainstalowaniu Content Moda, sprawdź kolejność archiwów w folderze data.<br>Szczególnie pliki z rozszerzeniem .m"
               },
               {
-                "content":"Przykłady:<br>Templates.m00, Templates.m01, Templates.m02, Templates.m05 <b>(brak .m03, .m04)</b><br>_compiledMaterial.m01, _compiledMaterial.m02, _compiledMaterial.m03 <b>(brak .m00)</b>"
+                "content": "Przykłady:<br>Templates.m00, Templates.m01, Templates.m02, Templates.m05 <b>(brak .m03, .m04)</b><br>_compiledMaterial.m01, _compiledMaterial.m02, _compiledMaterial.m03 <b>(brak .m00)</b>"
               },
               {
-                "content":"Rozwiązanie:<br>Po zainstalowaniu Content Moda jeżeli znalazłeś lukę w kolejności, musisz zmienić nazwy tych archiwów pozbywając się luk w numeracji.<br>Templates.m00, Templates.m01, Templates.m02, Templates.m03 _compiledMaterial.m00, _compiledMaterial.m01, _compiledMaterial.m02"
+                "content": "Rozwiązanie:<br>Po zainstalowaniu Content Moda jeżeli znalazłeś lukę w kolejności, musisz zmienić nazwy tych archiwów pozbywając się luk w numeracji.<br>Templates.m00, Templates.m01, Templates.m02, Templates.m03 _compiledMaterial.m00, _compiledMaterial.m01, _compiledMaterial.m02"
               }
             ]
           }
@@ -86,30 +67,62 @@
     },
     "changes": [
       {
-        "updateId":"7",
-        "updateDescription":"Zintegrowano 95% zawartości moda Konsekwencje.<br>Niektóre postacie otrzymały nowe ubrania.<br>Poprawiono wiele znalezionych błędów.",
-        "version":"0.38",
-        "date":"2021-11-03",
-        "lists":[
+        "updateId": "7",
+        "updateDescription": "Zintegrowano 95% zawartości moda Konsekwencje.<br>Niektóre postacie otrzymały nowe ubrania.<br>Poprawiono wiele znalezionych błędów.",
+        "version": "0.38",
+        "date": "2021-11-03",
+        "lists": [
           {
-            "title":"Zmiany ogólne:",
-            "list":[
-              {"content":"Naprawiono niektóre błędy."},
-{"content":"Ford z Montery i Peer z Trelis noszą nowe ubrania."},
-{"content":"Kowal Enzo z Ben Sali nosi nowy strój kowala."},
-{"content":"Druidzi Bogir i Torn będą nosić nowe szaty."},
-{"content":"Peer z Trelis posiada nowe przedmioty na handel."},
-{"content":"Tekstury wody w rzekach i oceanach są bardziej przezroczyste."},
-{"content":"Mod Konsekwencje jest prawie w pełni zintegrowany (95%)."},
-{"content":"Mod Konsekwencje został całkowicie oddzielony od Quest Packa;"},
-{"content":"Dialogi z moda Konsekwencje nie będą teraz przerywać zdubbingowanych kwestii."},
-{"content":"Dodano unikalne nagrody za ukończenie zadań z moda Konsekwencje."},
-{"content":"Dodano nowe przedmioty."},
-{"content":"Dodano nowe szaty druidów."},
-{"content":"Teraz, po ukończeniu kontentu moda PGL, Lares zwróci bohaterowi kamień teleportacyjny do zamku Vengardu."},
-{"content":"Enzo poprawnie sprzedaje przepis na miecz mistrzowski."},
-{"content":"Mannig z Okary poprawnie sprzedaje przepis na zbroję z pancerzy pełzaczy."},
-{"content":"Druidzi są teraz agresywnie nastawieni do orków."}
+            "title": "Zmiany ogólne:",
+            "list": [
+              {
+                "content": "Naprawiono niektóre błędy."
+              },
+              {
+                "content": "Ford z Montery i Peer z Trelis noszą nowe ubrania."
+              },
+              {
+                "content": "Kowal Enzo z Ben Sali nosi nowy strój kowala."
+              },
+              {
+                "content": "Druidzi Bogir i Torn będą nosić nowe szaty."
+              },
+              {
+                "content": "Peer z Trelis posiada nowe przedmioty na handel."
+              },
+              {
+                "content": "Tekstury wody w rzekach i oceanach są bardziej przezroczyste."
+              },
+              {
+                "content": "Mod Konsekwencje jest prawie w pełni zintegrowany (95%)."
+              },
+              {
+                "content": "Mod Konsekwencje został całkowicie oddzielony od Quest Packa;"
+              },
+              {
+                "content": "Dialogi z moda Konsekwencje nie będą teraz przerywać zdubbingowanych kwestii."
+              },
+              {
+                "content": "Dodano unikalne nagrody za ukończenie zadań z moda Konsekwencje."
+              },
+              {
+                "content": "Dodano nowe przedmioty."
+              },
+              {
+                "content": "Dodano nowe szaty druidów."
+              },
+              {
+                "content": "Teraz, po ukończeniu kontentu moda PGL, Lares zwróci bohaterowi kamień teleportacyjny do zamku Vengardu."
+              },
+              {
+                "content": "Enzo poprawnie sprzedaje przepis na miecz mistrzowski."
+              },
+              {
+                "content": "Mannig z Okary poprawnie sprzedaje przepis na zbroję z pancerzy pełzaczy."
+              },
+              {
+                "content": "Druidzi są teraz agresywnie nastawieni do orków."
+              }
             ]
           }
         ]
@@ -119,25 +132,47 @@
         "updateDescription": "Zintegrowano 70% zawartości moda Konsekwencje.<br>Poprawiono wiele znalezionych błędów.",
         "version": "0.37",
         "date": "2021-10-01",
-        "alerts": [
-          
-        ],
+        "alerts": [],
         "lists": [
           {
             "title": "Zmiany ogólne:",
             "list": [
-              {"content":"Strażnicy Świątyni Innos będą teraz nosić nową zbroję."},
-{"content":"Naprawiono tekstury niektórych broni."},
-{"content":"Zamieniono modele niektórych mieczy na lepsze."},
-{"content":"Dodano nowe przedmioty i obiekty do gry."},
-{"content":"Grobowiec Horan Ho został rozbudowany."},
-{"content":"Przeniesiono wszystkie misje z moda Konsekwencje."},
-{"content":"Zmieniono nagrody za niektóre misje z moda Konsekwencje."},
-{"content":"Dodano nowe misje."},
-{"content":"Dodano nowe przedmioty do kupienia od Seruka i Flinta z Faring."},
-{"content":"Seruk będzie nosił nową zbroję."},
-{"content":"Zintegrowane 70% treści z moda Konsekwencje."},
-{"content":"Naprawiono znalezione drobne błędy w modzie LTM."}
+              {
+                "content": "Strażnicy Świątyni Innos będą teraz nosić nową zbroję."
+              },
+              {
+                "content": "Naprawiono tekstury niektórych broni."
+              },
+              {
+                "content": "Zamieniono modele niektórych mieczy na lepsze."
+              },
+              {
+                "content": "Dodano nowe przedmioty i obiekty do gry."
+              },
+              {
+                "content": "Grobowiec Horan Ho został rozbudowany."
+              },
+              {
+                "content": "Przeniesiono wszystkie misje z moda Konsekwencje."
+              },
+              {
+                "content": "Zmieniono nagrody za niektóre misje z moda Konsekwencje."
+              },
+              {
+                "content": "Dodano nowe misje."
+              },
+              {
+                "content": "Dodano nowe przedmioty do kupienia od Seruka i Flinta z Faring."
+              },
+              {
+                "content": "Seruk będzie nosił nową zbroję."
+              },
+              {
+                "content": "Zintegrowane 70% treści z moda Konsekwencje."
+              },
+              {
+                "content": "Naprawiono znalezione drobne błędy w modzie LTM."
+              }
             ]
           }
         ]
@@ -147,41 +182,95 @@
         "updateDescription": "Mod PGL został w pełni zintegrowany.<br>Na ten moment 50% zawartości z Konsekwencji jest zintegrowane.<br> Poprawiono wiele znalezionych błędów.<br>",
         "version": "0.36",
         "date": "2021-08-28",
-        "alerts": [
-          
-        ],
+        "alerts": [],
         "lists": [
           {
             "title": "Zmiany ogólne:",
             "list": [
-              {"content":"Bandyci z Myrtany otrzymali bardziej zróżnicowane zbroje i broń, a niektórzy będą nosić hełmy."},
-{"content":"Wiele pustych miejsc w świecie zostało przekształconych."},
-{"content":"Dodano nowe przedmioty i obiekty do gry."},
-{"content":"Naprawiono błąd dający możliwość otrzymania drugiej nagrody od Gamala po ukończeniu zadania „Zabij Starszego”."},
-{"content":"Bohater otrzyma reputację u Asasynów za zostanie mistrzem areny Mora Sul. Zmniejszono reputacje za zadanie „Darowizna dla Beliara”."},
-{"content":"Naprawiono dialogi u Ingvara i Ugolfa."},
-{"content":"Paladyn Wenzel jest teraz nieuzbrojony będąc schwytanym przez orków."},
-{"content":"Teraz możesz wybrać opcje dla moda „Konsekwencje” (wersja okrojona, pełna lub bez konsekwencji). Po uwolnieniu Ardei musisz porozmawiać z Tristanem. Uwaga: jeśli awansujesz dalej w grze, wybór nie będzie dostępny (np. uwolnienie jakiegoś miasta lub rozmowa z postaciami: Robarem, Zubenem, Xardasem itp.). Domyślnie konsekwencje są wyłączone."},
-{"content":"Główne zadanie moda PGL zostało zintegrowane. Naprawiono wszystkie znalezione do tej pory błędy. Uwaga: jeśli stanąłeś po stronie któregoś z bogów przed aktywacją PGL, mod nie będzie już mógł zostać aktywowany."},
-{"content":"Rozmawiając z Lee, możesz zignorować fabułę moda PGL i całkowicie ją pominąć."},
-{"content":"Teraz możesz ukończyć PGL nawet po wyzwoleniu Nordmaru, bez wcześniejszej rozmowy z Lee."},
-{"content":"Jeśli nie zabierzesz ze sobą Lee, aby uwolnić Nordmar, orkowie zaatakują Klan Ognia, tak jak wynikało to z dialogów."},
-{"content":"Teraz nie będzie można zdobyć starej zbroi najemnika, pokonując Lee, jeśli masz zainstalowany QuestPack."},
-{"content":"Lee da bohaterowi zbroję najemnika, nawet jeśli mod PGL jest wyłączony."},
-{"content":"Zmieniono przedmiot „Królewski pierścień”, dodano nową ikonę."},
-{"content":"Naprawiono zadanie „Odwrócić uwagę strażnika”. Teraz nie musisz czekać całej godziny na ukończenie zadania."},
-{"content":"Strażnik w pobliżu celi Laresa będzie faktycznie stał na straży."},
-{"content":"Cela Laresa będzie zamknięta drzwiami, które można otworzyć tylko kluczem."},
-{"content":"Powiązania niektórych zadań PGL z QuestPackiem zostały usunięte."},
-{"content":"Dodano alternatywne ścieżki dla fabuły PGL, jeśli ta lub inna postać zginęła (na przykład Markus, Vendorn i inne postacie nie są już wymagane do pomyślnego ukończenia zadania)."},
-{"content":"Król Rhobar i Karrypto nie są już klonowani. Teraz zadanie „Złam opór Morr!” można wykonać pomyślnie."},
-{"content":"Karrypto nie teleportuje się już do swojej wieży po rozmowie z bohaterem, ale idzie pieszo (w większości przypadków mag ginął podczas teleportacji)."},
-{"content":"Dodano dodatkowe dialogi, aby lepiej zrozumieć, co robić dalej w fabule."},
-{"content":"Paladyni nie wezmą udziału w zabiciu króla, jak zamierzał autor."},
-{"content":"Lee będzie miał nowy topór. Można go zdobyć po ukończeniu głównego wątku fabularnego moda PGL."},
-{"content":"Zadanie „Zniszcz Vengard” nie będzie już ukończone, jeśli Vengard nie został oczyszczony."},
-{"content":"Naprawiono wiele innych błędów i niedociągnięć."},
-{"content":"Naprawiono inne znalezione błędy w modzie LTM."}
+              {
+                "content": "Bandyci z Myrtany otrzymali bardziej zróżnicowane zbroje i broń, a niektórzy będą nosić hełmy."
+              },
+              {
+                "content": "Wiele pustych miejsc w świecie zostało przekształconych."
+              },
+              {
+                "content": "Dodano nowe przedmioty i obiekty do gry."
+              },
+              {
+                "content": "Naprawiono błąd dający możliwość otrzymania drugiej nagrody od Gamala po ukończeniu zadania „Zabij Starszego”."
+              },
+              {
+                "content": "Bohater otrzyma reputację u Asasynów za zostanie mistrzem areny Mora Sul. Zmniejszono reputacje za zadanie „Darowizna dla Beliara”."
+              },
+              {
+                "content": "Naprawiono dialogi u Ingvara i Ugolfa."
+              },
+              {
+                "content": "Paladyn Wenzel jest teraz nieuzbrojony będąc schwytanym przez orków."
+              },
+              {
+                "content": "Teraz możesz wybrać opcje dla moda „Konsekwencje” (wersja okrojona, pełna lub bez konsekwencji). Po uwolnieniu Ardei musisz porozmawiać z Tristanem. Uwaga: jeśli awansujesz dalej w grze, wybór nie będzie dostępny (np. uwolnienie jakiegoś miasta lub rozmowa z postaciami: Robarem, Zubenem, Xardasem itp.). Domyślnie konsekwencje są wyłączone."
+              },
+              {
+                "content": "Główne zadanie moda PGL zostało zintegrowane. Naprawiono wszystkie znalezione do tej pory błędy. Uwaga: jeśli stanąłeś po stronie któregoś z bogów przed aktywacją PGL, mod nie będzie już mógł zostać aktywowany."
+              },
+              {
+                "content": "Rozmawiając z Lee, możesz zignorować fabułę moda PGL i całkowicie ją pominąć."
+              },
+              {
+                "content": "Teraz możesz ukończyć PGL nawet po wyzwoleniu Nordmaru, bez wcześniejszej rozmowy z Lee."
+              },
+              {
+                "content": "Jeśli nie zabierzesz ze sobą Lee, aby uwolnić Nordmar, orkowie zaatakują Klan Ognia, tak jak wynikało to z dialogów."
+              },
+              {
+                "content": "Teraz nie będzie można zdobyć starej zbroi najemnika, pokonując Lee, jeśli masz zainstalowany QuestPack."
+              },
+              {
+                "content": "Lee da bohaterowi zbroję najemnika, nawet jeśli mod PGL jest wyłączony."
+              },
+              {
+                "content": "Zmieniono przedmiot „Królewski pierścień”, dodano nową ikonę."
+              },
+              {
+                "content": "Naprawiono zadanie „Odwrócić uwagę strażnika”. Teraz nie musisz czekać całej godziny na ukończenie zadania."
+              },
+              {
+                "content": "Strażnik w pobliżu celi Laresa będzie faktycznie stał na straży."
+              },
+              {
+                "content": "Cela Laresa będzie zamknięta drzwiami, które można otworzyć tylko kluczem."
+              },
+              {
+                "content": "Powiązania niektórych zadań PGL z QuestPackiem zostały usunięte."
+              },
+              {
+                "content": "Dodano alternatywne ścieżki dla fabuły PGL, jeśli ta lub inna postać zginęła (na przykład Markus, Vendorn i inne postacie nie są już wymagane do pomyślnego ukończenia zadania)."
+              },
+              {
+                "content": "Król Rhobar i Karrypto nie są już klonowani. Teraz zadanie „Złam opór Morr!” można wykonać pomyślnie."
+              },
+              {
+                "content": "Karrypto nie teleportuje się już do swojej wieży po rozmowie z bohaterem, ale idzie pieszo (w większości przypadków mag ginął podczas teleportacji)."
+              },
+              {
+                "content": "Dodano dodatkowe dialogi, aby lepiej zrozumieć, co robić dalej w fabule."
+              },
+              {
+                "content": "Paladyni nie wezmą udziału w zabiciu króla, jak zamierzał autor."
+              },
+              {
+                "content": "Lee będzie miał nowy topór. Można go zdobyć po ukończeniu głównego wątku fabularnego moda PGL."
+              },
+              {
+                "content": "Zadanie „Zniszcz Vengard” nie będzie już ukończone, jeśli Vengard nie został oczyszczony."
+              },
+              {
+                "content": "Naprawiono wiele innych błędów i niedociągnięć."
+              },
+              {
+                "content": "Naprawiono inne znalezione błędy w modzie LTM."
+              }
             ]
           }
         ]
@@ -265,10 +354,10 @@
         "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Dodano możliwość usunięcia magicznej bariery.<br>Zmieniono kilka tekstur.",
         "version": "0.34",
         "date": "2021-06-13",
-        "alerts":[
+        "alerts": [
           {
-            "color":"red",
-            "text":"Ta wersja nie jest kompatybilna z Konsekwencjami oraz Powrotem Generała Lee."
+            "color": "red",
+            "text": "Ta wersja nie jest kompatybilna z Konsekwencjami oraz Powrotem Generała Lee."
           }
         ],
         "lists": [
@@ -608,6 +697,10 @@
         {
           "name": "Zipperiusz",
           "role": "Tłumacz"
+        },
+        {
+          "name": "Tulipan",
+          "role": "Korekty"
         },
         {
           "name": "Dawinio",
