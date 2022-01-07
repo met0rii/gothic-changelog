@@ -2,13 +2,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
-// views
-import Home from "../views/home/Home.vue";
-import ModChangelogs from "../views/mod-changelogs/ModChangelogs.vue";
+const Home = () => import( /* webpackChunkName: "home" */ "../views/home/Home.vue");
 
-// subviews
-import Changelogs from "../views/mod-changelogs/changelogs/Changelogs.vue";
-import ChangelogOverview from "../views/mod-changelogs/changelogs/changelogs-overview/ChangelogOverview.vue";
+const ModChangelogs = () => import( /* webpackChunkName: "changelogs" */ "../views/mod-changelogs/ModChangelogs.vue");
+const Changelogs = () => import( /* webpackChunkName: "changelogs" */ "../views/mod-changelogs/changelogs/Changelogs.vue");
+const ChangelogOverview = () => import( /* webpackChunkName: "changelogs" */ "../views/mod-changelogs/changelogs/changelogs-overview/ChangelogOverview.vue");
 
 Vue.use(VueRouter);
 

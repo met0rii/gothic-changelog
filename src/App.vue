@@ -11,7 +11,7 @@
       <v-list-item class="introduction">
         <v-list-item-content>
           <h3>Modyfikacje</h3>
-          <v-list-item-subtitle> Zobacz najnowsze wersje </v-list-item-subtitle>
+          <v-list-item-subtitle>Najnowsze wersje</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -79,6 +79,8 @@ export default {
 <style>
 /*EXTERNAL CSS*/
 @import "./assets/css/vue2-animate.css";
+@import "../node_modules/typeface-roboto/index.css";
+@import "../node_modules/material-design-icons/iconfont/material-icons.css";
 
 /*CSS VARIABLES*/
 :root {
@@ -185,5 +187,4 @@ body {
 .header {
   color: var(--orange-secondary);
 }
-
 </style>
