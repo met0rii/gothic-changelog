@@ -19,7 +19,7 @@
         <div class="changelog-headline-container mb-4">
           <item-header fontSize="36px" :title="changelogTitle" />
           <span class="changelog-subline">
-            Data wydania: {{ changelog.date | moment("DD.MM.YYYY") }}
+            Data wydania: {{ changelog.date | formatDate(dayjs) }}
           </span>
         </div>
 
@@ -69,6 +69,11 @@ export default {
       };
     },
   },
+  filters: {
+  formatDate(value, formater) {
+    return formater(new Date(value)).format("DD MMMM YYYY");
+  }
+}
 };
 </script>
 
