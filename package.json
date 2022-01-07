@@ -9,6 +9,9 @@
     "start": "node server.js",
     "news:generate": "node news.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@mdi/font": "^5.8.55",
     "axios": "^0.21.0",
