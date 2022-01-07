@@ -109,6 +109,24 @@ export default {
   --h4: 22px;
 }
 
+::-webkit-scrollbar {
+    width:10px;
+    }
+::-webkit-scrollbar-button {
+    display:none;
+    }
+::-webkit-scrollbar-track {
+    background:#666;
+    }
+::-webkit-scrollbar-track-piece {
+    background:#666;
+    }
+::-webkit-scrollbar-thumb {
+    width:5px;
+    background:#333;
+    border-radius:3px;
+}
+
 h1 {
   font-size: var(--h1);
 }
