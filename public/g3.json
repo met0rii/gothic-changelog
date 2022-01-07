@@ -67,6 +67,34 @@
     },
     "changes": [
       {
+        "updateId": "8",
+        "updateDescription": "Zintegrowano 99% zawartości moda Konsekwencje.<br>Dodano nowe szaty dla magów.<br>Poprawiono znalezione błędy.",
+        "version": "0.39",
+        "date": "2022-01-07",
+        "alerts": [         
+          {
+            "text": "Szczegółowe informacje na temat zmian w Powrocie Generała Lee oraz Konsekwencjach są dostępne <a href=\"https://docs.google.com/document/d/1CKlSkEwKetTxZBXstfFJ8knmHokGE_r5ptIBSUigxGA/edit?usp=sharing\">TUTAJ.</a>",
+            "color":"green"
+          }
+        ],
+        "lists": [
+          {
+            "title": "Zmiany ogólne:",
+            "list": [
+              {"content":"Niektóre postacie będą nosić nowe ubrania,"},
+{"content":"Rybacy posiadają nowe przedmioty na handel,"},
+{"content":"Prawie całkowicie zintegrowany mod Konsekwencje - 99% (Angar, Lares i Lee nie ma w Ardei),"},
+{"content":"Kupcy, myśliwi, alchemicy, rybacy, karczmarze itp. nie walczą już dla orków w czasie rewolucji, a po odbiciu miasta pozostaną w nim,"},
+{"content":"Dodano nowe szaty dla magów,"},
+{"content":"Dodano kompatybilność z modem QuestFix (The Costal Region),"},
+{"content":"Hamlar w Ardei również może aktywować zawartość modyfikacji Konsekwencje,"},
+{"content":"Dodano księgi doświadczenia do gry,"},
+{"content":"Naprawiono znalezione błędy w modzie LTM."}
+            ]
+          }
+        ]
+      },
+      {
         "updateId": "7",
         "updateDescription": "Zintegrowano 95% zawartości moda Konsekwencje.<br>Niektóre postacie otrzymały nowe ubrania.<br>Poprawiono wiele znalezionych błędów.",
         "version": "0.38",

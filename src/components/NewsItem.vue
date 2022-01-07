@@ -7,7 +7,7 @@
   >
     <div>
       <item-header fontSize="22px" :title="data.title" :redirect="data.redirect"/>
-      <p v-if="date" class="news-date">{{date | moment("DD.MM.YYYY") }}</p>
+      <p v-if="date" class="news-date">{{date}}</p>
       <p v-else class="news-date">nieznana</p>
     </div>
     <div>
@@ -42,8 +42,9 @@ export default {
         return '';
       }
       
-      return date;
-    }
+      return this.dayjs(date).format("DD MMMM YYYY");
+    },
+
   }
 }
 </script>
