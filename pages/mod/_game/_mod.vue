@@ -26,7 +26,7 @@
             class="download-btn mt-5 mb-5"
             large
           >
-            <v-icon left dark> mdi-cloud-download </v-icon>
+            <v-icon left dark> mdi-cloud-download</v-icon>
             Pobierz
           </v-btn>
         </div>
@@ -38,7 +38,7 @@
       leave-active-class="animated fadeOut"
       mode="out-in"
     >
-      <NuxtChild />
+      <NuxtChild/>
     </transition>
   </v-container>
 </template>
@@ -65,8 +65,15 @@ export default {
   watch: {
     $route: {
       immediate: true,
-      handler() {
+      handler(currentValue, oldValue) {
         this.selectSingleChangelog();
+        if (process.client) {
+          if (oldValue != null && currentValue.params.mod != oldValue.params.mod) {
+            window.scrollTo({
+              top: 0
+            });
+          }
+        }
       },
     },
   },
@@ -80,7 +87,7 @@ export default {
       this.setTitle();
     },
     setTitle() {
-      if(process.client) {
+      if (process.client) {
         const selected = this.$store.state.changelogs.selected;
         if (selected) {
           document.title =
@@ -100,10 +107,12 @@ export default {
 .card:not(:first-child) {
   margin-left: 12px;
 }
+
 .mod-title {
   width: max-content;
   display: inline-block;
 }
+
 .mod-header-wrapper {
   display: flex;
   align-content: center;

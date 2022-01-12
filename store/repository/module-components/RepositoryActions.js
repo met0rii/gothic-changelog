@@ -4,7 +4,6 @@ import axios from "axios"
 export default class RepositoryActions {
 
   getCollection = (context, data = null) => {
-    debugger;
     let url = `${context.state.url}${data && data.paramId ? '/' + data.paramId + ".json" : ''}`;
     url = process.env.appUrl + url;
     console.log(url);

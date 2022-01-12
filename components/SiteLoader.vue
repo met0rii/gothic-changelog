@@ -25,15 +25,11 @@ export default {
   name: "SiteLoader.vue",
   data() {
     return {
-      renderTime: Date.now(),
-      timeoutTime: 350,
       render: true
     }
   },
   mounted() {
-    setTimeout(() => {
-      this.render = false;
-    }, this.timeoutTime)
+    this.render = false;
   }
 }
 </script>
