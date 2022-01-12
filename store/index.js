@@ -15,18 +15,5 @@ export default () => new Vuex.Store({
     changelogs: ChangelogModule,
     sidebar: SidebarModule,
     news: newsModule
-  },
-  actions: {
-    async nuxtServerInit(store, context) {
-      await store.commit('setBaseUrl', context.req.headers.referer);
-    }
-  },
-  mutations: {
-    setBaseUrl(state, value) {
-      state.baseUrl = value;
-    }
-  },
-  state: {
-    baseUrl: ''
   }
 })
