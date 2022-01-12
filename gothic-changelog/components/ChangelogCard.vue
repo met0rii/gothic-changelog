@@ -45,14 +45,7 @@ export default {
   data: () => ({}),
   computed: {
     redirectData() {
-      return {
-        name: "ChangelogPreview",
-        params: {
-          game: this.$route.params.game,
-          id: this.$route.params.id,
-          changelogId: this.$props.id,
-        },
-      };
+      return `/mod/${this.$route.params.game}/${this.$route.params.mod}/changelog/${this.$props.id}`;
     },
   },
 };

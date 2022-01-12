@@ -38,7 +38,7 @@
       leave-active-class="animated fadeOut"
       mode="out-in"
     >
-      <router-view />
+      <NuxtChild />
     </transition>
   </v-container>
 </template>
@@ -78,7 +78,7 @@ export default {
     selectSingleChangelog() {
       this.$store.commit(
         "changelogs/selectChangelog",
-        this.$route.params.changelogId
+        this.$route.params.changeLogId
       );
       this.setTitle();
     },
