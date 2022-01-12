@@ -4,13 +4,9 @@ import axios from "axios"
 export default class RepositoryActions {
 
   getCollection = (context, data = null) => {
+    debugger;
     let url = `${context.state.url}${data && data.paramId ? '/' + data.paramId + ".json" : ''}`;
-    if(process.server) {
-      url = `http://0.0.0.0:3000` + url;
-    }
-    else {
-      url = 'https://test-heroku-nuxt.herokuapp.com' + url;
-    }
+    url = process.env.appUrl + url;
     console.log(url);
     context.commit("setLoading", true);
     return axios.get(url).then((res) => {

@@ -30,7 +30,7 @@ export default {
   components: { SidebarListItem },
   name: "SidebarList",
   props: {
-    sidebarItems: Array,
+    sidebarItems: Object,
   },
 };
 </script>

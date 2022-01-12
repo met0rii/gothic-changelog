@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <SiteLoader />
     <v-navigation-drawer
       v-model="drawerVisible"
       disable-resize-watcher
@@ -40,9 +41,10 @@
 
 <script>
 import SidebarList from "~/components/SidebarList";
+import SiteLoader from "~/components/SiteLoader";
 export default {
   name: "App",
-  components: { SidebarList },
+  components: { SidebarList, SiteLoader },
   data: () => {
     return {
       drawerVisible: true,
@@ -51,17 +53,12 @@ export default {
 
   computed: {
     sidebarItems() {
-      return this.$store.state.sidebar.collection;
+      return this.$store.state.sidebar;
     },
     routePath() {
       return this.$route.path.split("/").slice(0, 4).join("/");
     },
   },
-  mounted() {
-    this.$store.dispatch("sidebar/getCollection");
-    document.title = "Gothic Sefaris";
-  },
-
   watch: {
     $route: {
       immediate: true,
