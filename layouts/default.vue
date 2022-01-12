@@ -42,7 +42,6 @@
 import SidebarList from "~/components/SidebarList";
 export default {
   name: "App",
-
   components: { SidebarList },
   data: () => {
     return {

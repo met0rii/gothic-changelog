@@ -43,6 +43,9 @@ import SectionTitle from "@/components/SectionTitle";
 import NewsItem from "@/components/NewsItem";
 
 export default {
+  async fetch({store}) {
+    await store.dispatch("news/getCollection");
+  },
   name: "Home",
   components: {NewsItem, SectionTitle, SefarisDiscord, CommunityDiscord},
   data() {
@@ -51,10 +54,6 @@ export default {
       previousPage: 0,
       pageSize: 5
     }
-  },
-  mounted() {
-    this.$store
-      .dispatch("news/getCollection");
   },
   computed: {
     pageCount() {

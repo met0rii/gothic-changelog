@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <section-title title="Lista zmian" />
+    <section-title title="Lista zmian"/>
     <v-col cols="12" class="pl-4 pr-4" v-if="changelog">
       <div class="changelog-row pa-4">
         <div class="back-button-container mb-2">
@@ -11,13 +11,13 @@
             :to="redirectData"
             class="back-button"
           >
-            <v-icon left dark> mdi-arrow-left </v-icon>
+            <v-icon left dark> mdi-arrow-left</v-icon>
             Powrót
           </v-btn>
         </div>
 
         <div class="changelog-headline-container mb-4">
-          <item-header fontSize="36px" :title="changelogTitle" />
+          <item-header fontSize="36px" :title="changelogTitle"/>
           <span class="changelog-subline">
             Data wydania: {{ changelog.date | formatDate($dayjs) }}
           </span>
@@ -25,7 +25,7 @@
 
         <span v-html="changelog.updateDescription"></span>
 
-        <v-divider class="mt-4" />
+        <v-divider class="mt-4"/>
 
         <div
           class="mt-4"
@@ -39,7 +39,7 @@
           /></v-alert>
         </div>
 
-        <recursive-list class="mt-6" :data="changelog.lists" />
+        <recursive-list class="mt-6" :data="changelog.lists"/>
       </div>
     </v-col>
   </v-row>
@@ -51,7 +51,7 @@ import SectionTitle from "@/components/SectionTitle.vue";
 import ItemHeader from "@/components/ItemHeader.vue";
 
 export default {
-  components: { SectionTitle, RecursiveList, ItemHeader },
+  components: {SectionTitle, RecursiveList, ItemHeader},
   computed: {
     changelogTitle() {
       return "Changelog " + this.changelog.version;
@@ -60,13 +60,7 @@ export default {
       return this.$store.state.changelogs.selectedChangelog;
     },
     redirectData() {
-      return {
-        name: "Changelogs",
-        params: {
-          game: this.$route.params.game,
-          id: this.$route.params.id,
-        },
-      };
+      return `/mod/${this.$route.params.game}/${this.$route.params.mod}`;
     },
   },
   filters: {
@@ -82,6 +76,7 @@ export default {
   background-color: var(--black-primary);
   border-radius: 4px;
 }
+
 .changelog-headline {
   margin-bottom: 10px;
 }
@@ -94,6 +89,7 @@ export default {
   padding: 0;
   margin: 0;
 }
+
 .back-button-container {
   text-align: right;
 }

@@ -20,7 +20,7 @@
         </div>
         <div v-if="selected.url && selected.url.length" align="center">
           <v-btn
-            :to="{ name: 'redirect', query: { url: selected.url } }"
+            :to="'/redirect?url=' + selected.url"
             color="orange lighten-3"
             light
             class="download-btn mt-5 mb-5"
@@ -46,6 +46,13 @@
 <script>
 export default {
   name: "ModChangelogs",
+  async fetch({store, params}) {
+    await store
+      .dispatch("changelogs/getCollection", {
+        itemId: params.mod,
+        paramId: params.game,
+      })
+  },
   computed: {
     selected() {
       return this.$store.state.changelogs.selected;
@@ -55,16 +62,6 @@ export default {
       return this.$route.params.id;
     },
   },
-
-  mounted() {
-    this.$store
-      .dispatch("changelogs/getCollection", {
-        itemId: this.$route.params.mod,
-        paramId: this.$route.params.game,
-      })
-      .then(() => this.selectSingleChangelog());
-  },
-
   watch: {
     $route: {
       immediate: true,
@@ -83,10 +80,12 @@ export default {
       this.setTitle();
     },
     setTitle() {
-      const selected = this.$store.state.changelogs.selected;
-      if (selected) {
-        document.title =
-          "Gothic Sefaris - " + selected.title || "Gothic Sefaris";
+      if(process.client) {
+        const selected = this.$store.state.changelogs.selected;
+        if (selected) {
+          document.title =
+            "Gothic Sefaris - " + selected.title || "Gothic Sefaris";
+        }
       }
     },
   },
