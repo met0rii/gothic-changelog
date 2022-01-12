@@ -5,4 +5,4 @@ import RepositoryState from "../repository/module-components/RepositoryState";
 import RepositoryMutations from "../repository/module-components/RepositoryMutations";
 
 
-export default new RepositoryModule(new RepositoryState("./mod-list.json", true), new RepositoryActions(), new RepositoryMutations());
+export default new RepositoryModule(new RepositoryState("/mod-list.json", true), new RepositoryActions(), new RepositoryMutations());

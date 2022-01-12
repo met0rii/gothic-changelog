@@ -5,6 +5,7 @@ export default class RepositoryActions {
 
   getCollection = (context, data = null) => {
     context.commit("setLoading", true);
+    console.log(`url:`, `${context.state.url}${data && data.paramId ? '/' + data.paramId + ".json" : ''}`);
     return axios.get(`${context.state.url}${data && data.paramId ? '/' + data.paramId + ".json" : ''}`).then((res) => {
       context.commit("setLoading", false);
       context.commit("setCollection", res.data);
@@ -17,4 +18,4 @@ export default class RepositoryActions {
       context.commit("setError", e.message);
     })
   }
-} 
+}

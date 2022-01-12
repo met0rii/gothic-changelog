@@ -10,7 +10,7 @@ import newsModule from "./news/index";
 Vue.use(Vuex)
 
 
-export default new Vuex.Store({
+export default () => new Vuex.Store({
   modules: {
     changelogs: ChangelogModule,
     sidebar: SidebarModule,
