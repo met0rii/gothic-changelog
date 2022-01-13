@@ -58,19 +58,7 @@ export default {
     routePath() {
       return this.$route.path.split("/").slice(0, 4).join("/");
     },
-  },
-  watch: {
-    $route: {
-      immediate: true,
-      handler() {
-        if (process.client) {
-          if (!this.$route.params.id) {
-            document.title = "Gothic Sefaris";
-          }
-        }
-      },
-    },
-  },
+  }
 };
 </script>
 

@@ -62,6 +62,25 @@ export default {
       return this.$route.params.id;
     },
   },
+  head() {
+    const mod = this.$store.state.changelogs.selected;
+    console.log(mod?.description);
+    return {
+      title: mod?.title || 'Brak nazwy',
+      meta:  [
+        {
+          hid: 'description',
+          name: 'description',
+          content: mod?.description
+        },
+        {
+          hid: 'image',
+          name: 'og:image',
+          content: mod?.titleUrl
+        }
+      ]
+    }
+  },
   watch: {
     $route: {
       immediate: true,
@@ -84,17 +103,7 @@ export default {
         "changelogs/selectChangelog",
         this.$route.params.changeLogId
       );
-      this.setTitle();
-    },
-    setTitle() {
-      if (process.client) {
-        const selected = this.$store.state.changelogs.selected;
-        if (selected) {
-          document.title =
-            "Gothic Sefaris - " + selected.title || "Gothic Sefaris";
-        }
-      }
-    },
+    }
   },
 };
 </script>

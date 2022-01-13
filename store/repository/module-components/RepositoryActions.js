@@ -6,7 +6,6 @@ export default class RepositoryActions {
   getCollection = (context, data = null) => {
     let url = `${context.state.url}${data && data.paramId ? '/' + data.paramId + ".json" : ''}`;
     url = process.env.appUrl + url;
-    console.log(url);
     context.commit("setLoading", true);
     return axios.get(url).then((res) => {
       context.commit("setLoading", false);
