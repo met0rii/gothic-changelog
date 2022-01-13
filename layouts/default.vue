@@ -22,8 +22,9 @@
     <v-app-bar class="navbar" clipped-left color="#212121" dark app>
       <v-app-bar-nav-icon
         v-on:click="drawerVisible = !drawerVisible"
+        :aria-label="drawerVisible ? 'Zwiń menu' : 'Rozwiń menu'"
       ></v-app-bar-nav-icon>
-      <v-toolbar-title>Gothic Sefaris</v-toolbar-title>
+      <v-toolbar-title>Sefaris</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
 

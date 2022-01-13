@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@nuxt/types": "~2.15.0",
-    "@nuxtjs/vuetify": "^1.12.3"
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt-compress": "^5.0.0"
   }
 }

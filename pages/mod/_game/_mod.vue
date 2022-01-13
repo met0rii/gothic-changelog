@@ -3,6 +3,7 @@
     <v-row>
       <v-col>
         <div align="center">
+          <client-only>
           <v-img
             :src="selected.titleUrl"
             :lazy-src="selected.titleUrl"
@@ -13,10 +14,12 @@
                 <v-progress-circular
                   indeterminate
                   color="grey lighten-5"
-                ></v-progress-circular>
+                  aria-hidden="true"
+                />
               </v-row>
             </template>
           </v-img>
+          </client-only>
         </div>
         <div v-if="selected.url && selected.url.length" align="center">
           <v-btn
@@ -64,7 +67,6 @@ export default {
   },
   head() {
     const mod = this.$store.state.changelogs.selected;
-    console.log(mod?.description);
     return {
       title: mod?.title || 'Brak nazwy',
       meta:  [

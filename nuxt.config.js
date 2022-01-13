@@ -35,6 +35,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    ['nuxt-compress',       {
+      gzip: {
+        threshold: 8192,
+      },
+      brotli: {
+        threshold: 8192,
+      },
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
