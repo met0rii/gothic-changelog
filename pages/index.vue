@@ -57,7 +57,14 @@ export default {
   },
   head() {
     return {
-      title: 'Strona główna'
+      title: 'Strona główna',
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Strona główna - Sefaris'
+        }
+      ]
     }
   },
   computed: {
