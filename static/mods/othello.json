@@ -41,7 +41,7 @@
       "alerts": [
         {
           "text": "Są to najważniejsze zmiany, szczegółowe informacje dostepne są <a href=\"https://docs.google.com/document/d/1dLtn-xwdsJWkggsH3FhvMVNkDmKZL4CO/edit?usp=sharing&ouid=101800877604070633974&rtpof=true&sd=true\">TUTAJ.</a>",
-          "color":"green"
+          "color": "green"
         }
       ],
       "lists": [
@@ -339,8 +339,8 @@
     ]
   },
   "gallery": [
-    "https://i.imgur.com/ApXQp71.png",
     "https://i.imgur.com/h9pUdic.png",
+    "https://i.imgur.com/ApXQp71.png",
     "https://i.imgur.com/vcyVLPJ.png",
     "https://i.imgur.com/6aM9T71.png",
     "https://i.imgur.com/vYHANcf.png",

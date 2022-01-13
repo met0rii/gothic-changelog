@@ -61,6 +61,76 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "48",
+      "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
+      "version": "2022-01-13",
+      "date": "2022-01-13",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Dodano opcję zmiany koloru celownika magicznego na podstawie poziomu naładowania czaru. W gothic.ini zmień lub dodaj linijkę bToggle_SightColorAimBySpellLevel = 1 (aby włączyć)"
+            },
+            {
+              "content": "Dodano nowy dar specjalny dla Nekromanty. Za 500HP możemy na stałe zwiększyć swoją moc magiczną o 5%. (Dla bezpieczeństwa, dar można wziąć tylko mając powyżej 1000HP)"
+            },
+            {
+              "content": "Dodano nowy dar specjalny dla Nekromanty. Za 500HP możemy na stałe wzmocnić swojego Hubaxisa o 15% siły i maksymalnego zdrowia. (Dla bezpieczeństwa, dar można wziąć tylko mając powyżej 1000HP)"
+            },
+            {
+              "content": "Zwiększono koszt karmy potrzebnej do wzięcia specjalnego daru Nekromanty. (+3% mocy magicznej)"
+            },
+            {
+              "content": "Nauka Amun-Su nie wymaga już znajomości eliksiru ducha. Wystarczy znać przepis na esencję many oraz posiadać 75 umiejętności alchemii. Dodatkowo koszt nauki wzrósł z 5PN na 6PN."
+            },
+            {
+              "content": "Bossy na Zaginionym Bracie nie będą już atakować summonów, dopóki nie zostaną zaatakowani pierwsi."
+            },
+            {
+              "content": "Przerobiono sposób wyświetlania podpowiedzi przy otwieraniu zamków, aby był czytelniejszy i łatwiejszy do zrozumienia."
+            },
+            {
+              "content": "Naprawiono zawieszanie się animacji strzelania z łuku/kuszy, gdy bohater został odepchnięty/przewrócony."
+            },
+            {
+              "content": "Zmieniono koszt PN dla niektórych umiejętności druida."
+            },
+            {
+              "content": "Dodano umiejętność pozwalającą raz na 30 sekund teleportować przyzwańców do bohatera. (Domyślnie Shift+E, można zmienić w opcjach sterowania)"
+            },
+            {
+              "content": "Lekko przerobiono sposób liczenia obrażeń obszarowych dla broni białej. Dłuższe bronie będą zadawały większe obrażenia obszarowe niż krótsze bronie."
+            },
+            {
+              "content": "Zmniejszono ilość życia trolla Utura."
+            },
+            {
+              "content": "Lekko zwiększono ilość życia poszukiwaczy."
+            },
+            {
+              "content": "Lekko zmniejszono ilość potworów na Zachodnim Wybrzeżu"
+            },
+            {
+              "content": "Zdobywanie mięsa może zostać nauczone również u Flinta lub Starego Łowcy na Zachodnim Wybrzeżu."
+            },
+            {
+              "content": "Zmniejszono obrażenia czaru <i>Woń Trucizny</i>. Nie działa on już z broniami zasięgowymi."
+            },
+            {
+              "content": "Osłabiono nieumarłych w kopalni między Khorinis a Górniczą Doliną."
+            },
+            {
+              "content": "Lekko zwiększono ilość życia totemów szamana."
+            },
+            {
+              "content": "I inne mniejsze poprawki..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "47",
       "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
       "version": "2021-12-29",

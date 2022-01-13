@@ -73,22 +73,30 @@
       "alerts": [
         {
           "text": "Szczegółowe informacje na temat zmian w Powrocie Generała Lee oraz Konsekwencjach są dostępne <a href=\"https://docs.google.com/document/d/1CKlSkEwKetTxZBXstfFJ8knmHokGE_r5ptIBSUigxGA/edit?usp=sharing\">TUTAJ.</a>",
-          "color":"green"
+          "color": "green"
         }
       ],
       "lists": [
         {
           "title": "Zmiany ogólne:",
           "list": [
-            {"content":"Niektóre postacie będą nosić nowe ubrania,"},
-            {"content":"Rybacy posiadają nowe przedmioty na handel,"},
-            {"content":"Prawie całkowicie zintegrowany mod Konsekwencje - 99% (Angar, Lares i Lee nie ma w Ardei),"},
-            {"content":"Kupcy, myśliwi, alchemicy, rybacy, karczmarze itp. nie walczą już dla orków w czasie rewolucji, a po odbiciu miasta pozostaną w nim,"},
-            {"content":"Dodano nowe szaty dla magów,"},
-            {"content":"Dodano kompatybilność z modem QuestFix (The Costal Region),"},
-            {"content":"Hamlar w Ardei również może aktywować zawartość modyfikacji Konsekwencje,"},
-            {"content":"Dodano księgi doświadczenia do gry,"},
-            {"content":"Naprawiono znalezione błędy w modzie LTM."}
+            { "content": "Niektóre postacie będą nosić nowe ubrania," },
+            { "content": "Rybacy posiadają nowe przedmioty na handel," },
+            {
+              "content": "Prawie całkowicie zintegrowany mod Konsekwencje - 99% (Angar, Lares i Lee nie ma w Ardei),"
+            },
+            {
+              "content": "Kupcy, myśliwi, alchemicy, rybacy, karczmarze itp. nie walczą już dla orków w czasie rewolucji, a po odbiciu miasta pozostaną w nim,"
+            },
+            { "content": "Dodano nowe szaty dla magów," },
+            {
+              "content": "Dodano kompatybilność z modem QuestFix (The Costal Region),"
+            },
+            {
+              "content": "Hamlar w Ardei również może aktywować zawartość modyfikacji Konsekwencje,"
+            },
+            { "content": "Dodano księgi doświadczenia do gry," },
+            { "content": "Naprawiono znalezione błędy w modzie LTM." }
           ]
         }
       ]
@@ -688,8 +696,8 @@
     ]
   },
   "gallery": [
-    "https://imgur.com/X0t8UUf.jpg",
     "https://imgur.com/pv3W44X.jpg",
+    "https://imgur.com/X0t8UUf.jpg",
     "https://imgur.com/lYeVfNf.jpg",
     "https://imgur.com/R2zgogW.jpg",
     "https://imgur.com/dkSK6a4.jpg",
