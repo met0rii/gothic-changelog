@@ -35,6 +35,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/google-gtag',
     ['nuxt-compress',       {
       gzip: {
         threshold: 8192,
@@ -48,7 +49,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/dayjs'
+    '@nuxtjs/dayjs',
+    '@nuxtjs/google-gtag',
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -68,5 +70,13 @@ export default {
     redirectSSL.create({
       enabled: process.env.NODE_ENV === 'production'
     }),
-  ]
+  ],
+  'google-gtag':{
+    id: 'G-70MWY7X2NK',
+    config:{
+      send_page_view: true,
+    },
+    debug: true,
+    disableAutoPageTrack: false,
+   }
 }
