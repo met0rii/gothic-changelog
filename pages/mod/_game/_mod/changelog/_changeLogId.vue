@@ -70,7 +70,7 @@ export default {
   },
   head() {
     return {
-      title: this.changelogTitle + ' - ' + this.$store.state.changelogs.selected?.title,
+      title: this.$store.state.changelogs.selected?.title + ' - ' + this.changelogTitle,
       meta: [
         {
           hid: 'description',
