@@ -65,8 +65,9 @@ export default {
   },
   head() {
     const mod = this.$store.state.changelogs.selected;
+    const title = mod?.title || 'Brak nazwy';
     return {
-      title: mod?.title || 'Brak nazwy',
+      title,
       meta:  [
         {
           hid: 'description',
@@ -74,9 +75,14 @@ export default {
           content: mod?.description
         },
         {
-          hid: 'image',
+          hid: 'og:image',
           name: 'og:image',
           content: mod?.titleUrl
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: title
         }
       ]
     }

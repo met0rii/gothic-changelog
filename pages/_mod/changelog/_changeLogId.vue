@@ -69,13 +69,25 @@ export default {
     }
   },
   head() {
+    const mod = this.$store.state.changelogs.selected;
+    const title = mod?.title + ' - ' + this.changelogTitle
     return {
-      title: this.$store.state.changelogs.selected?.title + ' - ' + this.changelogTitle,
+      title,
       meta: [
         {
           hid: 'description',
           name: 'description',
           content: this.changelog?.updateDescription
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: mod?.titleUrl
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: title
         }
       ]
     }
