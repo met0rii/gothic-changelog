@@ -3,7 +3,7 @@
     "name": "Gothic I",
     "data": [
       {
-        "id": "dz",
+        "id": "dolina-zombie",
         "title": "Dolina Zombie"
       },
       {
@@ -16,7 +16,7 @@
     "name": "Gothic II: Noc Kruka",
     "data": [
       {
-        "id": "ab",
+        "id": "new-balance",
         "title": "New Balance"
       },
       {
@@ -24,13 +24,13 @@
         "title": "L'Hiver"
       },
       {
-        "id": "ody",
+        "id": "odyseja",
         "title": "Odyseja"
       },
       {
         "id": "velen",
         "title": "Velen"
-        
+
       }
     ]
   },
@@ -38,7 +38,7 @@
     "name": "Gothic III",
     "data": [
       {
-        "id": "ltm",
+        "id": "lively-towns-mod",
         "title": "Lively Towns Mod"
       }
     ]

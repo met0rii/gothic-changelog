@@ -3,7 +3,6 @@
     <v-row>
       <v-col>
         <div align="center">
-          <client-only>
           <v-img
             :src="selected.titleUrl"
             :lazy-src="selected.titleUrl"
@@ -19,7 +18,6 @@
               </v-row>
             </template>
           </v-img>
-          </client-only>
         </div>
         <div v-if="selected.url && selected.url.length" align="center">
           <v-btn
@@ -52,8 +50,8 @@ export default {
   async fetch({store, params}) {
     await store
       .dispatch("changelogs/getCollection", {
-        itemId: params.mod,
-        paramId: params.game,
+        paramId: params.mod,
+        asSingle: true
       })
   },
   computed: {

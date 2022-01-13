@@ -35,7 +35,7 @@ export default {
         return this.route;
       }
 
-      return `/mod/${this.route.game}/${this.route.mod}`;
+      return `/${this.route.mod}`;
     }
   }
 };

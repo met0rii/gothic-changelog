@@ -1,0 +1,425 @@
+{
+  "id": "ody",
+  "title": "Odyseja",
+  "titleUrl": "https://imgur.com/OlQrAyl.png",
+  "url": "https://drive.google.com/drive/u/2/folders/1kUlX_TdWVd5y65M2wDc3pFb12jSpxzXI",
+  "description": "Akcja Odysei toczy się w momencie, gdy bezimienny bohater opuszcza Khorinis i wyrusza do Myrtany. W tym czasie bohater modyfikacji - Roland, rezyduje w morskiej twierdzy paladynów na Athanos jako jeden z rekrutów. Wojna z orkami omijała tę wyspę szerokim łukiem, lecz mimo tego nasz bohater marzy o zostaniu paladynem i postanawia dzielnie stawić czoło zielonoskórym. Decyduje się na opuszczenie wyspy, aby spełnić swoje marzenie, jednak nie wszystko jest takie proste, jakby się na początku wydawało. Musi przebyć długą i wyboistą drogę oraz przeżyć wiele ekscytujących i niełatwych przygód. Poznaje w międzyczasie wrogów królestwa oraz ich zamiary. Chodzi im o ustanowienie panowania Beliara i zniewolenie wszystkich ludzi lub, jeśli nie jest to możliwe, zniszczenie ich. Roland szybko zdaje sobie sprawę, że bycie paladynem nie jest celem, ale sposobem. Podąża więc wybraną przez siebie ścieżką i zdecydowanie sprzeciwia się najeźdźcom i broni niepodległości ludu Królestwa Myrtany.",
+  "installation": {
+    "instruction": {
+      "lists": [
+        {
+          "title": "Kolejność instalacji:",
+          "list": [
+            {
+              "content": "Pobierz i wypakuj zawartość archiwum <b>G2 Patch Bundle</b> do folderu z grą.",
+              "list": [
+                {
+                  "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
+                }
+              ]
+            },
+            {
+              "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja</b> do folderu z grą."
+            },
+            {
+              "content": "Pobierz i wypakuj zawartość archiwum <b>Odyseja_skrypty</b> do folderu z grą"
+            }
+          ]
+        },
+        {
+          "title": "Opcjonalne:",
+          "list": [
+            {
+              "content": "Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i zainstaluj <b>Odyssee_2.5.1_Speech_1</b> oraz <b>Odyssee_2.5.1_Speech_2</b> do folderu z grą."
+            },
+            {
+              "content": "Jeśli chcesz zainstalować dodatkową ścieżkę dźwiękową - Pobierz i wypakuj zawartość archiwum <b>OdysseeMusic</b> do folderu z grą."
+            },
+            {
+              "content": "Jeśli chcesz zainstalować alternatywne grafiki z L'Hivera - Pobierz i wypakuj zawartość archiwum <b>LHiverGraphicForOdyssee</b> do folderu <b>data</b>."
+            },
+            {
+              "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "changes": [
+    {
+      "updateId": "0",
+      "updateDescription": "Lista zmian względem niemieckiej wersji",
+      "version": "2.6.4",
+      "date": "2021-04-02",
+      "lists": [
+        {
+          "title": "Zmiany względem wersji niemieckiej:"
+        },
+        {
+          "title": "Poprawki:",
+          "list": [
+            {
+              "content": "Ujednolicono nazwy przedmiotów we wszystkich opcjach tworzenia."
+            },
+            {
+              "content": "Podczas wzmacniania pancerzy, widoczne są jedynie opcje ulepszenia tych pancerzy, które bohater posiada w ekwipunku."
+            },
+            {
+              "content": "Poprawiono wypisywanie na ekranie informacji na temat wytworzonego przedmiotu."
+            },
+            {
+              "content": "Wszystkie przedmioty, które można stworzyć, posiadają informację na temat wymaganych składników w dzienniku."
+            },
+            {
+              "content": "Naprawiono ostrzenie broni. Przycisk 'WRÓĆ' działa poprawnie. Jednocześnie po naostrzonym mieczu zostajemy w dialogu. Rozdzielono też ostrzenie od szlifowania na kamieniu szlifierskim."
+            },
+            {
+              "content": "Zaostrzone i zatrute bronie nie mają już tej informacji w nazwie przedmiotu. Informacja ta znajduje się w opisie przedmiotu."
+            },
+            {
+              "content": "Zmieniono lekko sposób wypisywania na ekranie nowych wpisów w dzienniku."
+            },
+            {
+              "content": "Poprawiono kategorię dla kilku kluczy, które pokazywały się obok pancerzy."
+            },
+            {
+              "content": "Poprawiono wyświetlanie tekstu podczas górnictwa. Teraz tekst nie nachodzi na siebie."
+            },
+            {
+              "content": "Zmieniono wygląd okna statystyk oraz powiększono trochę okno dziennika."
+            },
+            {
+              "content": "Powiększono lekko okna menu oraz dodano nową zakładkę z dodatkowymi opcjami."
+            },
+            {
+              "content": "Poprawiono warunki podczas składania ofiar dla Innosa oraz Adanosa. Teraz nie będzie sytuacji, że nie wyświetli się, żadna informacja na ekranie jeśli gracz osiągnął przynajmniej jeden z limitów otrzymanych statystyk."
+            },
+            {
+              "content": "Status mistrza górnictwa aktualizuje się teraz za każdym razem gdy gracz zwiększy swoje umiejętności na temat wydobycia."
+            },
+            {
+              "content": "Naprawiono błąd związany z kosztami użycia zwojów zaklęć, przez który mana spadała poniżej zera."
+            },
+            {
+              "content": "Naprawiono błąd, przez który mapa Tamory nie pokazywała pozycji gracza po ponownym przypłynięciu w 4 rozdziale."
+            },
+            {
+              "content": "Naprawiono błąd, przez który kradzież klucza Kajo była niedostępna."
+            },
+            {
+              "content": "Naprawiono błąd, przez który przy kradzieży klucza Szirkuha dostawaliśmy klucz Zoraba."
+            },
+            {
+              "content": "Przetłumaczono napisy na mapach oraz poprawiono kilka nieprzeźroczystych map."
+            },
+            {
+              "content": "Teraz gracz otrzymuje właściwą wersję muszkietu od rusznikarza."
+            }
+          ]
+        },
+        {
+          "title": "Nowości:",
+          "list": [
+            {
+              "content": "Zaktualizowano Gothic Free Aim do wersji 1.2.0"
+            },
+            {
+              "content": "Opisy przedmiotów zawierają więcej informacji. Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Pancerze zawierają też informację na temat ochrony przed obrażeniami obuchowymi oraz o ilości wymaganej many do założenia szat. Żywność, która daje stały bonus do statystyk ma to uwzględnione w opisie. Poprawiono także opisy tarcz, strzał i bełtów."
+            },
+            {
+              "content": "Dodano kolorowanie nazw skrzyń i drzwi."
+            },
+            {
+              "content": "Przy otrzymaniu doświadczenia, na ekranie pojawia się również informacja na temat brakującej ilości do następnego poziomu."
+            },
+            {
+              "content": "Dodano specjalną runę teleportacyjną pozwalającą na teleportację z dialogu do wszystkich miejsc na mapie do których gracz posiada aktualnie teleport. Runa jest do kupienia u Alchemika na Athanos."
+            },
+            {
+              "content": "Zmieniono wiele grafik. (zmian lokacji, loading screeny, zapisywanie, loga, napisy, itd.)"
+            },
+            {
+              "content": "Usunięto z menu opcje 'Autorzy' oraz 'Wprowadzenie', zmieniono domyślnie zaznaczone opcje w menu i przyciemniono okno dziennika oraz statystyk."
+            },
+            {
+              "content": "Dodano licznik wykonanych zadań w dzienniku."
+            },
+            {
+              "content": "Usunięto wymóg zręczności do zobaczenia opcji kradzieży kieszonkowej. Można też dodatkowo w ustawieniach wybrać opcję pokazywania wymaganej zręczności do okradnięcia NPC-ta."
+            },
+            {
+              "content": "Dodano dodatkową opcję pominięcia animacji siadania podczas gry w kości."
+            },
+            {
+              "content": "Dodano możliwość zmiany strzał/bełtów poprzez kliknięcie klawisza 'P'."
+            },
+            {
+              "content": "Dodano instancję PC_Rockefeller posiadającą wszystkie istniejące przedmioty. (nie koniecznie wszystkie występują w grze)"
+            },
+            {
+              "content": "Wybrany rodzaj strzał/bełtów nie resetuje się przy wczytaniu gry."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overview": {
+    "lists": [
+      {
+        "title": "Modyfikacja oferuje:",
+        "list": [
+          {
+            "content": "Ponad 200 godzin czasu gry!"
+          },
+          {
+            "content": "Ponad 1000 NPC i 642 zadań!"
+          },
+          {
+            "content": "Barwne postacie i rozbudowane dialogi."
+          },
+          {
+            "content": "Wiele starannie zaprojektowanych rozległych światów o różnych klimatach i ciekawych terenach."
+          },
+          {
+            "content": "Mozliwość spotkania przyjaciół z Gothic II i postaci niezależnych z kilku znanych modyfikacji."
+          },
+          {
+            "content": "Nowe ścieżki dźwiękowe dla Varantu, Myrtany oraz Nordmaru."
+          },
+          {
+            "content": "Zmieniony balans rozgrywki i pięć różnych poziomów trudności."
+          },
+          {
+            "content": "Wiele nowych animacji, w tym ostrzenie broni, picie z beczki, tworzenie zwojów, a także trumien i grobów, które można otworzyć, NPC niosą skrzynie, beczki, kamienie, worki, drewniane belki i drewno opałowe."
+          },
+          {
+            "content": "Wolne celowanie z łuku/magii"
+          },
+          {
+            "content": "Produkcja strzał i bełtów, a także nowe specjalne rodzaje, takie jak ogniste, trujące, rozbijające, lodowe, magiczne i wybuchowe. Specjalne strzały i bełty zadają różne obrażenia."
+          },
+          {
+            "content": "Wydobycie rudy, rudy żelaza, złota, siarki, srebra, węgla, akwamarynu i wielu innych."
+          },
+          {
+            "content": "Mnóstwo nowych tekstur potworów, oraz zupełnie nowe potwory jak np. gryfy, żółwie, ogry."
+          },
+          {
+            "content": "Potwory odradzają się w trakcie gry, i są niebezpieczne na każdym etapie gry."
+          },
+          {
+            "content": "Nowe zaklęcia przemiany oraz system wiedzy magicznej."
+          },
+          {
+            "content": "Potężni magowie, którzy potrafią się leczyć."
+          },
+          {
+            "content": "Hełmy i tarcze w grze, oraz mnóstwo nowych przedmiotów i pancerzy."
+          },
+          {
+            "content": "Mnóstwo gildii, takich jak najemnicy orków, asasyni, koczownicy."
+          },
+          {
+            "content": "Wiele przedmiotów, które można otwierać w tym skrzynki, szafy."
+          },
+          {
+            "content": "Zabójca orków, łowca orków, zatruwanie ostrza, pływanie, nurkowanie i wiele innych nowych umiejętności."
+          },
+          {
+            "content": "Ekrany ładowania z poradami dotyczącymi gry."
+          },
+          {
+            "content": "Wiele nowego pożywienia jak np. ananasy, marchewki, ziemniaki, nowe zupy, żywność w beczkach i workach."
+          },
+          {
+            "content": "I WIELE WIĘCEJ..."
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": [
+    "https://imgur.com/7XuQHvW.jpg",
+    "https://imgur.com/lg1BIco.jpg",
+    "https://imgur.com/3dS2B8K.jpg",
+    "https://imgur.com/5OGQvUs.jpg",
+    "https://imgur.com/2C8c14m.jpg",
+    "https://imgur.com/wqL0GIu.jpg",
+    "https://imgur.com/o8Jdxxr.jpg",
+    "https://imgur.com/waV401c.jpg",
+    "https://imgur.com/46HDsRr.jpg",
+    "https://imgur.com/giA5aln.jpg",
+    "https://imgur.com/5R1KNP5.jpg",
+    "https://imgur.com/zTGm2CA.jpg",
+    "https://imgur.com/IfTxogU.jpg",
+    "https://imgur.com/3lrtpXF.jpg",
+    "https://imgur.com/Fp4fE6L.jpg",
+    "https://imgur.com/JJhIjY1.jpg",
+    "https://imgur.com/jrse4Xi.jpg",
+    "https://imgur.com/ysi68yo.jpg",
+    "https://imgur.com/N7Flk45.jpg",
+    "https://imgur.com/EMkaHaF.jpg",
+    "https://imgur.com/VliUNqs.jpg",
+    "https://imgur.com/KXXGpFJ.jpg",
+    "https://imgur.com/vD0qRQ4.jpg",
+    "https://imgur.com/2aJadry.jpg",
+    "https://imgur.com/tYpNdaX.jpg",
+    "https://imgur.com/Jv4evY8.jpg",
+    "https://imgur.com/X2XOD89.jpg",
+    "https://imgur.com/9ATcTB8.jpg",
+    "https://imgur.com/ZklKRig.jpg",
+    "https://imgur.com/KPWhL3T.jpg",
+    "https://imgur.com/O12PBQR.jpg",
+    "https://imgur.com/uqPF78o.jpg",
+    "https://imgur.com/JXbXqZt.jpg",
+    "https://imgur.com/mnhZeCp.jpg",
+    "https://imgur.com/F7mXevS.jpg",
+    "https://imgur.com/5RMWEIo.jpg",
+    "https://imgur.com/z7KHAea.jpg",
+    "https://imgur.com/XTgwu68.jpg",
+    "https://imgur.com/j9DoW8x.jpg",
+    "https://imgur.com/zBkAoRL.jpg",
+    "https://imgur.com/7XuQHvW.jpg",
+    "https://imgur.com/oR8kLEH.jpg",
+    "https://imgur.com/0FrRS9W.jpg",
+    "https://imgur.com/HBHyOrv.jpg",
+    "https://imgur.com/32fwWNf.jpg",
+    "https://imgur.com/Eult7iP.jpg",
+    "https://imgur.com/2gmeX6y.jpg",
+    "https://imgur.com/bWgjD42.jpg"
+  ],
+  "authors": {
+    "creators": [
+      {
+        "name": "OdysseyModTeam",
+        "role": "Autorzy",
+        "contacts": [
+          {
+            "platform": "Forum",
+            "url": "https://www.worldofgothic.de/dl/download_522.htm"
+          }
+        ]
+      }
+    ],
+    "contributors": [
+      {
+        "name": "metek58",
+        "role": "Tłumacz"
+      },
+      {
+        "name": "smox",
+        "role": "Tłumacz"
+      },
+      {
+        "name": "kobal",
+        "role": "Tłumacz"
+      },
+      {
+        "name": "bogu9821",
+        "role": "Organizacja tłumaczenia"
+      },
+      {
+        "name": "Nefario",
+        "role": "Organizacja tłumaczenia"
+      },
+      {
+        "name": "AhnBael",
+        "role": "Wsparcie techniczne"
+      },
+      {
+        "name": "Taliasan",
+        "role": "Wsparcie techniczne"
+      },
+      {
+        "name": "OwcaZagady",
+        "role": "Grafiki"
+      },
+      {
+        "name": "plaq",
+        "role": "Korekty"
+      },
+      {
+        "name": "Jastrząb",
+        "role": "Porady"
+      },
+      {
+        "name": "Duch",
+        "role": "Promocja"
+      },
+      {
+        "name": "Simon Said",
+        "role": "Prezentacja światów"
+      },
+      {
+        "name": "Archi",
+        "role": "Prezentacja światów"
+      },
+      {
+        "name": "Fabiosek",
+        "role": "Tester"
+      },
+      {
+        "name": "Sebastian",
+        "role": "Programista, wykończenie"
+      },
+      {
+        "name": "Franisz",
+        "role": "Grafik, wykończenie"
+      },
+      {
+        "name": "Zipperiusz",
+        "role": "Korekty, wykończenie, tłumacz"
+      },
+      {
+        "name": "Klodiaa",
+        "role": "Grafiki"
+      },
+      {
+        "name": "Washion",
+        "role": "Tester, Tłumacz"
+      },
+      {
+        "name": "Tulipan",
+        "role": "Tester"
+      },
+      {
+        "name": "Arek",
+        "role": "Tester"
+      },
+      {
+        "name": "Kajma",
+        "role": "Promocja"
+      },
+      {
+        "name": "Buzka",
+        "role": "Tester"
+      },
+      {
+        "name": "HeIISinki",
+        "role": "Tester"
+      },
+      {
+        "name": "Solace",
+        "role": "Tester"
+      },
+      {
+        "name": "JkB",
+        "role": "Tester"
+      },
+      {
+        "name": "Exalté",
+        "role": "Tester"
+      },
+      {
+        "name": "Tavertix",
+        "role": "Tester"
+      },
+      {
+        "name": "Kredensik",
+        "role": "Tłumacz"
+      }
+    ]
+  }
+}

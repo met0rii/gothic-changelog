@@ -45,7 +45,7 @@ export default {
   data: () => ({}),
   computed: {
     redirectData() {
-      return `/mod/${this.$route.params.game}/${this.$route.params.mod}/changelog/${this.$props.id}`;
+      return `/${this.$route.params.mod}/changelog/${this.$props.id}`;
     },
   },
 };

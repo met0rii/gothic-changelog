@@ -74,9 +74,7 @@
       <v-row v-if="showGallery">
         <section-title ref="header-7" title="Galeria" />
         <v-col cols="12" class="pl-4 pr-4">
-          <client-only>
           <mod-gallery :data="selected" />
-          </client-only>
         </v-col>
       </v-row>
     </div>

@@ -1,0 +1,247 @@
+{
+  "id": "velen",
+  "title": "Velen 2.0",
+  "titleUrl": "https://i.imgur.com/Q9kpdkR.png",
+  "url": "https://drive.google.com/drive/folders/1eujW7gsEyCByVWuymg55fJg6mGucIm1_?usp=sharing",
+  "description": "Gramy piratem Williamem, który razem ze swoim kapitanem miał zamiar obrabować skarbiec księcia. Ich plan był prosty: prześlizgnąć się nocą, wziąć tyle złota ile zdołają unieść i zniknąć. Tego dnia, los im jednak nie sprzyjał. Zaraz przed tym, gdy mieli włamywać się do skarbca, zostali przyłapani przez patrolującą straż i natychmiast trafili do lochu.<br>Jeszcze tego samego dnia otrzymali wyrok: śmierć na stryczku.<br>Los chciał jednak dla nich inaczej, ponieważ następnego dnia, książę, przedstawił Williamowi pewną propozycję. Była ona następująca: oboje uzyskaliby ułaskawienie w zamian za pewną przysługę. William miał za zadanie zrobić coś, czego nie byli w stanie do tej pory wykonać ludzie księcia: odnaleźć główny posterunek rebeliantów, a następnie natychmiast zameldować o tym księciu, by mógł z nimi skończyć raz na zawsze.<br>William przystaje na propozycję, jednak szybko przekona się o tym, że zadanie, które brzmi banalnie, nie będzie wcale takie proste. On sam stanie się celem dla buntowników i przyjdzie mu podjąć trudną decyzję, która zadecyduje o przyszłości mieszkańców całej wyspy Velen.",
+  "installation": {
+    "instruction": {
+      "lists": [
+        {
+          "title": "Kolejność instalacji:",
+          "list": [
+            {
+              "content": "Pobierz i wypakuj zawartość archiwum <b>G2 Patch Bundle</b> do folderu z grą.",
+              "list": [
+                {
+                  "content": "Paczka zawiera wszystkie pliki do poprawnego działania gry, są to: Player Kit 2.8, System Pack 1.9 oraz Union 1.0k"
+                }
+              ]
+            },
+            {
+              "content": "Pobierz i wypakuj zawartość archiwum <b>Velen_Data</b> do folderu z grą."
+            }
+          ]
+        },
+        {
+          "title": "Opcjonalne:",
+          "list": [
+            {
+              "content": "Jeśli chcesz zainstalować niemiecki dubbing - Pobierz i wypakuj zawartość archiwum <b>Velen_Speech</b> do folderu z grą."
+            },
+            {
+              "content": "Jeśli chcesz zainstalować DirectX 11 - Pobierz i wypakuj zawartość wybranego archiwum z <b>DX11</b> do folderu <b>system</b>."
+            },
+            {
+              "content": "Jeśli chcesz zainstalować dobrane pod Velen pluginy Union'a - Pobierz i wypakuj zawartość wybranego <b>Union_Plugins</b> do folderu z grą."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "changes": [],
+  "overview": {
+    "lists": [
+      {
+        "title": "Zmiany względem wersji niemieckiej:",
+        "list": [
+          {
+            "content": "Zaktualizowano pakiety Ikarus, LeGo oraz Gothic Free Aim do najnowszej wersji."
+          },
+          {
+            "content": "Usunięto funkcję, która zabierała stale 20-25 FPS. Działanie funkcji zostało rozwiązane w sposób, który nie odbija się na wydajności."
+          },
+          {
+            "content": "Dodano kolorowanie nazw skrzyń i drzwi."
+          },
+          {
+            "content": "Dodano nowy, czwarty poziom trudności - Koszmar. Zmiany jakie wprowadza są wypisane przy wyborze poziomu. Pozostałe poziomy trudności, pozostały niezmienione."
+          },
+          {
+            "content": "Opis broni zawiera teraz informację na temat typu zadawanych obrażeń oraz długości broni. Ujednolicono też format wyświetlania informacji o przedmiocie."
+          },
+          {
+            "content": "Przy zdobyciu doświadczenia, wyświetlana jest informacja na temat brakującego doświadczenia do następnego poziomu. Kolor komunikatu jest teraz unikatowy."
+          },
+          {
+            "content": "Poprawiono sposób wyświetlania wielu tekstów na ekranie."
+          },
+          {
+            "content": "Poszerzono okna menu, aby były czytelniejsze i tekst nie nachodził na siebie."
+          },
+          {
+            "content": "Naprawiono uszkodzone pliki dźwiękowe rąbania drewna."
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": [
+    "https://i.imgur.com/CtChQT4.png",
+    "https://i.imgur.com/aLbR6nn.jpeg",
+    "https://i.imgur.com/77uI9mP.jpeg",
+    "https://i.imgur.com/A2aMOhN.png",
+    "https://i.imgur.com/4DlgqrM.png",
+    "https://i.imgur.com/3b1aZzK.jpeg",
+    "https://i.imgur.com/Vh701DY.png",
+    "https://i.imgur.com/g1J6vRF.png",
+    "https://i.imgur.com/f9TGtBd.png",
+    "https://i.imgur.com/8iFpmpF.png",
+    "https://i.imgur.com/uNWWtJ9.png",
+    "https://i.imgur.com/pZ9CIuX.png",
+    "https://i.imgur.com/GCJ11ms.png",
+    "https://i.imgur.com/ea7eyj4.png",
+    "https://i.imgur.com/rxqRPAM.png"
+  ],
+  "authors": {
+    "creators": [
+      {
+        "name": "Bloodfly91",
+        "role": "Lider zespołu, skrypter, spacer, scenarzysta, grafik 3D"
+      },
+      {
+        "name": "Allewege",
+        "role": "Scenarzysta, spacer, aktor dubbingowy"
+      },
+      {
+        "name": "BusfahrerCharlie",
+        "role": "Grafik 3D"
+      },
+      {
+        "name": "Lord Peter",
+        "role": "Obróbka dźwięku i filmów, aktor dubbingowy"
+      },
+      {
+        "name": "Alexander Matecka",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "GenerationLost",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Jonas Richter",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Jaro Krieg",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Seelensplitter",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "RPG-Kurga",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Meatbug",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Fleischwanzentopf",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "PinkyPiranha",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Multithread",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Milgo",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Umfi",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Reveares ",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Imme Rauh",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "LP' Piranha",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Jorgenson",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Kelly1337",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "RobiBalboa",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Mr Pepperwood",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Eldar Elrador",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Plasquar",
+        "role": "Aktor dubbingowy"
+      },
+      {
+        "name": "Nick12",
+        "role": "Aktor dubbingowy"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Franisz",
+        "role": "Wsparcie techniczne"
+      },
+      {
+        "name": "Sebastian",
+        "role": "Wsparcie techniczne"
+      },
+      {
+        "name": "Zipperiusz",
+        "role": "Tłumacz, tester"
+      },
+      {
+        "name": "Tulipan",
+        "role": "Tłumacz, tester"
+      },
+      {
+        "name": "Buźka",
+        "role": "Tłumacz, tester"
+      },
+      {
+        "name": "Washion",
+        "role": "Tłumacz, tester"
+      },
+      {
+        "name": "Hexen",
+        "role": "Tester"
+      },
+      {
+        "name": "Dawinio",
+        "role": "Tester"
+      },
+      {
+        "name": "JkB",
+        "role": "Tester"
+      },
+      {
+        "name": "Templar",
+        "role": "Tester"
+      }
+    ]
+  }
+}
