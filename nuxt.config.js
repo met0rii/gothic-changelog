@@ -12,7 +12,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Najnowsze aktualizacje modyfikacji do Gothica I, Gothica II oraz Gothica III.' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'theme-color', content: '#ffb74d'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
