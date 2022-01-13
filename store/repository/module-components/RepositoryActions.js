@@ -1,6 +1,7 @@
 // external
 import axios from "axios"
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 export default class RepositoryActions {
 
   getCollection = (context, data = null) => {
@@ -20,6 +21,7 @@ export default class RepositoryActions {
         context.commit("selectSingle", data.itemId);
       }
     }).catch((e) => {
+      console.log(e);
       context.commit("setLoading", false);
       context.commit("setError", e.message);
     })
