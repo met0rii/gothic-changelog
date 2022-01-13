@@ -60,7 +60,7 @@ export default {
       return this.$store.state.changelogs.selectedChangelog;
     },
     redirectData() {
-      return `/mod/${this.$route.params.game}/${this.$route.params.mod}`;
+      return `/${this.$route.params.mod}`;
     },
   },
   filters: {
