@@ -55,6 +55,11 @@ export default {
       pageSize: 5
     }
   },
+  head() {
+    return {
+      title: 'Strona główna'
+    }
+  },
   computed: {
     pageCount() {
       return Math.ceil(this.newsList.length / this.pageSize);

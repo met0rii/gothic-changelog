@@ -67,6 +67,18 @@ export default {
     formatDate(value, formater) {
       return formater(new Date(value)).format("DD MMMM YYYY");
     }
+  },
+  head() {
+    return {
+      title: this.changelogTitle + ' - ' + this.$store.state.changelogs.selected?.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.changelog?.updateDescription
+        }
+      ]
+    }
   }
 };
 </script>
