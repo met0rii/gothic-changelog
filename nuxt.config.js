@@ -22,6 +22,7 @@ export default {
   pwa: {
     manifest: {
       name: 'Sefaris',
+      short_name: 'Sefaris',
       description: 'Najnowsze aktualizacje modyfikacji do Gothica I, Gothica II oraz Gothica III przygotowane przez Team Sefaris.',
       theme_color: '#ffb74d'
     }
