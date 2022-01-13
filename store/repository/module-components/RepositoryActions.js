@@ -4,9 +4,16 @@ import axios from "axios"
 export default class RepositoryActions {
 
   getCollection = (context, data = null) => {
+    let url = `${context.state.url}${data && data.paramId ? '/mods/' + data.paramId + ".json" : ''}`;
+    url = process.env.appUrl + url;
     context.commit("setLoading", true);
-    return axios.get(`${context.state.url}${data && data.paramId ? '/' + data.paramId + ".json" : ''}`).then((res) => {
+    return axios.get(url).then((res) => {
       context.commit("setLoading", false);
+      if(data && data.asSingle) {
+        context.commit("setSingle", res.data);
+        return;
+      }
+
       context.commit("setCollection", res.data);
 
       if (data && data.itemId) {
@@ -17,4 +24,4 @@ export default class RepositoryActions {
       context.commit("setError", e.message);
     })
   }
-} 
+}

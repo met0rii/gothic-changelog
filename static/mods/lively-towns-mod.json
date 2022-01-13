@@ -1,0 +1,746 @@
+{
+  "id": "lively-towns-mod",
+  "title": "Lively Towns Mod",
+  "titleUrl": "https://imgur.com/MujebJr.png",
+  "url": "https://drive.google.com/drive/folders/1rPh-tK8xAb124q6NaBdVCHRd7g5wvd5k",
+  "description": "Modyfikacja jest tworzona z zamysłem aby uczynić miasta żywszymi po ich wyzwoleniu tak aby można było do nich wracać. Na ten moment dotyczy to głównie miast: Cape Dun, Ardea, Ben Sala, Lago, oraz Gotha.",
+  "installation": {
+    "url": "https://www.youtube.com/embed/tS-rR3nkJKM",
+    "instruction": {
+      "lists": [
+        {
+          "title": "Kolejność instalacji",
+          "list": [
+            {
+              "content": "Patch   ->   Gothic_3_EE_Patch_v1.75.14_Int_Full.exe"
+            },
+            {
+              "content": "Update pack   ->   Gothic_3_EE_v1.75_Int_Update_Pack_v1.04.11.exe"
+            },
+            {
+              "content": "Parallel Universe Patch   ->   Gothic_3_Parallel_Universe_Patch_v1.0.exe"
+            },
+            {
+              "content": "Quest pack na steam -> G3_QUEST_PACK_4_U2_pl_DIGI_Steam_fix.exe",
+              "list": [
+                {
+                  "content": "Quest pack bez steam -> G3_QUEST_PACK_4_U2_pl_DIGI.exe"
+                }
+              ]
+            },
+            {
+              "content": "Content mod   ->   CM_3.1_INT_FINAL.exe",
+              "list": [
+                {
+                  "content": "W trakcie instalacji odznacz nową twarz bohatera oraz Konsekwencje."
+                }
+              ]
+            },
+            {
+              "content": "ModStarter -> MDS.zip wypakuj w dowolnym miejscu i wskaż plik Gothic3.exe"
+            },
+            {
+              "content": "FanMods -> FanMods.zip wypakuj do folderu <b>MDS</b>"
+            },
+            {
+              "content": "LTM -> LivelyTownsMod.zip wypakuj do folderu <b>FanMods</b>, a następnie zintegruj mody w MDS."
+            }
+          ]
+        },
+        {
+          "title": "Jeżeli instalujesz LTM razem z Content Modem:",
+          "list": [
+            {
+              "content": "Content Mod ma krytyczny błąd. Zdarza się, że w trakcie instalacji robi przerwy w kolejności archiwów.<br>Po zainstalowaniu Content Moda, sprawdź kolejność archiwów w folderze data.<br>Szczególnie pliki z rozszerzeniem .m"
+            },
+            {
+              "content": "Przykłady:<br>Templates.m00, Templates.m01, Templates.m02, Templates.m05 <b>(brak .m03, .m04)</b><br>_compiledMaterial.m01, _compiledMaterial.m02, _compiledMaterial.m03 <b>(brak .m00)</b>"
+            },
+            {
+              "content": "Rozwiązanie:<br>Po zainstalowaniu Content Moda jeżeli znalazłeś lukę w kolejności, musisz zmienić nazwy tych archiwów pozbywając się luk w numeracji.<br>Templates.m00, Templates.m01, Templates.m02, Templates.m03 _compiledMaterial.m00, _compiledMaterial.m01, _compiledMaterial.m02"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "changes": [
+    {
+      "updateId": "8",
+      "updateDescription": "Zintegrowano 99% zawartości moda Konsekwencje.<br>Dodano nowe szaty dla magów.<br>Poprawiono znalezione błędy.",
+      "version": "0.39",
+      "date": "2022-01-07",
+      "alerts": [
+        {
+          "text": "Szczegółowe informacje na temat zmian w Powrocie Generała Lee oraz Konsekwencjach są dostępne <a href=\"https://docs.google.com/document/d/1CKlSkEwKetTxZBXstfFJ8knmHokGE_r5ptIBSUigxGA/edit?usp=sharing\">TUTAJ.</a>",
+          "color":"green"
+        }
+      ],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {"content":"Niektóre postacie będą nosić nowe ubrania,"},
+            {"content":"Rybacy posiadają nowe przedmioty na handel,"},
+            {"content":"Prawie całkowicie zintegrowany mod Konsekwencje - 99% (Angar, Lares i Lee nie ma w Ardei),"},
+            {"content":"Kupcy, myśliwi, alchemicy, rybacy, karczmarze itp. nie walczą już dla orków w czasie rewolucji, a po odbiciu miasta pozostaną w nim,"},
+            {"content":"Dodano nowe szaty dla magów,"},
+            {"content":"Dodano kompatybilność z modem QuestFix (The Costal Region),"},
+            {"content":"Hamlar w Ardei również może aktywować zawartość modyfikacji Konsekwencje,"},
+            {"content":"Dodano księgi doświadczenia do gry,"},
+            {"content":"Naprawiono znalezione błędy w modzie LTM."}
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "7",
+      "updateDescription": "Zintegrowano 95% zawartości moda Konsekwencje.<br>Niektóre postacie otrzymały nowe ubrania.<br>Poprawiono wiele znalezionych błędów.",
+      "version": "0.38",
+      "date": "2021-11-03",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Naprawiono niektóre błędy."
+            },
+            {
+              "content": "Ford z Montery i Peer z Trelis noszą nowe ubrania."
+            },
+            {
+              "content": "Kowal Enzo z Ben Sali nosi nowy strój kowala."
+            },
+            {
+              "content": "Druidzi Bogir i Torn będą nosić nowe szaty."
+            },
+            {
+              "content": "Peer z Trelis posiada nowe przedmioty na handel."
+            },
+            {
+              "content": "Tekstury wody w rzekach i oceanach są bardziej przezroczyste."
+            },
+            {
+              "content": "Mod Konsekwencje jest prawie w pełni zintegrowany (95%)."
+            },
+            {
+              "content": "Mod Konsekwencje został całkowicie oddzielony od Quest Packa;"
+            },
+            {
+              "content": "Dialogi z moda Konsekwencje nie będą teraz przerywać zdubbingowanych kwestii."
+            },
+            {
+              "content": "Dodano unikalne nagrody za ukończenie zadań z moda Konsekwencje."
+            },
+            {
+              "content": "Dodano nowe przedmioty."
+            },
+            {
+              "content": "Dodano nowe szaty druidów."
+            },
+            {
+              "content": "Teraz, po ukończeniu kontentu moda PGL, Lares zwróci bohaterowi kamień teleportacyjny do zamku Vengardu."
+            },
+            {
+              "content": "Enzo poprawnie sprzedaje przepis na miecz mistrzowski."
+            },
+            {
+              "content": "Mannig z Okary poprawnie sprzedaje przepis na zbroję z pancerzy pełzaczy."
+            },
+            {
+              "content": "Druidzi są teraz agresywnie nastawieni do orków."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "6",
+      "updateDescription": "Zintegrowano 70% zawartości moda Konsekwencje.<br>Poprawiono wiele znalezionych błędów.",
+      "version": "0.37",
+      "date": "2021-10-01",
+      "alerts": [],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Strażnicy Świątyni Innos będą teraz nosić nową zbroję."
+            },
+            {
+              "content": "Naprawiono tekstury niektórych broni."
+            },
+            {
+              "content": "Zamieniono modele niektórych mieczy na lepsze."
+            },
+            {
+              "content": "Dodano nowe przedmioty i obiekty do gry."
+            },
+            {
+              "content": "Grobowiec Horan Ho został rozbudowany."
+            },
+            {
+              "content": "Przeniesiono wszystkie misje z moda Konsekwencje."
+            },
+            {
+              "content": "Zmieniono nagrody za niektóre misje z moda Konsekwencje."
+            },
+            {
+              "content": "Dodano nowe misje."
+            },
+            {
+              "content": "Dodano nowe przedmioty do kupienia od Seruka i Flinta z Faring."
+            },
+            {
+              "content": "Seruk będzie nosił nową zbroję."
+            },
+            {
+              "content": "Zintegrowane 70% treści z moda Konsekwencje."
+            },
+            {
+              "content": "Naprawiono znalezione drobne błędy w modzie LTM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "5",
+      "updateDescription": "Mod PGL został w pełni zintegrowany.<br>Na ten moment 50% zawartości z Konsekwencji jest zintegrowane.<br> Poprawiono wiele znalezionych błędów.<br>",
+      "version": "0.36",
+      "date": "2021-08-28",
+      "alerts": [],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Bandyci z Myrtany otrzymali bardziej zróżnicowane zbroje i broń, a niektórzy będą nosić hełmy."
+            },
+            {
+              "content": "Wiele pustych miejsc w świecie zostało przekształconych."
+            },
+            {
+              "content": "Dodano nowe przedmioty i obiekty do gry."
+            },
+            {
+              "content": "Naprawiono błąd dający możliwość otrzymania drugiej nagrody od Gamala po ukończeniu zadania „Zabij Starszego”."
+            },
+            {
+              "content": "Bohater otrzyma reputację u Asasynów za zostanie mistrzem areny Mora Sul. Zmniejszono reputacje za zadanie „Darowizna dla Beliara”."
+            },
+            {
+              "content": "Naprawiono dialogi u Ingvara i Ugolfa."
+            },
+            {
+              "content": "Paladyn Wenzel jest teraz nieuzbrojony będąc schwytanym przez orków."
+            },
+            {
+              "content": "Teraz możesz wybrać opcje dla moda „Konsekwencje” (wersja okrojona, pełna lub bez konsekwencji). Po uwolnieniu Ardei musisz porozmawiać z Tristanem. Uwaga: jeśli awansujesz dalej w grze, wybór nie będzie dostępny (np. uwolnienie jakiegoś miasta lub rozmowa z postaciami: Robarem, Zubenem, Xardasem itp.). Domyślnie konsekwencje są wyłączone."
+            },
+            {
+              "content": "Główne zadanie moda PGL zostało zintegrowane. Naprawiono wszystkie znalezione do tej pory błędy. Uwaga: jeśli stanąłeś po stronie któregoś z bogów przed aktywacją PGL, mod nie będzie już mógł zostać aktywowany."
+            },
+            {
+              "content": "Rozmawiając z Lee, możesz zignorować fabułę moda PGL i całkowicie ją pominąć."
+            },
+            {
+              "content": "Teraz możesz ukończyć PGL nawet po wyzwoleniu Nordmaru, bez wcześniejszej rozmowy z Lee."
+            },
+            {
+              "content": "Jeśli nie zabierzesz ze sobą Lee, aby uwolnić Nordmar, orkowie zaatakują Klan Ognia, tak jak wynikało to z dialogów."
+            },
+            {
+              "content": "Teraz nie będzie można zdobyć starej zbroi najemnika, pokonując Lee, jeśli masz zainstalowany QuestPack."
+            },
+            {
+              "content": "Lee da bohaterowi zbroję najemnika, nawet jeśli mod PGL jest wyłączony."
+            },
+            {
+              "content": "Zmieniono przedmiot „Królewski pierścień”, dodano nową ikonę."
+            },
+            {
+              "content": "Naprawiono zadanie „Odwrócić uwagę strażnika”. Teraz nie musisz czekać całej godziny na ukończenie zadania."
+            },
+            {
+              "content": "Strażnik w pobliżu celi Laresa będzie faktycznie stał na straży."
+            },
+            {
+              "content": "Cela Laresa będzie zamknięta drzwiami, które można otworzyć tylko kluczem."
+            },
+            {
+              "content": "Powiązania niektórych zadań PGL z QuestPackiem zostały usunięte."
+            },
+            {
+              "content": "Dodano alternatywne ścieżki dla fabuły PGL, jeśli ta lub inna postać zginęła (na przykład Markus, Vendorn i inne postacie nie są już wymagane do pomyślnego ukończenia zadania)."
+            },
+            {
+              "content": "Król Rhobar i Karrypto nie są już klonowani. Teraz zadanie „Złam opór Morr!” można wykonać pomyślnie."
+            },
+            {
+              "content": "Karrypto nie teleportuje się już do swojej wieży po rozmowie z bohaterem, ale idzie pieszo (w większości przypadków mag ginął podczas teleportacji)."
+            },
+            {
+              "content": "Dodano dodatkowe dialogi, aby lepiej zrozumieć, co robić dalej w fabule."
+            },
+            {
+              "content": "Paladyni nie wezmą udziału w zabiciu króla, jak zamierzał autor."
+            },
+            {
+              "content": "Lee będzie miał nowy topór. Można go zdobyć po ukończeniu głównego wątku fabularnego moda PGL."
+            },
+            {
+              "content": "Zadanie „Zniszcz Vengard” nie będzie już ukończone, jeśli Vengard nie został oczyszczony."
+            },
+            {
+              "content": "Naprawiono wiele innych błędów i niedociągnięć."
+            },
+            {
+              "content": "Naprawiono inne znalezione błędy w modzie LTM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "4",
+      "updateDescription": "Dodano wszystkie dodatkowe misje z moda PGL - Powrót Generała Lee (UWAGA: misja główna nie została jeszcze dodana).<br>Częściowo zintegrowany mod Konsekwencje (30-40%).<br>Naprawiono inne znalezione błędy w modach LTM, PGL i Konsekwencjach.",
+      "version": "0.35",
+      "date": "2021-07-11",
+      "alerts": [],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Dodano wszystkie dodatkowe misje z moda PGL - Powrót Generała Lee (UWAGA: misja główna nie została jeszcze dodana)."
+            },
+            {
+              "content": "Naprawiono wszystkie błędy i dialogi w dodatkowych misjach z PGL."
+            },
+            {
+              "content": "Poprawiono niektóre misje w modzie PGL, dodano nowe funkcje, usunięto powiązanie misji i dialogów z QuestPacka."
+            },
+            {
+              "content": "Częściowo zintegrowany mod Konsekwencje (30-40%)."
+            },
+            {
+              "content": "Pojawią się nowe sposoby na rozwiązanie konfliktu z orkami w Faring, gdy bohater uwolni Nordmar."
+            },
+            {
+              "content": "Dodano możliwość wzięcia orkowych patroli do pomocy podczas atakowania Reddock lub bandy Ortegi."
+            },
+            {
+              "content": "Teraz potwory, zwierzęta i inni wrogowie będą atakować miasta, obozy i osady pod pewnymi warunkami."
+            },
+            {
+              "content": "Teraz Ugolf przyjmuje również skóry białych szablozębów w zamian za przepis na eliksir siły."
+            },
+            {
+              "content": "Naprawiono błąd powodujący, że wszyscy dowódcy w pierścieniu oblężniczym posiadali kamienie ogniskujące."
+            },
+            {
+              "content": "Poprawiono wygląd Halado po jego śmierci."
+            },
+            {
+              "content": "Naprawiono misję \"Chora Matka\" (jeśli misja została pomyślnie zakończona, istniała szansa, że matka umrze)."
+            },
+            {
+              "content": "Naprawiono misję \"Kopacze\" (można było zatrudnić Halado nawet po pomyślnym zakończeniu jego misji)."
+            },
+            {
+              "content": "Naprawiono rutynę Laresa (nie udaje się już z Geldern do Ardei)."
+            },
+            {
+              "content": "Naprawiono pamiętniki z Content Moda (była niewidoczna tekstura). Zmieniono wartości statystyk zwiększanych te pamiętniki;"
+            },
+            {
+              "content": "Naprawiono inne znalezione błędy w modach LTM, PGL i Konsekwencjach."
+            },
+            {
+              "content": "Dodano nowe przedmioty i obiekty do świata gry."
+            },
+            {
+              "content": "Naprawiono błędy w tekstach (Dzięki Zandr)."
+            },
+            {
+              "content": "Tłumaczenie na język polski (Dzięki Zipperiusz)."
+            },
+            {
+              "content": "Częściowo dodane tłumaczenie na język angielski (Dzięki Zelazko)."
+            },
+            {
+              "content": "Aby uzyskać bardziej szczegółowe zmiany w modach Konsekwencje & PGL, zobacz plik \"ReadMe – Consequences & RGL\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "3",
+      "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Dodano możliwość usunięcia magicznej bariery.<br>Zmieniono kilka tekstur.",
+      "version": "0.34",
+      "date": "2021-06-13",
+      "alerts": [
+        {
+          "color": "red",
+          "text": "Ta wersja nie jest kompatybilna z Konsekwencjami oraz Powrotem Generała Lee."
+        }
+      ],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Zmieniono imiona niektórych postaci."
+            },
+            {
+              "content": "Bohater może usunąć barierę nad stolicą Myrtany. Należy wykonać pewne zadanie."
+            },
+            {
+              "content": "Ulepszono i poprawiono kilka zadań oraz dodano nowe."
+            },
+            {
+              "content": "Zmniejszono ilość bagiennego ziela na bagnach."
+            },
+            {
+              "content": "Zmieniono modele mieczy Szpon Beliara, Przywoływacz burz i innych na lepsze."
+            },
+            {
+              "content": "Dodano nowe przedmioty, broń i sekrety do gry."
+            },
+            {
+              "content": "Zmieniono model i nazwę zaklętej zbroi, teraz jest to Zbroja Władcy."
+            },
+            {
+              "content": "Poprawiono skrzynie z Content Moda. Dodano unikalne nazwy, zawartość i zmieniono teksturę."
+            },
+            {
+              "content": "Dodano normalne łóżka do miast i wiosek. Łóżka pokryte sianem można teraz znaleźć tylko w jaskiniach, na farmach i ubogich domach."
+            },
+            {
+              "content": "Augustino nie sprzedaje już artefaktów."
+            },
+            {
+              "content": "Umieszczono dodatkowe łopaty, piły i młotki w świecie gry."
+            },
+            {
+              "content": "Ogniste golemy na drodze do wieży Xardasa zostały zastąpione lodowymi."
+            },
+            {
+              "content": "Iomar uda się teraz do Ardei. Po powrocie do wioski będzie siedział w tawernie."
+            },
+            {
+              "content": "Zmieniono świątynię Innosa w Vengardzie i dodano komnaty króla."
+            },
+            {
+              "content": "Zmieniono balans broni, teraz obrażenia broni zależą również od długości ostrza - im krótsza broń, tym większe obrażenia."
+            },
+            {
+              "content": "Teraz główne archiwum modów jest oparte na patchu G3WD."
+            },
+            {
+              "content": "Dodano opcjonalne skrypty (folder scripts - przeczytaj Readme)."
+            },
+            {
+              "content": "W Faring pojawi się handlarz, który będzie sprzedawał orkową broń."
+            },
+            {
+              "content": "Wszystkie amulety, pierścienie zostały usunięte ze zwykłych skrzyń."
+            },
+            {
+              "content": "Nordmarczyk Lars będzie teraz zamknięty. Zanim udasz się z nim na przełęcz do Nordmaru, musisz przynieść jego topór (zmodyfikowane zadanie z moda Konsekwencje)."
+            },
+            {
+              "content": "Dodano zamknięte drzwi do celi Gorna;"
+            },
+            {
+              "content": "Dodano klucze do cel Gorna, Larsa i Wenzela. Potrzebujesz trzeciego poziomu otwierania zamków, aby otworzyć te drzwi."
+            },
+            {
+              "content": "Inne drobne poprawki."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "2",
+      "updateDescription": "Kilka zadań zostało zmienionych i poprawionych<br>Usunięto lub skrócono oczekiwanie w niektórych zadaniach<br>Dodano nowe zadania do gry.",
+      "version": "0.33",
+      "date": "2.11.2020",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Kilka zadań zostało zmienionych i poprawionych."
+            },
+            {
+              "content": "Usunięto lub skrócono oczekiwanie w niektórych zadaniach."
+            },
+            {
+              "content": "Dodano nowe zadania do gry."
+            },
+            {
+              "content": "Zmieniono model wargów."
+            },
+            {
+              "content": "Dodano jedno zadanie i kilka dialogów z moda Easter CSP."
+            },
+            {
+              "content": "Dodano kamienie teleportacyjne z moda Konsekwencje (teleportty do Vengardu i wioski druidów)."
+            },
+            {
+              "content": "Zmieniono kolory tekstur niektórych miast (Cape Dun, Montera)."
+            },
+            {
+              "content": "Dodano orków do pustego obozu między Vengardem i Faring."
+            },
+            {
+              "content": "Dodano nowego mini-bossa."
+            },
+            {
+              "content": "Nieznacznie zmieniono model kolczugi."
+            },
+            {
+              "content": "Dodano nowy płaszcz, zbroję i odzież."
+            },
+            {
+              "content": "W Ben Erai pojawią się nowe postacie po wyzwoleniu."
+            },
+            {
+              "content": "Usunięto dodatkowe golemy na drodze do wieży Xardasa(Tylko Konsekwencje)."
+            },
+            {
+              "content": "Dodano nowe modele twarzy i włosów dla postaci kobiecych."
+            },
+            {
+              "content": "Obniżono ceny za transport łodzią."
+            },
+            {
+              "content": "Łódź nie płynie już do Silden."
+            },
+            {
+              "content": "Dodano nową broń i inne przedmioty do gry."
+            },
+            {
+              "content": "Naprawiono jedno osiągnięcie i dodano nowe."
+            },
+            {
+              "content": "Inne drobne poprawki."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "1",
+      "updateDescription": "Kilka zadań zostało ulepszonych i naprawionych<br>Miasta Myrtany otrzymają nowe unikalne tekstury budynków<br>Dodano nowe ukryte obiekty do gry",
+      "version": "0.32",
+      "date": "2020-09-14",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Kilka zadań zostało ulepszonych i naprawionych."
+            },
+            {
+              "content": "Miasta Myrtany otrzymają nowe unikalne tekstury budynków."
+            },
+            {
+              "content": "Dodano nowe ukryte obiekty do gry."
+            },
+            {
+              "content": "Naprawiono oświetlenie kilku obiektów."
+            },
+            {
+              "content": "Dodano nową zbroję."
+            },
+            {
+              "content": "Naprawiono kolizję muru w Gotcie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "updateId": "0",
+      "updateDescription": "Dodano drzwi do domów we wszystkich osadach Myrtany<br>Królewskie sztandary w zdobytych miastach zostały zastąpione orkami<br>Po zdobyciu miast orkowe sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną",
+      "version": "0.31",
+      "date": "2020-06-25",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Dodano drzwi do domów we wszystkich osadach Myrtany."
+            },
+            {
+              "content": "Królewskie sztandary w zdobytych miastach zostały zastąpione orkowymi."
+            },
+            {
+              "content": "Po zdobyciu miast orkowe sztandary zostaną zastąpione królewskimi, a wiszące zwłoki również znikną."
+            },
+            {
+              "content": "Kilka zadań zostało ulepszonych i naprawionych."
+            },
+            {
+              "content": "Teraz każde miasto Myrtany różni się od innych (dodano unikalne tekstury)."
+            },
+            {
+              "content": "Dodano nowe skarby i ukryte przedmioty do gry."
+            },
+            {
+              "content": "W niektórych domach pojawią się nowe obrazy."
+            },
+            {
+              "content": "Wiele tekstur zostało zoptymalizowanych."
+            },
+            {
+              "content": "Naprawiono oświetlenie w Monterze i innych miejscach."
+            },
+            {
+              "content": "Naprawiono kolizje niektórych obiektów."
+            },
+            {
+              "content": "Dodano kilka dodatkowych hełmów i innych czapek do gry."
+            },
+            {
+              "content": "Dodano stół alchemiczny do chatki niedaleko Faring."
+            },
+            {
+              "content": "Usunięto odblaski ze zdjęć."
+            },
+            {
+              "content": "Dodano ukrytych przeciwników."
+            },
+            {
+              "content": "Naprawiono błędy w tekstach."
+            },
+            {
+              "content": "Dodano nową lokalizację (ruiny)."
+            },
+            {
+              "content": "Dodano kompatybilność z modem Konsekwencje v2.0.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overview": {
+    "lists": [
+      {
+        "title": "Modyfikacja dodaje:",
+        "list": [
+          {
+            "content": "Ponad 50 nowych zadań oraz osiągnięcia,"
+          },
+          {
+            "content": "Każde miasto Myrtany różni się od drugiego (dodano unikalne tekstury),"
+          },
+          {
+            "content": "Niektóre zadania można wykonać na różne sposoby,"
+          },
+          {
+            "content": "W zależności od rozwiniętych umiejętności bohatera, dostępne będą nowe linie dialogowe (tylko w zadaniach z LTM'a),"
+          },
+          {
+            "content": "Niektóre zadania stają się dostępne po spełnieniu określonych warunków,"
+          },
+          {
+            "content": "Każda postać w Cape Dun, Gocie, Lago, Ben Sali i Ardei jest wyjątkowa, ma własną zbroję lub ubranie. Wszyscy mieszkańcy mają swoją codzienną rutynę,"
+          },
+          {
+            "content": "Po wyzwoleniu Cape Dun arena będzie dostępna ponownie,"
+          },
+          {
+            "content": "Nowe przedmioty, receptury, bronie, tarcze, zbroje, hełmy i zakopane skarby,"
+          },
+          {
+            "content": "Nowe skrytki i sekrety,"
+          },
+          {
+            "content": "Nowe potwory, zwierzęta i wrogowie,"
+          },
+          {
+            "content": "Artefakty z Al Shedim można sprzedać Aldo, Fezulowi i Ilyi,"
+          },
+          {
+            "content": "Unikalnie nazwane postacie. Pojawiają się także nowi kupcy w Nordmarze, Ardei, Ben Sali, Lago, Gocie, Reddock i Cape Dun,"
+          },
+          {
+            "content": "Niektóre postacie będą się przemieszczać z miejsca na miejsce. Na przykład handlarze lub buntownicy mogą chodzić między miastami,"
+          },
+          {
+            "content": "Po wyzwoleniu Cape Dun wybrzeże zostanie ponownie zamieszkany przez zwierzęta, bandytów i potwory,"
+          },
+          {
+            "content": "Możliwość zdobycia ogrowego młota (musisz wykonać określone zadanie),"
+          },
+          {
+            "content": "Możliwość naprawy tarczy i miecza króla z pomocą kowala Kliffa w Reddock (musisz najpierw uwolnić go od orków)."
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": [
+    "https://imgur.com/X0t8UUf.jpg",
+    "https://imgur.com/pv3W44X.jpg",
+    "https://imgur.com/lYeVfNf.jpg",
+    "https://imgur.com/R2zgogW.jpg",
+    "https://imgur.com/dkSK6a4.jpg",
+    "https://imgur.com/BHzBEMS.jpg",
+    "https://imgur.com/7xabvKQ.jpg",
+    "https://imgur.com/EnzLuG3.jpg",
+    "https://imgur.com/e4oLEFI.jpg",
+    "https://imgur.com/UW8Cuye.jpg",
+    "https://imgur.com/xqzIFAQ.jpg",
+    "https://imgur.com/1xAT3VN.jpg",
+    "https://imgur.com/tk1YA2t.jpg",
+    "https://imgur.com/NHUZny1.jpg",
+    "https://imgur.com/SXR1jat.jpg",
+    "https://imgur.com/UpTUgVh.jpg",
+    "https://imgur.com/H6qrhT0.jpg",
+    "https://imgur.com/dsspe23.jpg"
+  ],
+  "authors": {
+    "creators": [
+      {
+        "name": "yuko",
+        "role": "Autor",
+        "contacts": [
+          {
+            "platform": "Forum",
+            "url": "https://rpgrussia.com/threads/lively-towns-mod-ozhivlennye-goroda.14076/"
+          }
+        ]
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Zipperiusz",
+        "role": "Tłumacz"
+      },
+      {
+        "name": "Tulipan",
+        "role": "Korekty"
+      },
+      {
+        "name": "Dawinio",
+        "role": "Tłumacz"
+      },
+      {
+        "name": "Kredensik",
+        "role": "Tłumacz"
+      },
+      {
+        "name": "RoQus",
+        "role": "Tłumacz"
+      }
+    ]
+  }
+}

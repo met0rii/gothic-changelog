@@ -11,4 +11,7 @@ export default class RepositoryMutations {
   selectSingle = (state, id) => {
     state.selected = state.collection.find((el) => el.id === id);
   }
+  setSingle = (state, value) => {
+    state.selected  = value;
+  }
 }

@@ -1,0 +1,46 @@
+{
+  "g1": {
+    "name": "Gothic I",
+    "data": [
+      {
+        "id": "dolina-zombie",
+        "title": "Dolina Zombie"
+      },
+      {
+        "id": "othello",
+        "title": "Othello"
+      }
+    ]
+  },
+  "g2": {
+    "name": "Gothic II: Noc Kruka",
+    "data": [
+      {
+        "id": "new-balance",
+        "title": "New Balance"
+      },
+      {
+        "id": "lhiver",
+        "title": "L'Hiver"
+      },
+      {
+        "id": "odyseja",
+        "title": "Odyseja"
+      },
+      {
+        "id": "velen",
+        "title": "Velen"
+
+      }
+    ]
+  },
+  "g3": {
+    "name": "Gothic III",
+    "data": [
+      {
+        "id": "lively-towns-mod",
+        "title": "Lively Towns Mod"
+      }
+    ]
+  }
+}
