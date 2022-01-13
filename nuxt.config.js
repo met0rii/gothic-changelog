@@ -75,11 +75,11 @@ export default {
   env: {
     appUrl: process.env.APP_URL || 'http://localhost:3000'
   },
-  // serverMiddleware: [
-  //   redirectSSL.create({
-  //     enabled: process.env.NODE_ENV === 'production'
-  //   }),
-  // ],
+  serverMiddleware: [
+    redirectSSL.create({
+      enabled: process.env.NODE_ENV === 'production'
+    }),
+  ],
   'google-gtag':{
     id: 'G-70MWY7X2NK',
     config:{
