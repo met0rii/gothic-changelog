@@ -76,7 +76,6 @@ export default {
     config:{
       send_page_view: true,
     },
-    debug: true,
     disableAutoPageTrack: false,
    }
 }
