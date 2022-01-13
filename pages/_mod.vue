@@ -65,6 +65,7 @@ export default {
   },
   head() {
     const mod = this.$store.state.changelogs.selected;
+    const image = mod?.gallery?.length > 0 ? mod.gallery[0] : mod?.titleUrl;
     const title = mod?.title || 'Brak nazwy';
     return {
       title,
@@ -75,9 +76,14 @@ export default {
           content: mod?.description
         },
         {
+          hid: 'og:description',
+          name: 'og:description',
+          content: mod?.description
+        },
+        {
           hid: 'og:image',
           name: 'og:image',
-          content: mod?.titleUrl
+          content: image
         },
         {
           hid: 'og:title',
