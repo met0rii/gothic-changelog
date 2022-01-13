@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <SiteLoader />
+    <SiteLoader/>
     <v-navigation-drawer
       v-model="drawerVisible"
       disable-resize-watcher
@@ -29,12 +29,14 @@
     </v-app-bar>
 
     <v-main class="content-container">
+      <Nuxt v-if="server" :key="routePath"/>
       <transition
+        v-else
         enter-active-class="animated fadeIn"
         leave-active-class="animated fadeOut"
         mode="out-in"
       >
-        <Nuxt :key="routePath" />
+        <Nuxt :key="routePath"/>
       </transition>
     </v-main>
   </v-app>
@@ -43,12 +45,14 @@
 <script>
 import SidebarList from "~/components/SidebarList";
 import SiteLoader from "~/components/SiteLoader";
+
 export default {
   name: "App",
-  components: { SidebarList, SiteLoader },
+  components: {SidebarList, SiteLoader},
   data: () => {
     return {
       drawerVisible: true,
+      server: process.server
     };
   },
 
@@ -99,21 +103,25 @@ export default {
 }
 
 ::-webkit-scrollbar {
-  width:10px;
+  width: 10px;
 }
+
 ::-webkit-scrollbar-button {
-  display:none;
+  display: none;
 }
+
 ::-webkit-scrollbar-track {
-  background:#666;
+  background: #666;
 }
+
 ::-webkit-scrollbar-track-piece {
-  background:#666;
+  background: #666;
 }
+
 ::-webkit-scrollbar-thumb {
-  width:5px;
-  background:#333;
-  border-radius:3px;
+  width: 5px;
+  background: #333;
+  border-radius: 3px;
 }
 
 h1 {
@@ -161,6 +169,7 @@ body {
   background-color: var(--orange-secondary) !important;
   border-color: var(--orange-secondary) !important;
 }
+
 .theme--dark.v-tabs > .v-tabs-bar {
   background-color: var(--black-secondary) !important;
 }
