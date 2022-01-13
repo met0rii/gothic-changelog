@@ -19,6 +19,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
+  pwa: {
+    manifest: {
+      theme_color: '#ffb74d'
+    }
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -35,6 +40,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/pwa',
     '@nuxtjs/google-gtag',
     ['nuxt-compress',       {
       gzip: {
@@ -66,11 +72,11 @@ export default {
   env: {
     appUrl: process.env.APP_URL || 'http://localhost:3000'
   },
-  serverMiddleware: [
-    redirectSSL.create({
-      enabled: process.env.NODE_ENV === 'production'
-    }),
-  ],
+  // serverMiddleware: [
+  //   redirectSSL.create({
+  //     enabled: process.env.NODE_ENV === 'production'
+  //   }),
+  // ],
   'google-gtag':{
     id: 'G-70MWY7X2NK',
     config:{
