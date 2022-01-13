@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Sefaris',
-    title: 'gothic-changelog',
+    title: 'Sefaris',
     htmlAttrs: {
       lang: 'pl'
     },
@@ -16,11 +16,13 @@ export default {
       { name: 'theme-color', content: '#ffb74d'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   pwa: {
     manifest: {
+      name: 'Sefaris',
+      description: 'Najnowsze aktualizacje modyfikacji do Gothica I, Gothica II oraz Gothica III przygotowane przez Team Sefaris.',
       theme_color: '#ffb74d'
     }
   },
