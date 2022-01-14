@@ -1,3 +1,4 @@
 User-Agent: *
 Allow: /
 Disallow: /redirect
+Sitemap: /sitemap.xml

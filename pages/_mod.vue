@@ -90,7 +90,11 @@ export default {
           name: 'og:title',
           content: title
         }
-      ]
+      ],
+      link: [{
+        rel: 'canonical',
+        href: `${process.env.appUrl}/${mod.id}`
+      }]
     }
   },
   watch: {

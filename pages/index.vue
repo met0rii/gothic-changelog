@@ -64,7 +64,11 @@ export default {
           name: 'og:title',
           content: 'Strona główna - Sefaris'
         }
-      ]
+      ],
+      link: [{
+        rel: 'canonical',
+        href: `${process.env.appUrl}`
+      }]
     }
   },
   computed: {

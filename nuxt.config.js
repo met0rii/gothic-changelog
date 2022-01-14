@@ -22,8 +22,7 @@ export default {
       { name: 'twitter:card', content: 'summary_large_image'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'canonical', href: appUrl }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   pwa: {
