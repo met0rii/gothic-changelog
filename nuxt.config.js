@@ -1,4 +1,9 @@
 import redirectSSL from 'redirect-ssl'
+import fs from 'fs';
+import path from "path";
+
+const modsDirectory = path.resolve(__dirname, 'static', 'mods');
+const mods = fs.readdirSync(modsDirectory).map(x => x.split('.')[0]);
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -53,7 +58,8 @@ export default {
       brotli: {
         threshold: 8192,
       },
-    }]
+    }],
+    '@nuxtjs/sitemap'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -62,6 +68,15 @@ export default {
     '@nuxtjs/dayjs',
     '@nuxtjs/google-gtag',
   ],
+
+  sitemap: {
+    gzip: true,
+    exclude: ['/redirect'],
+    routes: [{url: '/', lastmod: new Date().toDateString()}, ...mods.map(mod => ({
+      url: `/${mod}`,
+      lastmod: new Date().toDateString()
+    }))]
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
