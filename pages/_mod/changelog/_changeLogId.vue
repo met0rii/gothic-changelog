@@ -70,8 +70,17 @@ export default {
   },
   head() {
     const mod = this.$store.state.changelogs.selected;
-    const image = mod?.gallery?.length > 0 ? mod.gallery[0] : mod?.titleUrl;
-    const title = mod?.title + ' - ' + this.changelogTitle
+    let image = mod?.titleUrl;
+    if (mod?.gallery?.length > 0) {
+      const changelogIndex = mod?.changes?.findIndex(x => x === this.changelog);
+      if (typeof changelogIndex === 'number') {
+        const descIndex = mod.changes.length - changelogIndex - 1;
+        const galleryIndex = descIndex -  Math.floor(descIndex / mod.gallery.length) * mod.gallery.length
+        image = mod.gallery[galleryIndex];
+      }
+    }
+
+    const title = mod?.title + ' - ' + this.changelogTitle;
     return {
       title,
       meta: [
