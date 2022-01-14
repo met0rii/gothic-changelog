@@ -58,8 +58,7 @@ export default {
       brotli: {
         threshold: 8192,
       },
-    }],
-    '@nuxtjs/sitemap'
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -67,6 +66,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/dayjs',
     '@nuxtjs/google-gtag',
+    '@nuxtjs/sitemap'
   ],
 
   sitemap: {
