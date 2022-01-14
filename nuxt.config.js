@@ -4,7 +4,7 @@ import path from "path";
 
 const modsDirectory = path.resolve(__dirname, 'static', 'mods');
 const mods = fs.readdirSync(modsDirectory).map(x => x.split('.')[0]);
-
+const appUrl = process.env.APP_URL || 'http://localhost:3000';
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -22,11 +22,13 @@ export default {
       { name: 'twitter:card', content: 'summary_large_image'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'canonical', href: appUrl }
     ]
   },
   pwa: {
     manifest: {
+      lang: 'pl',
       name: 'Sefaris',
       short_name: 'Sefaris',
       description: 'Najnowsze aktualizacje modyfikacji do Gothica I, Gothica II oraz Gothica III przygotowane przez Team Sefaris.',
@@ -70,7 +72,7 @@ export default {
   ],
 
   sitemap: {
-    hostname: 'https://www.sefaris.eu',
+    hostname: appUrl,
     gzip: true,
     exclude: ['/redirect'],
     routes: [{
@@ -99,10 +101,11 @@ export default {
   build: {
   },
   env: {
-    appUrl: process.env.APP_URL || 'http://localhost:3000'
+    appUrl: appUrl
   },
   serverMiddleware: [
     redirectSSL.create({
+      statusCode: 301,
       enabled: process.env.NODE_ENV === 'production'
     }),
   ],

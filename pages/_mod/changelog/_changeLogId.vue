@@ -71,12 +71,23 @@ export default {
   head() {
     const mod = this.$store.state.changelogs.selected;
     let image = mod?.titleUrl;
-    if (mod?.gallery?.length > 0) {
+    if (this.changelog?.image) {
+      image = this.changelog.image;
+    }
+    else if (mod?.gallery?.length > 0) {
       const changelogIndex = mod?.changes?.findIndex(x => x === this.changelog);
       if (typeof changelogIndex === 'number') {
         const descIndex = mod.changes.length - changelogIndex - 1;
         const galleryIndex = descIndex -  Math.floor(descIndex / mod.gallery.length) * mod.gallery.length
         image = mod.gallery[galleryIndex];
+      }
+    }
+
+    let description = this.changelog?.updateDescription;
+    if (!description) {
+      const lists = this.changelog?.lists?.map(x => x.list);
+      if (lists && lists.length > 0) {
+        description = [...lists[0]].map(x => x.content).slice(0, 3).join(', ');
       }
     }
 
@@ -87,12 +98,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.changelog?.updateDescription
+          content: description
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.changelog?.updateDescription
+          content: description
         },
         {
           hid: 'og:image',
