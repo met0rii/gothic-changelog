@@ -78,6 +78,11 @@ export default {
     }))]
   },
 
+  dayjs: {
+    locales: ['pl'],
+    defaultLocale: 'pl'
+  },
+
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     icons: {
