@@ -73,9 +73,13 @@ export default {
     hostname: 'https://www.sefaris.eu',
     gzip: true,
     exclude: ['/redirect'],
-    routes: [{url: '/', lastmod: new Date().toDateString()}, ...mods.map(mod => ({
+    routes: [{
+      url: '/', lastmod: new Date().toDateString(), changefreq: 'daily', priority: 1
+    }, ...mods.map(mod => ({
       url: `/${mod}`,
-      lastmod: new Date().toDateString()
+      lastmod: new Date().toDateString(),
+      changefreq: 'daily',
+      priority: 1
     }))]
   },
 
