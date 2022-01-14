@@ -70,6 +70,7 @@ export default {
   ],
 
   sitemap: {
+    hostname: 'https://www.sefaris.eu',
     gzip: true,
     exclude: ['/redirect'],
     routes: [{url: '/', lastmod: new Date().toDateString()}, ...mods.map(mod => ({
