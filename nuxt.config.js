@@ -19,7 +19,13 @@ export default {
       { hid: 'description', name: 'description', content: 'Najnowsze aktualizacje modyfikacji do Gothica I, Gothica II oraz Gothica III.' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#ffb74d'},
-      { name: 'twitter:card', content: 'summary_large_image'}
+      { name: 'twitter:card', content: 'summary_large_image'},
+      { name: 'robots', content: 'index, follow' },
+      { name: 'og:type', content: 'article' },
+      { name: 'og:site_name', content: 'Sefaris - modyfikacje do gier serii Gothic' },
+      { name: 'twitter:site', content: 'Sefaris - modyfikacje do gier serii Gothic' },
+      { name: 'twitter:creator', content: 'Sefaris' },
+      { name: 'revisit-after', content: '7 days'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
