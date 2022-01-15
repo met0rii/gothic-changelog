@@ -25,7 +25,8 @@ export default {
       { name: 'og:site_name', content: 'Sefaris - modyfikacje do gier serii Gothic' },
       { name: 'twitter:site', content: 'Sefaris - modyfikacje do gier serii Gothic' },
       { name: 'twitter:creator', content: 'Sefaris' },
-      { name: 'revisit-after', content: '7 days'}
+      { name: 'revisit-after', content: '7 days'},
+      { name: 'keywords', content: 'gothic, modyfikacje, tłumaczenie, new balance, odyseja, gothic II, gothic III, gry, granie, instrukcja, instalacja'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
