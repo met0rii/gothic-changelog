@@ -81,6 +81,16 @@ export default {
           content: mod?.description
         },
         {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: mod?.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: image
+        },
+        {
           hid: 'og:image',
           name: 'og:image',
           content: image
@@ -88,6 +98,11 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
+          content: title
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
           content: title
         }
       ],

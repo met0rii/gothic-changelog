@@ -106,13 +106,28 @@ export default {
           content: description
         },
         {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description
+        },
+        {
           hid: 'og:image',
           name: 'og:image',
           content: image
         },
         {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: image
+        },
+        {
           hid: 'og:title',
           name: 'og:title',
+          content: title
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
           content: title
         }
       ]
