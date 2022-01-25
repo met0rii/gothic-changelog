@@ -1,7 +1,7 @@
 import RepositoryMutations from "../repository/module-components/RepositoryMutations";
 
 export default class ChangelogsMutations extends RepositoryMutations {
-  selectChangelog = (state, changelogId) => {
+  selectChangelog = async (state, changelogId) => {
     if (state.selected) {
       if (state.selected.changes) {
         state.selectedChangelog = state.selected.changes.find(
@@ -11,5 +11,7 @@ export default class ChangelogsMutations extends RepositoryMutations {
         state.selectChangelog = [];
       }
     }
+
+    return true;
   };
 }
