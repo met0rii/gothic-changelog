@@ -51,7 +51,7 @@ export default {
   components: {SidebarList, SiteLoader},
   data: () => {
     return {
-      drawerVisible: true,
+      drawerVisible: process.server ? false : (window.outerWidth >= 960),
       server: process.server
     };
   },

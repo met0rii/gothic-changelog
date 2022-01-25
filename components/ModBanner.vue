@@ -3,6 +3,7 @@
     <div>
       <h1 class="banner__title">{{ mod.title }}</h1>
     </div>
+
     <div>
       <v-btn @click="$emit('scroll')" class="download-btn mt-5 mb-5 mr-5" color="orange lighten-3" outlined large>
         Przejdź do opisu
@@ -69,31 +70,40 @@ export default {
 
 <style scoped>
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
-  height: 550px;
   background-size: cover;
   background-position: 20% 20%;
-}
-
-.banner-main {
-  -webkit-box-shadow: inset 0px -68px 15px -40px rgba(33, 33, 33, 1);
-  -moz-box-shadow: inset 0px -68px 15px -40px rgba(33, 33, 33, 1);
-  box-shadow: inset 0px -68px 15px -40px rgba(33, 33, 33, 1);
-}
-
-.banner-changelog {
+  padding: 50px;
   -webkit-box-shadow: inset 0px -100px 39px -51px rgba(20, 20, 20, 1);
   -moz-box-shadow: inset 0px -100px 39px -51px rgba(20, 20, 20, 1);
   box-shadow: inset 0px -100px 39px -51px rgba(20, 20, 20, 1);
-
+  text-align: center;
 }
 
 .banner .banner__title {
-  font-size: 3.5rem;
   text-stroke: 1px rgba(67,67,67,1);
 }
+
+@media (min-width: 960px) {
+  .banner {
+    height: 550px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-main {
+    -webkit-box-shadow: inset 0px -68px 15px -40px rgba(33, 33, 33, 1);
+    -moz-box-shadow: inset 0px -68px 15px -40px rgba(33, 33, 33, 1);
+    box-shadow: inset 0px -68px 15px -40px rgba(33, 33, 33, 1);
+  }
+
+  .banner .banner__title {
+    font-size: 3.5rem;
+
+  }
+}
+
+
 </style>
