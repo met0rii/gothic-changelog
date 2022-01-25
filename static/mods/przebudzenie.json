@@ -17,7 +17,7 @@
           "list":[
             {"content":"Łatwy - identyczny jak Noc Kruka"},
             {"content":"Umiarkowany - minimalne obrażenia: 2, postać zadaje lekko mniejsze obrażenia. Otrzymywane obrażenia są lekko zwiększone."},
-            {"content":"Trudny - minimalne obrażenia: 1, postać zadaje dużo mniejsze obrażenia. Otrzymywane obrażenia są dużo zwiększone."}
+            {"content":"Trudny - minimalne obrażenia: 1, postać zadaje dużo mniejsze obrażenia. Otrzymywane obrażenia są dużo większe."}
           ]},
           {"content": "Możliwość zostania Guru."},
           {"content": "Nowe obozy, dla których możemy wykonywać zadania."},
