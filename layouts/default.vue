@@ -51,7 +51,7 @@ export default {
   components: {SidebarList, SiteLoader},
   data: () => {
     return {
-      drawerVisible: true,
+      drawerVisible: process.server ? false : (window.outerWidth >= 960),
       server: process.server
     };
   },
@@ -68,10 +68,15 @@ export default {
 </script>
 
 <style>
+
 /*EXTERNAL CSS*/
 @import "~/assets/css/vue2-animate.css";
 @import "../node_modules/typeface-roboto/index.css";
 @import "../node_modules/material-design-icons/iconfont/material-icons.css";
+
+html {
+  scroll-behavior: smooth
+}
 
 /*CSS VARIABLES*/
 :root {

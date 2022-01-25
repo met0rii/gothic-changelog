@@ -1,46 +1,9 @@
 <template>
-  <v-container class="changelogs" fluid v-if="selected">
+  <v-container v-if="selected" class="changelogs" fluid>
     <v-row>
-      <v-col>
-        <div align="center">
-          <v-img
-            :src="selected.titleUrl"
-            :lazy-src="selected.titleUrl"
-            width="60%"
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                  aria-hidden="true"
-                />
-              </v-row>
-            </template>
-          </v-img>
-        </div>
-        <div v-if="selected.url && selected.url.length" align="center">
-          <v-btn
-            :to="'/redirect?url=' + selected.url"
-            color="orange lighten-3"
-            light
-            class="download-btn mt-5 mb-5"
-            large
-          >
-            <v-icon left dark> mdi-cloud-download</v-icon>
-            Pobierz
-          </v-btn>
-        </div>
-      </v-col>
+      <mod-banner :mod="selected" @scroll="onScrollButtonClick"/>
     </v-row>
-
-    <transition
-      enter-active-class="animated fadeIn"
-      leave-active-class="animated fadeOut"
-      mode="out-in"
-    >
-      <NuxtChild/>
-    </transition>
+    <NuxtChild/>
   </v-container>
 </template>
 
@@ -69,7 +32,7 @@ export default {
     const title = mod?.title || 'Brak nazwy';
     return {
       title,
-      meta:  [
+      meta: [
         {
           hid: 'description',
           name: 'description',
@@ -116,13 +79,14 @@ export default {
     $route: {
       immediate: true,
       handler(currentValue, oldValue) {
-        this.selectSingleChangelog();
+        if (!oldValue || currentValue.params.mod != oldValue.params.mod) {
+          this.selectSingleChangelog();
+        }
+
         if (process.client) {
-          if (oldValue != null && currentValue.params.mod != oldValue.params.mod) {
             window.scrollTo({
               top: 0
             });
-          }
         }
       },
     },
@@ -130,10 +94,18 @@ export default {
 
   methods: {
     selectSingleChangelog() {
-      this.$store.commit(
-        "changelogs/selectChangelog",
-        this.$route.params.changeLogId
-      );
+        this.$store.commit(
+          "changelogs/selectChangelog",
+          this.$route.params.changeLogId
+        )
+    },
+    onScrollButtonClick() {
+      if (this.$route.query.scrollTo === 'mod_description') {
+        const descriptionElement = document.getElementById('mod_description');
+        window.scrollTo(0, descriptionElement.offsetTop - 50);
+      } else {
+        this.$router.push({name: 'mod', query: {scrollTo: 'mod_description'}});
+      }
     }
   },
 };

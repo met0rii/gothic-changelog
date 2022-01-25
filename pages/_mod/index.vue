@@ -15,14 +15,14 @@
 
       <div v-if="showInstallationTab">
         <v-row v-if="showInstallationVideo">
-          <section-title ref="header-1" title="Film instalacyjny" />
+          <section-title ref="header-1" title="Film instalacyjny" id="install" />
           <v-col cols="12" class="pl-4 pr-4">
             <mod-video :data="selected" />
           </v-col>
         </v-row>
 
         <v-row v-if="showInstruction">
-          <section-title ref="header-2" title="Instrukcja" />
+          <section-title ref="header-2" title="Instrukcja" id="instruction" />
 
           <v-col cols="12" class="pl-4 pr-4">
             <mod-installation :data="selected" />
@@ -32,13 +32,13 @@
 
       <div v-if="showOverviewTab">
         <v-row v-if="showChangesList">
-          <section-title ref="header-3" title="Zmiany" />
+          <section-title ref="header-3" title="Zmiany" id="changes" />
           <v-col cols="12" class="pl-4 pr-4">
             <changelogs-cards />
           </v-col>
         </v-row>
         <v-row v-if="showOverviewList">
-          <section-title ref="header-4" title="Opis" />
+          <section-title ref="header-4" title="Opis" id="mod_description" />
           <v-col cols="12" class="pl-4 pr-4">
             <mod-overview :data="selected" />
           </v-col>
@@ -55,7 +55,7 @@
 
       <div v-if="showCreators">
         <v-row>
-          <section-title ref="header-5" title="Autorzy" />
+          <section-title ref="header-5" title="Autorzy" id="authors" />
           <v-col cols="12" class="pl-4 pr-4">
             <author-list :authors="selected.authors.creators" />
           </v-col>
@@ -64,7 +64,7 @@
 
       <div v-if="showContributors">
         <v-row>
-          <section-title ref="header-6" title="Kontrybutorzy" />
+          <section-title ref="header-6" title="Kontrybutorzy" id="contributors" />
           <v-col cols="12" class="pl-4 pr-4">
             <author-list :authors="selected.authors.contributors" />
           </v-col>
@@ -72,7 +72,7 @@
       </div>
 
       <v-row v-if="showGallery">
-        <section-title ref="header-7" title="Galeria" />
+        <section-title ref="header-7" title="Galeria" id="gallery" />
         <v-col cols="12" class="pl-4 pr-4">
           <mod-gallery :data="selected" />
         </v-col>
@@ -137,7 +137,7 @@ export default {
       return arr;
     },
     onMenuClick(element) {
-      window.scrollTo(0, element.$el.offsetTop - 50);
+      this.$router.push({query: {scrollTo: element.$el.id}});
     },
     onDocumentScroll() {
       this.currentTab = this.getCrossedHeaders().length - 1;
@@ -205,6 +205,26 @@ export default {
         this.currentTab = 0;
       });
     },
+    $route: {
+      immediate: true,
+      handler(value) {
+        if(process.server) {
+          return;
+        }
+
+        if(!value.query.scrollTo) {
+          return;
+        }
+
+        this.$nextTick(() => {
+          const scrollElement = document.getElementById(value.query.scrollTo);
+          if (!scrollElement) {
+            return;
+          }
+          window.scrollTo(0, scrollElement.offsetTop - 50);
+        })
+      }
+    }
   },
 };
 </script>

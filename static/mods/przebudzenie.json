@@ -1,0 +1,173 @@
+{
+  "id": "przebudzenie",
+  "title": "Przebudzenie",
+  "titleUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Gothic_Logo.png",
+  "url": "",
+  "description": "Przebudzenie to modyfikacja przenosząca Gothica 1 na silnik Gothica 2. Poza oryginalnymi zadaniami i mechanikami modyfikacja zawiera również inne mody, takie jak Ludzie z Górniczej Doliny, Mroczne Tajemnice, a także elementy z innych projektów. Dodano również wiele unikalnych zadań, których nie można znaleźć w innych modach. Przywrócono usunięte lokacje, które miały być częścią gry, ale nigdy nie zostały ukończone, a także wprowadzono poziomy trudności dla tych, którzy lubią wyzwania.",
+  "installation": {},
+  "changes": [
+    
+  ],
+  "overview": {
+    "lists": [
+      {
+        "title": "Zmiany ogólne:",
+        "list": [
+          {"content": "Dostępne 3 poziomy trudności:",
+          "list":[
+            {"content":"Łatwy - identyczny jak Noc Kruka"},
+            {"content":"Umiarkowany - minimalne obrażenia: 2, postać zadaje lekko mniejsze obrażenia. Otrzymywane obrażenia są lekko zwiększone."},
+            {"content":"Trudny - minimalne obrażenia: 1, postać zadaje dużo mniejsze obrażenia. Otrzymywane obrażenia są dużo większe."}
+          ]},
+          {"content": "Możliwość zostania Guru."},
+          {"content": "Nowe obozy, dla których możemy wykonywać zadania."},
+          {"content": "Konsekracja broni u dowolnego z bogów. Każde bóstwo oferuje inne bonusy."},
+          {"content": "Nowe części ekwipunku: tarcze oraz hełmy."},
+          {"content": "Nowe rutyny NPC sprawiające, że świat staje się żywszy."},
+          {"content": "Zaimplementowano elementy z innych modyfikacji: Obóz Przemytników, wątek Teofila oraz Hugo, Gwardia Królewska oraz wiele więcej..."},
+          {"content": "Wolne celowanie do broni dystansowych i magii."},
+          {"content": "Skalowanie obrażeń od zaklęć z maną."},
+          {"content": "Możliwość nauki walki kosturem."}
+        ]
+      },
+      {
+        "title": "Zmiany względem wersji rosyjskiej:",
+        "list": [
+          {
+            "content": "Dodano więcej informacji do opisów przedmiotów i ujednolicono opisy."
+          },
+          {
+            "content": "Zmieniono opcje tworzenia strzał z x1/x5/x10 na x50/x500/Wszystko i wymaga zawsze jednego drewna, jako że drewno jest nieskończone, a jeden kawałek stali zapewnia 50 grotów. Z tego samego powodu zmniejszono też ilość drewna potrzebnego do stworzenia łuków dziesięciokrotnie."
+          },
+          {
+            "content": "Groty strzał i bełtów można stworzyć teraz wszystkie na raz."
+          },
+          {
+            "content": "Wielu npctom, którzy łatwo umierali podczas przemieszczania się po mapie, dodano odporność na obrażenia ze źródeł innych niż gracz."
+          },
+          {
+            "content": "Dodano wyświetlanie nazwy zadania przy wpisach w dzienniku."
+          },
+          {
+            "content": "Dodano wyświetlanie brakującego doświadczenia do następnego poziomu przy otrzymywaniu doświadczenia."
+          },
+          {
+            "content": "Dużo innych mniejszych poprawek..."
+          },
+          {
+            "content": "Naprawiono dymki dialogowe osób trzecich w trialogach."
+          },
+          {
+            "content": "Kilof nie stackują się."
+          },
+          {
+            "content": "Npcty które nie reagowały na kradzież nie będą teraz w kółko komentować otwierania przez gracza skrzyni."
+          },
+          {
+            "content": "Przywrócono dźwięki wypowiadane przez bohatera, gdy np. nie ma klucza do otwarcia skrzyni."
+          },
+          {
+            "content": "Zamieniono miejscami modele roślin leczniczych tak aby zgadzały się z tymi z gothica 3. Zmieniono model serafisu."
+          },
+          {
+            "content": "Npcty podążające za graczem nie będą już zostawały w powolnym trybie chodzenia."
+          },
+          {
+            "content": "Poprawiono kilka npctów, które zagadywały do bohatera będą bardzo daleko od niego."
+          },
+          {
+            "content": "Naprawiono błąd sprawiający, że kostury Guru zapewniały również bonus do zaklęć ciemności a kostury ciemności nic nie robiły."
+          },
+          {
+            "content": "Nazwy wielu interaktywnych vobów są teraz wyświetlane poprawnie."
+          },
+          {
+            "content": "Naprawiono błąd sprawiający, że szatę arcymaga wody/ognia można było zakupić wiele razy."
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": [
+    "https://i.imgur.com/D52a1F6.png",
+    "https://i.imgur.com/rx9QfcK.png",
+    "https://i.imgur.com/tDD69Im.png",
+    "https://i.imgur.com/OWItjjY.png",
+    "https://i.imgur.com/AfjzGOp.png",
+    "https://i.imgur.com/2snMAfv.png",
+    "https://i.imgur.com/ECUPVbY.png",
+    "https://i.imgur.com/dXmmu6F.png",
+    "https://i.imgur.com/2xfvr6F.png",
+    "https://i.imgur.com/jif2D3M.png",
+    "https://i.imgur.com/dUP1MoA.png",
+    "https://i.imgur.com/j8zuaZU.png",
+    "https://i.imgur.com/ZMNbmk8.png",
+    "https://i.imgur.com/ogFCZoq.png",
+    "https://i.imgur.com/sv8wqHA.png",
+    "https://i.imgur.com/AHlFDe2.png",
+    "https://i.imgur.com/qlbsxl7.png",
+    "https://i.imgur.com/EvzWsUV.png",
+    "https://i.imgur.com/J4bkUNl.png",
+    "https://i.imgur.com/sPu3EJR.png",
+    "https://i.imgur.com/8UtCCVz.png",
+    "https://i.imgur.com/KyHA5Qj.png",
+    "https://i.imgur.com/VXNIAXb.png",
+    "https://i.imgur.com/HHoUgCG.png",
+    "https://i.imgur.com/zqTKX35.png",
+    "https://i.imgur.com/wM4JmOs.png",
+    "https://i.imgur.com/OdPvOae.png",
+    "https://i.imgur.com/hnZnGxM.png",
+    "https://i.imgur.com/jhPHw7B.png",
+    "https://i.imgur.com/4xu5Pet.png"
+  ],
+  "authors": {
+    "creators": [
+      {
+        "name": "Orc Hunter",
+        "role": "Autor"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Franisz",
+        "role": "Wsparcie techniczne"
+      },
+      {
+        "name": "Sebastian",
+        "role": "Wsparcie techniczne"
+      },
+      {
+        "name": "Zipperiusz",
+        "role": "Korekty, Tester"
+      },
+      {
+        "name": "Tulipan",
+        "role": "Tłumacz, Tester"
+      },
+      {
+        "name": "Buzka",
+        "role": "Tłumacz, Tester"
+      },
+      {
+        "name": "Qłaczek",
+        "role": "Tłumacz, Tester"
+      },
+      {
+        "name": "Washion",
+        "role": "Tłumacz, Tester"
+      },
+      {
+        "name": "Hexen",
+        "role": "Tłumacz, Tester"
+      },
+      {
+        "name": "Nevermind",
+        "role": "Tłumacz, Tester"
+      },
+      {
+        "name": "Simon_Said",
+        "role": "Tester"
+      }
+    ]
+  }
+}
