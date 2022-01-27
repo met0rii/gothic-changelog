@@ -61,6 +61,85 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "49",
+      "updateDescription": "Przerobiono lokację i walkę ze Smokiem-ożywieńcem. Poprawiono i odświeżono kilka innych miejsc walki z bossami. Wprowadzono wiele mniejszych zmian.",
+      "version": "2022-01-26",
+      "date": "2022-01-26",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Naprawiono błąd z brakiem przedmiotów z ciała Juana, który blokował wątek główny Jarkendaru."
+            },
+            {
+              "content": "Poprawiono optymalizację lokacji z zadania 'Mroczna Sieć' dla graczy bez DX11."
+            },
+            {
+              "content": "Zwiększono obrażenia runy <i>Woń Trucizny</i>."
+            },
+            {
+              "content": "Na trudności Nightmare dodano trzy zabłąkane wilki przy południowej bramie miasta."
+            },
+            {
+              "content": "Przerobiono lokację ze Smokiem-ożywieńcem. Zmieniono arenę, poszerzono ją i usunięto lawę. Sama walka również została zmieniona. Smok-ożywieniec nie może już zostać zabity Krzyżem Żywiołów. <b>UWAGA: Należy wstrzymać się z wgrywaniem aktualizacji, jeśli przebywa się w tej lokacji.</b>"
+            },
+            {
+              "content": "Mroczny Sługa ma teraz w statystykach pokazaną szansę na krytyczne uderzenie. (szansa ta jest zależna od many)"
+            },
+            {
+              "content": "Czeladnik Constantino może teraz osobno oddać Mroczne Grzyby i Mięsa Kopacza."
+            },
+            {
+              "content": "W menu statystyk dodano wyświetlanie nauki magicznych bełtów."
+            },
+            {
+              "content": "Jeśli bohater będzie miał mniej zdrowia, niż uleczyłby Mrocznemu Słudze, to uleczenie go nie będzie możliwe."
+            },
+            {
+              "content": "Lekko przesunięto Karthusa i resztę dzików z dala od teleportu do Fregyala. (Tylko na nowych zapisach)"
+            },
+            {
+              "content": "Niektóre druidzkie przemiany zmieniają teraz wygląd wraz z lvl'owaniem kamienia druidów."
+            },
+            {
+              "content": "Naprawiono błąd z przenoszeniem na Zachodnie Wybrzeże, który powodował, że bohater pojawiał się nie tam, gdzie powinien."
+            },
+            {
+              "content": "Naprawiono błąd wizualny z pancerzem światła. (Podziękowania dla N1kx)"
+            },
+            {
+              "content": "Napisy 'Zdrowie/Mana/Wytrzymałość' przy paskach statusu można teraz ukryć. W gothic.ini zmień lub dodaj linijkę bHideBarsText = 1 (aby ukryć nazwy)"
+            },
+            {
+              "content": "Gildia zabójców nie pojawia się teraz od razu po zabiciu bandy Hansa, aby uniknąć przypadkowych obrażeń."
+            },
+            {
+              "content": "Zdrowie smoków jest teraz zależne od wybranego skalowania (%) zdrowia przeciwników."
+            },
+            {
+              "content": "Lekko zwiększono cenę Eliksiru Potęgi."
+            },
+            {
+              "content": "Arena walki z Krukiem i niektórymi bossami w Koszmarze Kruka została zmieniona, w celu uniknięcia upadków do lawy."
+            },
+            {
+              "content": "Lekko zmieniono wnętrze Świątyni Śniącego, jak i arenę do walki z Hoshkarem, w celu uniknięcia upadków do lawy."
+            },
+            {
+              "content": "Usunięto górny limit statystyk potrzebnych do wejścia na dungeon Zaginiony Brat."
+            },
+            {
+              "content": "Zmieniono arenę walki z ognistym golemem w dungeonie Zaginiony Brat. Golem nie będie mógł tak łatwo zrzucić bohatera."
+            },
+            {
+              "content": "I inne mniejsze poprawki..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "48",
       "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
       "version": "2022-01-13",
