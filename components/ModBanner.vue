@@ -21,7 +21,7 @@
           <v-icon left dark> mdi-cloud-download</v-icon>
           Pobierz
         </v-btn>
-        <v-menu v-else offset-y>
+        <v-menu v-else offset-y open-on-hover>
           <template v-slot:activator="{ on, attrs }">
             <v-btn
               color="orange lighten-3"
@@ -36,13 +36,16 @@
             </v-btn>
           </template>
 
-          <v-list>
+          <v-list dark color="#313030">
             <v-list-item
               v-for="(item, index) in downloadUrls"
               :key="index"
             >
               <v-list-item-title>
-                <v-btn :to="'/redirect?url=' + item.url" link text>{{ item.title }}</v-btn>
+                <v-btn :to="'/redirect?url=' + item.url.link" link text>
+                  <v-icon left dark>{{item.url.icon}}</v-icon>
+                  {{ item.url.text }}
+                </v-btn>
               </v-list-item-title>
             </v-list-item>
           </v-list>
@@ -101,7 +104,7 @@ export default {
       const urls = [];
       for(let i = 0; i < modUrlData.length; i++) {
         const item = modUrlData[i];
-          urls.push({ url: item, title: `Źródło ${i + 1}`});
+          urls.push({ url: item });
       }
 
       return urls;
