@@ -9,17 +9,48 @@
         Przejdź do opisu
       </v-btn>
 
-      <v-btn
-        v-if="mod.url && mod.url.length"
-        :to="'/redirect?url=' + mod.url"
-        color="orange lighten-3"
-        light
-        class="download-btn mt-5 mb-5"
-        large
-      >
-        <v-icon left dark> mdi-cloud-download</v-icon>
-        Pobierz
-      </v-btn>
+      <template v-if="downloadUrls.length > 0">
+        <v-btn
+          v-if="downloadUrls.length === 1"
+          :to="'/redirect?url=' + downloadUrls[0]"
+          color="orange lighten-3"
+          light
+          class="download-btn mt-5 mb-5"
+          large
+        >
+          <v-icon left dark> mdi-cloud-download</v-icon>
+          Pobierz
+        </v-btn>
+        <v-menu v-else offset-y open-on-hover>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              color="orange lighten-3"
+              light
+              class="download-btn mt-5 mb-5"
+              large
+              v-bind="attrs"
+              v-on="on"
+            >
+              <v-icon left dark> mdi-cloud-download</v-icon>
+              Pobierz
+            </v-btn>
+          </template>
+
+          <v-list dark color="#313030">
+            <v-list-item
+              v-for="(item, index) in downloadUrls"
+              :key="index"
+            >
+              <v-list-item-title>
+                <v-btn :to="'/redirect?url=' + item.url.link" link text>
+                  <v-icon left dark>{{item.url.icon}}</v-icon>
+                  {{ item.url.text }}
+                </v-btn>
+              </v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </template>
 
       <v-tooltip v-else bottom>
         <template v-slot:activator="{ on, attrs }">
@@ -55,6 +86,28 @@ export default {
       return {
         backgroundImage: `url("${this.mod.gallery[0]}")`
       }
+    },
+    downloadUrls() {
+      const modUrlData = this.mod.url;
+      if (modUrlData === undefined) {
+        return [];
+      }
+
+      if (typeof modUrlData === 'string') {
+        return [modUrlData];
+      }
+
+      if (!(modUrlData instanceof Array)) {
+        return []
+      }
+
+      const urls = [];
+      for(let i = 0; i < modUrlData.length; i++) {
+        const item = modUrlData[i];
+          urls.push({ url: item });
+      }
+
+      return urls;
     },
     bannerClasses() {
       const isOnMainPage = this.$route.name === 'mod';

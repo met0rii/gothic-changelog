@@ -61,6 +61,85 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "49",
+      "updateDescription": "Przerobiono lokację i walkę ze Smokiem-ożywieńcem. Poprawiono i odświeżono kilka innych miejsc walki z bossami. Wprowadzono wiele mniejszych zmian.",
+      "version": "2022-01-26",
+      "date": "2022-01-26",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Naprawiono błąd z brakiem przedmiotów z ciała Juana, który blokował wątek główny Jarkendaru."
+            },
+            {
+              "content": "Poprawiono optymalizację lokacji z zadania 'Mroczna Sieć' dla graczy bez DX11."
+            },
+            {
+              "content": "Zwiększono obrażenia runy <i>Woń Trucizny</i>."
+            },
+            {
+              "content": "Na trudności Nightmare dodano trzy zabłąkane wilki przy południowej bramie miasta."
+            },
+            {
+              "content": "Przerobiono lokację ze Smokiem-ożywieńcem. Zmieniono arenę, poszerzono ją i usunięto lawę. Sama walka również została zmieniona. Smok-ożywieniec nie może już zostać zabity Krzyżem Żywiołów. <b>UWAGA: Należy wstrzymać się z wgrywaniem aktualizacji, jeśli przebywa się w tej lokacji.</b>"
+            },
+            {
+              "content": "Mroczny Sługa ma teraz w statystykach pokazaną szansę na krytyczne uderzenie. (szansa ta jest zależna od many)"
+            },
+            {
+              "content": "Czeladnik Constantino może teraz osobno oddać Mroczne Grzyby i Mięsa Kopacza."
+            },
+            {
+              "content": "W menu statystyk dodano wyświetlanie nauki magicznych bełtów."
+            },
+            {
+              "content": "Jeśli bohater będzie miał mniej zdrowia, niż uleczyłby Mrocznemu Słudze, to uleczenie go nie będzie możliwe."
+            },
+            {
+              "content": "Lekko przesunięto Karthusa i resztę dzików z dala od teleportu do Fregyala. (Tylko na nowych zapisach)"
+            },
+            {
+              "content": "Niektóre druidzkie przemiany zmieniają teraz wygląd wraz z lvl'owaniem kamienia druidów."
+            },
+            {
+              "content": "Naprawiono błąd z przenoszeniem na Zachodnie Wybrzeże, który powodował, że bohater pojawiał się nie tam, gdzie powinien."
+            },
+            {
+              "content": "Naprawiono błąd wizualny z pancerzem światła. (Podziękowania dla N1kx)"
+            },
+            {
+              "content": "Napisy 'Zdrowie/Mana/Wytrzymałość' przy paskach statusu można teraz ukryć. W gothic.ini zmień lub dodaj linijkę bHideBarsText = 1 (aby ukryć nazwy)"
+            },
+            {
+              "content": "Gildia zabójców nie pojawia się teraz od razu po zabiciu bandy Hansa, aby uniknąć przypadkowych obrażeń."
+            },
+            {
+              "content": "Zdrowie smoków jest teraz zależne od wybranego skalowania (%) zdrowia przeciwników."
+            },
+            {
+              "content": "Lekko zwiększono cenę Eliksiru Potęgi."
+            },
+            {
+              "content": "Arena walki z Krukiem i niektórymi bossami w Koszmarze Kruka została zmieniona, w celu uniknięcia upadków do lawy."
+            },
+            {
+              "content": "Lekko zmieniono wnętrze Świątyni Śniącego, jak i arenę do walki z Hoshkarem, w celu uniknięcia upadków do lawy."
+            },
+            {
+              "content": "Usunięto górny limit statystyk potrzebnych do wejścia na dungeon Zaginiony Brat."
+            },
+            {
+              "content": "Zmieniono arenę walki z ognistym golemem w dungeonie Zaginiony Brat. Golem nie będie mógł tak łatwo zrzucić bohatera."
+            },
+            {
+              "content": "I inne mniejsze poprawki..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "48",
       "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
       "version": "2022-01-13",
@@ -3234,41 +3313,41 @@
     ]
   },
   "gallery": [
-    "https://imgur.com/Ybh01Bg.jpg",
-    "https://imgur.com/pQY0l6y.jpg",
-    "https://imgur.com/8ZdiXf3.jpg",
-    "https://imgur.com/DR0trA1.jpg",
-    "https://imgur.com/jENDQI8.jpg",
-    "https://imgur.com/schnXYm.jpg",
-    "https://imgur.com/PxC0y2W.jpg",
-    "https://imgur.com/DV5b1HX.jpg",
-    "https://imgur.com/LG4YYVd.jpg",
-    "https://imgur.com/ZGpI8mG.jpg",
-    "https://imgur.com/J5WQ5BI.jpg",
-    "https://imgur.com/KlnhrgJ.jpg",
-    "https://imgur.com/DCH6YUu.jpg",
-    "https://imgur.com/X8OmVUV.jpg",
-    "https://imgur.com/rQ3aiX1.jpg",
-    "https://imgur.com/J5ZSIJD.jpg",
-    "https://imgur.com/6ncb5wh.jpg",
-    "https://imgur.com/Z10FCO4.jpg",
-    "https://imgur.com/4q5xzs5.jpg",
-    "https://imgur.com/tGpTI8X.jpg",
-    "https://imgur.com/zx3AmEG.jpg",
-    "https://imgur.com/aNUNq8f.jpg",
-    "https://imgur.com/m96ft8g.jpg",
-    "https://imgur.com/2Lk5IoR.jpg",
-    "https://imgur.com/uWpquJV.jpg",
-    "https://imgur.com/MxQYLfn.jpg",
-    "https://imgur.com/Hsk77Gn.jpg",
-    "https://imgur.com/oQFHAdD.jpg",
-    "https://imgur.com/2vWdNZH.jpg",
-    "https://imgur.com/cBM10Fo.jpg",
-    "https://imgur.com/rrK4SkC.jpg",
-    "https://imgur.com/qriu8Th.jpg",
-    "https://imgur.com/ayBDFy8.jpg",
-    "https://imgur.com/hE9K0vs.jpg",
-    "https://imgur.com/yU8zI1P.jpg"
+    "https://sefaris.eu/static/new-balance/webp/XarS3bl.webp",
+    "https://sefaris.eu/static/new-balance/webp/1AbHeA5.webp",
+    "https://sefaris.eu/static/new-balance/webp/27LifBg.webp",
+    "https://sefaris.eu/static/new-balance/webp/2JbhYYb.webp",
+    "https://sefaris.eu/static/new-balance/webp/2R84qdd.webp",
+    "https://sefaris.eu/static/new-balance/webp/5XWy9VF.webp",
+    "https://sefaris.eu/static/new-balance/webp/7FKC2hj.webp",
+    "https://sefaris.eu/static/new-balance/webp/9LPKCtk.webp",
+    "https://sefaris.eu/static/new-balance/webp/AezlDm3.webp",
+    "https://sefaris.eu/static/new-balance/webp/BKUVVAM.webp",
+    "https://sefaris.eu/static/new-balance/webp/DuEhFTl.webp",
+    "https://sefaris.eu/static/new-balance/webp/ERb3eZ8.webp",
+    "https://sefaris.eu/static/new-balance/webp/GivrwBj.webp",
+    "https://sefaris.eu/static/new-balance/webp/GvuTlNN.webp",
+    "https://sefaris.eu/static/new-balance/webp/IrIUmqV.webp",
+    "https://sefaris.eu/static/new-balance/webp/JwcV5bi.webp",
+    "https://sefaris.eu/static/new-balance/webp/KFpruSH.webp",
+    "https://sefaris.eu/static/new-balance/webp/Kg5EHOd.webp",
+    "https://sefaris.eu/static/new-balance/webp/LDJ6pDM.webp",
+    "https://sefaris.eu/static/new-balance/webp/Nc3u6Bt.webp",
+    "https://sefaris.eu/static/new-balance/webp/S7AoBKM.webp",
+    "https://sefaris.eu/static/new-balance/webp/SFWpT5F.webp",
+    "https://sefaris.eu/static/new-balance/webp/WDiEISN.webp",
+    "https://sefaris.eu/static/new-balance/webp/YxCIEzq.webp",
+    "https://sefaris.eu/static/new-balance/webp/eldzYh8.webp",
+    "https://sefaris.eu/static/new-balance/webp/iG8IKDz.webp",
+    "https://sefaris.eu/static/new-balance/webp/iwkdBgt.webp",
+    "https://sefaris.eu/static/new-balance/webp/jNo45Fz.webp",
+    "https://sefaris.eu/static/new-balance/webp/jhWEHaJ.webp",
+    "https://sefaris.eu/static/new-balance/webp/jzSYhfb.webp",
+    "https://sefaris.eu/static/new-balance/webp/kbBpDkQ.webp",
+    "https://sefaris.eu/static/new-balance/webp/pivCrH4.webp",
+    "https://sefaris.eu/static/new-balance/webp/rV3qPz8.webp",
+    "https://sefaris.eu/static/new-balance/webp/rtYekAr.webp",
+    "https://sefaris.eu/static/new-balance/webp/xyF8VAn.webp"
   ],
   "authors": {
     "creators": [
