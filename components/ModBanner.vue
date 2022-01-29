@@ -93,7 +93,7 @@ export default {
         return [];
       }
 
-      if (typeof modUrlData === 'string') {
+      if (typeof modUrlData === 'string' && modUrlData.length > 0) {
         return [modUrlData];
       }
 
@@ -107,7 +107,7 @@ export default {
           urls.push({ url: item });
       }
 
-      return urls;
+      return urls.filter(x => x?.url?.link?.length > 0);
     },
     bannerClasses() {
       const isOnMainPage = this.$route.name === 'mod';
