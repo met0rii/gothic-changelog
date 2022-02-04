@@ -61,6 +61,67 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "50",
+      "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
+      "version": "2022-02-03",
+      "date": "2022-02-03",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Teleportujący się przeciwni magowie teraz będą wykonywać animację teleportu, zamiast przenosić się natychmiastowo."
+            },
+            {
+              "content": "Wprowadzono poprawki do walki ze Smokiem-ożywieńcem."
+            },
+            {
+              "content": "Naprawiono błąd, który powodował, że runa <i>Zaraza</i> dobijała przeciwników w pojedynkach."
+            },
+            {
+              "content": "Zwiększono kąt i zasięg obrażeń obszarowych dla wszystkich broni białych."
+            },
+            {
+              "content": "Lekko zmieniono formułę liczenia maksymalnych obrażeń czasowych klątw czarnoksiężnika. Teraz prościej będzie osiągnąć maksymalną wartość, ale będzie ona trochę niższa. Bazowe obrażenia obrażeń czasowych klątw zostały również lekko zmniejszone."
+            },
+            {
+              "content": "Dodano nowy dar specjalny dla Czarnoksiężnika. Za 500HP możemy obniżyć o 20% próg inteligencji potrzebnej do kontroli istot. (Dla bezpieczeństwa, dar można wziąć tylko mając powyżej 1000HP)"
+            },
+            {
+              "content": "Dodano nowy dar specjalny dla Czarnoksiężnika. Za 200 karmy Beliara możemy zwiększyć obrażenia czasowe klątw o 10%."
+            },
+            {
+              "content": "Dodano nowy dar specjalny dla Paladyna. Za 250 karmy Innosa możemy przy używaniu broni białej otrzymać szansę na zadanie dodatkowych obrażeń nieumarłym."
+            },
+            {
+              "content": "<i>Zew nocy</i> nie powoduje już <i>transu wojennego</i> u strażnika świątynnego. (Teraz jedynie <i>Gorzki sen</i> zapewnia <i>trans wojenny</i>.)"
+            },
+            {
+              "content": "Bonusową statystykę przy ulepszaniu biżuterii wybieramy teraz ręcznie."
+            },
+            {
+              "content": "Teraz możemy otworzyć dowolną (tylko jedną) skrzynię w Sanktuarium Ashtara."
+            },
+            {
+              "content": "Usunięto zadanie ze skrzynką na Zachodnim Wybrzeżu. Nadal będziemy mogli ją zdobyć i otworzyć, ale nie będzie to wymagało zadania i klucza."
+            },
+            {
+              "content": "Naprawiono wiele drobnych błędów i nieścisłości związanych z Zachodnim Wybrzeżem."
+            },
+            {
+              "content": "Poprawiono wyświetlanie pozostałych w lokacji roślin u ognika. Ognik może teraz pokazywać też ilość pozostałych druidzkich tabliczek w lokacji."
+            },
+            {
+              "content": "Naprawiono błąd z poprzedniego patcha, który powodował, że zapis po walce był niemożliwy przez zbyt długi czas."
+            },
+            {
+              "content": "I inne mniejsze poprawki..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "49",
       "updateDescription": "Przerobiono lokację i walkę ze Smokiem-ożywieńcem. Poprawiono i odświeżono kilka innych miejsc walki z bossami. Wprowadzono wiele mniejszych zmian.",
       "version": "2022-01-26",
