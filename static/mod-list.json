@@ -29,6 +29,7 @@
       },
       {
         "id": "przebudzenie",
+        "isNew":true,
         "title": "Przebudzenie"
       },
       {
