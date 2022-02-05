@@ -12,7 +12,7 @@
       <template v-if="downloadUrls.length > 0">
         <v-btn
           v-if="downloadUrls.length === 1"
-          :to="'/redirect?url=' + downloadUrls[0]"
+          :href="downloadUrls[0]"
           color="orange lighten-3"
           light
           class="download-btn mt-5 mb-5"
@@ -42,7 +42,7 @@
               :key="index"
             >
               <v-list-item-title>
-                <v-btn :to="'/redirect?url=' + item.url.link" link text>
+                <v-btn :href="item.url.link" link text>
                   <v-icon left dark>{{item.url.icon}}</v-icon>
                   {{ item.url.text }}
                 </v-btn>

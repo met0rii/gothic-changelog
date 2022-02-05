@@ -2,9 +2,54 @@
   "id": "przebudzenie",
   "title": "Przebudzenie",
   "titleUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Gothic_Logo.png",
-  "url": "",
+  "url": [
+    {
+      "text": "Google Drive",
+      "link": "https://drive.google.com/drive/folders/1P4sa_giWQqGwJSYLvMkSZsGMzt7l94fh",
+      "icon":"mdi-google-drive"
+    },
+    {
+      "text": "Mega",
+      "link": "https://mega.nz/folder/mcpR2SyY#WVJW4OcGpaqrIK1G8olL3Q",
+      "icon":"mdi-download-circle"
+    }
+  ],
   "description": "Przebudzenie to modyfikacja przenosząca Gothica 1 na silnik Gothica 2. Poza oryginalnymi zadaniami i mechanikami modyfikacja zawiera również inne mody, takie jak Ludzie z Górniczej Doliny, Mroczne Tajemnice, a także elementy z innych projektów. Dodano również wiele unikalnych zadań, których nie można znaleźć w innych modach. Przywrócono usunięte lokacje, które miały być częścią gry, ale nigdy nie zostały ukończone, a także wprowadzono poziomy trudności dla tych, którzy lubią wyzwania.",
-  "installation": {},
+  "installation": {
+    "url": "https://www.youtube.com/embed/vNTM5kaiDhg",
+    "instruction": {
+      "lists": [
+        {
+        "title": "Kolejność instalacji:",
+          "list": [
+            {
+              "content":"Resource Manager:",
+              "list":[
+                {"content":"Player kit + Patch dla systemów 64-bitowych."},
+                {"content":"Union."}
+              ]
+            },
+            {
+              "content":"Podstawka Przebudzenia  - plik <b>Przebudzenie13.zip</b> wypakować do folderu z grą."
+            },{
+              "content":"Polskie skrypty - plik <b>Przebudzenie13_skrypty.zip</b> wypakować do folderu z grą."
+            }
+          ]
+        },
+        {
+          "title": "Opcjonalne:",
+            "list": [
+              {"content":"DX11 - archiwum z DX11 wypakować do folderu <b>System</b>."},
+              {"content":"Union_Plugins - polecane pluginy uprzyjemniające rozgrywkę, należy wypakować do folderu z grą."},
+              {"content":"Russian_Speech - rosyjski dubbing dla postaci z modyfikacji, należy wypakować do folderu <b>Data</b>."},
+              {"content":"Gothic2-Fonts - alternatywne czcionki, interesującą nas czcionkę należy umieścić w folderze <b>Data</b>."}
+
+            ]
+          }
+      ]
+    }
+    
+  },
   "changes": [
 
   ],
