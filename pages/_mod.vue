@@ -100,8 +100,8 @@ export default {
         )
     },
     onScrollButtonClick() {
-      if (this.$route.query.scrollTo === 'mod_description') {
-        const descriptionElement = document.getElementById('mod_description');
+      const descriptionElement = document.getElementById('mod_description');
+      if (descriptionElement) {
         window.scrollTo(0, descriptionElement.offsetTop - 50);
       } else {
         this.$router.push({name: 'mod', query: {scrollTo: 'mod_description'}});
