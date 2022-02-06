@@ -27,9 +27,6 @@
       <v-col md="3" cols="12" class="text-right">
         <section-title title="Discord"/>
         <sefaris-discord/>
-
-        <section-title title="Społeczność"/>
-        <community-discord/>
       </v-col>
     </v-row>
   </v-container>
