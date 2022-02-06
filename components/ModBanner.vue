@@ -13,6 +13,7 @@
         <v-btn
           v-if="downloadUrls.length === 1"
           :href="downloadUrls[0]"
+          target="_blank"
           color="orange lighten-3"
           light
           class="download-btn mt-5 mb-5"
@@ -42,7 +43,7 @@
               :key="index"
             >
               <v-list-item-title>
-                <v-btn :href="item.url.link" link text>
+                <v-btn :href="item.url.link" link text target="_blank">
                   <v-icon left dark>{{item.url.icon}}</v-icon>
                   {{ item.url.text }}
                 </v-btn>
