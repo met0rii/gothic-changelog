@@ -61,6 +61,76 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "51",
+      "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
+      "version": "2022-03-01",
+      "date": "2022-03-01",
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Naprawiono błąd powodujący przypadkowe dobijanie NPC po pojedynkach."
+            },
+            {
+              "content": "Zwiększono królowej pełzaczy prędkość plucia pajęczyną."
+            },
+            {
+              "content": "Dodano ostrzeżenie, jeśli zginie Darius lub wódz przyjaznego klanu w Lodowych Górach Orków."
+            },
+            {
+              "content": "Naprawiono błąd z wojną klanów w Lodowych Górach Orków. Teraz orkowie poprawnie się atakują."
+            },
+            {
+              "content": "Naprawiono błąd, który powodował, że Smok-ożywieniec mógł spaść pod tekstury."
+            },
+            {
+              "content": "Lekko osłabiono finalnego bossa Zachodniego Wybrzeża."
+            },
+            {
+              "content": "Zwiększono arenę walki z druidem w Koszmarze Kruka."
+            },
+            {
+              "content": "Znacząco zmniejszono wartości doświadczenia otrzymywanego w wielu dialogach i zadaniach."
+            },
+            {
+              "content": "Licznik zabitych ludzi działa teraz poprawnie."
+            },
+            {
+              "content": "Nazwy martwych NPC są teraz podświetlane na biało, a nie na szaro."
+            },
+            {
+              "content": "Dodano inne cenne wybory (poza szczawiem królewskim) jako nagrodę od Vatrasa za list do Isgarotha."
+            },
+            {
+              "content": "Ubranie obywatela ze skrzyni z magazynu obok Matteo jest teraz również akceptowane przez Pablo."
+            },
+            {
+              "content": "Szkielety ze szczytu wieży Ahirona zostały przeniesione na dół. (od nowej gry)"
+            },
+            {
+              "content": "Zmieniono statystyki pierścienia Ferrosa."
+            },
+            {
+              "content": "Naprawiono błąd w jednym z zadań na Zachodnim Wybrzeżu."
+            },
+            {
+              "content": "Dodano więcej wpisów do dziennika, które pomogą graczom w eksploracji Pustyni Adanosa."
+            },
+            {
+              "content": "Dar Czarnoksiężnika zwiększa teraz również maksymalne obrażenia, które może osiągnąć tick klątwy."
+            },
+            {
+              "content": "Dodano Lutero do sprzedaży kilka płytek pełzaczy w rozdziałach 2-4."
+            },
+            {
+              "content": "I wiele innych mniejszych zmian i poprawek..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "50",
       "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
       "version": "2022-02-03",
