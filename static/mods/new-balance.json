@@ -61,6 +61,98 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "52",
+      "updateDescription": "Aktualizacja wprowadza zmiany dotyczące tarcz oraz klasy szamana. Poza tym usprawniono wiele mniejszych rzeczy.",
+      "version": "2022-03-16",
+      "date": "2022-03-16",
+      "lists": [
+        {
+          "title": "Zmiany dotyczące tarcz:",
+          "list": [
+            {
+              "content": "Zwiększono bazową szansę na blok z 10% na 21%."
+            },
+            {
+              "content": "Nauka zwiększenia szansy na blok zwiększa ją teraz o 8%, a nie 5%."
+            },
+            {
+              "content": "Maksymalna szansa na blok wynosi teraz 85%, a nie 65%."
+            },
+            {
+              "content": "Obrażenia blokowane są trochę zmniejszone na wszystkich tarczach."
+            },
+            {
+              "content": "Tarcze wymagają teraz mniej siły a więcej wytrzymałości."
+            }
+          ]
+        },
+        {
+          "title": "Zmiany dotyczące szamana:",
+          "list": [
+            {
+              "content": "Furia Wichru ma zwiększoną szansę na aktywacje na każdym poziomie umiejętności."
+            },
+            {
+              "content": "Zwiększono odporności totemów na obrażenia fizyczne z 50 na 100. Ochrona przed magią i ogniem totemów wynosi teraz 50."
+            },
+            {
+              "content": "Zwiększono lekko zdrowie totemów."
+            },
+            {
+              "content": "Lekko zwiększono bazowe obrażenia totemów strzelających."
+            },
+            {
+              "content": "Na 50 poziomie Szaman może nauczyć się teraz korzystania z dodatkowego totemu. (Max 4 jednocześnie)."
+            },
+            {
+              "content": "Zmieniono koszty many niektórych totemów."
+            }
+          ]
+        },
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Skarby do misji Grega w Khorinis są teraz 'Specjalne' przez co gracz nie sprzeda ich przypadkowo Halvorowi."
+            },
+            {
+              "content": "Dary Innosa mogą być teraz odbierane w każdej kapliczce, jedynie dary specjalne należy odebrać w Klasztornym sanktuarium."
+            },
+            {
+              "content": "Quest Abigail z naszyjnikiem dla siostry może być teraz wzięty nawet jeśli odrzuciliśmy poprzednie zadanie i wybraliśmy zły dialog."
+            },
+            {
+              "content": "Duale zawsze zadają teraz dodatkowe obrażenia (Wcześniej zależało to od % władania bronią). Obrażenia są teraz bardziej spójne i mniej losowe."
+            },
+            {
+              "content": "Dodano możliwość zmiany pozycji informacji na temat obecnie używanych strzał opcją 'arrowsInfoPosY' w gothic.ini."
+            },
+            {
+              "content": "Ork strażnik potrzebny do wątku Lodowych Gór Orków otrzymał wyróżniające się imię. Stoi on teraz nieco dalej od obozu, a na dodatek nie zagaduje bohatera sam - musi zrobić to bohater."
+            },
+            {
+              "content": "Naprawiono błąd w walce z finalnym bossem Zachodniego Wybrzeża."
+            },
+            {
+              "content": "Naprawiono 'dziurę w teksturach' w arenie druida w Koszmarze Kruka na DX11."
+            },
+            {
+              "content": "Runa 'Leczenie' działa teraz słabiej na nekromancie, czarnoksiężniku i mrocznym rycerzu."
+            },
+            {
+              "content": "Jeśli bohater ma wyuczoną regenerację zdrowia, to każda godzina snu przywróci mu 10% maksymalnego zdrowia."
+            },
+            {
+              "content": "Naprawiono błąd, który uniemożliwiał rozmowę o zębaczach z Bilgotem."
+            },
+            {
+              "content": "I wiele innych mniejszych zmian i poprawek..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "51",
       "updateDescription": "Aktualizacja wprowadza wiele mniejszych zmian i poprawek.",
       "version": "2022-03-01",
