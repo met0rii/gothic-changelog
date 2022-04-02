@@ -66,6 +66,39 @@
   },
   "changes": [
     {
+      "updateId": "9",
+      "updateDescription": "W pełni zintegrowany mod Konsekwencje.<br>Odświeżony wygląd niektórych zbroi.<br>Dodano wiele nowych pierścieni.<br>Naprawiono znalezione błędy.",
+      "version": "0.4",
+      "date": "2022-04-02",
+      "alerts": [
+        {
+          "text": "Obecna wersja wymaga instalacji Parallel Universe Patch.",
+          "color": "red"
+        }
+      ],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {"content":"Dodano nowe pancerze dla asasynów."},
+{"content":"Dodano nowe nakrycia głowy. Dostępne do kupna w Varancie."},
+{"content":"Dodano nowe szaty dla mrocznych magów."},
+{"content":"Dodano możliwość kradzieży klucza Fabio i rozpoczęcia rewolucji w Lago z pomocą Vatrasa (Konsekwencje)."},
+{"content":"Dodano nowe przedmioty i przeciwników do świata gry."},
+{"content":"W pełni zintegrowany mod Konsekwencje."},
+{"content":"Zmieniono wygląd zbroi asasynów i myśliwych."},
+{"content":"Zmieniono bonusy otrzymywane z mikstury Embarla Firgasto."},
+{"content":"Odświeżone oferty handlowe kupców w Varancie i myśliwych w Myrtanie."},
+{"content":"Angar, Lares i Lee pomagają odbić Ardeę z rąk orków. Vatrasa można znaleźć obok Lestera."},
+{"content":"Towarzysze Bezimiennego znikają z Ardei po pierwszym dialogu z Jensem (myśliwy w pobliżu Cape Dun) lub po oddaniu zadania Javierowi z Reddock."},
+{"content":"Teraz dostępnych jest znacznie więcej różnych pierścieni, które bohater może znaleźć w świecie gry lub otrzymać jako nagrodę za questy."},
+{"content":"Naprawiono wszystkie znalezione miejsca, w których wrogowie nie mogli zaatakować bohatera."},
+{"content":"Naprawiono znalezione błędy."}
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "8",
       "updateDescription": "Zintegrowano 99% zawartości moda Konsekwencje.<br>Dodano nowe szaty dla magów.<br>Poprawiono znalezione błędy.",
       "version": "0.39",
