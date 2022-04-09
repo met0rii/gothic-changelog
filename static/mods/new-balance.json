@@ -124,7 +124,7 @@
               "content": "Zmniejszono ceny kupna dwóch pierwszych pancerzy, oraz kaptura od Jespera."
             },
             {
-              "content": "Naprawiono błąd, który dwukrotnie odejmowanie statystyk przy ściąganiu biżuterii."
+              "content": "Naprawiono błąd, który powodował dwukrotne odejmowanie statystyk przy ściąganiu biżuterii."
             },
             {
               "content": "Pazury nie wypadają już z wilków i wargów."
