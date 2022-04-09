@@ -61,6 +61,136 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "54",
+      "updateDescription": "Aktualizacja wprowadza między innymi zmiany dotyczące tarcz, przyzwańców, czy lokacji. Poza tym jak zwykle wiele usprawnień i poprawek.",
+      "version": "2022-04-09",
+      "date": "2022-04-09",
+      "alerts": [
+        {
+          "text": "Niektóre zmiany z aktualizacji, głównie te wprowadzające modyfikacje mapy wymagają nowej gry. Można jednak bez problemów kontynuować rozgrywkę na aktualnych zapisach.",
+          "color": "orange"
+        },
+        {
+          "text": "Przed wgraniem aktualizacji warto ściągnąć tarczę, aby uniknąć potencjalnych błędów.",
+          "color": "orange"
+        }
+      ],
+      "lists": [
+        {
+          "title": "Zmiany dotyczące tarcz:",
+          "list": [
+            {
+              "content": "Naprawiono kilka błędów występujących przy blokowaniu tarczą."
+            },
+            {
+              "content": "Komunikaty o zablokowaniu obrażeń będą teraz lepiej widoczne."
+            },
+            {
+              "content": "Zwiększono % szansę na blok dla niektórych tarcz."
+            },
+            {
+              "content": "Tarcze nie mogą już blokować obrażeń z krwawienia. Umiejętność dla tarcz zwiększająca odporność przed upadkiem teraz jednocześnie zmniejsza pasywnie otrzymywanie obrażenia od krwawienia o 15% za każdy poziom."
+            },
+            {
+              "content": "Lekko zwiększono koszty nauki umiejętności władania tarczą."
+            }
+          ]
+        },
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Przerobiono system kosztu many do utrzymania przyzwańców. Sakta Nomen poprawnie pobiera teraz zdrowie, tj. dwa razy więcej zdrowia niż pobierałaby many. Poprawiono też pobór many za przyzwańców poza walką."
+            },
+            {
+              "content": "Pobór many totemów strzelających nie jest już stałym % many bohatera. Będzie teraz malał wraz ze wzrostem inteligencji."
+            },
+            {
+              "content": "Dodano runę przyzwania szkieletu łucznika, która będzie dostępna dla Nekromanty na 4 kręgu."
+            },
+            {
+              "content": "Dodano runę przyzwania szkieletu włócznika. Teraz gracz ma do wyboru między runą <i>Przyzwanie szkieletu włócznika</i> a <i>Kula nekromanty</i> od Kreola w nagrodę za zabicie oddziału paladynów. Aby mieć możliwość wyboru runy <i>Przyzwanie szkieletu włócznika</i> trzeba znać poprzednie runy przywołania nekromanty: <i>Przyzwanie szkieletu</i>, <i>Przyzwanie zombie</i> oraz <i>Przyzwanie szkieletu wojownika</i>."
+            },
+            {
+              "content": "Naprawiono animację kroku w bok podczas używania halabardy/włóczni w animacji powyżej 90% władania."
+            },
+            {
+              "content": "Naprawiono błąd, który powodował usuwanie przedmiotów z Hotbara podczas używania łóżka."
+            },
+            {
+              "content": "Cor Kalom atakuje teraz z krótkim opóźnieniem po zabiciu jego przyzwańców, a nie natychmiastowo, jak miało to miejsce wcześniej."
+            },
+            {
+              "content": "Zmniejszono ceny kupna dwóch pierwszych pancerzy, oraz kaptura od Jespera."
+            },
+            {
+              "content": "Naprawiono błąd, który dwukrotnie odejmowanie statystyk przy ściąganiu biżuterii."
+            },
+            {
+              "content": "Pazury nie wypadają już z wilków i wargów."
+            },
+            {
+              "content": "Paladyni w Khorinis mają teraz więcej zdrowia."
+            },
+            {
+              "content": "Dodano kukłę treningową obok wieży strażniczej na Zachodnim Wybrzeżu."
+            },
+            {
+              "content": "Demon Lucian upuszcza teraz pomniejszą miksturę Czarnej Mgły, która trwa 30 sekund."
+            },
+            {
+              "content": "Moc magiczna dodaje teraz kosturom i mieczom magicznym szansę na zadanie dodatkowych obrażeń w stosunku 1:1 tak jak to było kiedyś."
+            },
+            {
+              "content": "Kupno pancerza mistrza złodziei nie wymaga już rozmowy z Ur-Thrallem."
+            },
+            {
+              "content": "Wzmocniono skalowanie się run Guru na kręgach 1-4."
+            },
+            {
+              "content": "Zmniejszono ceny pancerzy najemnika."
+            },
+            {
+              "content": "Młot Adanosa jest teraz w stanie zranić Nieśmiertelnych Strażników nawet jeśli nie posiadamy Korony Adanosa. Zabicie strażnika w ten sposób będzie wymagało jednak dwóch uderzeń. Zmniejszono również ilość strażników, a także otrzymywane za nich doświadczenie."
+            },
+            {
+              "content": "Ork elita z zadania od Harada pojawia się teraz dalej od ścieżki, aby nie kolidować z Laresem idącym do mrocznego lasu."
+            },
+            {
+              "content": "W asortymencie Ruperta pojawią się dodatkowe chleby na potrzeby zadania z Druidem."
+            },
+            {
+              "content": "Dodano kilka nowych wpisów w dzienniku na temat Zachodniego Wybrzeża."
+            },
+            {
+              "content": "Naprawiono błąd spowodowany interakcją ogłuszania i zamrażania."
+            },
+            {
+              "content": "Naprawiono błąd, który uniemożliwiał wejście do Miasta Orków bez znajomości ich języka."
+            },
+            {
+              "content": "W trzecim rozdziale brama prowadząca do Khorinis będzie zablokowana, aż do rozmowy z poszukiwaczem na Przełęczy."
+            },
+            {
+              "content": "Usunięto naukę tworzenia trucizn od Przeora Masjafu. Dodano dodatkowe trucizny do kupna u Constantino i Ignaza."
+            },
+            {
+              "content": "Gildie Innosa i Beliara przy odpowiadających im kapliczkom mogą odnowić teraz manę poprzez modlitwę."
+            },
+            {
+              "content": "Wprowadzono dużo mniejszych zmian w lokacjach."
+            },
+            {
+              "content": "Naprawiono kilka błędów związanych z totemami."
+            },
+            {
+              "content": "I wiele innych mniejszych zmian i poprawek..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "53",
       "updateDescription": "Aktualizacja wprowadza mniejsze zmiany i poprawki.",
       "version": "2022-03-20",
