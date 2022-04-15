@@ -7,6 +7,12 @@
   "installation": {
     "url": "https://www.youtube.com/embed/tS-rR3nkJKM",
     "instruction": {
+      "alerts": [
+        {
+          "text": "W przypadku występowania błędu \"Where is Guru?\" należy przeinstalować grę nie zaznaczając enhanced visibility, dalekiego horyzonyu i nowych tekstur orków.",
+          "color": "deep-orange darken-4"
+        }
+      ],
       "lists": [
         {
           "title": "Kolejność instalacji",
