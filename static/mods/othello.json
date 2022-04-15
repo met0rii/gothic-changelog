@@ -34,6 +34,45 @@
   },
   "changes": [
     {
+      "updateId": "1",
+      "updateDescription": "Aktualizacja wprowadza zmiany nauki władania bronią, wymagań nauki kręgów magii, kosztów kupna i sprzedaży oraz wiele więcej...",
+      "version": "1.8",
+      "date": "2022-04-09",
+      "alerts": [
+        
+      ],
+      "lists": [
+        {
+          "title":"Zmiany ogólne:",
+          "list":[
+            {"content":"Zwiększono wymagane statystyki do nauki władania bronią z 30/60/90 na 36/72/108."},
+{"content":"Zwiększono wymagania many dla 4 pierwszych kręgów magii z 10/28/55/91 na 15/36/66/105."},
+{"content":"Zwiększono koszt czaru użycia \"Sen\"."},
+{"content":"Zwiększono maksymalne wartości ochrony przeciwników."},
+{"content":"Zwiększono maksymalną ilość punktów inteligencji możliwych do zdobycia."},
+{"content":"Zwiększono również bazowe obrażenia czar."},
+{"content":"Zmniejszono ilość zręczności otrzymywanej z Pierścienia Alepha i Szponów topielca spod tamy, na rzecz bonusu do władania łukiem."},
+{"content":"Zmniejszono ilość odnawianych statystyk przez mikstury zdrowia i many z 50 na 35%."},
+{"content":"Zmniejszono ilość zdrowia i many odnawianego przez jedzenie i zioła."},
+{"content":"Zmniejszono ilość otrzymywanych trofeów z I stopnia myślistwa."},
+{"content":"Zmniejszono ceny kupna ksiąg myślistwa. "},
+{"content":"Zmniejszono ceny sprzedaży skór i futer."},
+{"content":"Zmniejszono wartości i ilość ksiąg władania bronią."},
+{"content":"Zmniejszono ilość HP otrzymywanego z pancerzy."},
+{"content":"Zmniejszono skalowanie obrażeń broni białej z siłą."},
+{"content":"Zmniejszono skalowanie łuków i kuszy."},
+{"content":"Zmniejszono zasięg broni jednoręcznych."},
+{"content":"Zmniejszono zdrowie niektórych potworów."},
+{"content":"Zmodyfikowano statystyki niektórych stworów."},
+{"content":"Usunięto ujemne odporności u początkowych przeciwników."},
+{"content":"Zmieniono poziomy wielu przeciwników."},
+{"content":"Zmieniono bonus do szansy na uderzenie krytyczne przy nauce poziomów władania bronią z 10/10/10 na 5/10/15."},
+{"content":"Zamieniono wizualnie pojedyncze kły/pazury na \"garści\""}
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "0",
       "updateDescription": "Aktualizacja poprawia błędy, dodaje nowe przedmioty oraz zmienia balans...",
       "version": "1.5.1",
@@ -339,15 +378,15 @@
     ]
   },
   "gallery": [
-    "https://sefaris.eu/static/othello/webp/9.webp",
+    "https://sefaris.eu/static/othello/webp/1.webp",
     "https://sefaris.eu/static/othello/webp/2.webp",
     "https://sefaris.eu/static/othello/webp/3.webp",
     "https://sefaris.eu/static/othello/webp/4.webp",
-    "https://sefaris.eu/static/othello/webp/1.webp",
+    "https://sefaris.eu/static/othello/webp/5.webp",
     "https://sefaris.eu/static/othello/webp/6.webp",
     "https://sefaris.eu/static/othello/webp/7.webp",
     "https://sefaris.eu/static/othello/webp/8.webp",
-    "https://sefaris.eu/static/othello/webp/5.webp",
+    "https://sefaris.eu/static/othello/webp/9.webp",
     "https://sefaris.eu/static/othello/webp/10.webp",
     "https://sefaris.eu/static/othello/webp/11.webp",
     "https://sefaris.eu/static/othello/webp/12.webp",
@@ -360,8 +399,7 @@
     "https://sefaris.eu/static/othello/webp/19.webp",
     "https://sefaris.eu/static/othello/webp/20.webp",
     "https://sefaris.eu/static/othello/webp/21.webp",
-    "https://sefaris.eu/static/othello/webp/22.webp",
-    "https://sefaris.eu/static/othello/webp/23.webp"
+    "https://sefaris.eu/static/othello/webp/22.webp"
   ],
   "authors": {
     "creators": [
