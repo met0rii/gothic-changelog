@@ -61,6 +61,79 @@
   "description": "New Balance jest to obszerna modyfikacja dodające nowe wątki poboczne do świata Gothic II: Noc Kruka. Do modyfikacji dodano nowe, ciekawe obozy oraz nowe umiejętności jak np. inteligencja oraz wiele innych. New Balance (NB) jest to rozszerzenie bazujące na Returningu 2.0, które ma za zadanie zbalansować, poprawić i ulepszyć pod każdym względem rozgrywkę. Jego głównym założeniem jest usprawnienie gry poprzez integralne zmiany takie jak zmieniona ilość punktów doświadczenia, obrażenia wszelakich broni, pancerzy oraz wiele innych.",
   "changes": [
     {
+      "updateId": "56",
+      "updateDescription": "Aktualizacja poprawia błędy oraz wprowadza mniejsze zmiany.",
+      "version": "2022-04-16",
+      "date": "2022-04-16",
+      "alerts": [
+        {
+          "text": "Poniższa aktualizacja jest ostatnią przed większymi zmianami oraz nowym instalatorem, jakie planowane są na lato 2022.",
+          "color": "blue"
+        }
+      ],
+      "lists": [
+        {
+          "title": "Zmiany ogólne:",
+          "list": [
+            {
+              "content": "Zmniejszono koszt many potrzebny do utrzymania demonów i Hubaxisa poza walką."
+            },
+            {
+              "content": "Usunięto nadmiar niepotrzebnych wiadomości pojawiających się na ekranie podczas używania totemów."
+            },
+            {
+              "content": "Lekko zmniejszono ilość potworów w Dolinie Cienia. W 5 rozdziale potwory nie będą się już spawnować ponownie."
+            },
+            {
+              "content": "Naprawiono błąd, który pozwalał tarczom blokować obrażenia od upadku."
+            },
+            {
+              "content": "Totem spowolnienia nie oddziałuje już na przeciwników z tarczą."
+            },
+            {
+              "content": "Usprawniono stawianie totemów szamana. Teraz można je postawić również na mniejszych obiektach, dekoracjach otoczenia, itp."
+            },
+            {
+              "content": "Skrzynie w Krypcie Inubisa nie mogą być już otworzone Quicklootem. Zmniejszono też ilość nieumarłych w tamtym miejscu."
+            },
+            {
+              "content": "Zmniejszono ogólną ilość nieumarłych w grze."
+            },
+            {
+              "content": "Naprawiono błąd w queście z Nigelem."
+            },
+            {
+              "content": "Czas w grze z menu statystyk zgrywa się teraz z czasem w menu zapisów. Naprawiono także błędy powodujące niepoprawne naliczanie czasu gry."
+            },
+            {
+              "content": "Poprawiono umiejscowienie lawy obok piekielnego golema w Dolinie Cienia."
+            },
+            {
+              "content": "Z demona na bagnie wypada teraz średnia esencja do demonologii a z demona w orkowej kopalni silna."
+            },
+            {
+              "content": "Naprawiono błąd, który uniemożliwiał pływanie, jeśli gracz wpadł do wody z otworzonym ekwipunkiem."
+            },
+            {
+              "content": "Zmieniono wygląd czaru 'Rozerwanie duszy'."
+            },
+            {
+              "content": "Naprawiono błąd z teleportacją wrogich magów. Teraz ponownie mogą się przeteleportować za ścianę."
+            },
+            {
+              "content": "Naprawiono zdolność do namierzania najbliższego wroga w formie druida."
+            },
+            {
+              "content": "Naprawiono błąd powodujący zawieszenie kursora w menu craftingu."
+            },
+            {
+              "content": "I wiele innych mniejszych zmian i poprawek..."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "updateId": "55",
       "updateDescription": "Aktualizacja zawiera kilka poprawek dotyczących ostatnich zmian.",
       "version": "2022-04-10",
@@ -2359,7 +2432,7 @@
               "content": "Dodano nową opcję w ustawieniach, która sprawia, że ciała martwych NPC nie będą usuwane."
             },
             {
-              "content": "Dodano dodatkowe miejsce zapisu w starej kopalnii - na dolnym poziomie przy piecu."
+              "content": "Dodano dodatkowe miejsce zapisu w starej kopalni - na dolnym poziomie przy piecu."
             },
             {
               "content": "Osłabiono lekko bazowe statystyki mrocznego sługi. Skalowanie statystyk z jego poziomem również jest minimalnie słabsze."
