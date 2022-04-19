@@ -4,7 +4,7 @@ const path = require('path');
 const filesToCheck = ['g1.json', 'g2.json', 'g3.json'];
 const publicDir = path.resolve(__dirname, 'static');
 const modsPath = path.resolve(publicDir, 'mods');
-const modsFiles = fs.readdirSync(modsPath)
+const modsFiles = fs.readdirSync(modsPath) 
 console.log(modsFiles);
 const arr = [];
 for (const item of modsFiles) {
