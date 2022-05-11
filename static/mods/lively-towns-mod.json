@@ -9,8 +9,12 @@
     "instruction": {
       "alerts": [
         {
-          "text": "W przypadku występowania błędu \"Where is Guru?\" należy przeinstalować grę nie zaznaczając enhanced visibility, dalekiego horyzonyu i nowych tekstur orków.",
+          "text": "W przypadku występowania błędu \"Where is Guru?\" należy przeinstalować grę nie zaznaczając enhanced visibility, dalekiego horyzontu i nowych tekstur orków.",
           "color": "deep-orange darken-4"
+        },
+        {
+          "text": "Szczegółowe informacje na temat zmian w Powrocie Generała Lee oraz Konsekwencjach są dostępne <a href=\"https://docs.google.com/document/d/1CKlSkEwKetTxZBXstfFJ8knmHokGE_r5ptIBSUigxGA/edit?usp=sharing\">TUTAJ.</a>",
+          "color": "green"
         }
       ],
       "lists": [
@@ -86,20 +90,48 @@
         {
           "title": "Zmiany ogólne:",
           "list": [
-            {"content":"Dodano nowe pancerze dla asasynów."},
-{"content":"Dodano nowe nakrycia głowy. Dostępne do kupna w Varancie."},
-{"content":"Dodano nowe szaty dla mrocznych magów."},
-{"content":"Dodano możliwość kradzieży klucza Fabio i rozpoczęcia rewolucji w Lago z pomocą Vatrasa (Konsekwencje)."},
-{"content":"Dodano nowe przedmioty i przeciwników do świata gry."},
-{"content":"W pełni zintegrowany mod Konsekwencje."},
-{"content":"Zmieniono wygląd zbroi asasynów i myśliwych."},
-{"content":"Zmieniono bonusy otrzymywane z mikstury Embarla Firgasto."},
-{"content":"Odświeżone oferty handlowe kupców w Varancie i myśliwych w Myrtanie."},
-{"content":"Angar, Lares i Lee pomagają odbić Ardeę z rąk orków. Vatrasa można znaleźć obok Lestera."},
-{"content":"Towarzysze Bezimiennego znikają z Ardei po pierwszym dialogu z Jensem (myśliwy w pobliżu Cape Dun) lub po oddaniu zadania Javierowi z Reddock."},
-{"content":"Teraz dostępnych jest znacznie więcej różnych pierścieni, które bohater może znaleźć w świecie gry lub otrzymać jako nagrodę za questy."},
-{"content":"Naprawiono wszystkie znalezione miejsca, w których wrogowie nie mogli zaatakować bohatera."},
-{"content":"Naprawiono znalezione błędy."}
+            {
+              "content": "Dodano nowe pancerze dla asasynów."
+            },
+            {
+              "content": "Dodano nowe nakrycia głowy. Dostępne do kupna w Varancie."
+            },
+            {
+              "content": "Dodano nowe szaty dla mrocznych magów."
+            },
+            {
+              "content": "Dodano możliwość kradzieży klucza Fabio i rozpoczęcia rewolucji w Lago z pomocą Vatrasa (Konsekwencje)."
+            },
+            {
+              "content": "Dodano nowe przedmioty i przeciwników do świata gry."
+            },
+            {
+              "content": "W pełni zintegrowany mod Konsekwencje."
+            },
+            {
+              "content": "Zmieniono wygląd zbroi asasynów i myśliwych."
+            },
+            {
+              "content": "Zmieniono bonusy otrzymywane z mikstury Embarla Firgasto."
+            },
+            {
+              "content": "Odświeżone oferty handlowe kupców w Varancie i myśliwych w Myrtanie."
+            },
+            {
+              "content": "Angar, Lares i Lee pomagają odbić Ardeę z rąk orków. Vatrasa można znaleźć obok Lestera."
+            },
+            {
+              "content": "Towarzysze Bezimiennego znikają z Ardei po pierwszym dialogu z Jensem (myśliwy w pobliżu Cape Dun) lub po oddaniu zadania Javierowi z Reddock."
+            },
+            {
+              "content": "Teraz dostępnych jest znacznie więcej różnych pierścieni, które bohater może znaleźć w świecie gry lub otrzymać jako nagrodę za questy."
+            },
+            {
+              "content": "Naprawiono wszystkie znalezione miejsca, w których wrogowie nie mogli zaatakować bohatera."
+            },
+            {
+              "content": "Naprawiono znalezione błędy."
+            }
           ]
         }
       ]
@@ -119,23 +151,33 @@
         {
           "title": "Zmiany ogólne:",
           "list": [
-            { "content": "Niektóre postacie będą nosić nowe ubrania," },
-            { "content": "Rybacy posiadają nowe przedmioty na handel," },
+            {
+              "content": "Niektóre postacie będą nosić nowe ubrania,"
+            },
+            {
+              "content": "Rybacy posiadają nowe przedmioty na handel,"
+            },
             {
               "content": "Prawie całkowicie zintegrowany mod Konsekwencje - 99% (Angar, Lares i Lee nie ma w Ardei),"
             },
             {
               "content": "Kupcy, myśliwi, alchemicy, rybacy, karczmarze itp. nie walczą już dla orków w czasie rewolucji, a po odbiciu miasta pozostaną w nim,"
             },
-            { "content": "Dodano nowe szaty dla magów," },
+            {
+              "content": "Dodano nowe szaty dla magów,"
+            },
             {
               "content": "Dodano kompatybilność z modem QuestFix (The Costal Region),"
             },
             {
               "content": "Hamlar w Ardei również może aktywować zawartość modyfikacji Konsekwencje,"
             },
-            { "content": "Dodano księgi doświadczenia do gry," },
-            { "content": "Naprawiono znalezione błędy w modzie LTM." }
+            {
+              "content": "Dodano księgi doświadczenia do gry,"
+            },
+            {
+              "content": "Naprawiono znalezione błędy w modzie LTM."
+            }
           ]
         }
       ]
